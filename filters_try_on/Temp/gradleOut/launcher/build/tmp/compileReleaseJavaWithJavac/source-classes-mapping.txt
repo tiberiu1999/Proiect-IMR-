@@ -1,0 +1,2 @@
+com/DefaultCompany/helloAr/BuildConfig.java
+ com.DefaultCompany.helloAr.BuildConfig

@@ -1,0 +1,6756 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+extern const RuntimeMethod* ARPrestoCallbackManager_BeforeResumeSessionTrampoline_mE933F1A1817DFFB7894A9A4531FA8A6EFB565100_RuntimeMethod_var;
+extern const RuntimeMethod* ARPrestoCallbackManager_BeforeSetConfigurationTrampoline_m1B377529B31646E3BD31EDA6AE3532893C2C583F_RuntimeMethod_var;
+extern const RuntimeMethod* ARPrestoCallbackManager_EarlyUpdateTrampoline_m4CF0C470F81A88C3F0834263DB08EA64321F989F_RuntimeMethod_var;
+extern const RuntimeMethod* ARPrestoCallbackManager_OnApkInstallationResultTrampoline_m60F2B49D1EDF2FBC9F94C25404FC074C02576434_RuntimeMethod_var;
+extern const RuntimeMethod* ARPrestoCallbackManager_OnCheckApkAvailabilityResultTrampoline_m83F30B2A4B9D0606CFCE8566CB055D05490E6F3A_RuntimeMethod_var;
+extern const RuntimeMethod* ARPrestoCallbackManager_RequestCameraPermissionTrampoline_mC5160BF403DF1658635DA198268C4D86085DC019_RuntimeMethod_var;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Boolean GoogleARCoreInternal.InstantPreviewManager::get_IsProvidingPlatform()
+extern void InstantPreviewManager_get_IsProvidingPlatform_mF3189B3DC43C6EFCF827794B524B6ED38962B5FD ();
+// 0x00000002 System.Boolean GoogleARCoreInternal.InstantPreviewManager::ValidateSessionConfig(GoogleARCore.ARCoreSessionConfig)
+extern void InstantPreviewManager_ValidateSessionConfig_m23C53773AC24A5F0461C7D4A66B07A0ED4702960 ();
+// 0x00000003 GoogleARCore.ARCoreSessionConfig GoogleARCoreInternal.InstantPreviewManager::GenerateInstantPreviewSupportedConfig(GoogleARCore.ARCoreSessionConfig)
+extern void InstantPreviewManager_GenerateInstantPreviewSupportedConfig_m0AD534C694A270325BD7AF04B22AF19A65A7D82C ();
+// 0x00000004 System.Void GoogleARCoreInternal.InstantPreviewManager::LogLimitedSupportMessage(System.String,System.Boolean)
+extern void InstantPreviewManager_LogLimitedSupportMessage_mFE537FCA5847DAC0CC18DB1D156F0A46FD800828 ();
+// 0x00000005 System.Collections.IEnumerator GoogleARCoreInternal.InstantPreviewManager::InitializeIfNeeded()
+extern void InstantPreviewManager_InitializeIfNeeded_mA12743725C30A2EBE4094AA723ABC44746E90A6A ();
+// 0x00000006 System.Boolean GoogleARCoreInternal.InstantPreviewManager::UpdateBackgroundTextureIfNeeded(UnityEngine.Texture2D&)
+extern void InstantPreviewManager_UpdateBackgroundTextureIfNeeded_mFDF8708FE097909F05AA851E09B991F2EDFC456C ();
+// 0x00000007 System.Collections.IEnumerator GoogleARCoreInternal.InstantPreviewManager::UpdateLoop(System.String)
+extern void InstantPreviewManager_UpdateLoop_m025F4C88712C258D41F80EAFA1E4EFEFF8C80A33 ();
+// 0x00000008 System.Void GoogleARCoreInternal.InstantPreviewManager::AddInstantPreviewTrackedPoseDriverWhenNeeded()
+extern void InstantPreviewManager_AddInstantPreviewTrackedPoseDriverWhenNeeded_m332A6710AC3B508BB6137778B32C27D84AE83D35 ();
+// 0x00000009 System.Collections.IEnumerator GoogleARCoreInternal.InstantPreviewManager::InstallApkAndRunIfConnected(System.String,System.String)
+extern void InstantPreviewManager_InstallApkAndRunIfConnected_m1A8EC070DC7DF6BE70E8BF1A70BC109ABF46524A ();
+// 0x0000000A System.Boolean GoogleARCoreInternal.InstantPreviewManager::PromptToInstall()
+extern void InstantPreviewManager_PromptToInstall_m56BF51CF1E2939ACE7D162DBED4FED4285E2326D ();
+// 0x0000000B System.Boolean GoogleARCoreInternal.InstantPreviewManager::PromptToRebuildAugmentedImagesDatabase()
+extern void InstantPreviewManager_PromptToRebuildAugmentedImagesDatabase_m79EB978E8451691BB3F61898F300460849323204 ();
+// 0x0000000C System.Boolean GoogleARCoreInternal.InstantPreviewManager::StartServer(System.String,System.String&)
+extern void InstantPreviewManager_StartServer_m173FA94CEAF0323A48240E027749D18883C67F0E ();
+// 0x0000000D System.Int32 GoogleARCoreInternal.InstantPreviewManager::RoundUpToNearestMultipleOf16(System.Int32)
+extern void InstantPreviewManager_RoundUpToNearestMultipleOf16_mE10FA3E03E959A7700BD6454A2EAAD574CF278BE ();
+// 0x0000000E System.Single GoogleARCoreInternal.InstantPreviewManager::GetMinGameViewScaleOrUnknown()
+extern void InstantPreviewManager_GetMinGameViewScaleOrUnknown_m0A47FFAE2934ACFEF07A53A21640E88A4B90A315 ();
+// 0x0000000F System.Void GoogleARCoreInternal.InstantPreviewManager::.cctor()
+extern void InstantPreviewManager__cctor_mEED63997E130B39CEAB9E4251ACD596CD70EBEC6 ();
+// 0x00000010 System.Boolean GoogleARCoreInternal.InstantPreviewManager_NativeApi::InitializeInstantPreview(System.String,System.Text.StringBuilder,System.Int32)
+extern void NativeApi_InitializeInstantPreview_m73488C1D737581D97B8CEE359C2D40643500073F ();
+// 0x00000011 System.Void GoogleARCoreInternal.InstantPreviewManager_NativeApi::Update()
+extern void NativeApi_Update_mA9603CC5EA381B3F3CDE408B1511CB092E784941 ();
+// 0x00000012 System.IntPtr GoogleARCoreInternal.InstantPreviewManager_NativeApi::GetRenderEventFunc()
+extern void NativeApi_GetRenderEventFunc_m423C64F9790912B179C8B2D83325F3D8CCAEED2C ();
+// 0x00000013 System.Void GoogleARCoreInternal.InstantPreviewManager_NativeApi::SendFrame(System.IntPtr)
+extern void NativeApi_SendFrame_m0AB568F54DEC00BCFA79FA800A493B478942D3F4 ();
+// 0x00000014 System.Boolean GoogleARCoreInternal.InstantPreviewManager_NativeApi::LockCameraTexture(System.IntPtr&,System.Int32&,System.Int32&)
+extern void NativeApi_LockCameraTexture_m5DCEC34C8EC1F8C496BF00D61D36A4400F0DE591 ();
+// 0x00000015 System.Void GoogleARCoreInternal.InstantPreviewManager_NativeApi::UnlockCameraTexture()
+extern void NativeApi_UnlockCameraTexture_m2CA07AE05E363B4C4C5AE1C6D6C3ABF3410E730C ();
+// 0x00000016 System.Boolean GoogleARCoreInternal.InstantPreviewManager_NativeApi::IsConnected()
+extern void NativeApi_IsConnected_m8387CEAB749857760EF00147C4821043C615D5DD ();
+// 0x00000017 System.Boolean GoogleARCoreInternal.InstantPreviewManager_NativeApi::AppShowedTouchWarning()
+extern void NativeApi_AppShowedTouchWarning_mA80D989AE4A3944F1CACD00986EEF141AC377178 ();
+// 0x00000018 System.Boolean GoogleARCoreInternal.InstantPreviewManager_NativeApi::UnityLoggedTouchWarning()
+extern void NativeApi_UnityLoggedTouchWarning_m4E12DEFE6543C978BE556D9CF99461D4F4F7D6FB ();
+// 0x00000019 System.Void GoogleARCoreInternal.InstantPreviewManager_NativeApi::SendToast(System.String)
+extern void NativeApi_SendToast_mEA32617B4D72BF122C27BDE5DF179012D43E6750 ();
+// 0x0000001A System.Void GoogleARCoreInternal.InstantPreviewManager_Result::.ctor()
+extern void Result__ctor_mCD9BE7270CE315EF120C718DFCB4D489C34979D2 ();
+// 0x0000001B System.Void GoogleARCoreInternal.InstantPreviewManager_<InitializeIfNeeded>d__17::.ctor(System.Int32)
+extern void U3CInitializeIfNeededU3Ed__17__ctor_mAD7118030300F661FF2C313DA3B98B9724B71851 ();
+// 0x0000001C System.Void GoogleARCoreInternal.InstantPreviewManager_<InitializeIfNeeded>d__17::System.IDisposable.Dispose()
+extern void U3CInitializeIfNeededU3Ed__17_System_IDisposable_Dispose_mB586A48CF06DFB3CB54A7773965D1C680B994AE7 ();
+// 0x0000001D System.Boolean GoogleARCoreInternal.InstantPreviewManager_<InitializeIfNeeded>d__17::MoveNext()
+extern void U3CInitializeIfNeededU3Ed__17_MoveNext_mC99D63C41B8887BA4EC91FDC3ED9F58D5E0FAA13 ();
+// 0x0000001E System.Object GoogleARCoreInternal.InstantPreviewManager_<InitializeIfNeeded>d__17::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CInitializeIfNeededU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m800F876C17F0D1CCBAE29F6B872BE623DD6100E2 ();
+// 0x0000001F System.Void GoogleARCoreInternal.InstantPreviewManager_<InitializeIfNeeded>d__17::System.Collections.IEnumerator.Reset()
+extern void U3CInitializeIfNeededU3Ed__17_System_Collections_IEnumerator_Reset_m475DE2E0A97EBB2BCE0B435CE5650C08868CB0A8 ();
+// 0x00000020 System.Object GoogleARCoreInternal.InstantPreviewManager_<InitializeIfNeeded>d__17::System.Collections.IEnumerator.get_Current()
+extern void U3CInitializeIfNeededU3Ed__17_System_Collections_IEnumerator_get_Current_mC864D064B451B3A90A830DC9A367420B17A3E47D ();
+// 0x00000021 System.Void GoogleARCoreInternal.InstantPreviewManager_<UpdateLoop>d__19::.ctor(System.Int32)
+extern void U3CUpdateLoopU3Ed__19__ctor_m0B4D4C220BDB21321CB8D4E63DEBC0E05D07BDCA ();
+// 0x00000022 System.Void GoogleARCoreInternal.InstantPreviewManager_<UpdateLoop>d__19::System.IDisposable.Dispose()
+extern void U3CUpdateLoopU3Ed__19_System_IDisposable_Dispose_m4D69E8AD1FB37EAFAF459C3A805E8D2E7AD3E609 ();
+// 0x00000023 System.Boolean GoogleARCoreInternal.InstantPreviewManager_<UpdateLoop>d__19::MoveNext()
+extern void U3CUpdateLoopU3Ed__19_MoveNext_mBFEE508784D69F33AB400619AD2880A9A78BB933 ();
+// 0x00000024 System.Object GoogleARCoreInternal.InstantPreviewManager_<UpdateLoop>d__19::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CUpdateLoopU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4923F1AAB47C4A7553601D0B6947B329F18D86C8 ();
+// 0x00000025 System.Void GoogleARCoreInternal.InstantPreviewManager_<UpdateLoop>d__19::System.Collections.IEnumerator.Reset()
+extern void U3CUpdateLoopU3Ed__19_System_Collections_IEnumerator_Reset_m3BC608EBDA1B0D15A9354520E3A593F186BC9D52 ();
+// 0x00000026 System.Object GoogleARCoreInternal.InstantPreviewManager_<UpdateLoop>d__19::System.Collections.IEnumerator.get_Current()
+extern void U3CUpdateLoopU3Ed__19_System_Collections_IEnumerator_get_Current_m395326249988E467084D0D8B4DA466C25980D71E ();
+// 0x00000027 System.Void GoogleARCoreInternal.InstantPreviewManager_<>c__DisplayClass21_0::.ctor()
+extern void U3CU3Ec__DisplayClass21_0__ctor_mE973CD7F8918FF81B243B8224B48FCA6A0991DA7 ();
+// 0x00000028 System.Void GoogleARCoreInternal.InstantPreviewManager_<>c__DisplayClass21_0::<InstallApkAndRunIfConnected>b__0(System.Object)
+extern void U3CU3Ec__DisplayClass21_0_U3CInstallApkAndRunIfConnectedU3Eb__0_mAF49AC7A7E0CCBA2C304FB38A3E95107759F1393 ();
+// 0x00000029 System.Void GoogleARCoreInternal.InstantPreviewManager_<>c__DisplayClass21_0::<InstallApkAndRunIfConnected>b__1()
+extern void U3CU3Ec__DisplayClass21_0_U3CInstallApkAndRunIfConnectedU3Eb__1_m752A7843A71D59F89DDA34C8CC6A5676B1071430 ();
+// 0x0000002A System.Void GoogleARCoreInternal.InstantPreviewManager_<InstallApkAndRunIfConnected>d__21::.ctor(System.Int32)
+extern void U3CInstallApkAndRunIfConnectedU3Ed__21__ctor_mC3B6D7F10932249AD4EFAFB4531FACFB747673D1 ();
+// 0x0000002B System.Void GoogleARCoreInternal.InstantPreviewManager_<InstallApkAndRunIfConnected>d__21::System.IDisposable.Dispose()
+extern void U3CInstallApkAndRunIfConnectedU3Ed__21_System_IDisposable_Dispose_m28E0FA29C1F3CB3D4015ECDBA34C9657784B7916 ();
+// 0x0000002C System.Boolean GoogleARCoreInternal.InstantPreviewManager_<InstallApkAndRunIfConnected>d__21::MoveNext()
+extern void U3CInstallApkAndRunIfConnectedU3Ed__21_MoveNext_mFD33A6F27AD9BE302D960366F73D60B87A70C7FE ();
+// 0x0000002D System.Object GoogleARCoreInternal.InstantPreviewManager_<InstallApkAndRunIfConnected>d__21::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CInstallApkAndRunIfConnectedU3Ed__21_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9D5C436206C12143BC13C54D4F07DBE3AD0EB7AE ();
+// 0x0000002E System.Void GoogleARCoreInternal.InstantPreviewManager_<InstallApkAndRunIfConnected>d__21::System.Collections.IEnumerator.Reset()
+extern void U3CInstallApkAndRunIfConnectedU3Ed__21_System_Collections_IEnumerator_Reset_m73386B97F6667AA3567EBFD845002E6ACDBA8471 ();
+// 0x0000002F System.Object GoogleARCoreInternal.InstantPreviewManager_<InstallApkAndRunIfConnected>d__21::System.Collections.IEnumerator.get_Current()
+extern void U3CInstallApkAndRunIfConnectedU3Ed__21_System_Collections_IEnumerator_get_Current_mCF22E96122A7DA57C3E57C5B34E64A31D8C21F05 ();
+// 0x00000030 System.Void GoogleARCoreInternal.NativeSession::.ctor(System.IntPtr,System.IntPtr)
+extern void NativeSession__ctor_m1F724BAEAE55B0EF53B63E08697A85A222429D6A ();
+// 0x00000031 System.Boolean GoogleARCoreInternal.NativeSession::get_IsDestroyed()
+extern void NativeSession_get_IsDestroyed_mCBF04A4F1C8C1234E13F19AA4E07D60B25856593 ();
+// 0x00000032 System.Void GoogleARCoreInternal.NativeSession::set_IsDestroyed(System.Boolean)
+extern void NativeSession_set_IsDestroyed_m9CCCA86F1E3BEC5D42114534AC30623ACA53AA46 ();
+// 0x00000033 System.IntPtr GoogleARCoreInternal.NativeSession::get_SessionHandle()
+extern void NativeSession_get_SessionHandle_m23EB8D18AEB320BBCE4C88D4B03AC37247243500 ();
+// 0x00000034 System.Void GoogleARCoreInternal.NativeSession::set_SessionHandle(System.IntPtr)
+extern void NativeSession_set_SessionHandle_m216DE4EA663757DFC8BCCA9249C309B9B3F7FB32 ();
+// 0x00000035 System.IntPtr GoogleARCoreInternal.NativeSession::get_FrameHandle()
+extern void NativeSession_get_FrameHandle_m3B7C312F8BC126B54D383EFA152A10ACB3F81492 ();
+// 0x00000036 System.Void GoogleARCoreInternal.NativeSession::set_FrameHandle(System.IntPtr)
+extern void NativeSession_set_FrameHandle_mE417FCFAF555D763F60828EA6B303A60024F395D ();
+// 0x00000037 System.IntPtr GoogleARCoreInternal.NativeSession::get_PointCloudHandle()
+extern void NativeSession_get_PointCloudHandle_m2DFF3E070F582B01CF39788901DF028B5259DAAD ();
+// 0x00000038 System.Boolean GoogleARCoreInternal.NativeSession::get_IsPointCloudNew()
+extern void NativeSession_get_IsPointCloudNew_m4960DC5086E1149C1A3CB5DEE8EE7307CA45E623 ();
+// 0x00000039 GoogleARCoreInternal.AnchorApi GoogleARCoreInternal.NativeSession::get_AnchorApi()
+extern void NativeSession_get_AnchorApi_mA0A65E55B0F9C5689D7D6D481044ABC6ACF75863 ();
+// 0x0000003A System.Void GoogleARCoreInternal.NativeSession::set_AnchorApi(GoogleARCoreInternal.AnchorApi)
+extern void NativeSession_set_AnchorApi_mFDCB76F3E1BC4FE5A54A499EDDC90CC9E66F6E5F ();
+// 0x0000003B GoogleARCoreInternal.AugmentedFaceApi GoogleARCoreInternal.NativeSession::get_AugmentedFaceApi()
+extern void NativeSession_get_AugmentedFaceApi_m0E2F39CEDC79E75C0F26529602AC222282FAFFFF ();
+// 0x0000003C System.Void GoogleARCoreInternal.NativeSession::set_AugmentedFaceApi(GoogleARCoreInternal.AugmentedFaceApi)
+extern void NativeSession_set_AugmentedFaceApi_m35C93731622FD58CD73E9C930B0DFB0CE3C7A0A0 ();
+// 0x0000003D GoogleARCoreInternal.AugmentedImageApi GoogleARCoreInternal.NativeSession::get_AugmentedImageApi()
+extern void NativeSession_get_AugmentedImageApi_m3BDAC3D505669C32C6BB106BD5EF91A0F42550A9 ();
+// 0x0000003E System.Void GoogleARCoreInternal.NativeSession::set_AugmentedImageApi(GoogleARCoreInternal.AugmentedImageApi)
+extern void NativeSession_set_AugmentedImageApi_m08E4D44CA6C22B758E9DC0C1981C4ABA44D4DA83 ();
+// 0x0000003F GoogleARCoreInternal.AugmentedImageDatabaseApi GoogleARCoreInternal.NativeSession::get_AugmentedImageDatabaseApi()
+extern void NativeSession_get_AugmentedImageDatabaseApi_m31C1BDE02EE4FBFDD75B9242E6AC74A22A152E85 ();
+// 0x00000040 System.Void GoogleARCoreInternal.NativeSession::set_AugmentedImageDatabaseApi(GoogleARCoreInternal.AugmentedImageDatabaseApi)
+extern void NativeSession_set_AugmentedImageDatabaseApi_mA579E93BC09CF8F424F60AED6187738ECDE89C50 ();
+// 0x00000041 GoogleARCoreInternal.CameraApi GoogleARCoreInternal.NativeSession::get_CameraApi()
+extern void NativeSession_get_CameraApi_m274AEF29C06B0C0D66587003FA70412A05213E84 ();
+// 0x00000042 System.Void GoogleARCoreInternal.NativeSession::set_CameraApi(GoogleARCoreInternal.CameraApi)
+extern void NativeSession_set_CameraApi_m6EFA2A33101F2E174B18858FCE13EE5C5FA5E559 ();
+// 0x00000043 GoogleARCoreInternal.CameraConfigApi GoogleARCoreInternal.NativeSession::get_CameraConfigApi()
+extern void NativeSession_get_CameraConfigApi_m439BC7DEFAB836C9A1F71C29ED1C1AFE9AFF0302 ();
+// 0x00000044 System.Void GoogleARCoreInternal.NativeSession::set_CameraConfigApi(GoogleARCoreInternal.CameraConfigApi)
+extern void NativeSession_set_CameraConfigApi_m44F39C9067810FE20F318F2B3D7C120B20D0D3D4 ();
+// 0x00000045 GoogleARCoreInternal.CameraConfigFilterApi GoogleARCoreInternal.NativeSession::get_CameraConfigFilterApi()
+extern void NativeSession_get_CameraConfigFilterApi_mE6FA2919ABE3132B31DD2E0E96FF2992B6FCE91B ();
+// 0x00000046 System.Void GoogleARCoreInternal.NativeSession::set_CameraConfigFilterApi(GoogleARCoreInternal.CameraConfigFilterApi)
+extern void NativeSession_set_CameraConfigFilterApi_mF5BF49482873A596330C6C22420239CE7175412E ();
+// 0x00000047 GoogleARCoreInternal.CameraConfigListApi GoogleARCoreInternal.NativeSession::get_CameraConfigListApi()
+extern void NativeSession_get_CameraConfigListApi_m0A6FBABCFAD79F98367BC8AD15BDB56828DC0EC5 ();
+// 0x00000048 System.Void GoogleARCoreInternal.NativeSession::set_CameraConfigListApi(GoogleARCoreInternal.CameraConfigListApi)
+extern void NativeSession_set_CameraConfigListApi_m95F4B31F90BE257D1A63D6DBC6B83D2AA2E075F7 ();
+// 0x00000049 GoogleARCoreInternal.CameraMetadataApi GoogleARCoreInternal.NativeSession::get_CameraMetadataApi()
+extern void NativeSession_get_CameraMetadataApi_m2E33F34D2AF2881A846E34265AEF459EC613E060 ();
+// 0x0000004A System.Void GoogleARCoreInternal.NativeSession::set_CameraMetadataApi(GoogleARCoreInternal.CameraMetadataApi)
+extern void NativeSession_set_CameraMetadataApi_mDAD348D09D91CD76434BFA13E56F15B3670FBA7B ();
+// 0x0000004B GoogleARCoreInternal.FrameApi GoogleARCoreInternal.NativeSession::get_FrameApi()
+extern void NativeSession_get_FrameApi_mF6B1876F8C372C156E6595646731098CA8AE28BF ();
+// 0x0000004C System.Void GoogleARCoreInternal.NativeSession::set_FrameApi(GoogleARCoreInternal.FrameApi)
+extern void NativeSession_set_FrameApi_m50B417EBE3EC5CFA735AD31862449E2CC07B7F69 ();
+// 0x0000004D GoogleARCoreInternal.HitTestApi GoogleARCoreInternal.NativeSession::get_HitTestApi()
+extern void NativeSession_get_HitTestApi_mA4D9ED60C9E9584101E8537DE574B583ED8419C3 ();
+// 0x0000004E System.Void GoogleARCoreInternal.NativeSession::set_HitTestApi(GoogleARCoreInternal.HitTestApi)
+extern void NativeSession_set_HitTestApi_m51345BD5D3B7B2374E114B4B7C23B851D5716E69 ();
+// 0x0000004F GoogleARCoreInternal.ImageApi GoogleARCoreInternal.NativeSession::get_ImageApi()
+extern void NativeSession_get_ImageApi_mFE320A28C517F190CBF3AF4F46CFC814F21112E1 ();
+// 0x00000050 System.Void GoogleARCoreInternal.NativeSession::set_ImageApi(GoogleARCoreInternal.ImageApi)
+extern void NativeSession_set_ImageApi_mE6FC30D8AEB6CB108F0CEC4476BD13E474DA1210 ();
+// 0x00000051 GoogleARCoreInternal.LightEstimateApi GoogleARCoreInternal.NativeSession::get_LightEstimateApi()
+extern void NativeSession_get_LightEstimateApi_m39DE47BB304C988969E9AEE4D5870B1E7F1F63BB ();
+// 0x00000052 System.Void GoogleARCoreInternal.NativeSession::set_LightEstimateApi(GoogleARCoreInternal.LightEstimateApi)
+extern void NativeSession_set_LightEstimateApi_m293EEAF1AE2F78B2DD0937A2DEAF7DA3787BDB33 ();
+// 0x00000053 GoogleARCoreInternal.PlaneApi GoogleARCoreInternal.NativeSession::get_PlaneApi()
+extern void NativeSession_get_PlaneApi_m05B2C0F8972EC48F07DB11A7C2EE982F3C85FC29 ();
+// 0x00000054 System.Void GoogleARCoreInternal.NativeSession::set_PlaneApi(GoogleARCoreInternal.PlaneApi)
+extern void NativeSession_set_PlaneApi_mAA32D3D53B6512873EB2C1DF8898FA63AD5C2444 ();
+// 0x00000055 GoogleARCoreInternal.PointApi GoogleARCoreInternal.NativeSession::get_PointApi()
+extern void NativeSession_get_PointApi_m15D20D61B6CC69591AB7F340FC1BE7C831699C0F ();
+// 0x00000056 System.Void GoogleARCoreInternal.NativeSession::set_PointApi(GoogleARCoreInternal.PointApi)
+extern void NativeSession_set_PointApi_mA127696F25A2D5BF0D4FA829658B1C5C8782C65C ();
+// 0x00000057 GoogleARCoreInternal.PointCloudApi GoogleARCoreInternal.NativeSession::get_PointCloudApi()
+extern void NativeSession_get_PointCloudApi_mDF60D6D4D98B70AAD5A61B60902DF72F192CD5D9 ();
+// 0x00000058 System.Void GoogleARCoreInternal.NativeSession::set_PointCloudApi(GoogleARCoreInternal.PointCloudApi)
+extern void NativeSession_set_PointCloudApi_m9225ECF1F3CD777CEBF493D6A5E9C5E7A4E0E84F ();
+// 0x00000059 GoogleARCoreInternal.PoseApi GoogleARCoreInternal.NativeSession::get_PoseApi()
+extern void NativeSession_get_PoseApi_mB84B5C0BCCB60C68C2ED9E5528FF2ACE46078A11 ();
+// 0x0000005A System.Void GoogleARCoreInternal.NativeSession::set_PoseApi(GoogleARCoreInternal.PoseApi)
+extern void NativeSession_set_PoseApi_m27796E7AF57D831B0D82490E42337C6E81EA9F44 ();
+// 0x0000005B GoogleARCoreInternal.RecordingConfigApi GoogleARCoreInternal.NativeSession::get_RecordingConfigApi()
+extern void NativeSession_get_RecordingConfigApi_mFBE6D5F7545B295A4D9E2ADAECDFAB5A62C705FE ();
+// 0x0000005C System.Void GoogleARCoreInternal.NativeSession::set_RecordingConfigApi(GoogleARCoreInternal.RecordingConfigApi)
+extern void NativeSession_set_RecordingConfigApi_mCFD15898E8AE8BAE0D05975A9884F8A30FC4BA5C ();
+// 0x0000005D GoogleARCoreInternal.SessionApi GoogleARCoreInternal.NativeSession::get_SessionApi()
+extern void NativeSession_get_SessionApi_m069448B8EEBCCD2A750B9907EC7559B0EE5E71F9 ();
+// 0x0000005E System.Void GoogleARCoreInternal.NativeSession::set_SessionApi(GoogleARCoreInternal.SessionApi)
+extern void NativeSession_set_SessionApi_mE42AF30BC514B0DD6E857FCD87FE9100B4BCC4EA ();
+// 0x0000005F GoogleARCoreInternal.SessionConfigApi GoogleARCoreInternal.NativeSession::get_SessionConfigApi()
+extern void NativeSession_get_SessionConfigApi_m267F66371C11CA140D3892002C039D580DEE59B6 ();
+// 0x00000060 System.Void GoogleARCoreInternal.NativeSession::set_SessionConfigApi(GoogleARCoreInternal.SessionConfigApi)
+extern void NativeSession_set_SessionConfigApi_m68DAF23F279373D2979E9E9EF687A3DF736818B3 ();
+// 0x00000061 GoogleARCoreInternal.TrackableApi GoogleARCoreInternal.NativeSession::get_TrackableApi()
+extern void NativeSession_get_TrackableApi_m4BB38B9A7E6127D0F2741D8DCB1EDFDCAACB7F2C ();
+// 0x00000062 System.Void GoogleARCoreInternal.NativeSession::set_TrackableApi(GoogleARCoreInternal.TrackableApi)
+extern void NativeSession_set_TrackableApi_m994FCE2B238C892D18CA1E507FC6269FA14F19F2 ();
+// 0x00000063 GoogleARCoreInternal.TrackableListApi GoogleARCoreInternal.NativeSession::get_TrackableListApi()
+extern void NativeSession_get_TrackableListApi_mDB87564B01ACF612F5110DDA8FE60D5D2FF6F497 ();
+// 0x00000064 System.Void GoogleARCoreInternal.NativeSession::set_TrackableListApi(GoogleARCoreInternal.TrackableListApi)
+extern void NativeSession_set_TrackableListApi_m983608BAB3D44E624EE478C54104464BC276543C ();
+// 0x00000065 GoogleARCore.Trackable GoogleARCoreInternal.NativeSession::TrackableFactory(System.IntPtr)
+extern void NativeSession_TrackableFactory_m62C275559D88C7AFB80694D471E157FCDBF3B3D0 ();
+// 0x00000066 System.Void GoogleARCoreInternal.NativeSession::GetTrackables(System.Collections.Generic.List`1<T>,GoogleARCore.TrackableQueryFilter)
+// 0x00000067 System.Void GoogleARCoreInternal.NativeSession::OnUpdate(System.IntPtr)
+extern void NativeSession_OnUpdate_m09839ADF0780B8D269EEBDF394657DD8C74F70A7 ();
+// 0x00000068 System.Void GoogleARCoreInternal.NativeSession::MarkDestroyed()
+extern void NativeSession_MarkDestroyed_m093CE63E99DFF76DAEA6E85A6A37117B7AFE140F ();
+// 0x00000069 System.Void GoogleARCoreInternal.ApiDisplayUvCoords::.ctor(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+extern void ApiDisplayUvCoords__ctor_m95B8DAFD46C73A8EE669DA522663E3539A419698_AdjustorThunk ();
+// 0x0000006A System.Void GoogleARCoreInternal.ApiPoseData::.ctor(UnityEngine.Pose)
+extern void ApiPoseData__ctor_m6946A48BDF900BB7EBB3972083DC72EAAD30D31A_AdjustorThunk ();
+// 0x0000006B UnityEngine.Pose GoogleARCoreInternal.ApiPoseData::ToUnityPose()
+extern void ApiPoseData_ToUnityPose_m5AAB568DA753E1A6B45376365AFFF0632B14A1B9_AdjustorThunk ();
+// 0x0000006C System.String GoogleARCoreInternal.ApiPoseData::ToString()
+extern void ApiPoseData_ToString_m1F496078D60AAAA2EFD7E1F246D9CB89115F704E_AdjustorThunk ();
+// 0x0000006D GoogleARCore.ApkAvailabilityStatus GoogleARCoreInternal.ApiTypeExtensions::ToApkAvailabilityStatus(GoogleARCoreInternal.ApiAvailability)
+extern void ApiTypeExtensions_ToApkAvailabilityStatus_m0F6E45897164305CFE60655F1F5D2E09CE31B248 ();
+// 0x0000006E GoogleARCore.ApkInstallationStatus GoogleARCoreInternal.ApiTypeExtensions::ToApkInstallationStatus(GoogleARCoreInternal.ApiApkInstallationStatus)
+extern void ApiTypeExtensions_ToApkInstallationStatus_m79A6B49874D7059FCD9F92798F75D82AFD5CA42D ();
+// 0x0000006F GoogleARCore.SessionStatus GoogleARCoreInternal.ApiTypeExtensions::ToSessionStatus(GoogleARCoreInternal.ApiPrestoStatus)
+extern void ApiTypeExtensions_ToSessionStatus_mD2BE38472C9EFA04AEBD2DBF5A04C09F750DBA19 ();
+// 0x00000070 GoogleARCore.TrackingState GoogleARCoreInternal.ApiTypeExtensions::ToTrackingState(GoogleARCoreInternal.ApiTrackingState)
+extern void ApiTypeExtensions_ToTrackingState_m1D3CB45744BAB3084920B8732D1B316EB62F61E7 ();
+// 0x00000071 GoogleARCore.CrossPlatform.XPTrackingState GoogleARCoreInternal.ApiTypeExtensions::ToXPTrackingState(GoogleARCore.TrackingState)
+extern void ApiTypeExtensions_ToXPTrackingState_m2F9DECCEA15F8CFE5CB3D0DC35557D6F671A7CFA ();
+// 0x00000072 GoogleARCore.LostTrackingReason GoogleARCoreInternal.ApiTypeExtensions::ToLostTrackingReason(GoogleARCore.ApiTrackingFailureReason)
+extern void ApiTypeExtensions_ToLostTrackingReason_mAC9B601AAB5BF8572ED8159A6D894182E1A07374 ();
+// 0x00000073 GoogleARCore.DeviceCameraDirection GoogleARCoreInternal.ApiTypeExtensions::ToDeviceCameraDirection(GoogleARCoreInternal.ApiCameraConfigFacingDirection)
+extern void ApiTypeExtensions_ToDeviceCameraDirection_m8C461AB218476D84DE713E97117661424C95605C ();
+// 0x00000074 GoogleARCore.LightEstimateState GoogleARCoreInternal.ApiTypeExtensions::ToLightEstimateState(GoogleARCoreInternal.ApiLightEstimateState)
+extern void ApiTypeExtensions_ToLightEstimateState_mF7D12235F043D4E460D56BA0CEA039BC0F6F3161 ();
+// 0x00000075 GoogleARCoreInternal.ApiLightEstimationMode GoogleARCoreInternal.ApiTypeExtensions::ToApiLightEstimationMode(GoogleARCore.LightEstimationMode)
+extern void ApiTypeExtensions_ToApiLightEstimationMode_m551F997CAA89802233C2EC52E45012EB2EDE3F9F ();
+// 0x00000076 GoogleARCoreInternal.ApiPlaneFindingMode GoogleARCoreInternal.ApiTypeExtensions::ToApiPlaneFindingMode(GoogleARCore.DetectedPlaneFindingMode)
+extern void ApiTypeExtensions_ToApiPlaneFindingMode_m8DCB21217BBE00667CD70FD23B2F047458494C0A ();
+// 0x00000077 GoogleARCoreInternal.ApiAugmentedFaceMode GoogleARCoreInternal.ApiTypeExtensions::ToApiAugmentedFaceMode(GoogleARCore.AugmentedFaceMode)
+extern void ApiTypeExtensions_ToApiAugmentedFaceMode_mC2D2F68DE3007431E1CE2448E441B3751A0CFAA6 ();
+// 0x00000078 GoogleARCoreInternal.ApiCameraFocusMode GoogleARCoreInternal.ApiTypeExtensions::ToApiCameraFocusMode(GoogleARCore.CameraFocusMode)
+extern void ApiTypeExtensions_ToApiCameraFocusMode_mE4F9C9887D8562ED52A78D6B2F097CAD6D4C3838 ();
+// 0x00000079 GoogleARCore.DepthStatus GoogleARCoreInternal.ApiTypeExtensions::ToDepthStatus(GoogleARCoreInternal.ApiArStatus)
+extern void ApiTypeExtensions_ToDepthStatus_m93215DC31BBC2CDB09E9EC4FA031A79582C582A1 ();
+// 0x0000007A GoogleARCoreInternal.ApiDepthMode GoogleARCoreInternal.ApiTypeExtensions::ToApiDepthMode(GoogleARCore.DepthMode)
+extern void ApiTypeExtensions_ToApiDepthMode_m42D130DF6826024A761EFD45E0319530FCA1F3F3 ();
+// 0x0000007B GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorMode GoogleARCoreInternal.ApiTypeExtensions::ToApiCloudAnchorMode(GoogleARCore.CloudAnchorMode)
+extern void ApiTypeExtensions_ToApiCloudAnchorMode_mFE3DDDF47ED97BFDFE96EF69B1A6BFD3A32E47D1 ();
+// 0x0000007C GoogleARCore.DetectedPlaneType GoogleARCoreInternal.ApiTypeExtensions::ToDetectedPlaneType(GoogleARCoreInternal.ApiPlaneType)
+extern void ApiTypeExtensions_ToDetectedPlaneType_m9D32D997A4FC4C72FF765E716F644FB9FCC1854F ();
+// 0x0000007D GoogleARCore.DisplayUvCoords GoogleARCoreInternal.ApiTypeExtensions::ToDisplayUvCoords(GoogleARCoreInternal.ApiDisplayUvCoords)
+extern void ApiTypeExtensions_ToDisplayUvCoords_m1F55A59F6214FE608A28D78A0F33968E078E2E71 ();
+// 0x0000007E GoogleARCore.FeaturePointOrientationMode GoogleARCoreInternal.ApiTypeExtensions::ToFeaturePointOrientationMode(GoogleARCoreInternal.ApiFeaturePointOrientationMode)
+extern void ApiTypeExtensions_ToFeaturePointOrientationMode_m5703CB2533B54EE3A04CEDC0C7D747CFF145A658 ();
+// 0x0000007F GoogleARCore.CrossPlatform.CloudServiceResponse GoogleARCoreInternal.ApiTypeExtensions::ToCloudServiceResponse(GoogleARCoreInternal.ApiArStatus)
+extern void ApiTypeExtensions_ToCloudServiceResponse_m8B758FA3D53CA199451620F936FD69AD4A09BF70 ();
+// 0x00000080 GoogleARCore.CrossPlatform.CloudServiceResponse GoogleARCoreInternal.ApiTypeExtensions::ToCloudServiceResponse(GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorState)
+extern void ApiTypeExtensions_ToCloudServiceResponse_m2E53E64DA8EA141BF8F9B3A2650EE7B56F6FB237 ();
+// 0x00000081 GoogleARCore.RecordingStatus GoogleARCoreInternal.ApiTypeExtensions::ToRecordingStatus(GoogleARCoreInternal.ApiRecordingStatus)
+extern void ApiTypeExtensions_ToRecordingStatus_m1B86F4016D256D4E1E3697B986844D5B846C1559 ();
+// 0x00000082 GoogleARCore.PlaybackStatus GoogleARCoreInternal.ApiTypeExtensions::ToPlaybackStatus(GoogleARCoreInternal.ApiPlaybackStatus)
+extern void ApiTypeExtensions_ToPlaybackStatus_m2A5741D2DCA7267DB0B755669AD0BF174B562916 ();
+// 0x00000083 System.Void GoogleARCoreInternal.AnchorApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void AnchorApi__ctor_m98F174EA6145A166975E1763411BA435A62D49B0 ();
+// 0x00000084 System.Void GoogleARCoreInternal.AnchorApi::Release(System.IntPtr)
+extern void AnchorApi_Release_m730528C100D6ABA6564BEAF449B4D1FF0DF4E0C2 ();
+// 0x00000085 UnityEngine.Pose GoogleARCoreInternal.AnchorApi::GetPose(System.IntPtr)
+extern void AnchorApi_GetPose_m5A3A5DD5457D969A94ADC13C7FBC0D1EDD24B9AF ();
+// 0x00000086 GoogleARCore.TrackingState GoogleARCoreInternal.AnchorApi::GetTrackingState(System.IntPtr)
+extern void AnchorApi_GetTrackingState_mD9C0756CE66604CAB6F22BFD915DD456A1226C89 ();
+// 0x00000087 GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorState GoogleARCoreInternal.AnchorApi::GetCloudAnchorState(System.IntPtr)
+extern void AnchorApi_GetCloudAnchorState_mB2A5996A81C235C4B20A9D4E44D28245AEDEF47F ();
+// 0x00000088 System.String GoogleARCoreInternal.AnchorApi::GetCloudAnchorId(System.IntPtr)
+extern void AnchorApi_GetCloudAnchorId_mF77348D93A63CF1F961DFBF10E3DB55A9CE21990 ();
+// 0x00000089 System.Void GoogleARCoreInternal.AnchorApi::Detach(System.IntPtr)
+extern void AnchorApi_Detach_mDC46CB9CE6E51BC0C2853C49CF0AA6D3B816CD17 ();
+// 0x0000008A System.IntPtr GoogleARCoreInternal.AnchorApi::CreateList()
+extern void AnchorApi_CreateList_m39750FFD2A4408B17A067EC47279B64AD1218896 ();
+// 0x0000008B System.Int32 GoogleARCoreInternal.AnchorApi::GetListSize(System.IntPtr)
+extern void AnchorApi_GetListSize_m540EA25E0088384EDE1A4619D3842141B39478DC ();
+// 0x0000008C System.IntPtr GoogleARCoreInternal.AnchorApi::AcquireListItem(System.IntPtr,System.Int32)
+extern void AnchorApi_AcquireListItem_m0933FFAF112F51243E8A7DCB59F5D15B4561055A ();
+// 0x0000008D System.Void GoogleARCoreInternal.AnchorApi::DestroyList(System.IntPtr)
+extern void AnchorApi_DestroyList_m506445DC703D5DD3A12F0EAB0020087B5A105880 ();
+// 0x0000008E System.Void GoogleARCoreInternal.AnchorApi_ExternApi::ArAnchor_getPose(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArAnchor_getPose_mB758AE304B1263764FFA954B1A71FFD1D1DCE314 ();
+// 0x0000008F System.Void GoogleARCoreInternal.AnchorApi_ExternApi::ArAnchor_getTrackingState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackingState&)
+extern void ExternApi_ArAnchor_getTrackingState_m85A8CD967CB5B77DF1B78EF11E45C891F10B2A16 ();
+// 0x00000090 System.Void GoogleARCoreInternal.AnchorApi_ExternApi::ArAnchor_getCloudAnchorState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorState&)
+extern void ExternApi_ArAnchor_getCloudAnchorState_mDFDB6A1924F7927456148E0A659D98328C16E560 ();
+// 0x00000091 System.Void GoogleARCoreInternal.AnchorApi_ExternApi::ArAnchor_acquireCloudAnchorId(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArAnchor_acquireCloudAnchorId_mF04CF75F3935434CD9B1164204EA805D159D6B46 ();
+// 0x00000092 System.Void GoogleARCoreInternal.AnchorApi_ExternApi::ArAnchor_release(System.IntPtr)
+extern void ExternApi_ArAnchor_release_mFFADAADC8BBF4DE83DB56F0CF9623C26401E28D3 ();
+// 0x00000093 System.Void GoogleARCoreInternal.AnchorApi_ExternApi::ArAnchor_detach(System.IntPtr,System.IntPtr)
+extern void ExternApi_ArAnchor_detach_mC6F7DA9E41F85F8BF2F1519ECE7BEA9F48262A9C ();
+// 0x00000094 System.Void GoogleARCoreInternal.AnchorApi_ExternApi::ArString_release(System.IntPtr)
+extern void ExternApi_ArString_release_mB9BB928C5C3B749EAE5DF598E3B63ED92A6E464B ();
+// 0x00000095 System.Void GoogleARCoreInternal.AnchorApi_ExternApi::ArAnchorList_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArAnchorList_create_mFB4D84E6A59061EC46667C4105A551F0A5A38AFB ();
+// 0x00000096 System.Void GoogleARCoreInternal.AnchorApi_ExternApi::ArAnchorList_destroy(System.IntPtr)
+extern void ExternApi_ArAnchorList_destroy_m0C04566B2DDC6529D230AF20B02A288A78FDFE08 ();
+// 0x00000097 System.Void GoogleARCoreInternal.AnchorApi_ExternApi::ArAnchorList_getSize(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArAnchorList_getSize_mD1D749BDCF653970F9011F90CF73659B175DCD22 ();
+// 0x00000098 System.Void GoogleARCoreInternal.AnchorApi_ExternApi::ArAnchorList_acquireItem(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&)
+extern void ExternApi_ArAnchorList_acquireItem_m7719144D43885DFD83348B0CF3B2BD34D20D977A ();
+// 0x00000099 System.Void GoogleARCoreInternal.AugmentedFaceApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void AugmentedFaceApi__ctor_m2ED44CB97D2119ED37F0E1FEAB1316F8B0D9B934 ();
+// 0x0000009A UnityEngine.Pose GoogleARCoreInternal.AugmentedFaceApi::GetCenterPose(System.IntPtr)
+extern void AugmentedFaceApi_GetCenterPose_m586AEF955D54AF1C7D3CC75C7F10677B2972087B ();
+// 0x0000009B UnityEngine.Pose GoogleARCoreInternal.AugmentedFaceApi::GetRegionPose(System.IntPtr,GoogleARCoreInternal.ApiAugmentedFaceRegionType)
+extern void AugmentedFaceApi_GetRegionPose_mC51B9DF733DE60942815C4238F15A8CA20BEA664 ();
+// 0x0000009C System.Void GoogleARCoreInternal.AugmentedFaceApi::GetVertices(System.IntPtr,System.Collections.Generic.List`1<UnityEngine.Vector3>)
+extern void AugmentedFaceApi_GetVertices_m505BA2D18CA51B2656A8EDA6A7A8F64A3609CA6E ();
+// 0x0000009D System.Void GoogleARCoreInternal.AugmentedFaceApi::GetNormals(System.IntPtr,System.Collections.Generic.List`1<UnityEngine.Vector3>)
+extern void AugmentedFaceApi_GetNormals_mAA7748ED95A093F1A423898D8800DD2629C9B5A1 ();
+// 0x0000009E System.Void GoogleARCoreInternal.AugmentedFaceApi::GetTextureCoordinates(System.IntPtr,System.Collections.Generic.List`1<UnityEngine.Vector2>)
+extern void AugmentedFaceApi_GetTextureCoordinates_mC02CADA328FE499EA20731B9E5FA663F49D4C7B6 ();
+// 0x0000009F System.Void GoogleARCoreInternal.AugmentedFaceApi::GetTriangleIndices(System.IntPtr,System.Collections.Generic.List`1<System.Int32>)
+extern void AugmentedFaceApi_GetTriangleIndices_m619C60F59E58322AA47667AE08BAC2AEEC345DB5 ();
+// 0x000000A0 System.Void GoogleARCoreInternal.AugmentedFaceApi_ExternApi::ArAugmentedFace_getCenterPose(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArAugmentedFace_getCenterPose_mA5EB7C0547A4169B8E4A76D2175EF8C532622C66 ();
+// 0x000000A1 System.Void GoogleARCoreInternal.AugmentedFaceApi_ExternApi::ArAugmentedFace_getMeshVertices(System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32&)
+extern void ExternApi_ArAugmentedFace_getMeshVertices_m87FB3B61114B266D357898976C82D5E5D7D268AD ();
+// 0x000000A2 System.Void GoogleARCoreInternal.AugmentedFaceApi_ExternApi::ArAugmentedFace_getMeshNormals(System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32&)
+extern void ExternApi_ArAugmentedFace_getMeshNormals_mB8D365E2C6F460E1F896AAC6D863C223FD264D67 ();
+// 0x000000A3 System.Void GoogleARCoreInternal.AugmentedFaceApi_ExternApi::ArAugmentedFace_getMeshTextureCoordinates(System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32&)
+extern void ExternApi_ArAugmentedFace_getMeshTextureCoordinates_m8D9825061591B2E95380A10DFF0D40E310F7DC58 ();
+// 0x000000A4 System.Void GoogleARCoreInternal.AugmentedFaceApi_ExternApi::ArAugmentedFace_getMeshTriangleIndices(System.IntPtr,System.IntPtr,System.IntPtr&,System.Int32&)
+extern void ExternApi_ArAugmentedFace_getMeshTriangleIndices_m7CF8623CFA4550D8531D65F81F481AC0D880E6F8 ();
+// 0x000000A5 System.Void GoogleARCoreInternal.AugmentedFaceApi_ExternApi::ArAugmentedFace_getRegionPose(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiAugmentedFaceRegionType,System.IntPtr)
+extern void ExternApi_ArAugmentedFace_getRegionPose_m2E49581D5039C813B70213BBE1BE3516088D53F7 ();
+// 0x000000A6 System.Void GoogleARCoreInternal.AugmentedImageApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void AugmentedImageApi__ctor_m70669C231DAB8796884195AA266B3D1A3247A674 ();
+// 0x000000A7 System.Int32 GoogleARCoreInternal.AugmentedImageApi::GetDatabaseIndex(System.IntPtr)
+extern void AugmentedImageApi_GetDatabaseIndex_m0AE4965C77F594E73FE2EECB22D94E631C735E1F ();
+// 0x000000A8 UnityEngine.Pose GoogleARCoreInternal.AugmentedImageApi::GetCenterPose(System.IntPtr)
+extern void AugmentedImageApi_GetCenterPose_mD7922ECFE1F375AC380560B2ACB8B1B91CC49974 ();
+// 0x000000A9 System.Single GoogleARCoreInternal.AugmentedImageApi::GetExtentX(System.IntPtr)
+extern void AugmentedImageApi_GetExtentX_m7405E3A54561F258D576F1B517EBC20BAC9A0553 ();
+// 0x000000AA System.Single GoogleARCoreInternal.AugmentedImageApi::GetExtentZ(System.IntPtr)
+extern void AugmentedImageApi_GetExtentZ_m28E71AB227D4704C93D5EBE88A2E77C7469EB3F7 ();
+// 0x000000AB System.String GoogleARCoreInternal.AugmentedImageApi::GetName(System.IntPtr)
+extern void AugmentedImageApi_GetName_m288B8708FF82E45EEB64E9922F60DC6E633D7413 ();
+// 0x000000AC GoogleARCore.AugmentedImageTrackingMethod GoogleARCoreInternal.AugmentedImageApi::GetTrackingMethod(System.IntPtr)
+extern void AugmentedImageApi_GetTrackingMethod_m59895CDAE4F1A820160E4E187376DA5E0AB1B52E ();
+// 0x000000AD System.Void GoogleARCoreInternal.AugmentedImageApi_ExternApi::ArAugmentedImage_getIndex(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArAugmentedImage_getIndex_mFC3DBF4860991BE918518CC1E761DCA4A59F943B ();
+// 0x000000AE System.Void GoogleARCoreInternal.AugmentedImageApi_ExternApi::ArAugmentedImage_getCenterPose(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArAugmentedImage_getCenterPose_mB3C0D0800DBCFFBB6AEF88F33E9325A1520D010A ();
+// 0x000000AF System.Void GoogleARCoreInternal.AugmentedImageApi_ExternApi::ArAugmentedImage_getExtentX(System.IntPtr,System.IntPtr,System.Single&)
+extern void ExternApi_ArAugmentedImage_getExtentX_m3A460645D181D0FA9ED20AFF8AD2684B0E263CE2 ();
+// 0x000000B0 System.Void GoogleARCoreInternal.AugmentedImageApi_ExternApi::ArAugmentedImage_getExtentZ(System.IntPtr,System.IntPtr,System.Single&)
+extern void ExternApi_ArAugmentedImage_getExtentZ_mB5FA08B68808CA4EDF477927E8043BC26B644F43 ();
+// 0x000000B1 System.Void GoogleARCoreInternal.AugmentedImageApi_ExternApi::ArAugmentedImage_acquireName(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArAugmentedImage_acquireName_m0774FF44B470B254DC6DD5ADA3CCC5E102B3DBFA ();
+// 0x000000B2 System.Void GoogleARCoreInternal.AugmentedImageApi_ExternApi::ArAugmentedImage_getTrackingMethod(System.IntPtr,System.IntPtr,GoogleARCore.AugmentedImageTrackingMethod&)
+extern void ExternApi_ArAugmentedImage_getTrackingMethod_m980B33150071961B20FDC8969072F5AE0D0A2BBB ();
+// 0x000000B3 System.Void GoogleARCoreInternal.AugmentedImageApi_ExternApi::ArString_release(System.IntPtr)
+extern void ExternApi_ArString_release_m8C6B026695E001A01EDA310B0A1D7C9A0D12CE82 ();
+// 0x000000B4 System.Void GoogleARCoreInternal.AugmentedImageDatabaseApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void AugmentedImageDatabaseApi__ctor_m0D7C3B6059E81CE14729F899110FB9E527B550DD ();
+// 0x000000B5 System.Void GoogleARCoreInternal.AugmentedImageDatabaseApi::Release(System.IntPtr)
+extern void AugmentedImageDatabaseApi_Release_m0AF3979E4B41B6DF915A5ADDBD98A27BCD341BDD ();
+// 0x000000B6 System.IntPtr GoogleARCoreInternal.AugmentedImageDatabaseApi::Create(System.Byte[])
+extern void AugmentedImageDatabaseApi_Create_mC15CBD248387282136598389149B9A7FF2FF09C6 ();
+// 0x000000B7 System.Int32 GoogleARCoreInternal.AugmentedImageDatabaseApi::AddAugmentedImageAtRuntime(System.IntPtr,System.String,GoogleARCore.AugmentedImageSrc,System.Single)
+extern void AugmentedImageDatabaseApi_AddAugmentedImageAtRuntime_mAB49E5181CD36DE91A1C5AFB13CE1239788BA40E ();
+// 0x000000B8 System.Runtime.InteropServices.GCHandle GoogleARCoreInternal.AugmentedImageDatabaseApi::ConvertTextureToGrayscaleBytes(GoogleARCore.AugmentedImageSrc)
+extern void AugmentedImageDatabaseApi_ConvertTextureToGrayscaleBytes_mFFD7AE4B6D077AAD815258C6FA1990F9A9E333F5 ();
+// 0x000000B9 System.Void GoogleARCoreInternal.AugmentedImageDatabaseApi_ExternApi::ArAugmentedImageDatabase_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArAugmentedImageDatabase_create_mB2C51DD530C57430AD04D63D352B078F1499F3B2 ();
+// 0x000000BA System.Void GoogleARCoreInternal.AugmentedImageDatabaseApi_ExternApi::ArAugmentedImageDatabase_destroy(System.IntPtr)
+extern void ExternApi_ArAugmentedImageDatabase_destroy_m2CD9C20B8743EF5463DF2FF04812AC2BB81EA3E5 ();
+// 0x000000BB GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.AugmentedImageDatabaseApi_ExternApi::ArAugmentedImageDatabase_deserialize(System.IntPtr,System.IntPtr,System.Int64,System.IntPtr&)
+extern void ExternApi_ArAugmentedImageDatabase_deserialize_m684C894ED2009D74DCAC3E4C7556EAA0FD33AC03 ();
+// 0x000000BC GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.AugmentedImageDatabaseApi_ExternApi::ArAugmentedImageDatabase_addImageWithPhysicalSize(System.IntPtr,System.IntPtr,System.String,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Single,System.Int32&)
+extern void ExternApi_ArAugmentedImageDatabase_addImageWithPhysicalSize_m3BF5D791D1AD0F840B76871559DDC80ED1B4E3C0 ();
+// 0x000000BD GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.AugmentedImageDatabaseApi_ExternApi::ArAugmentedImageDatabase_addImage(System.IntPtr,System.IntPtr,System.String,System.IntPtr,System.Int32,System.Int32,System.Int32,System.Int32&)
+extern void ExternApi_ArAugmentedImageDatabase_addImage_m1DA896B181DE1D998A5058184E2909F81669A9B8 ();
+// 0x000000BE System.Void GoogleARCoreInternal.CameraApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void CameraApi__ctor_m620421804F6DE840A2440DC130945C1550D58C8E ();
+// 0x000000BF GoogleARCore.TrackingState GoogleARCoreInternal.CameraApi::GetTrackingState(System.IntPtr)
+extern void CameraApi_GetTrackingState_m57F5002A524252A0B16CD6CCFA33DB11D75C2DBD ();
+// 0x000000C0 GoogleARCore.LostTrackingReason GoogleARCoreInternal.CameraApi::GetLostTrackingReason(System.IntPtr)
+extern void CameraApi_GetLostTrackingReason_m32E2D7F5C0864034B5F6755E5EEF64DD90EC9BAE ();
+// 0x000000C1 UnityEngine.Pose GoogleARCoreInternal.CameraApi::GetPose(System.IntPtr)
+extern void CameraApi_GetPose_mD1EEBD0CA0C366D0586EDA09DC6843762C7CDD0C ();
+// 0x000000C2 UnityEngine.Matrix4x4 GoogleARCoreInternal.CameraApi::GetProjectionMatrix(System.IntPtr,System.Single,System.Single)
+extern void CameraApi_GetProjectionMatrix_m41D56D3C4F4CC4BEC8795B3A05EED8B343787548 ();
+// 0x000000C3 GoogleARCore.CameraIntrinsics GoogleARCoreInternal.CameraApi::GetTextureIntrinsics(System.IntPtr)
+extern void CameraApi_GetTextureIntrinsics_mD911187585001FEB6B9DC71D688347A3C62CE4B2 ();
+// 0x000000C4 GoogleARCore.CameraIntrinsics GoogleARCoreInternal.CameraApi::GetImageIntrinsics(System.IntPtr)
+extern void CameraApi_GetImageIntrinsics_mED469CEFBCF22D49D32C6DA48195826A5BE52419 ();
+// 0x000000C5 System.Void GoogleARCoreInternal.CameraApi::Release(System.IntPtr)
+extern void CameraApi_Release_m87150EACF46C83450BBC52A39B18F28D2AB97584 ();
+// 0x000000C6 GoogleARCore.CameraIntrinsics GoogleARCoreInternal.CameraApi::GetCameraIntrinsicsFromHandle(System.IntPtr)
+extern void CameraApi_GetCameraIntrinsicsFromHandle_mC2D8C5612E27D622331B7DD327B1BCF47751D7EF ();
+// 0x000000C7 System.Void GoogleARCoreInternal.CameraApi_ExternApi::ArCamera_getTrackingState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackingState&)
+extern void ExternApi_ArCamera_getTrackingState_m14BB0309F1EF6125BCEE760F2C91854C7E60ABBA ();
+// 0x000000C8 System.Void GoogleARCoreInternal.CameraApi_ExternApi::ArCamera_getTrackingFailureReason(System.IntPtr,System.IntPtr,GoogleARCore.ApiTrackingFailureReason&)
+extern void ExternApi_ArCamera_getTrackingFailureReason_mAD00EA2684FEF9222D778AEA7E83E1ACC66D39BF ();
+// 0x000000C9 System.Void GoogleARCoreInternal.CameraApi_ExternApi::ArCamera_getDisplayOrientedPose(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArCamera_getDisplayOrientedPose_mC74EF34E931A689F4B5CDB1C7FC1782854FFE8F1 ();
+// 0x000000CA System.Void GoogleARCoreInternal.CameraApi_ExternApi::ArCamera_getProjectionMatrix(System.IntPtr,System.IntPtr,System.Single,System.Single,UnityEngine.Matrix4x4&)
+extern void ExternApi_ArCamera_getProjectionMatrix_mF53AAD4E061680A029FE6632D99CE8E232BA9E86 ();
+// 0x000000CB System.Void GoogleARCoreInternal.CameraApi_ExternApi::ArCamera_getTextureIntrinsics(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArCamera_getTextureIntrinsics_mE810340B2A84AC04B59ED45EBB8CB9D9BF4160B5 ();
+// 0x000000CC System.Void GoogleARCoreInternal.CameraApi_ExternApi::ArCamera_getImageIntrinsics(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArCamera_getImageIntrinsics_m68483B30C6B821D55B4E71CDEA85C7CC466E76DD ();
+// 0x000000CD System.Void GoogleARCoreInternal.CameraApi_ExternApi::ArCamera_release(System.IntPtr)
+extern void ExternApi_ArCamera_release_mD515CDAD1E0507D5FD2A3094520C573EAF2BB622 ();
+// 0x000000CE System.Void GoogleARCoreInternal.CameraApi_ExternApi::ArCameraIntrinsics_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArCameraIntrinsics_create_m59E8505C12E92073905DC13DADE81320EF73A6A2 ();
+// 0x000000CF System.Void GoogleARCoreInternal.CameraApi_ExternApi::ArCameraIntrinsics_getFocalLength(System.IntPtr,System.IntPtr,System.Single&,System.Single&)
+extern void ExternApi_ArCameraIntrinsics_getFocalLength_m47413C3B228675F4B2698C293C72AB7DAE308D15 ();
+// 0x000000D0 System.Void GoogleARCoreInternal.CameraApi_ExternApi::ArCameraIntrinsics_getPrincipalPoint(System.IntPtr,System.IntPtr,System.Single&,System.Single&)
+extern void ExternApi_ArCameraIntrinsics_getPrincipalPoint_mA9A76A2F9135841EFC3810609DFD5FABADA1AAB4 ();
+// 0x000000D1 System.Void GoogleARCoreInternal.CameraApi_ExternApi::ArCameraIntrinsics_getImageDimensions(System.IntPtr,System.IntPtr,System.Int32&,System.Int32&)
+extern void ExternApi_ArCameraIntrinsics_getImageDimensions_mEDD7B781315CE877ACFACD3A3FE3149B078C855F ();
+// 0x000000D2 System.Void GoogleARCoreInternal.CameraApi_ExternApi::ArCameraIntrinsics_destroy(System.IntPtr)
+extern void ExternApi_ArCameraIntrinsics_destroy_m4F4071148E3367C244A274E72B0D649403D514F9 ();
+// 0x000000D3 System.Void GoogleARCoreInternal.CameraConfigApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void CameraConfigApi__ctor_m18EBE4A91269532CCA804418F7745E9EC9C8FD71 ();
+// 0x000000D4 System.IntPtr GoogleARCoreInternal.CameraConfigApi::Create()
+extern void CameraConfigApi_Create_m739F3AB9D56C67E81318B57840164767B7144C3F ();
+// 0x000000D5 System.Void GoogleARCoreInternal.CameraConfigApi::Destroy(System.IntPtr)
+extern void CameraConfigApi_Destroy_mCC14BD7F44EB8A37F8BF4DE7857AE4C32F68ECC3 ();
+// 0x000000D6 System.Void GoogleARCoreInternal.CameraConfigApi::GetImageDimensions(System.IntPtr,System.Int32&,System.Int32&)
+extern void CameraConfigApi_GetImageDimensions_m64D85F5CF1167DCBC32365E060CDEBD954B6ABF6 ();
+// 0x000000D7 System.Void GoogleARCoreInternal.CameraConfigApi::GetTextureDimensions(System.IntPtr,System.Int32&,System.Int32&)
+extern void CameraConfigApi_GetTextureDimensions_mD3353BECDC79C79EFBBD98776B5FB83ED6889785 ();
+// 0x000000D8 GoogleARCoreInternal.ApiCameraConfigFacingDirection GoogleARCoreInternal.CameraConfigApi::GetFacingDirection(System.IntPtr)
+extern void CameraConfigApi_GetFacingDirection_m26204EAE48B59CF25E02F34128C5FFB198E27EF0 ();
+// 0x000000D9 System.Void GoogleARCoreInternal.CameraConfigApi::GetFpsRange(System.IntPtr,System.Int32&,System.Int32&)
+extern void CameraConfigApi_GetFpsRange_mDB8934E1081D6E8A4AFEC6C81A4B0B71C06FAF1B ();
+// 0x000000DA GoogleARCore.CameraConfigDepthSensorUsage GoogleARCoreInternal.CameraConfigApi::GetDepthSensorUsage(System.IntPtr)
+extern void CameraConfigApi_GetDepthSensorUsage_m3046DCD87A8A89F496C317E55532BA7A0FEC06DC ();
+// 0x000000DB GoogleARCore.CameraConfigStereoCameraUsage GoogleARCoreInternal.CameraConfigApi::GetStereoCameraUsage(System.IntPtr)
+extern void CameraConfigApi_GetStereoCameraUsage_m77E03780B8FD5B4D5E4C09ADDE1D0358956D9C1E ();
+// 0x000000DC System.Void GoogleARCoreInternal.CameraConfigApi_ExternApi::ArCameraConfig_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArCameraConfig_create_mE38A1781B5E0ADF680CDFC6C56378961A39DF55D ();
+// 0x000000DD System.Void GoogleARCoreInternal.CameraConfigApi_ExternApi::ArCameraConfig_destroy(System.IntPtr)
+extern void ExternApi_ArCameraConfig_destroy_m4E0A37A94E0E32F9B0FBBF909D8E75371FAB989F ();
+// 0x000000DE System.Void GoogleARCoreInternal.CameraConfigApi_ExternApi::ArCameraConfig_getImageDimensions(System.IntPtr,System.IntPtr,System.Int32&,System.Int32&)
+extern void ExternApi_ArCameraConfig_getImageDimensions_m98CE28B39A97AC0EE1BB7A118B7862999FAFD1A5 ();
+// 0x000000DF System.Void GoogleARCoreInternal.CameraConfigApi_ExternApi::ArCameraConfig_getTextureDimensions(System.IntPtr,System.IntPtr,System.Int32&,System.Int32&)
+extern void ExternApi_ArCameraConfig_getTextureDimensions_m2F9F64DF295CCC8EE7CE9D4F6A48183B4B89D7E6 ();
+// 0x000000E0 System.Void GoogleARCoreInternal.CameraConfigApi_ExternApi::ArCameraConfig_getFacingDirection(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiCameraConfigFacingDirection&)
+extern void ExternApi_ArCameraConfig_getFacingDirection_m5AF454767AB7C66ECCDCD10742E26F27E71EAEBD ();
+// 0x000000E1 System.Void GoogleARCoreInternal.CameraConfigApi_ExternApi::ArCameraConfig_getFpsRange(System.IntPtr,System.IntPtr,System.Int32&,System.Int32&)
+extern void ExternApi_ArCameraConfig_getFpsRange_mCB7651386EE8F28BEF3BBEA414DD646B834FC395 ();
+// 0x000000E2 System.Void GoogleARCoreInternal.CameraConfigApi_ExternApi::ArCameraConfig_getDepthSensorUsage(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArCameraConfig_getDepthSensorUsage_mF8385AA0DB6ABBB7DF4E5F00D3D16781E1F422F3 ();
+// 0x000000E3 System.Void GoogleARCoreInternal.CameraConfigApi_ExternApi::ArCameraConfig_getStereoCameraUsage(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArCameraConfig_getStereoCameraUsage_mFF2254F6FD7EDB03A3924C62AA0F67F156CE9B5D ();
+// 0x000000E4 System.Void GoogleARCoreInternal.CameraConfigFilterApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void CameraConfigFilterApi__ctor_m022F21A6A10C804102A97177064BF0B89A2E0776 ();
+// 0x000000E5 System.IntPtr GoogleARCoreInternal.CameraConfigFilterApi::Create(GoogleARCore.ARCoreCameraConfigFilter)
+extern void CameraConfigFilterApi_Create_m0FC70081AA441BB9F319BB382B79091DC98EC692 ();
+// 0x000000E6 System.Void GoogleARCoreInternal.CameraConfigFilterApi::Destroy(System.IntPtr)
+extern void CameraConfigFilterApi_Destroy_m04FE1DF3975AC9F314B535C5646D3BDCDA910CB0 ();
+// 0x000000E7 System.Int32 GoogleARCoreInternal.CameraConfigFilterApi::ConvertToFpsFilter(GoogleARCore.ARCoreCameraConfigFilter_TargetCameraFramerateFilter)
+extern void CameraConfigFilterApi_ConvertToFpsFilter_mFE007951C167B9328F6DBEBC603BA2146A673362 ();
+// 0x000000E8 System.Int32 GoogleARCoreInternal.CameraConfigFilterApi::ConvertToDepthFilter(GoogleARCore.ARCoreCameraConfigFilter_DepthSensorUsageFilter)
+extern void CameraConfigFilterApi_ConvertToDepthFilter_m4D62DB1279B3F3FFC8F09C12E16CDC17F3E7B466 ();
+// 0x000000E9 System.Int32 GoogleARCoreInternal.CameraConfigFilterApi::ConvertToStereoFilter(GoogleARCore.ARCoreCameraConfigFilter_StereoCameraUsageFilter)
+extern void CameraConfigFilterApi_ConvertToStereoFilter_mFB3702F81A1D02F892DDCD5BCE2503EB92FB6C75 ();
+// 0x000000EA System.Void GoogleARCoreInternal.CameraConfigFilterApi_ExternApi::ArCameraConfigFilter_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArCameraConfigFilter_create_mDCBE1124A925D25CCE77829BA5E217CB880ACB52 ();
+// 0x000000EB System.Void GoogleARCoreInternal.CameraConfigFilterApi_ExternApi::ArCameraConfigFilter_destroy(System.IntPtr)
+extern void ExternApi_ArCameraConfigFilter_destroy_mE79893226CA5806BADD9895A19DC55748EFCDBE6 ();
+// 0x000000EC System.Void GoogleARCoreInternal.CameraConfigFilterApi_ExternApi::ArCameraConfigFilter_setTargetFps(System.IntPtr,System.IntPtr,System.Int32)
+extern void ExternApi_ArCameraConfigFilter_setTargetFps_m86F9E1889D96A1CD9CCE16F6AD5FBB0F9573F271 ();
+// 0x000000ED System.Void GoogleARCoreInternal.CameraConfigFilterApi_ExternApi::ArCameraConfigFilter_setDepthSensorUsage(System.IntPtr,System.IntPtr,System.Int32)
+extern void ExternApi_ArCameraConfigFilter_setDepthSensorUsage_m08EF8684C2CD3BDB6545396A3CA04853A53A538D ();
+// 0x000000EE System.Void GoogleARCoreInternal.CameraConfigFilterApi_ExternApi::ArCameraConfigFilter_setStereoCameraUsage(System.IntPtr,System.IntPtr,System.Int32)
+extern void ExternApi_ArCameraConfigFilter_setStereoCameraUsage_m703C4AF47BC92F1C9A0C319839BC4216F1F953D9 ();
+// 0x000000EF System.Void GoogleARCoreInternal.CameraConfigListApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void CameraConfigListApi__ctor_m54D7CE1C4F6E4072483E970964D1F5B56E63159C ();
+// 0x000000F0 System.IntPtr GoogleARCoreInternal.CameraConfigListApi::Create()
+extern void CameraConfigListApi_Create_mFCC9EC87A4CD1A235C12F883AFBD657CCC28EA46 ();
+// 0x000000F1 System.Void GoogleARCoreInternal.CameraConfigListApi::Destroy(System.IntPtr)
+extern void CameraConfigListApi_Destroy_mF25AB82822D971DF587EB4958E3A90FB3A8BCCE4 ();
+// 0x000000F2 System.Int32 GoogleARCoreInternal.CameraConfigListApi::GetSize(System.IntPtr)
+extern void CameraConfigListApi_GetSize_m86A32F4E5C18F85B45727A8803F1BBD9C9A6FC98 ();
+// 0x000000F3 System.Void GoogleARCoreInternal.CameraConfigListApi::GetItemAt(System.IntPtr,System.Int32,System.IntPtr)
+extern void CameraConfigListApi_GetItemAt_mF187EA35E24CD515FA8D88E79520BF8373BE39BF ();
+// 0x000000F4 System.Void GoogleARCoreInternal.CameraConfigListApi_ExternApi::ArCameraConfigList_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArCameraConfigList_create_m5E38F21C7732E6EE0510C0F3B0C6976353B55535 ();
+// 0x000000F5 System.Void GoogleARCoreInternal.CameraConfigListApi_ExternApi::ArCameraConfigList_destroy(System.IntPtr)
+extern void ExternApi_ArCameraConfigList_destroy_m7D2DD8E21B91831A7ED1F39F417228B06B4431B8 ();
+// 0x000000F6 System.Void GoogleARCoreInternal.CameraConfigListApi_ExternApi::ArCameraConfigList_getSize(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArCameraConfigList_getSize_mEFD6057EC587763FE8143A3AD0D3E52A71CCE846 ();
+// 0x000000F7 System.Void GoogleARCoreInternal.CameraConfigListApi_ExternApi::ArCameraConfigList_getItem(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr)
+extern void ExternApi_ArCameraConfigList_getItem_m15F48E8CF02F49E183CEB82B28A77E8666333E8A ();
+// 0x000000F8 System.Void GoogleARCoreInternal.CameraMetadataApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void CameraMetadataApi__ctor_m6303EB60D1FF8C7269984832E665F0E0AC3CDBD8 ();
+// 0x000000F9 System.Void GoogleARCoreInternal.CameraMetadataApi::Release(System.IntPtr)
+extern void CameraMetadataApi_Release_m2E150C11FAE947536006CB14A4F7E45F2EB959CF ();
+// 0x000000FA System.Boolean GoogleARCoreInternal.CameraMetadataApi::TryGetValues(System.IntPtr,GoogleARCore.CameraMetadataTag,System.Collections.Generic.List`1<GoogleARCore.CameraMetadataValue>)
+extern void CameraMetadataApi_TryGetValues_m1D97BE16DD539ED5E1F574DD660252AB34351C92 ();
+// 0x000000FB System.Boolean GoogleARCoreInternal.CameraMetadataApi::GetAllCameraMetadataTags(System.IntPtr,System.Collections.Generic.List`1<GoogleARCore.CameraMetadataTag>)
+extern void CameraMetadataApi_GetAllCameraMetadataTags_mE3B639405684C00986E745945B28DADF3C720563 ();
+// 0x000000FC System.Void GoogleARCoreInternal.CameraMetadataApi_ExternApi::ArImageMetadata_release(System.IntPtr)
+extern void ExternApi_ArImageMetadata_release_mAB6E8F7E9342E81DDF0185E5948027A7A5230628 ();
+// 0x000000FD System.Void GoogleARCoreInternal.CameraMetadataApi_ExternApi::ArImageMetadata_getAllKeys(System.IntPtr,System.IntPtr,System.Int32&,System.IntPtr&)
+extern void ExternApi_ArImageMetadata_getAllKeys_mE4A5006F2A3F5B4965C0149873C034FDEB971385 ();
+// 0x000000FE GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.CameraMetadataApi_ExternApi::ArImageMetadata_getConstEntry(System.IntPtr,System.IntPtr,System.UInt32,GoogleARCoreInternal.ArCameraMetadata&)
+extern void ExternApi_ArImageMetadata_getConstEntry_m20D186E6503142F82A74B1A86F57250293D7AEF7 ();
+// 0x000000FF System.Void GoogleARCoreInternal.FrameApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void FrameApi__ctor_mA18B1911DBB7A84658FC50C7DD0D80F532133D79 ();
+// 0x00000100 System.Void GoogleARCoreInternal.FrameApi::Release(System.IntPtr)
+extern void FrameApi_Release_m3347101031B0F53DDEC27663C2F3518C07A41941 ();
+// 0x00000101 System.Int64 GoogleARCoreInternal.FrameApi::GetTimestamp()
+extern void FrameApi_GetTimestamp_mD7179A33F385147098DBFF7014894EF51D26CC14 ();
+// 0x00000102 System.IntPtr GoogleARCoreInternal.FrameApi::AcquireCamera()
+extern void FrameApi_AcquireCamera_m135B633DE4BC81002CFB7C04D530C6EEB6785813 ();
+// 0x00000103 GoogleARCore.CameraImageBytes GoogleARCoreInternal.FrameApi::AcquireCameraImageBytes()
+extern void FrameApi_AcquireCameraImageBytes_mBA3669EE3C24987EA02D92444A82C38FC43D4355 ();
+// 0x00000104 System.Boolean GoogleARCoreInternal.FrameApi::TryAcquirePointCloudHandle(System.IntPtr&)
+extern void FrameApi_TryAcquirePointCloudHandle_mBF609DA97DA8E4A0813C364E9F255B9E5894B9EA ();
+// 0x00000105 System.Boolean GoogleARCoreInternal.FrameApi::AcquireImageMetadata(System.IntPtr&)
+extern void FrameApi_AcquireImageMetadata_m3ED5DD734F1A5D4E5AE105C7E50BB1B632D74EFC ();
+// 0x00000106 GoogleARCore.LightEstimate GoogleARCoreInternal.FrameApi::GetLightEstimate()
+extern void FrameApi_GetLightEstimate_mE5219132D5C9B6F861AD1422390966382A2A0B81 ();
+// 0x00000107 UnityEngine.Cubemap GoogleARCoreInternal.FrameApi::GetReflectionCubemap()
+extern void FrameApi_GetReflectionCubemap_m145BE49CF526CC713D722FFE306C779C64E3693B ();
+// 0x00000108 System.Void GoogleARCoreInternal.FrameApi::TransformDisplayUvCoords(GoogleARCoreInternal.ApiDisplayUvCoords&)
+extern void FrameApi_TransformDisplayUvCoords_m9FF25A22D1692E41CD5697877A7E4F2693F6D0D3 ();
+// 0x00000109 System.Void GoogleARCoreInternal.FrameApi::TransformCoordinates2d(UnityEngine.Vector2&,GoogleARCore.DisplayUvCoordinateType,GoogleARCore.DisplayUvCoordinateType)
+extern void FrameApi_TransformCoordinates2d_mA7B7F92B81DA27720B3E9E9F36BB8FB3F06A0323 ();
+// 0x0000010A System.Void GoogleARCoreInternal.FrameApi::GetUpdatedTrackables(System.Collections.Generic.List`1<GoogleARCore.Trackable>)
+extern void FrameApi_GetUpdatedTrackables_m88370792F6C23D54F28768FAD95C65A252B629C1 ();
+// 0x0000010B System.Int32 GoogleARCoreInternal.FrameApi::GetCameraTextureName()
+extern void FrameApi_GetCameraTextureName_m64548F69A1E63CF573FB3A5F026813EAB3F4F388 ();
+// 0x0000010C GoogleARCore.DepthStatus GoogleARCoreInternal.FrameApi::UpdateDepthTexture(UnityEngine.Texture2D&)
+extern void FrameApi_UpdateDepthTexture_mDC2F2AADCBFDC413273724D8C9B758BACF13BBEE ();
+// 0x0000010D System.Boolean GoogleARCoreInternal.FrameApi::UpdateDepthTexture(UnityEngine.Texture2D&,System.IntPtr)
+extern void FrameApi_UpdateDepthTexture_mA7479AEEEA9E2BDC88DCEA6FF5B50DEE4347E3BC ();
+// 0x0000010E System.Void GoogleARCoreInternal.FrameApi_ExternApi::ArFrame_release(System.IntPtr)
+extern void ExternApi_ArFrame_release_mC7350E5F91A9602DB6966B18ED37896E4684C7A6 ();
+// 0x0000010F System.Void GoogleARCoreInternal.FrameApi_ExternApi::ArFrame_getTimestamp(System.IntPtr,System.IntPtr,System.Int64&)
+extern void ExternApi_ArFrame_getTimestamp_m151D63A2E0BE8C8650D1846802EDFA1FC2A3B739 ();
+// 0x00000110 System.Void GoogleARCoreInternal.FrameApi_ExternApi::ArFrame_acquireCamera(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArFrame_acquireCamera_mC7168AADF477A72E9CCD1F45D2A714E7124BA62A ();
+// 0x00000111 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.FrameApi_ExternApi::ArFrame_acquireCameraImage(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArFrame_acquireCameraImage_m4E4606F3F8B2B12664815A09D913D60717812684 ();
+// 0x00000112 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.FrameApi_ExternApi::ArFrame_acquirePointCloud(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArFrame_acquirePointCloud_mF5A7D525D496C7B478A8A7158110FC5D04B0445A ();
+// 0x00000113 System.Void GoogleARCoreInternal.FrameApi_ExternApi::ArFrame_transformDisplayUvCoords(System.IntPtr,System.IntPtr,System.Int32,GoogleARCoreInternal.ApiDisplayUvCoords&,GoogleARCoreInternal.ApiDisplayUvCoords&)
+extern void ExternApi_ArFrame_transformDisplayUvCoords_m0C8C6C675688B162A5FC50FBBD8C68365F27328B ();
+// 0x00000114 System.Void GoogleARCoreInternal.FrameApi_ExternApi::ArFrame_transformCoordinates2d(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiCoordinates2dType,System.Int32,UnityEngine.Vector2&,GoogleARCoreInternal.ApiCoordinates2dType,UnityEngine.Vector2&)
+extern void ExternApi_ArFrame_transformCoordinates2d_mBF66E38B82061CDD0FBAA53E8F64269743C5AF95 ();
+// 0x00000115 System.Void GoogleARCoreInternal.FrameApi_ExternApi::ArFrame_getUpdatedTrackables(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackableType,System.IntPtr)
+extern void ExternApi_ArFrame_getUpdatedTrackables_m654062ED7615C0BD076D1BE867B3D5D3AF150FAD ();
+// 0x00000116 System.Void GoogleARCoreInternal.FrameApi_ExternApi::ArFrame_getLightEstimate(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArFrame_getLightEstimate_mE29D42CBFA5D169C749F67783CBF613D34FDF590 ();
+// 0x00000117 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.FrameApi_ExternApi::ArFrame_acquireImageMetadata(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArFrame_acquireImageMetadata_m35EF1137A21F52F89B9531476A02F34F3367DD2B ();
+// 0x00000118 System.Void GoogleARCoreInternal.FrameApi_ExternApi::ArFrame_getCameraTextureName(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArFrame_getCameraTextureName_m3A3BA41970CAA9A4F6604AC4523B4EA4E89E4619 ();
+// 0x00000119 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.FrameApi_ExternApi::ArFrame_acquireDepthImage(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArFrame_acquireDepthImage_m3D881434AE875DCF56B32FD50808239A000F3DF8 ();
+// 0x0000011A System.Void GoogleARCoreInternal.FrameApi_ExternApi::ArImage_getPlanePixelStride(System.IntPtr,System.IntPtr,System.Int32,System.Int32&)
+extern void ExternApi_ArImage_getPlanePixelStride_mE4DAE6629AE0E55ADEC9BDBE1AFCCEB4F37C5D45 ();
+// 0x0000011B System.Void GoogleARCoreInternal.HitTestApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void HitTestApi__ctor_m0F653EBB8079B090756ACDD8FDA9D2F1DFFDB56C ();
+// 0x0000011C System.Boolean GoogleARCoreInternal.HitTestApi::Raycast(System.IntPtr,System.Single,System.Single,GoogleARCore.TrackableHitFlags,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
+extern void HitTestApi_Raycast_mC7194AD7005A4B7DE57C7A2BADD86D612AF5FDA2 ();
+// 0x0000011D System.Boolean GoogleARCoreInternal.HitTestApi::Raycast(System.IntPtr,System.Single,System.Single,System.Single,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
+extern void HitTestApi_Raycast_m806150EAEF9239FCAA977E78ADAC66713433B3E7 ();
+// 0x0000011E System.Boolean GoogleARCoreInternal.HitTestApi::Raycast(System.IntPtr,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,GoogleARCore.TrackableHitFlags,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
+extern void HitTestApi_Raycast_m663659458D4B692734FD8976DBFFC71671B543CA ();
+// 0x0000011F System.Void GoogleARCoreInternal.HitTestApi::FilterTrackableHits(System.IntPtr,System.Single,GoogleARCore.TrackableHitFlags,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
+extern void HitTestApi_FilterTrackableHits_m55CC4B435C216802536BCA64C28B4D37AA9799A8 ();
+// 0x00000120 System.Boolean GoogleARCoreInternal.HitTestApi::HitResultListGetItemAt(System.IntPtr,System.Int32,GoogleARCore.TrackableHit&)
+extern void HitTestApi_HitResultListGetItemAt_m02A9243DB62EC97714C978763335D13388945380 ();
+// 0x00000121 System.Void GoogleARCoreInternal.HitTestApi_ExternApi::ArFrame_hitTest(System.IntPtr,System.IntPtr,System.Single,System.Single,System.IntPtr)
+extern void ExternApi_ArFrame_hitTest_m7BB0D10C88975EECBB1C0E486ABD6BFAF3A5267A ();
+// 0x00000122 System.Void GoogleARCoreInternal.HitTestApi_ExternApi::ArFrame_hitTestRay(System.IntPtr,System.IntPtr,UnityEngine.Vector3&,UnityEngine.Vector3&,System.IntPtr)
+extern void ExternApi_ArFrame_hitTestRay_m263E607E660E6783D2F06CD68AECF35FAD196B1B ();
+// 0x00000123 System.Void GoogleARCoreInternal.HitTestApi_ExternApi::ArFrame_hitTestInstantPlacement(System.IntPtr,System.IntPtr,System.Single,System.Single,System.Single,System.IntPtr)
+extern void ExternApi_ArFrame_hitTestInstantPlacement_mB746217C45A0B3EEA9D2EB674B85D158CB3EC131 ();
+// 0x00000124 System.Void GoogleARCoreInternal.HitTestApi_ExternApi::ArHitResultList_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArHitResultList_create_m4BE138C4E158E5C97555129B3F8ED2EDE16A894F ();
+// 0x00000125 System.Void GoogleARCoreInternal.HitTestApi_ExternApi::ArHitResultList_destroy(System.IntPtr)
+extern void ExternApi_ArHitResultList_destroy_mB1AE352617DDDD67D3A4CA8E1BB71254747BDE9B ();
+// 0x00000126 System.Void GoogleARCoreInternal.HitTestApi_ExternApi::ArHitResultList_getSize(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArHitResultList_getSize_m6FC5B3395A4FDB0D9D1419EBABE56C89776C2C5C ();
+// 0x00000127 System.Void GoogleARCoreInternal.HitTestApi_ExternApi::ArHitResultList_getItem(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr)
+extern void ExternApi_ArHitResultList_getItem_mEC0455D774626E33B5A68AC02CA837B55D3EA6A4 ();
+// 0x00000128 System.Void GoogleARCoreInternal.HitTestApi_ExternApi::ArHitResult_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArHitResult_create_m79997E9E7127B809B54F5321F12DF3758B159CC4 ();
+// 0x00000129 System.Void GoogleARCoreInternal.HitTestApi_ExternApi::ArHitResult_destroy(System.IntPtr)
+extern void ExternApi_ArHitResult_destroy_m2674071C23E1153DD07C3EA30ECB14790D0AA991 ();
+// 0x0000012A System.Void GoogleARCoreInternal.HitTestApi_ExternApi::ArHitResult_getDistance(System.IntPtr,System.IntPtr,System.Single&)
+extern void ExternApi_ArHitResult_getDistance_m320413C8828E3C0635DF5B713D18ED4185E71550 ();
+// 0x0000012B System.Void GoogleARCoreInternal.HitTestApi_ExternApi::ArHitResult_getHitPose(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArHitResult_getHitPose_m670E63AA8D13DDD7258E5828712EBB130B713226 ();
+// 0x0000012C System.Void GoogleARCoreInternal.HitTestApi_ExternApi::ArHitResult_acquireTrackable(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArHitResult_acquireTrackable_mDFCFB0404E91444B90E095AB7E63A52E1977C720 ();
+// 0x0000012D System.Void GoogleARCoreInternal.ImageApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void ImageApi__ctor_m461EC4A24D24459805F6E0749BF0E675FFFEE467 ();
+// 0x0000012E System.Void GoogleARCoreInternal.ImageApi::GetImageBuffer(System.IntPtr,System.Int32&,System.Int32&,System.IntPtr&,System.IntPtr&,System.IntPtr&,System.Int32&,System.Int32&,System.Int32&)
+extern void ImageApi_GetImageBuffer_mF1998870BB7AC83E88A6D19B9731C3D0FF5A66B7 ();
+// 0x0000012F System.Void GoogleARCoreInternal.ImageApi::GetPlaneData(System.IntPtr,System.Int32,System.IntPtr&,System.Int32&)
+extern void ImageApi_GetPlaneData_m416AAB9B570716AC561B3550C6FA8189773EB59B ();
+// 0x00000130 System.Int32 GoogleARCoreInternal.ImageApi::GetWidth(System.IntPtr)
+extern void ImageApi_GetWidth_m8B54498E4E357CFCCAF118DAFD42B6EDF801DA92 ();
+// 0x00000131 System.Int32 GoogleARCoreInternal.ImageApi::GetHeight(System.IntPtr)
+extern void ImageApi_GetHeight_mD377C1757D65415038DBE1A7DEC467E8615943E3 ();
+// 0x00000132 System.Void GoogleARCoreInternal.ImageApi::Release(System.IntPtr)
+extern void ImageApi_Release_m7818ADF3B1EF82E12A6BD09220FFB9810A4D9B68 ();
+// 0x00000133 System.Void GoogleARCoreInternal.ImageApi_ExternApi::ArImage_getNdkImage(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArImage_getNdkImage_m769E0547D9B680DF15359280FAAA5828D00CE2AA ();
+// 0x00000134 System.Void GoogleARCoreInternal.ImageApi_ExternApi::ArImage_release(System.IntPtr)
+extern void ExternApi_ArImage_release_m3480389C04C28F0F3E1A6D4D5327CC0C5D5F1DED ();
+// 0x00000135 System.Int32 GoogleARCoreInternal.ImageApi_ExternApi::AImage_getWidth(System.IntPtr,System.Int32&)
+extern void ExternApi_AImage_getWidth_mFC0301E8ECA1B603420FAB988BF2083F6BC49FBA ();
+// 0x00000136 System.Int32 GoogleARCoreInternal.ImageApi_ExternApi::AImage_getHeight(System.IntPtr,System.Int32&)
+extern void ExternApi_AImage_getHeight_m88D0645CBC29A775EE628B5B9CFBDA8C9D226733 ();
+// 0x00000137 System.Int32 GoogleARCoreInternal.ImageApi_ExternApi::AImage_getPlaneData(System.IntPtr,System.Int32,System.IntPtr&,System.Int32&)
+extern void ExternApi_AImage_getPlaneData_m9A9C85FFB20FF79C41187CE1C84A7F7F40C535BA ();
+// 0x00000138 System.Int32 GoogleARCoreInternal.ImageApi_ExternApi::AImage_getPlanePixelStride(System.IntPtr,System.Int32,System.Int32&)
+extern void ExternApi_AImage_getPlanePixelStride_m29A2A598FAF356B8116894CCB65A70731BADFE48 ();
+// 0x00000139 System.Int32 GoogleARCoreInternal.ImageApi_ExternApi::AImage_getPlaneRowStride(System.IntPtr,System.Int32,System.Int32&)
+extern void ExternApi_AImage_getPlaneRowStride_m660ABDB19A94E1E9F941385A753E246AB0CA9B05 ();
+// 0x0000013A System.Void GoogleARCoreInternal.ImageApi_ExternApi::ArImage_getWidth(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArImage_getWidth_m1EEC6FE6B4CE918C31C485C16DEBCC3C1ECBD554 ();
+// 0x0000013B System.Void GoogleARCoreInternal.ImageApi_ExternApi::ArImage_getHeight(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArImage_getHeight_m808C0C9C46C1FF403107689B5D58C682AB62CFE7 ();
+// 0x0000013C System.Void GoogleARCoreInternal.ImageApi_ExternApi::ArImage_getPlaneData(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&,System.Int32&)
+extern void ExternApi_ArImage_getPlaneData_m95EF470611472697F0EDE05E262D1CA14B9D6C6E ();
+// 0x0000013D System.Void GoogleARCoreInternal.LightEstimateApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void LightEstimateApi__ctor_m6A56BA66FDC7675DD62551D2A87719EFE83B21E0 ();
+// 0x0000013E System.IntPtr GoogleARCoreInternal.LightEstimateApi::Create()
+extern void LightEstimateApi_Create_m8A283120F9D472E696D43A748718E097C218E9A7 ();
+// 0x0000013F System.Void GoogleARCoreInternal.LightEstimateApi::Destroy(System.IntPtr)
+extern void LightEstimateApi_Destroy_m72A8663C2F33C865932A395467CD76996A8B811F ();
+// 0x00000140 GoogleARCore.LightEstimateState GoogleARCoreInternal.LightEstimateApi::GetState(System.IntPtr)
+extern void LightEstimateApi_GetState_mC5E2BE9CE90FE20BEAA8890AEA24F230361358DB ();
+// 0x00000141 System.Single GoogleARCoreInternal.LightEstimateApi::GetPixelIntensity(System.IntPtr)
+extern void LightEstimateApi_GetPixelIntensity_m6E3DA875F217D594EDDC3E0DCB74E5B4B22BF69A ();
+// 0x00000142 UnityEngine.Color GoogleARCoreInternal.LightEstimateApi::GetColorCorrection(System.IntPtr)
+extern void LightEstimateApi_GetColorCorrection_mA1F20C2C1544B35FB4B4018941CF8F855D15D6B5 ();
+// 0x00000143 System.Void GoogleARCoreInternal.LightEstimateApi::GetMainDirectionalLight(System.IntPtr,System.IntPtr,UnityEngine.Quaternion&,UnityEngine.Color&)
+extern void LightEstimateApi_GetMainDirectionalLight_m04AB27D61CD2F63046EF027305D26772D54F3410 ();
+// 0x00000144 System.Void GoogleARCoreInternal.LightEstimateApi::GetAmbientSH(System.IntPtr,System.IntPtr,System.Single[0...,0...])
+extern void LightEstimateApi_GetAmbientSH_m12343B992286C9D70066E45F7BD92778772A2827 ();
+// 0x00000145 UnityEngine.Cubemap GoogleARCoreInternal.LightEstimateApi::GetReflectionCubemap(System.IntPtr,System.IntPtr)
+extern void LightEstimateApi_GetReflectionCubemap_mD00781248BCE6DC974C7770B4FE53ECAE92B5C02 ();
+// 0x00000146 System.Int64 GoogleARCoreInternal.LightEstimateApi::GetTimestamp(System.IntPtr,System.IntPtr)
+extern void LightEstimateApi_GetTimestamp_m2CA49B20C191D3DAD3ACBF4CF178E7A6913E1E17 ();
+// 0x00000147 System.Void GoogleARCoreInternal.LightEstimateApi::.cctor()
+extern void LightEstimateApi__cctor_mD1C118491AA5542E56DA459A5D6C1A552000FBDA ();
+// 0x00000148 System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ArLightEstimate_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArLightEstimate_create_mA9FB56368F9B890DF252BF905049A8BE7307A697 ();
+// 0x00000149 System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ArLightEstimate_destroy(System.IntPtr)
+extern void ExternApi_ArLightEstimate_destroy_m4AAA80CFF525A4C6E176AE811B7A9B58304AFEB4 ();
+// 0x0000014A System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ArLightEstimate_getState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiLightEstimateState&)
+extern void ExternApi_ArLightEstimate_getState_m29C5CD490683AE4E323AF96ECAAF10F472FF8B57 ();
+// 0x0000014B System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ArLightEstimate_getPixelIntensity(System.IntPtr,System.IntPtr,System.Single&)
+extern void ExternApi_ArLightEstimate_getPixelIntensity_m13FF36707B6C7D8A9DBC52F0C41BB934821D684B ();
+// 0x0000014C System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ArLightEstimate_getColorCorrection(System.IntPtr,System.IntPtr,UnityEngine.Color&)
+extern void ExternApi_ArLightEstimate_getColorCorrection_m44AEAD259ABCCB56B95D850CCC513B8B60F96DFA ();
+// 0x0000014D System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ArLightEstimate_getEnvironmentalHdrMainLightDirection(System.IntPtr,System.IntPtr,System.Single[])
+extern void ExternApi_ArLightEstimate_getEnvironmentalHdrMainLightDirection_m7670ECB511E0C91E4E5AA9DE95F31CBD8F878FDA ();
+// 0x0000014E System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ArLightEstimate_getEnvironmentalHdrMainLightIntensity(System.IntPtr,System.IntPtr,System.Single[])
+extern void ExternApi_ArLightEstimate_getEnvironmentalHdrMainLightIntensity_m11E815591E5CECEDA91240FD638588F41BA958D5 ();
+// 0x0000014F System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ArLightEstimate_getEnvironmentalHdrAmbientSphericalHarmonics(System.IntPtr,System.IntPtr,System.Single[])
+extern void ExternApi_ArLightEstimate_getEnvironmentalHdrAmbientSphericalHarmonics_m0C2701D942D72AF450CEADBBFD633D92E3EE433B ();
+// 0x00000150 System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ArLightEstimate_acquireEnvironmentalHdrCubemap(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArLightEstimate_acquireEnvironmentalHdrCubemap_mB52519639020DA00BA6EF651038862FD252FD2C5 ();
+// 0x00000151 System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ArLightEstimate_getTimestamp(System.IntPtr,System.IntPtr,System.Int64&)
+extern void ExternApi_ArLightEstimate_getTimestamp_mFE24D28B86EB846FC2EEACD909201DB79C7C6440 ();
+// 0x00000152 System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ARCoreRenderingUtils_SetTextureDataType(GoogleARCoreInternal.ApiTextureDataType,System.Boolean)
+extern void ExternApi_ARCoreRenderingUtils_SetTextureDataType_mCEE531BAC6FE053280E4329FAA72993243FAFE55 ();
+// 0x00000153 System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ARCoreRenderingUtils_SetActiveColorSpace(System.Boolean)
+extern void ExternApi_ARCoreRenderingUtils_SetActiveColorSpace_mF976651979B86A99EE7B031DE0AA8E618010B212 ();
+// 0x00000154 System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ARCoreRenderingUtils_SetARCoreLightEstimation(System.IntPtr,System.IntPtr)
+extern void ExternApi_ARCoreRenderingUtils_SetARCoreLightEstimation_mD8C598C44B5E9AB72B12E8BC66C71227C1187777 ();
+// 0x00000155 System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ARCoreRenderingUtils_GetCubemapTexture(System.Int32&,System.Int32&)
+extern void ExternApi_ARCoreRenderingUtils_GetCubemapTexture_m792D6F4382CD8A7CA24CA8886146C9BB5A0DB481 ();
+// 0x00000156 System.Void GoogleARCoreInternal.LightEstimateApi_ExternApi::ARCoreRenderingUtils_GetCubemapRawColors(System.Int32,UnityEngine.Color[])
+extern void ExternApi_ARCoreRenderingUtils_GetCubemapRawColors_m2B4499554610E8AD30109AB85246E1757C439838 ();
+// 0x00000157 System.IntPtr GoogleARCoreInternal.LightEstimateApi_ExternApi::ARCoreRenderingUtils_GetRenderEventFunc()
+extern void ExternApi_ARCoreRenderingUtils_GetRenderEventFunc_m169466E4D0EF0D21F7D280C2B042C17D596E9C5B ();
+// 0x00000158 System.Void GoogleARCoreInternal.PlaneApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void PlaneApi__ctor_mB6F5058CFB6253508E1DA34272DB1C8104B69D4B ();
+// 0x00000159 System.Void GoogleARCoreInternal.PlaneApi::Finalize()
+extern void PlaneApi_Finalize_m9952F453CD96B037A8F1179A6DA2ED04AAFAD2A5 ();
+// 0x0000015A UnityEngine.Pose GoogleARCoreInternal.PlaneApi::GetCenterPose(System.IntPtr)
+extern void PlaneApi_GetCenterPose_mF38FFB96CB0DFED9721DBFA2BB4157788CC9A1AE ();
+// 0x0000015B System.Single GoogleARCoreInternal.PlaneApi::GetExtentX(System.IntPtr)
+extern void PlaneApi_GetExtentX_mB7BCEFF5F79C5F59D5356AAF30DA9DA37D525450 ();
+// 0x0000015C System.Single GoogleARCoreInternal.PlaneApi::GetExtentZ(System.IntPtr)
+extern void PlaneApi_GetExtentZ_mC2D19D2F7AEDC91C3056FC1B34EC6421624BD0AB ();
+// 0x0000015D System.Void GoogleARCoreInternal.PlaneApi::GetPolygon(System.IntPtr,System.Collections.Generic.List`1<UnityEngine.Vector3>)
+extern void PlaneApi_GetPolygon_m52265C31D7CF1154AB0AD2B11ED8481BEF25CB61 ();
+// 0x0000015E GoogleARCore.DetectedPlane GoogleARCoreInternal.PlaneApi::GetSubsumedBy(System.IntPtr)
+extern void PlaneApi_GetSubsumedBy_m58B56BCB8EE90ADEE43BCBB7628DD3874088536E ();
+// 0x0000015F GoogleARCore.DetectedPlaneType GoogleARCoreInternal.PlaneApi::GetPlaneType(System.IntPtr)
+extern void PlaneApi_GetPlaneType_m56A77385DF661D35EA8378E221237B6BCE59F236 ();
+// 0x00000160 System.Boolean GoogleARCoreInternal.PlaneApi::IsPoseInExtents(System.IntPtr,UnityEngine.Pose)
+extern void PlaneApi_IsPoseInExtents_m25F5C38C0B5F6E879AA4444F6CE146D3593D6A70 ();
+// 0x00000161 System.Boolean GoogleARCoreInternal.PlaneApi::IsPoseInExtents(System.IntPtr,System.IntPtr)
+extern void PlaneApi_IsPoseInExtents_m42EF1C713072F18DE58F7BFE80059F784C82B2FF ();
+// 0x00000162 System.Boolean GoogleARCoreInternal.PlaneApi::IsPoseInPolygon(System.IntPtr,UnityEngine.Pose)
+extern void PlaneApi_IsPoseInPolygon_m31FB4CA20A8A1BA037C65151054FDD49C453D4E7 ();
+// 0x00000163 System.Boolean GoogleARCoreInternal.PlaneApi::IsPoseInPolygon(System.IntPtr,System.IntPtr)
+extern void PlaneApi_IsPoseInPolygon_m0442E851504F17DBB60C5A3F40C0628EAC38EEA8 ();
+// 0x00000164 System.Void GoogleARCoreInternal.PlaneApi_ExternApi::ArPlane_getCenterPose(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArPlane_getCenterPose_m4D08680E9EBE7B3E7CDAE43C5FD01ADBC12B2821 ();
+// 0x00000165 System.Void GoogleARCoreInternal.PlaneApi_ExternApi::ArPlane_acquireSubsumedBy(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArPlane_acquireSubsumedBy_m73B85CED6259B40E0CC715E720E5267AD7E7CEAA ();
+// 0x00000166 System.Void GoogleARCoreInternal.PlaneApi_ExternApi::ArPlane_getExtentX(System.IntPtr,System.IntPtr,System.Single&)
+extern void ExternApi_ArPlane_getExtentX_m240429CCE668AF87BA187BAD4346A23599A49B04 ();
+// 0x00000167 System.Void GoogleARCoreInternal.PlaneApi_ExternApi::ArPlane_getExtentZ(System.IntPtr,System.IntPtr,System.Single&)
+extern void ExternApi_ArPlane_getExtentZ_m54A7B536E8E4EA71F5834BCFD98D9416248BA686 ();
+// 0x00000168 System.Void GoogleARCoreInternal.PlaneApi_ExternApi::ArPlane_getType(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiPlaneType&)
+extern void ExternApi_ArPlane_getType_mC81EEBF45409B72F9840D60ED7284E9CF5C044D5 ();
+// 0x00000169 System.Void GoogleARCoreInternal.PlaneApi_ExternApi::ArPlane_getPolygonSize(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArPlane_getPolygonSize_mD5618FD3CE014C7E957148D996F47CE3CC43E910 ();
+// 0x0000016A System.Void GoogleARCoreInternal.PlaneApi_ExternApi::ArPlane_getPolygon(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArPlane_getPolygon_m068566C41AB7D4535CDD29A1906971668D7DE3C8 ();
+// 0x0000016B System.Void GoogleARCoreInternal.PlaneApi_ExternApi::ArPlane_isPoseInExtents(System.IntPtr,System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArPlane_isPoseInExtents_mDAB5110E69D31B743FFCA934D2BA2A7E8DB14125 ();
+// 0x0000016C System.Void GoogleARCoreInternal.PlaneApi_ExternApi::ArPlane_isPoseInPolygon(System.IntPtr,System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArPlane_isPoseInPolygon_mCCA944D047D8FDA94CE05741E69396FFA918743C ();
+// 0x0000016D System.Void GoogleARCoreInternal.PointApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void PointApi__ctor_mDD4EC103B2E0276CC4326156A5C036ED20AD296E ();
+// 0x0000016E UnityEngine.Pose GoogleARCoreInternal.PointApi::GetPose(System.IntPtr)
+extern void PointApi_GetPose_m63190512DDD53141EF1EBE92EE355165E8088960 ();
+// 0x0000016F UnityEngine.Pose GoogleARCoreInternal.PointApi::GetInstantPlacementPointPose(System.IntPtr)
+extern void PointApi_GetInstantPlacementPointPose_m756FA6939D2A3FFEF722B9AF96639FEACE36BFBE ();
+// 0x00000170 GoogleARCore.InstantPlacementPointTrackingMethod GoogleARCoreInternal.PointApi::GetInstantPlacementPointTrackingMethod(System.IntPtr)
+extern void PointApi_GetInstantPlacementPointTrackingMethod_mAA7B56B526BB48EAB7BD7437C27C3B0D29FB9373 ();
+// 0x00000171 GoogleARCore.FeaturePointOrientationMode GoogleARCoreInternal.PointApi::GetOrientationMode(System.IntPtr)
+extern void PointApi_GetOrientationMode_mD2F929A5443E7223ADF0E16BE4CCA53AC72995BF ();
+// 0x00000172 System.Void GoogleARCoreInternal.PointApi_ExternApi::ArPoint_getPose(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArPoint_getPose_m18F245CAF5276F425B04B9AD2EEAAFD662F8ED39 ();
+// 0x00000173 System.Void GoogleARCoreInternal.PointApi_ExternApi::ArPoint_getOrientationMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiFeaturePointOrientationMode&)
+extern void ExternApi_ArPoint_getOrientationMode_m8F721B7D1D1C777D6DDD9F2C07F23BBFD90546FD ();
+// 0x00000174 System.Void GoogleARCoreInternal.PointApi_ExternApi::ArInstantPlacementPoint_getPose(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArInstantPlacementPoint_getPose_mEC192CC80224C979CAA10E6612898B7996EAAE83 ();
+// 0x00000175 System.Void GoogleARCoreInternal.PointApi_ExternApi::ArInstantPlacementPoint_getTrackingMethod(System.IntPtr,System.IntPtr,GoogleARCore.InstantPlacementPointTrackingMethod&)
+extern void ExternApi_ArInstantPlacementPoint_getTrackingMethod_m9D2A599E88472F2D6BF3506D60623E8E7714258A ();
+// 0x00000176 System.Void GoogleARCoreInternal.PointCloudApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void PointCloudApi__ctor_m89EEB6D1C2BC4924F987AE44BE3C4FD0CB1E0E05 ();
+// 0x00000177 System.Int64 GoogleARCoreInternal.PointCloudApi::GetTimestamp(System.IntPtr)
+extern void PointCloudApi_GetTimestamp_m783631EEB9388D364517AFF4ED63EF35768C63B5 ();
+// 0x00000178 System.Int32 GoogleARCoreInternal.PointCloudApi::GetNumberOfPoints(System.IntPtr)
+extern void PointCloudApi_GetNumberOfPoints_m1247CDDB383A96EB1F2530C81D8EE6D276A2CAB0 ();
+// 0x00000179 GoogleARCore.PointCloudPoint GoogleARCoreInternal.PointCloudApi::GetPoint(System.IntPtr,System.Int32)
+extern void PointCloudApi_GetPoint_m58592B69EAAE2081A15A0970DE9CBA2CDF1A7A8D ();
+// 0x0000017A System.Void GoogleARCoreInternal.PointCloudApi::Release(System.IntPtr)
+extern void PointCloudApi_Release_m12F13291108B4D606F7F10EAA2873721C2B041E2 ();
+// 0x0000017B System.Int32 GoogleARCoreInternal.PointCloudApi::GetPointId(System.IntPtr,System.Int32)
+extern void PointCloudApi_GetPointId_m3638B6CE494019D41452212290E449F02F01C7DF ();
+// 0x0000017C System.Void GoogleARCoreInternal.PointCloudApi_ExternApi::ArPointCloud_getTimestamp(System.IntPtr,System.IntPtr,System.Int64&)
+extern void ExternApi_ArPointCloud_getTimestamp_m532109ACA66B3D87C63422E8CF902DFB4E732061 ();
+// 0x0000017D System.Void GoogleARCoreInternal.PointCloudApi_ExternApi::ArPointCloud_getNumberOfPoints(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArPointCloud_getNumberOfPoints_m5885E90BA5768F078DBF1F25673770D085C18AFA ();
+// 0x0000017E System.Void GoogleARCoreInternal.PointCloudApi_ExternApi::ArPointCloud_getData(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArPointCloud_getData_mBB7D0E77FA885C6D5E5B768B83EAF79B3C960CF8 ();
+// 0x0000017F System.Void GoogleARCoreInternal.PointCloudApi_ExternApi::ArPointCloud_getPointIds(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArPointCloud_getPointIds_m2BF9EF437AADB8ED3268B4542FDD5772389876D5 ();
+// 0x00000180 System.Void GoogleARCoreInternal.PointCloudApi_ExternApi::ArPointCloud_release(System.IntPtr)
+extern void ExternApi_ArPointCloud_release_mA56E20C6B757591CBDFE68BA91ACB21D468BC003 ();
+// 0x00000181 System.Void GoogleARCoreInternal.PoseApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void PoseApi__ctor_mC92FC90123B47B358B19367D73023AFCBA96BD2B ();
+// 0x00000182 System.IntPtr GoogleARCoreInternal.PoseApi::Create()
+extern void PoseApi_Create_mD79D050BEDF82B8193505761780C998BB2FFB69E ();
+// 0x00000183 System.IntPtr GoogleARCoreInternal.PoseApi::Create(UnityEngine.Pose)
+extern void PoseApi_Create_m5D71024A0D8C1E74C3E6920AB65CD1DC2A831E90 ();
+// 0x00000184 System.Void GoogleARCoreInternal.PoseApi::Destroy(System.IntPtr)
+extern void PoseApi_Destroy_mA3C61417C8C22997F02BAE706A26B8723C76FA58 ();
+// 0x00000185 UnityEngine.Pose GoogleARCoreInternal.PoseApi::ExtractPoseValue(System.IntPtr)
+extern void PoseApi_ExtractPoseValue_mCFD919BA367F02CC32EDA34CA226004F011B4C8C ();
+// 0x00000186 System.Void GoogleARCoreInternal.PoseApi_ExternApi::ArPose_create(System.IntPtr,GoogleARCoreInternal.ApiPoseData&,System.IntPtr&)
+extern void ExternApi_ArPose_create_m696E74DEFCD8ED2B07FF066F80DEFFE05E443030 ();
+// 0x00000187 System.Void GoogleARCoreInternal.PoseApi_ExternApi::ArPose_destroy(System.IntPtr)
+extern void ExternApi_ArPose_destroy_m8DEF4A1B9859A93A1E2F17A329AF8D0AB07587BE ();
+// 0x00000188 System.Void GoogleARCoreInternal.PoseApi_ExternApi::ArPose_getPoseRaw(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiPoseData&)
+extern void ExternApi_ArPose_getPoseRaw_mFA15CEEFB12D7E130D2DEE0A542095CBDC1C1229 ();
+// 0x00000189 System.Void GoogleARCoreInternal.RecordingConfigApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void RecordingConfigApi__ctor_m1349BBC1EBE3E749C75979FFB15BEEDEB47686FD ();
+// 0x0000018A System.IntPtr GoogleARCoreInternal.RecordingConfigApi::Create(GoogleARCore.ARCoreRecordingConfig)
+extern void RecordingConfigApi_Create_m28B76CED767CA5BEA5C1E708E37768EE451DFE81 ();
+// 0x0000018B System.Void GoogleARCoreInternal.RecordingConfigApi::Destory(System.IntPtr)
+extern void RecordingConfigApi_Destory_m5404CEF8F4FDB4AF09925BCE153D8E5B3024F9E6 ();
+// 0x0000018C System.Void GoogleARCoreInternal.RecordingConfigApi_ExternApi::ArRecordingConfig_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArRecordingConfig_create_mE3BC2A5DE9887B39DB49449FAD5BB7B4270CC785 ();
+// 0x0000018D System.Void GoogleARCoreInternal.RecordingConfigApi_ExternApi::ArRecordingConfig_destroy(System.IntPtr)
+extern void ExternApi_ArRecordingConfig_destroy_mF6F6C3B720482F3E64A39A03D48103611F0DE6E8 ();
+// 0x0000018E System.Void GoogleARCoreInternal.RecordingConfigApi_ExternApi::ArRecordingConfig_setMp4DatasetFilePath(System.IntPtr,System.IntPtr,System.String)
+extern void ExternApi_ArRecordingConfig_setMp4DatasetFilePath_mDF397C8CDF276BBED9B9A520B1967F9CE2F2D725 ();
+// 0x0000018F System.Void GoogleARCoreInternal.RecordingConfigApi_ExternApi::ArRecordingConfig_setAutoStopOnPause(System.IntPtr,System.IntPtr,System.Int32)
+extern void ExternApi_ArRecordingConfig_setAutoStopOnPause_m2F773B089AB6F1274575EA5B17375607DA15DAD5 ();
+// 0x00000190 System.Void GoogleARCoreInternal.SessionApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void SessionApi__ctor_m00965A6413933D9C389CA0EEC06F01435DDD9E0B ();
+// 0x00000191 System.Void GoogleARCoreInternal.SessionApi::ReportEngineType()
+extern void SessionApi_ReportEngineType_m05A842391EF8152E3FFBE9303150CE5DF64F9FB9 ();
+// 0x00000192 System.Void GoogleARCoreInternal.SessionApi::GetSupportedCameraConfigurationsWithFilter(GoogleARCore.ARCoreCameraConfigFilter,System.IntPtr,System.Collections.Generic.List`1<System.IntPtr>,System.Collections.Generic.List`1<GoogleARCore.CameraConfig>,GoogleARCore.DeviceCameraDirection)
+extern void SessionApi_GetSupportedCameraConfigurationsWithFilter_m15F9D8BEB9008EC65BBED28E8BE717F3769BC93D ();
+// 0x00000193 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi::SetCameraConfig(System.IntPtr)
+extern void SessionApi_SetCameraConfig_m7F131BC49316DAA046307B8D9DB3002C97DD5DC6 ();
+// 0x00000194 GoogleARCore.CameraConfig GoogleARCoreInternal.SessionApi::GetCameraConfig()
+extern void SessionApi_GetCameraConfig_m7FD46FD28A63C7179DC70E214D013E44BE397982 ();
+// 0x00000195 System.Void GoogleARCoreInternal.SessionApi::GetAllTrackables(System.Collections.Generic.List`1<GoogleARCore.Trackable>)
+extern void SessionApi_GetAllTrackables_m514D986A3B15F674FDFC288B5D5C8F4C8BAE32FF ();
+// 0x00000196 System.Void GoogleARCoreInternal.SessionApi::SetDisplayGeometry(UnityEngine.ScreenOrientation,System.Int32,System.Int32)
+extern void SessionApi_SetDisplayGeometry_m95A357F1C63D42DB62BAC9ABCEFF771ACA657541 ();
+// 0x00000197 GoogleARCore.Anchor GoogleARCoreInternal.SessionApi::CreateAnchor(UnityEngine.Pose)
+extern void SessionApi_CreateAnchor_mE252F31602E46CEFCA46DEDDA2EE60BD73F1B867 ();
+// 0x00000198 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi::CreateCloudAnchor(System.IntPtr,System.IntPtr&)
+extern void SessionApi_CreateCloudAnchor_mBCD4693AC3848B8B5AA1E222260570BBA7932B7A ();
+// 0x00000199 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi::ResolveCloudAnchor(System.String,System.IntPtr&)
+extern void SessionApi_ResolveCloudAnchor_mEF8B754B8E0C8FE5DD03BD78FA0971625B135970 ();
+// 0x0000019A System.Boolean GoogleARCoreInternal.SessionApi::IsDepthModeSupported(GoogleARCoreInternal.ApiDepthMode)
+extern void SessionApi_IsDepthModeSupported_mE181DEE4971318689291EF455DE67B3B0042C02C ();
+// 0x0000019B GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi::HostCloudAnchor(System.IntPtr,System.Int32,System.IntPtr&)
+extern void SessionApi_HostCloudAnchor_mF94FFB806299A7FE652E2CA5FF54946902F3F16C ();
+// 0x0000019C System.Void GoogleARCoreInternal.SessionApi::SetAuthToken(System.String)
+extern void SessionApi_SetAuthToken_mE2D9E9981209309EC6FA866BC21408AB87B2E064 ();
+// 0x0000019D GoogleARCore.CrossPlatform.FeatureMapQuality GoogleARCoreInternal.SessionApi::EstimateFeatureMapQualityForHosting(UnityEngine.Pose)
+extern void SessionApi_EstimateFeatureMapQualityForHosting_m4C933F805E8459EF4C25963F4FF47EA5BD24102B ();
+// 0x0000019E GoogleARCore.PlaybackStatus GoogleARCoreInternal.SessionApi::GetPlaybackStatus()
+extern void SessionApi_GetPlaybackStatus_m555B936A73B08E9FF32D4F55118A4C8ADC4AA8E7 ();
+// 0x0000019F GoogleARCore.PlaybackResult GoogleARCoreInternal.SessionApi::SetPlaybackDataset(System.String)
+extern void SessionApi_SetPlaybackDataset_mDB89747A5C9210A26C3FFEBE2B1F9D5853A4B855 ();
+// 0x000001A0 GoogleARCore.RecordingStatus GoogleARCoreInternal.SessionApi::GetRecordingStatus()
+extern void SessionApi_GetRecordingStatus_m89E73DFBA18884134464A38AAFB26852F0320DE0 ();
+// 0x000001A1 GoogleARCore.RecordingResult GoogleARCoreInternal.SessionApi::StartRecording(GoogleARCore.ARCoreRecordingConfig)
+extern void SessionApi_StartRecording_m8CD9FB13840ACB450A81E6E4660EA5CBCCD01C7C ();
+// 0x000001A2 GoogleARCore.RecordingResult GoogleARCoreInternal.SessionApi::StopRecording()
+extern void SessionApi_StopRecording_m74126AE84C7ABDF5B7AFE80A014740A73E25D781 ();
+// 0x000001A3 GoogleARCore.CameraConfig GoogleARCoreInternal.SessionApi::CreateCameraConfig(System.IntPtr)
+extern void SessionApi_CreateCameraConfig_m4AEF06334772F811EE209914DEAFBF73BB741271 ();
+// 0x000001A4 System.Int32 GoogleARCoreInternal.SessionApi_ExternApi::ArSession_configure(System.IntPtr,System.IntPtr)
+extern void ExternApi_ArSession_configure_m8637198BFA0938504DB99B181D665D428EB07D00 ();
+// 0x000001A5 System.Void GoogleARCoreInternal.SessionApi_ExternApi::ArSession_getSupportedCameraConfigsWithFilter(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArSession_getSupportedCameraConfigsWithFilter_mF10E7D8556187F32586065E2F68B4C3B96871A60 ();
+// 0x000001A6 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi_ExternApi::ArSession_setCameraConfig(System.IntPtr,System.IntPtr)
+extern void ExternApi_ArSession_setCameraConfig_m30A13AAB8C45C702EFCCE7067F7FAE08F871C644 ();
+// 0x000001A7 System.Void GoogleARCoreInternal.SessionApi_ExternApi::ArSession_getCameraConfig(System.IntPtr,System.IntPtr)
+extern void ExternApi_ArSession_getCameraConfig_m7AADA5452FE540870E82A5D1923BA7B48CECF271 ();
+// 0x000001A8 System.Void GoogleARCoreInternal.SessionApi_ExternApi::ArSession_getAllTrackables(System.IntPtr,GoogleARCoreInternal.ApiTrackableType,System.IntPtr)
+extern void ExternApi_ArSession_getAllTrackables_m03C7FD03F4437EB020344CF168C7EFC1F962F891 ();
+// 0x000001A9 System.Void GoogleARCoreInternal.SessionApi_ExternApi::ArSession_setDisplayGeometry(System.IntPtr,System.Int32,System.Int32,System.Int32)
+extern void ExternApi_ArSession_setDisplayGeometry_m756EA2FAA124616BD3D0169DE7EB61ABC48EB2E2 ();
+// 0x000001AA System.Int32 GoogleARCoreInternal.SessionApi_ExternApi::ArSession_acquireNewAnchor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArSession_acquireNewAnchor_m32172C7511869AB69B4200DD018C53233A1D5C50 ();
+// 0x000001AB System.Void GoogleARCoreInternal.SessionApi_ExternApi::ArSession_isDepthModeSupported(System.IntPtr,GoogleARCoreInternal.ApiDepthMode,System.Int32&)
+extern void ExternApi_ArSession_isDepthModeSupported_m4975195E12BF7FD508BA46B8AD162369710BD074 ();
+// 0x000001AC System.Void GoogleARCoreInternal.SessionApi_ExternApi::ArSession_reportEngineType(System.IntPtr,System.String,System.String)
+extern void ExternApi_ArSession_reportEngineType_m23BE2113DAAF82764F41B8475EB0A2EDBB985870 ();
+// 0x000001AD GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi_ExternApi::ArSession_hostAndAcquireNewCloudAnchor(System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArSession_hostAndAcquireNewCloudAnchor_m81BFCE501EB46628A18D1AB8BEFCAD81B83A8594 ();
+// 0x000001AE GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi_ExternApi::ArSession_resolveAndAcquireNewCloudAnchor(System.IntPtr,System.String,System.IntPtr&)
+extern void ExternApi_ArSession_resolveAndAcquireNewCloudAnchor_mC07DADBABDEE6E9BF97F83E2104A2C1ABD40A739 ();
+// 0x000001AF GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi_ExternApi::ArSession_hostAndAcquireNewCloudAnchorWithTtl(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&)
+extern void ExternApi_ArSession_hostAndAcquireNewCloudAnchorWithTtl_m1CEED197842B2A13A4E3228C09EDFCFBFF73031C ();
+// 0x000001B0 System.Void GoogleARCoreInternal.SessionApi_ExternApi::ArSession_setAuthToken(System.IntPtr,System.String)
+extern void ExternApi_ArSession_setAuthToken_m0143341EECB5F50C3DAC42AFA473C0D25763F20B ();
+// 0x000001B1 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi_ExternApi::ArSession_estimateFeatureMapQualityForHosting(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArSession_estimateFeatureMapQualityForHosting_m98496F9A3EB6E1DD170CB38F3388D544A64FF436 ();
+// 0x000001B2 System.Void GoogleARCoreInternal.SessionApi_ExternApi::ArSession_getRecordingStatus(System.IntPtr,GoogleARCoreInternal.ApiRecordingStatus&)
+extern void ExternApi_ArSession_getRecordingStatus_mA1B762C00184B3BF35B4290CA6D588E81FEEB812 ();
+// 0x000001B3 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi_ExternApi::ArSession_startRecording(System.IntPtr,System.IntPtr)
+extern void ExternApi_ArSession_startRecording_mEEA2F33CD786C74A76CCA64DAEA09308F3542F9C ();
+// 0x000001B4 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi_ExternApi::ArSession_stopRecording(System.IntPtr)
+extern void ExternApi_ArSession_stopRecording_mB60CB75FB11C083D9C8FFA515413963BC9A72883 ();
+// 0x000001B5 System.Void GoogleARCoreInternal.SessionApi_ExternApi::ArSession_getPlaybackStatus(System.IntPtr,GoogleARCoreInternal.ApiPlaybackStatus&)
+extern void ExternApi_ArSession_getPlaybackStatus_m922E7FDB23E1B36215CB99B09601C4DC0210FFA4 ();
+// 0x000001B6 GoogleARCoreInternal.ApiArStatus GoogleARCoreInternal.SessionApi_ExternApi::ArSession_setPlaybackDataset(System.IntPtr,System.String)
+extern void ExternApi_ArSession_setPlaybackDataset_m555447E58B0C8432B8843518DEFEE30D00532C7E ();
+// 0x000001B7 System.Void GoogleARCoreInternal.SessionConfigApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void SessionConfigApi__ctor_m5A10598DC6459444B333D4ACA873E0A5220BECE1 ();
+// 0x000001B8 System.Void GoogleARCoreInternal.SessionConfigApi::UpdateApiConfigWithARCoreSessionConfig(System.IntPtr,System.IntPtr,GoogleARCore.ARCoreSessionConfig)
+extern void SessionConfigApi_UpdateApiConfigWithARCoreSessionConfig_m4767BDC816BDD2FD83C5CB8F880CCC318D6A38B1 ();
+// 0x000001B9 System.IntPtr GoogleARCoreInternal.SessionConfigApi::Create()
+extern void SessionConfigApi_Create_m500A4E15A3283A2B4291D7BE3D52912D1D1BB743 ();
+// 0x000001BA System.Void GoogleARCoreInternal.SessionConfigApi::Destroy(System.IntPtr)
+extern void SessionConfigApi_Destroy_mA12A4B3E50A60546892E2ED7D7F2CE12A5F9FFB9 ();
+// 0x000001BB System.Void GoogleARCoreInternal.SessionConfigApi_ExternApi::ArConfig_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArConfig_create_m4ED2081BB0C6E0ED226D8547D726E0B9A34C5CFD ();
+// 0x000001BC System.Void GoogleARCoreInternal.SessionConfigApi_ExternApi::ArConfig_destroy(System.IntPtr)
+extern void ExternApi_ArConfig_destroy_m09E687BD22C6587A5168AD1D239E73507EA734F0 ();
+// 0x000001BD System.Void GoogleARCoreInternal.SessionConfigApi_ExternApi::ArConfig_setLightEstimationMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiLightEstimationMode)
+extern void ExternApi_ArConfig_setLightEstimationMode_m10DBFB29E71D128DADD86EED9D94CA64BB506105 ();
+// 0x000001BE System.Void GoogleARCoreInternal.SessionConfigApi_ExternApi::ArConfig_setPlaneFindingMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiPlaneFindingMode)
+extern void ExternApi_ArConfig_setPlaneFindingMode_mB9053621FD05501AE6D961337747FFCE87A68452 ();
+// 0x000001BF System.Void GoogleARCoreInternal.SessionConfigApi_ExternApi::ArConfig_setUpdateMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiUpdateMode)
+extern void ExternApi_ArConfig_setUpdateMode_mBF871D467F2626068679E5ABE1365843BDA45F36 ();
+// 0x000001C0 System.Void GoogleARCoreInternal.SessionConfigApi_ExternApi::ArConfig_setCloudAnchorMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.CrossPlatform.ApiCloudAnchorMode)
+extern void ExternApi_ArConfig_setCloudAnchorMode_mB9954062FA24D81638FDD4F8142B88BD36A57382 ();
+// 0x000001C1 System.Void GoogleARCoreInternal.SessionConfigApi_ExternApi::ArConfig_setAugmentedImageDatabase(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArConfig_setAugmentedImageDatabase_m664DA333750506314E7DAFD88F9C55EF7C5AD0F0 ();
+// 0x000001C2 System.Void GoogleARCoreInternal.SessionConfigApi_ExternApi::ArConfig_setAugmentedFaceMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiAugmentedFaceMode)
+extern void ExternApi_ArConfig_setAugmentedFaceMode_m1E7ED4FCF10D20388711A2430B8371E139B0A432 ();
+// 0x000001C3 System.Void GoogleARCoreInternal.SessionConfigApi_ExternApi::ArConfig_setFocusMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiCameraFocusMode)
+extern void ExternApi_ArConfig_setFocusMode_m6C720580C5DEC96C3AFB814C01CDD18566D59AF4 ();
+// 0x000001C4 System.Void GoogleARCoreInternal.SessionConfigApi_ExternApi::ArConfig_setDepthMode(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiDepthMode)
+extern void ExternApi_ArConfig_setDepthMode_m21985CBD5B9070737B48F6611A631A5D945A1A8B ();
+// 0x000001C5 System.Void GoogleARCoreInternal.SessionConfigApi_ExternApi::ArConfig_setInstantPlacementMode(System.IntPtr,System.IntPtr,GoogleARCore.InstantPlacementMode)
+extern void ExternApi_ArConfig_setInstantPlacementMode_mA16DF546C9AC1AAB2A914755D3117CA5331C9FF9 ();
+// 0x000001C6 System.Void GoogleARCoreInternal.TrackableApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void TrackableApi__ctor_mA01D1F0EA6F52FF985026FDBD369C3779EE401CC ();
+// 0x000001C7 GoogleARCoreInternal.ApiTrackableType GoogleARCoreInternal.TrackableApi::GetType(System.IntPtr)
+extern void TrackableApi_GetType_mC4BD4C8AE5AA1198BBEF81A1FBDCA4B0EBFFCC59 ();
+// 0x000001C8 GoogleARCore.TrackingState GoogleARCoreInternal.TrackableApi::GetTrackingState(System.IntPtr)
+extern void TrackableApi_GetTrackingState_mD09F2537F188C9D736CD14D2D0634267F5E832CD ();
+// 0x000001C9 System.Boolean GoogleARCoreInternal.TrackableApi::AcquireNewAnchor(System.IntPtr,UnityEngine.Pose,System.IntPtr&)
+extern void TrackableApi_AcquireNewAnchor_m30857A941CB9E4AA480A9F31DA600523A89F6EEB ();
+// 0x000001CA System.Void GoogleARCoreInternal.TrackableApi::Release(System.IntPtr)
+extern void TrackableApi_Release_m3D929ABA22555415D5A38FDE73311EFE4CEC5BE9 ();
+// 0x000001CB System.Void GoogleARCoreInternal.TrackableApi::GetAnchors(System.IntPtr,System.Collections.Generic.List`1<GoogleARCore.Anchor>)
+extern void TrackableApi_GetAnchors_m0B5728D818E1B13FC9BB0D145E79B21E1F02B5CB ();
+// 0x000001CC System.Void GoogleARCoreInternal.TrackableApi_ExternApi::ArTrackable_getType(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackableType&)
+extern void ExternApi_ArTrackable_getType_m10F54C850976867C16EC2EE7F8926AA45D668684 ();
+// 0x000001CD System.Void GoogleARCoreInternal.TrackableApi_ExternApi::ArTrackable_getTrackingState(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiTrackingState&)
+extern void ExternApi_ArTrackable_getTrackingState_m98DA5975F94E9CFC66D81948A35202D00EDAEF5A ();
+// 0x000001CE System.Int32 GoogleARCoreInternal.TrackableApi_ExternApi::ArTrackable_acquireNewAnchor(System.IntPtr,System.IntPtr,System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArTrackable_acquireNewAnchor_mE6BBB046F615E787F5ACA74AB526DED9FF5775E5 ();
+// 0x000001CF System.Void GoogleARCoreInternal.TrackableApi_ExternApi::ArTrackable_release(System.IntPtr)
+extern void ExternApi_ArTrackable_release_m597C54E09E5144C705D600ADA04A33B444491872 ();
+// 0x000001D0 System.Void GoogleARCoreInternal.TrackableApi_ExternApi::ArTrackable_getAnchors(System.IntPtr,System.IntPtr,System.IntPtr)
+extern void ExternApi_ArTrackable_getAnchors_mF76F8299569B15A8C0FF2FCD9CAA53166AB32C8D ();
+// 0x000001D1 System.Void GoogleARCoreInternal.TrackableListApi::.ctor(GoogleARCoreInternal.NativeSession)
+extern void TrackableListApi__ctor_m1ACB02BEAD527688454F4C0F3942B4F989114070 ();
+// 0x000001D2 System.IntPtr GoogleARCoreInternal.TrackableListApi::Create()
+extern void TrackableListApi_Create_m869B234AFDD891B49BD2FF3A29379446E24E8A7F ();
+// 0x000001D3 System.Void GoogleARCoreInternal.TrackableListApi::Destroy(System.IntPtr)
+extern void TrackableListApi_Destroy_m3702CEB3E8B482BF20DF62ED8404DE5011206DBC ();
+// 0x000001D4 System.Int32 GoogleARCoreInternal.TrackableListApi::GetCount(System.IntPtr)
+extern void TrackableListApi_GetCount_m23ABBA2CF431D2001FBB2B624D84887FC0212595 ();
+// 0x000001D5 System.IntPtr GoogleARCoreInternal.TrackableListApi::AcquireItem(System.IntPtr,System.Int32)
+extern void TrackableListApi_AcquireItem_m7E73CBAA04239D2B6777968B128E9008404507BB ();
+// 0x000001D6 System.Void GoogleARCoreInternal.TrackableListApi_ExternApi::ArTrackableList_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ArTrackableList_create_m50822592656DA26F54648ECB9C9A65AC26B878A8 ();
+// 0x000001D7 System.Void GoogleARCoreInternal.TrackableListApi_ExternApi::ArTrackableList_destroy(System.IntPtr)
+extern void ExternApi_ArTrackableList_destroy_m39968FB89E295610766F088A9A6723748EFC8A72 ();
+// 0x000001D8 System.Void GoogleARCoreInternal.TrackableListApi_ExternApi::ArTrackableList_getSize(System.IntPtr,System.IntPtr,System.Int32&)
+extern void ExternApi_ArTrackableList_getSize_m132188BDDC38224A8822DF68B3342E13566928FE ();
+// 0x000001D9 System.Void GoogleARCoreInternal.TrackableListApi_ExternApi::ArTrackableList_acquireItem(System.IntPtr,System.IntPtr,System.Int32,System.IntPtr&)
+extern void ExternApi_ArTrackableList_acquireItem_m91711B05FA7244C3DF9471CA9DD0EF5243D583C2 ();
+// 0x000001DA System.Void GoogleARCoreInternal.WaitForTaskCompletionYieldInstruction`1::.ctor(GoogleARCore.AsyncTask`1<T>)
+// 0x000001DB System.Boolean GoogleARCoreInternal.WaitForTaskCompletionYieldInstruction`1::get_keepWaiting()
+// 0x000001DC System.Int32 GoogleARCoreInternal.ExperimentBase::GetExperimentalFeatureFlags()
+extern void ExperimentBase_GetExperimentalFeatureFlags_mF260ABC11C655D2CB244A1F06B386DE27212179E ();
+// 0x000001DD System.Void GoogleARCoreInternal.ExperimentBase::OnUpdateSessionFeatures()
+extern void ExperimentBase_OnUpdateSessionFeatures_m3FC8411BA09755F79E5F2C24D29C276F8916BC97 ();
+// 0x000001DE System.Void GoogleARCoreInternal.ExperimentBase::OnEarlyUpdate()
+extern void ExperimentBase_OnEarlyUpdate_mAA4CDA2127199FAADBDA1A1034B8F45D4FA363B8 ();
+// 0x000001DF System.Boolean GoogleARCoreInternal.ExperimentBase::IsConfigurationDirty()
+extern void ExperimentBase_IsConfigurationDirty_mB108411D84555981DF30D09AAF0E59E112B50083 ();
+// 0x000001E0 System.Void GoogleARCoreInternal.ExperimentBase::OnSetConfiguration(System.IntPtr,System.IntPtr)
+extern void ExperimentBase_OnSetConfiguration_m498569D2653AC4210605496A41B425F6FAFB2F09 ();
+// 0x000001E1 System.Boolean GoogleARCoreInternal.ExperimentBase::IsManagingTrackableType(System.Int32)
+extern void ExperimentBase_IsManagingTrackableType_mA21318B425F8EAE95FF2A3AC5942BF19A5AF3EFC ();
+// 0x000001E2 GoogleARCore.TrackableHitFlags GoogleARCoreInternal.ExperimentBase::GetTrackableHitFlags(System.Int32)
+extern void ExperimentBase_GetTrackableHitFlags_m834554DEE819E5B2533D468949F96C78C3DD8BEA ();
+// 0x000001E3 GoogleARCore.Trackable GoogleARCoreInternal.ExperimentBase::TrackableFactory(System.Int32,System.IntPtr)
+extern void ExperimentBase_TrackableFactory_mF13FA59F8E9DAF1CED42D54F83BA7C103ACB8BC1 ();
+// 0x000001E4 System.Void GoogleARCoreInternal.ExperimentBase::.ctor()
+extern void ExperimentBase__ctor_mB8320B2D2FECEE2C1AE6A2F2BB98205D652EA1E0 ();
+// 0x000001E5 System.Void GoogleARCoreInternal.ExperimentManager::.ctor()
+extern void ExperimentManager__ctor_mF6B10E395C432C0439132B29927EB7C11E1A2278 ();
+// 0x000001E6 GoogleARCoreInternal.ExperimentManager GoogleARCoreInternal.ExperimentManager::get_Instance()
+extern void ExperimentManager_get_Instance_m134D096AE4871E79F5E489DAE9A364FA8122FA6C ();
+// 0x000001E7 System.Boolean GoogleARCoreInternal.ExperimentManager::get_IsSessionExperimental()
+extern void ExperimentManager_get_IsSessionExperimental_m7B642F71B942F1620517B4334B5A23E6FF2379F5 ();
+// 0x000001E8 System.Void GoogleARCoreInternal.ExperimentManager::set_IsSessionExperimental(System.Boolean)
+extern void ExperimentManager_set_IsSessionExperimental_mE1BE50016F7458626BA66B1EC67D97755F6013B3 ();
+// 0x000001E9 System.Boolean GoogleARCoreInternal.ExperimentManager::get_IsConfigurationDirty()
+extern void ExperimentManager_get_IsConfigurationDirty_m6EAC204263BBFE4CA486E747800BA336D1B750E9 ();
+// 0x000001EA System.Void GoogleARCoreInternal.ExperimentManager::Initialize()
+extern void ExperimentManager_Initialize_m0EEAB93E7F82371B844C193EE447690A53159D7B ();
+// 0x000001EB System.Boolean GoogleARCoreInternal.ExperimentManager::IsManagingTrackableType(System.Int32)
+extern void ExperimentManager_IsManagingTrackableType_m974E8B7A8700FEA3F8CC757EFE797AFD8CD8D720 ();
+// 0x000001EC GoogleARCore.TrackableHitFlags GoogleARCoreInternal.ExperimentManager::GetTrackableHitFlags(System.Int32)
+extern void ExperimentManager_GetTrackableHitFlags_mBBEDB7286142A9AC2C80901EDF707478FEACC6F4 ();
+// 0x000001ED GoogleARCore.Trackable GoogleARCoreInternal.ExperimentManager::TrackableFactory(System.Int32,System.IntPtr)
+extern void ExperimentManager_TrackableFactory_m0D710C41F8E14C6E06BCE7F88B032068E33DC5EF ();
+// 0x000001EE System.Void GoogleARCoreInternal.ExperimentManager::OnUpdateSessionFeatures()
+extern void ExperimentManager_OnUpdateSessionFeatures_mC62E862451A3B1809A0CADD0447E676E7BCE53FC ();
+// 0x000001EF System.Void GoogleARCoreInternal.ExperimentManager::OnEarlyUpdate()
+extern void ExperimentManager_OnEarlyUpdate_mCC4C34C6CB34A9A8D5B8621ADD145620624F19E9 ();
+// 0x000001F0 System.Void GoogleARCoreInternal.ExperimentManager::SetConfiguration(System.IntPtr,System.IntPtr)
+extern void ExperimentManager_SetConfiguration_m2D9A9E2B93CB18E59B0CE5756D37B49D6695927F ();
+// 0x000001F1 GoogleARCoreInternal.ExperimentBase GoogleARCoreInternal.ExperimentManager::GetTrackableTypeManager(System.Int32)
+extern void ExperimentManager_GetTrackableTypeManager_mB8067D7CC7A7EC89041152C5AA47FBA4F217C01A ();
+// 0x000001F2 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_UpdateSessionFeatures(System.Action)
+extern void ARCoreAndroidLifecycleManager_add_UpdateSessionFeatures_m1A62AC715C0437DC1BE19F41BB7E1D7B2B82D9D3 ();
+// 0x000001F3 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_UpdateSessionFeatures(System.Action)
+extern void ARCoreAndroidLifecycleManager_remove_UpdateSessionFeatures_mAAB5063A3B2BE4313EF074B4351C8FD591A4FA4B ();
+// 0x000001F4 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_EarlyUpdate(System.Action)
+extern void ARCoreAndroidLifecycleManager_add_EarlyUpdate_m8F35D5740C6DA63E7F8BD72445C0AFF45DD59D44 ();
+// 0x000001F5 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_EarlyUpdate(System.Action)
+extern void ARCoreAndroidLifecycleManager_remove_EarlyUpdate_mE943B92F126D6327A9BEE265727C4BB51759C0B1 ();
+// 0x000001F6 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_OnSessionSetEnabled(System.Action`1<System.Boolean>)
+extern void ARCoreAndroidLifecycleManager_add_OnSessionSetEnabled_m89812CABDA4C6312DA801AFA209BBDC171A8B82A ();
+// 0x000001F7 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_OnSessionSetEnabled(System.Action`1<System.Boolean>)
+extern void ARCoreAndroidLifecycleManager_remove_OnSessionSetEnabled_m4E26C7B5402D720C353F764DC59EE17B6957B04C ();
+// 0x000001F8 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
+extern void ARCoreAndroidLifecycleManager_add_OnSetConfiguration_mE75FC9A444CC070FE8719A64E8755D74887B0C3B ();
+// 0x000001F9 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
+extern void ARCoreAndroidLifecycleManager_remove_OnSetConfiguration_m53FB3F81350BFE74A53BE4F4F7FE8F1C58766235 ();
+// 0x000001FA System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::add_OnResetInstance(System.Action)
+extern void ARCoreAndroidLifecycleManager_add_OnResetInstance_mAD0DE42EDD7354596C6672D9B87DA8CE41831FC8 ();
+// 0x000001FB System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::remove_OnResetInstance(System.Action)
+extern void ARCoreAndroidLifecycleManager_remove_OnResetInstance_m4431F3BEC8688ECE6E131F495E58344A0AF9DAC2 ();
+// 0x000001FC GoogleARCoreInternal.ARCoreAndroidLifecycleManager GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_Instance()
+extern void ARCoreAndroidLifecycleManager_get_Instance_m4A1FE2FB6262647FEC62D5B04C9D378828465471 ();
+// 0x000001FD GoogleARCore.SessionStatus GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_SessionStatus()
+extern void ARCoreAndroidLifecycleManager_get_SessionStatus_m953BC11149B0D01F05BE3AA9E8498EFA50BDA280 ();
+// 0x000001FE System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_SessionStatus(GoogleARCore.SessionStatus)
+extern void ARCoreAndroidLifecycleManager_set_SessionStatus_m7700A412ECC59421C7F4DFE203DF2F6D3F70929A ();
+// 0x000001FF GoogleARCore.LostTrackingReason GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_LostTrackingReason()
+extern void ARCoreAndroidLifecycleManager_get_LostTrackingReason_mD46958E170907DE3EA7EF8A74F71639746897769 ();
+// 0x00000200 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_LostTrackingReason(GoogleARCore.LostTrackingReason)
+extern void ARCoreAndroidLifecycleManager_set_LostTrackingReason_m7D67BCC223B66F070122983A3CF4DFA2E29EA7B2 ();
+// 0x00000201 GoogleARCore.ARCoreSession GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_SessionComponent()
+extern void ARCoreAndroidLifecycleManager_get_SessionComponent_m56F3C89C2D67C03CB9EB69D10F91D0BA17436629 ();
+// 0x00000202 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_SessionComponent(GoogleARCore.ARCoreSession)
+extern void ARCoreAndroidLifecycleManager_set_SessionComponent_m6399F8B946C2F6F888381543BFAA90613C60FDC7 ();
+// 0x00000203 GoogleARCoreInternal.NativeSession GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_NativeSession()
+extern void ARCoreAndroidLifecycleManager_get_NativeSession_m7BAC70F05CFDBA46D6DB43B5CF97F59B0F75129A ();
+// 0x00000204 System.Boolean GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_IsSessionChangedThisFrame()
+extern void ARCoreAndroidLifecycleManager_get_IsSessionChangedThisFrame_m604507EA8038B1443A2832252C342FD4CFC4FF3D ();
+// 0x00000205 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_IsSessionChangedThisFrame(System.Boolean)
+extern void ARCoreAndroidLifecycleManager_set_IsSessionChangedThisFrame_m9D024DEADD01CBC73A6EC5F87F729E10C4C6E043 ();
+// 0x00000206 UnityEngine.Texture2D GoogleARCoreInternal.ARCoreAndroidLifecycleManager::get_BackgroundTexture()
+extern void ARCoreAndroidLifecycleManager_get_BackgroundTexture_m025EC1F6AEB25347D97091A4D9269F167CD57C17 ();
+// 0x00000207 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::set_BackgroundTexture(UnityEngine.Texture2D)
+extern void ARCoreAndroidLifecycleManager_set_BackgroundTexture_mA9159DF44A0A151F0DCF7CC8E084920E5D72FB65 ();
+// 0x00000208 GoogleARCore.AsyncTask`1<GoogleARCore.ApkAvailabilityStatus> GoogleARCoreInternal.ARCoreAndroidLifecycleManager::CheckApkAvailability()
+extern void ARCoreAndroidLifecycleManager_CheckApkAvailability_m0091639FEA05F7EA8E8820E2B100F265371CC636 ();
+// 0x00000209 GoogleARCore.AsyncTask`1<GoogleARCore.ApkInstallationStatus> GoogleARCoreInternal.ARCoreAndroidLifecycleManager::RequestApkInstallation(System.Boolean)
+extern void ARCoreAndroidLifecycleManager_RequestApkInstallation_m8873830287B510BBB03BCFFE762027FAC34DCDAC ();
+// 0x0000020A System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::CreateSession(GoogleARCore.ARCoreSession)
+extern void ARCoreAndroidLifecycleManager_CreateSession_m7B8B5BAF7B5290E233519D7B85889040CD724311 ();
+// 0x0000020B System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::EnableSession()
+extern void ARCoreAndroidLifecycleManager_EnableSession_m6EB587856D7D562F8DCC5F709350C44530BC47EB ();
+// 0x0000020C System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::DisableSession()
+extern void ARCoreAndroidLifecycleManager_DisableSession_m6757FBA7813DD58B6828FBF87CF3DED3EA62D59C ();
+// 0x0000020D System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::ResetSession()
+extern void ARCoreAndroidLifecycleManager_ResetSession_mA31C90273B291B3D8FBB82E9E8D13485527281CE ();
+// 0x0000020E System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::ResetInstance()
+extern void ARCoreAndroidLifecycleManager_ResetInstance_m1460F6C734EE968DDBECE0CA0A3AA7CC87336146 ();
+// 0x0000020F System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::OnBeforeResumeSession(System.IntPtr)
+extern void ARCoreAndroidLifecycleManager_OnBeforeResumeSession_mB34F2AD6EA6B8B7C7B8F8AFF09AB2D609DD7AD55 ();
+// 0x00000210 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::OnEarlyUpdate()
+extern void ARCoreAndroidLifecycleManager_OnEarlyUpdate_mCA22B9790768933F669671F36695276A3010DA9F ();
+// 0x00000211 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::SetCameraTextureNameIfNecessary()
+extern void ARCoreAndroidLifecycleManager_SetCameraTextureNameIfNecessary_mCD6F5C478F8FDA6D9BCE71F3527AE7702662C561 ();
+// 0x00000212 System.Boolean GoogleARCoreInternal.ARCoreAndroidLifecycleManager::ArCoreHasValidTextureName()
+extern void ARCoreAndroidLifecycleManager_ArCoreHasValidTextureName_m238F8BAA8C6516664A389C04A37F7B367C7D2E4C ();
+// 0x00000213 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::GenerateCameraTextureNames()
+extern void ARCoreAndroidLifecycleManager_GenerateCameraTextureNames_m33BEB9845C21CBF26478240A85B2332E2DB0C118 ();
+// 0x00000214 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::Initialize()
+extern void ARCoreAndroidLifecycleManager_Initialize_m01AFAA8754E52FC45C958D82D31B1F8D05FB6A61 ();
+// 0x00000215 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::UpdateTextureIfNeeded()
+extern void ARCoreAndroidLifecycleManager_UpdateTextureIfNeeded_m13C81B432181FED77204001F9A84585E33090F17 ();
+// 0x00000216 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::SetSessionEnabled(System.Boolean)
+extern void ARCoreAndroidLifecycleManager_SetSessionEnabled_mCF16D1D845ACB9063F2A27635F8A58608027C3DF ();
+// 0x00000217 System.Boolean GoogleARCoreInternal.ARCoreAndroidLifecycleManager::SetCameraDirection(GoogleARCore.DeviceCameraDirection)
+extern void ARCoreAndroidLifecycleManager_SetCameraDirection_mA82FC18C3CA830004C927468A2736F663D4814E5 ();
+// 0x00000218 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::SetSessionConfiguration(System.IntPtr,System.IntPtr)
+extern void ARCoreAndroidLifecycleManager_SetSessionConfiguration_mBE390F170529CC10D52287B3C82E9AB0D1B351AB ();
+// 0x00000219 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::UpdateConfiguration(GoogleARCore.ARCoreSessionConfig)
+extern void ARCoreAndroidLifecycleManager_UpdateConfiguration_mB7B2825AEA29F6F008105A2660A84D8A4BC2B8AD ();
+// 0x0000021A System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::UpdateDisplayGeometry()
+extern void ARCoreAndroidLifecycleManager_UpdateDisplayGeometry_m864AD8D712A09E271495A1BC3FFD332D3EE24FA4 ();
+// 0x0000021B GoogleARCoreInternal.NativeSession GoogleARCoreInternal.ARCoreAndroidLifecycleManager::GetNativeSession(System.IntPtr)
+extern void ARCoreAndroidLifecycleManager_GetNativeSession_m9527AF376006A3B6A50F943E4085E7106DA16019 ();
+// 0x0000021C System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::FireOnSessionSetEnabled(System.Boolean)
+extern void ARCoreAndroidLifecycleManager_FireOnSessionSetEnabled_mCA9ABE1E2170C79B6D4860FF514CD63E3AC39DE5 ();
+// 0x0000021D System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::RequestPermissions()
+extern void ARCoreAndroidLifecycleManager_RequestPermissions_m7B5B315974D52CEC03DB591F904411D76C22EAFD ();
+// 0x0000021E System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::.ctor()
+extern void ARCoreAndroidLifecycleManager__ctor_m02DBF3CB5210D3AFAC85D115012DE753AE2E344D ();
+// 0x0000021F System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::.cctor()
+extern void ARCoreAndroidLifecycleManager__cctor_mD3203361DF8624AA759C71D567D6652CF95B3613 ();
+// 0x00000220 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager::<RequestPermissions>b__80_0(GoogleARCore.AndroidPermissionsRequestResult)
+extern void ARCoreAndroidLifecycleManager_U3CRequestPermissionsU3Eb__80_0_mD4A2B1B1CCA6F0B001667E0EA11D88880EE682DD ();
+// 0x00000221 System.Int32 GoogleARCoreInternal.ARCoreAndroidLifecycleManager_ExternApi::ArCoreUnity_getBackgroundTextureId()
+extern void ExternApi_ArCoreUnity_getBackgroundTextureId_mA90448D74CE999CE60A680748F08F3B0113F9DE5 ();
+// 0x00000222 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager_ExternApi::ArPresto_setDisplayGeometry(GoogleARCoreInternal.AndroidNativeHelper_AndroidSurfaceRotation,System.Int32,System.Int32)
+extern void ExternApi_ArPresto_setDisplayGeometry_mDBAB474FED470DAC7FA48434520BE7C4260EF320 ();
+// 0x00000223 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager_ExternApi::ArPresto_getSession(System.IntPtr&)
+extern void ExternApi_ArPresto_getSession_mE3BD0AD31E0CCBDCFDD364ECE9F00C9C5B297066 ();
+// 0x00000224 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager_ExternApi::ArPresto_setDeviceCameraDirection(GoogleARCoreInternal.ApiPrestoDeviceCameraDirection)
+extern void ExternApi_ArPresto_setDeviceCameraDirection_m0AAA0C06E2BB517981D1292747F10CE513736D6B ();
+// 0x00000225 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager_ExternApi::ArPresto_setCameraTextureNames(System.Int32,System.Int32[])
+extern void ExternApi_ArPresto_setCameraTextureNames_mC6711990D055F431D1E1FDBAB70446FE2DE3C55E ();
+// 0x00000226 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager_ExternApi::ARCoreRenderingUtils_CreatePostUpdateFence()
+extern void ExternApi_ARCoreRenderingUtils_CreatePostUpdateFence_mBE4128A9CC6FB7D666A43C68BA97575A27CADB2C ();
+// 0x00000227 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager_ExternApi::ArPresto_setEnabled(System.Boolean)
+extern void ExternApi_ArPresto_setEnabled_m22382082155D89FD66E3E49D5173ECFD9407D5FC ();
+// 0x00000228 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager_ExternApi::ArPresto_getFrame(System.IntPtr&)
+extern void ExternApi_ArPresto_getFrame_mA8743CC14BA4D538D63BE72BAFFAF7A661050962 ();
+// 0x00000229 System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager_ExternApi::ArPresto_getStatus(GoogleARCoreInternal.ApiPrestoStatus&)
+extern void ExternApi_ArPresto_getStatus_m04ECECF61D94F507387ADDE33B73B97B88DAF570 ();
+// 0x0000022A System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager_ExternApi::ArPresto_update()
+extern void ExternApi_ArPresto_update_mAFA9B64E5AFADCB6580D4F6D2E143C7056274A7B ();
+// 0x0000022B System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager_ExternApi::ArPresto_setConfigurationDirty()
+extern void ExternApi_ArPresto_setConfigurationDirty_mED9F0F1FF5D97C4D97A8EE308EABB91BDA269ED6 ();
+// 0x0000022C System.Void GoogleARCoreInternal.ARCoreAndroidLifecycleManager_ExternApi::ArPresto_reset()
+extern void ExternApi_ArPresto_reset_m344DBD1D49C7CC7575AD2A68E2239DB04C94E664 ();
+// 0x0000022D System.Void GoogleARCoreInternal.ARPrestoCallbackManager::add_EarlyUpdate(System.Action)
+extern void ARPrestoCallbackManager_add_EarlyUpdate_m259EE6964A1D84527644E747F09FFF6C1E618300 ();
+// 0x0000022E System.Void GoogleARCoreInternal.ARPrestoCallbackManager::remove_EarlyUpdate(System.Action)
+extern void ARPrestoCallbackManager_remove_EarlyUpdate_m45F3BD9904E1177704F337A5397F5D3DE405670E ();
+// 0x0000022F System.Void GoogleARCoreInternal.ARPrestoCallbackManager::add_BeforeResumeSession(System.Action`1<System.IntPtr>)
+extern void ARPrestoCallbackManager_add_BeforeResumeSession_m8322D4E20D0763E562B67350D7EC97C3F94B3D7D ();
+// 0x00000230 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::remove_BeforeResumeSession(System.Action`1<System.IntPtr>)
+extern void ARPrestoCallbackManager_remove_BeforeResumeSession_m1D1A473B607EBDEB9F552D52B25A94027D8ED0FF ();
+// 0x00000231 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::add_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
+extern void ARPrestoCallbackManager_add_OnSetConfiguration_mC6A3C196656E5F8D0A0C9FD22E39480800308A13 ();
+// 0x00000232 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::remove_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
+extern void ARPrestoCallbackManager_remove_OnSetConfiguration_m6A232B83FB1A248CC55781B7E39D103488792D57 ();
+// 0x00000233 GoogleARCoreInternal.ARPrestoCallbackManager GoogleARCoreInternal.ARPrestoCallbackManager::get_Instance()
+extern void ARPrestoCallbackManager_get_Instance_m03D95C9BB69B20356991BB262C6558F8ADA9A177 ();
+// 0x00000234 GoogleARCore.AsyncTask`1<GoogleARCore.ApkAvailabilityStatus> GoogleARCoreInternal.ARPrestoCallbackManager::CheckApkAvailability()
+extern void ARPrestoCallbackManager_CheckApkAvailability_m8CF9B660983B50F8C6B62B26D6C99AE02E283EC1 ();
+// 0x00000235 GoogleARCore.AsyncTask`1<GoogleARCore.ApkInstallationStatus> GoogleARCoreInternal.ARPrestoCallbackManager::RequestApkInstallation(System.Boolean)
+extern void ARPrestoCallbackManager_RequestApkInstallation_m4FBFC74D1323186E4AF94826C20B4D1FBE79A783 ();
+// 0x00000236 System.Boolean GoogleARCoreInternal.ARPrestoCallbackManager::IsCameraPermissionGranted()
+extern void ARPrestoCallbackManager_IsCameraPermissionGranted_m58CB6E071E7DCD8ACB7A088EB5CB93A8F365B372 ();
+// 0x00000237 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::ResetInstance()
+extern void ARPrestoCallbackManager_ResetInstance_mF4E958608A162A98EB6DFB8786F72951E98BB41D ();
+// 0x00000238 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::SetAndroidPermissionCheck(GoogleARCore.IAndroidPermissionsCheck)
+extern void ARPrestoCallbackManager_SetAndroidPermissionCheck_m86105F936F4DB0173539F0F04D5950D4C955A70E ();
+// 0x00000239 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::OnCheckApkAvailabilityResultTrampoline(GoogleARCoreInternal.ApiAvailability,System.IntPtr)
+extern void ARPrestoCallbackManager_OnCheckApkAvailabilityResultTrampoline_m83F30B2A4B9D0606CFCE8566CB055D05490E6F3A ();
+// 0x0000023A System.Void GoogleARCoreInternal.ARPrestoCallbackManager::OnApkInstallationResultTrampoline(GoogleARCoreInternal.ApiApkInstallationStatus,System.IntPtr)
+extern void ARPrestoCallbackManager_OnApkInstallationResultTrampoline_m60F2B49D1EDF2FBC9F94C25404FC074C02576434 ();
+// 0x0000023B System.Void GoogleARCoreInternal.ARPrestoCallbackManager::RequestCameraPermissionTrampoline(GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionsResultCallback,System.IntPtr)
+extern void ARPrestoCallbackManager_RequestCameraPermissionTrampoline_mC5160BF403DF1658635DA198268C4D86085DC019 ();
+// 0x0000023C System.Void GoogleARCoreInternal.ARPrestoCallbackManager::EarlyUpdateTrampoline()
+extern void ARPrestoCallbackManager_EarlyUpdateTrampoline_m4CF0C470F81A88C3F0834263DB08EA64321F989F ();
+// 0x0000023D System.Void GoogleARCoreInternal.ARPrestoCallbackManager::BeforeSetConfigurationTrampoline(System.IntPtr,System.IntPtr)
+extern void ARPrestoCallbackManager_BeforeSetConfigurationTrampoline_m1B377529B31646E3BD31EDA6AE3532893C2C583F ();
+// 0x0000023E System.Void GoogleARCoreInternal.ARPrestoCallbackManager::BeforeResumeSessionTrampoline(System.IntPtr)
+extern void ARPrestoCallbackManager_BeforeResumeSessionTrampoline_mE933F1A1817DFFB7894A9A4531FA8A6EFB565100 ();
+// 0x0000023F System.Void GoogleARCoreInternal.ARPrestoCallbackManager::Initialize()
+extern void ARPrestoCallbackManager_Initialize_m9C6C1F110FC608F684069CD7F9F9F8CB18459985 ();
+// 0x00000240 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::OnCheckApkAvailabilityResult(GoogleARCore.ApkAvailabilityStatus)
+extern void ARPrestoCallbackManager_OnCheckApkAvailabilityResult_m25DBF49831DCE3D578969599D37B0AD4E25D7D2E ();
+// 0x00000241 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::OnRequestApkInstallationResult(GoogleARCore.ApkInstallationStatus)
+extern void ARPrestoCallbackManager_OnRequestApkInstallationResult_mDF938B58A4F37E7BDD41BA6DB6FE8E88DC30DFC9 ();
+// 0x00000242 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::RequestCameraPermission(GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionsResultCallback,System.IntPtr)
+extern void ARPrestoCallbackManager_RequestCameraPermission_mB303F9894EBCB2FC7F8ADBBEACB917B57DE187C2 ();
+// 0x00000243 System.Void GoogleARCoreInternal.ARPrestoCallbackManager::.ctor()
+extern void ARPrestoCallbackManager__ctor_m4F2B554C43CCE2F0A04CCC68ABF6F32315C33152 ();
+// 0x00000244 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_EarlyUpdateCallback::.ctor(System.Object,System.IntPtr)
+extern void EarlyUpdateCallback__ctor_m57963AA2DD748865B0AD89E33AA8B0546F49B647 ();
+// 0x00000245 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_EarlyUpdateCallback::Invoke()
+extern void EarlyUpdateCallback_Invoke_m45725053F315B477EBA9E786ED6A5A465DD16A87 ();
+// 0x00000246 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager_EarlyUpdateCallback::BeginInvoke(System.AsyncCallback,System.Object)
+extern void EarlyUpdateCallback_BeginInvoke_m0B8FB55CF685BEB1D6E5346263387B967D9F119A ();
+// 0x00000247 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_EarlyUpdateCallback::EndInvoke(System.IAsyncResult)
+extern void EarlyUpdateCallback_EndInvoke_m0389BE5D3201088FCB5756836C02580400E77BAD ();
+// 0x00000248 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_OnBeforeSetConfigurationCallback::.ctor(System.Object,System.IntPtr)
+extern void OnBeforeSetConfigurationCallback__ctor_mF0A1883BC19CB7A193E7B5F5F77F85A4181BB749 ();
+// 0x00000249 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_OnBeforeSetConfigurationCallback::Invoke(System.IntPtr,System.IntPtr)
+extern void OnBeforeSetConfigurationCallback_Invoke_mB8B8FC04C611C84609531E1CD3D8358A6B49ADDE ();
+// 0x0000024A System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager_OnBeforeSetConfigurationCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.AsyncCallback,System.Object)
+extern void OnBeforeSetConfigurationCallback_BeginInvoke_mE496E1B96FC6CB1718CA8CD70CEB33EFD2684518 ();
+// 0x0000024B System.Void GoogleARCoreInternal.ARPrestoCallbackManager_OnBeforeSetConfigurationCallback::EndInvoke(System.IAsyncResult)
+extern void OnBeforeSetConfigurationCallback_EndInvoke_mE95A1F43AE0838325F19A0BE0BFF406AF28E1C4A ();
+// 0x0000024C System.Void GoogleARCoreInternal.ARPrestoCallbackManager_OnBeforeResumeSessionCallback::.ctor(System.Object,System.IntPtr)
+extern void OnBeforeResumeSessionCallback__ctor_mDFBF9FF2AA6E885BDE2215DE38644ECD5024A1C2 ();
+// 0x0000024D System.Void GoogleARCoreInternal.ARPrestoCallbackManager_OnBeforeResumeSessionCallback::Invoke(System.IntPtr)
+extern void OnBeforeResumeSessionCallback_Invoke_m858397574A61B36EC41F64A9B88855537A087A15 ();
+// 0x0000024E System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager_OnBeforeResumeSessionCallback::BeginInvoke(System.IntPtr,System.AsyncCallback,System.Object)
+extern void OnBeforeResumeSessionCallback_BeginInvoke_m02815EE89B54426B6D707555721ECE887BFE7215 ();
+// 0x0000024F System.Void GoogleARCoreInternal.ARPrestoCallbackManager_OnBeforeResumeSessionCallback::EndInvoke(System.IAsyncResult)
+extern void OnBeforeResumeSessionCallback_EndInvoke_mCFB293B2297EA0AC83059E1908D0E6D499459560 ();
+// 0x00000250 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionRequestProvider::.ctor(System.Object,System.IntPtr)
+extern void CameraPermissionRequestProvider__ctor_mA8E6C28F4180A2972822E20163C980325FEBBCDF ();
+// 0x00000251 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionRequestProvider::Invoke(GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionsResultCallback,System.IntPtr)
+extern void CameraPermissionRequestProvider_Invoke_m1715E724ADDB8DFFC3D963F62A19B5B337440858 ();
+// 0x00000252 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionRequestProvider::BeginInvoke(GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionsResultCallback,System.IntPtr,System.AsyncCallback,System.Object)
+extern void CameraPermissionRequestProvider_BeginInvoke_m0FA4FD36A27741317E89A23347991E176C77A3A9 ();
+// 0x00000253 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionRequestProvider::EndInvoke(System.IAsyncResult)
+extern void CameraPermissionRequestProvider_EndInvoke_mEF005937E07C0BCDA237101DC7807A80E7F0855D ();
+// 0x00000254 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionsResultCallback::.ctor(System.Object,System.IntPtr)
+extern void CameraPermissionsResultCallback__ctor_m06B7C18DAD48303105A7A05713E14C7B1141D0BF ();
+// 0x00000255 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionsResultCallback::Invoke(System.Boolean,System.IntPtr)
+extern void CameraPermissionsResultCallback_Invoke_m74BBAC5BF0BBCFCB58E99C64C203166FEDA52642 ();
+// 0x00000256 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionsResultCallback::BeginInvoke(System.Boolean,System.IntPtr,System.AsyncCallback,System.Object)
+extern void CameraPermissionsResultCallback_BeginInvoke_mA49CF75B424B3E4A35080FE59555564093F5D2AA ();
+// 0x00000257 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionsResultCallback::EndInvoke(System.IAsyncResult)
+extern void CameraPermissionsResultCallback_EndInvoke_mCB717E75EEADD77EF6BA23C51513C6DA832DFE8E ();
+// 0x00000258 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_CheckApkAvailabilityResultCallback::.ctor(System.Object,System.IntPtr)
+extern void CheckApkAvailabilityResultCallback__ctor_mA2C8D1C265ED49835F481D45AD326D7DC056065F ();
+// 0x00000259 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_CheckApkAvailabilityResultCallback::Invoke(GoogleARCoreInternal.ApiAvailability,System.IntPtr)
+extern void CheckApkAvailabilityResultCallback_Invoke_m500DD1101EB2BDB107047B10EFBD548ADE010BE4 ();
+// 0x0000025A System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager_CheckApkAvailabilityResultCallback::BeginInvoke(GoogleARCoreInternal.ApiAvailability,System.IntPtr,System.AsyncCallback,System.Object)
+extern void CheckApkAvailabilityResultCallback_BeginInvoke_mF9B9A6CB4A3ABC8907C3E4759B3584566E2259EA ();
+// 0x0000025B System.Void GoogleARCoreInternal.ARPrestoCallbackManager_CheckApkAvailabilityResultCallback::EndInvoke(System.IAsyncResult)
+extern void CheckApkAvailabilityResultCallback_EndInvoke_m0AED8D194D4529A0D31911B15BD61E2576515342 ();
+// 0x0000025C System.Void GoogleARCoreInternal.ARPrestoCallbackManager_RequestApkInstallationResultCallback::.ctor(System.Object,System.IntPtr)
+extern void RequestApkInstallationResultCallback__ctor_m75F0A8DB9D67D13DB2F229DAE3B126EA7AEF8299 ();
+// 0x0000025D System.Void GoogleARCoreInternal.ARPrestoCallbackManager_RequestApkInstallationResultCallback::Invoke(GoogleARCoreInternal.ApiApkInstallationStatus,System.IntPtr)
+extern void RequestApkInstallationResultCallback_Invoke_m154CDFFC5FF94CA9BF20FA9999375C1C2C05DFBA ();
+// 0x0000025E System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager_RequestApkInstallationResultCallback::BeginInvoke(GoogleARCoreInternal.ApiApkInstallationStatus,System.IntPtr,System.AsyncCallback,System.Object)
+extern void RequestApkInstallationResultCallback_BeginInvoke_mD14102666BC5BA812E98FB5F4D556EB30D223B01 ();
+// 0x0000025F System.Void GoogleARCoreInternal.ARPrestoCallbackManager_RequestApkInstallationResultCallback::EndInvoke(System.IAsyncResult)
+extern void RequestApkInstallationResultCallback_EndInvoke_m82A1DE91BECDEE9DA68064C861558EF3C942359F ();
+// 0x00000260 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_SessionCreationResultCallback::.ctor(System.Object,System.IntPtr)
+extern void SessionCreationResultCallback__ctor_mB40B046086485B43748B90211FB8D8CF82145A75 ();
+// 0x00000261 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_SessionCreationResultCallback::Invoke(System.IntPtr,System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiArStatus)
+extern void SessionCreationResultCallback_Invoke_m060B68C5593E985D9DA6E3A99E0B076066B827E2 ();
+// 0x00000262 System.IAsyncResult GoogleARCoreInternal.ARPrestoCallbackManager_SessionCreationResultCallback::BeginInvoke(System.IntPtr,System.IntPtr,System.IntPtr,GoogleARCoreInternal.ApiArStatus,System.AsyncCallback,System.Object)
+extern void SessionCreationResultCallback_BeginInvoke_mD8B4F587B914A49F832AF50D4150563EBDC757BF ();
+// 0x00000263 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_SessionCreationResultCallback::EndInvoke(System.IAsyncResult)
+extern void SessionCreationResultCallback_EndInvoke_mAF4DA3EC9CD4B2649BA69826700E37C2062F617D ();
+// 0x00000264 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_ExternApi::ArCoreUnity_getJniInfo(System.IntPtr&,System.IntPtr&)
+extern void ExternApi_ArCoreUnity_getJniInfo_m1AF585CD0FA57D8D7E543B4120AE77F19C8B2531 ();
+// 0x00000265 System.Boolean GoogleARCoreInternal.ARPrestoCallbackManager_ExternApi::ArCoreUnity_setArPrestoInitialized(GoogleARCoreInternal.ARPrestoCallbackManager_EarlyUpdateCallback)
+extern void ExternApi_ArCoreUnity_setArPrestoInitialized_m07FFF169BD92A44AD7E0393182DDE1A7E0E4C50D ();
+// 0x00000266 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_ExternApi::ArPresto_initialize(System.IntPtr,System.IntPtr,GoogleARCoreInternal.ARPrestoCallbackManager_CameraPermissionRequestProvider,GoogleARCoreInternal.ARPrestoCallbackManager_OnBeforeSetConfigurationCallback,GoogleARCoreInternal.ARPrestoCallbackManager_OnBeforeResumeSessionCallback)
+extern void ExternApi_ArPresto_initialize_mF039D8A76C9C17442E809760C5574FA736BD51C3 ();
+// 0x00000267 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_ExternApi::ArPresto_checkApkAvailability(GoogleARCoreInternal.ARPrestoCallbackManager_CheckApkAvailabilityResultCallback,System.IntPtr)
+extern void ExternApi_ArPresto_checkApkAvailability_mBE3B3AE97CFC9507BC98DB531505BBDBAA2A8F25 ();
+// 0x00000268 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_ExternApi::ArPresto_requestApkInstallation(System.Boolean,GoogleARCoreInternal.ARPrestoCallbackManager_RequestApkInstallationResultCallback,System.IntPtr)
+extern void ExternApi_ArPresto_requestApkInstallation_m1C4BFAF8839E8E67B616988169F9EB2033784D4D ();
+// 0x00000269 System.Void GoogleARCoreInternal.ARPrestoCallbackManager_<>c__DisplayClass44_0::.ctor()
+extern void U3CU3Ec__DisplayClass44_0__ctor_mEA46027DD66CBF9BCE44EDDE8EA9ABA820E0FFDB ();
+// 0x0000026A System.Void GoogleARCoreInternal.ARPrestoCallbackManager_<>c__DisplayClass44_0::<RequestCameraPermission>b__0(GoogleARCore.AndroidPermissionsRequestResult)
+extern void U3CU3Ec__DisplayClass44_0_U3CRequestCameraPermissionU3Eb__0_m18DEE013CA6D6227E3C2CD95D5FA198E6582DE92 ();
+// 0x0000026B System.Void GoogleARCoreInternal.ILifecycleManager::add_UpdateSessionFeatures(System.Action)
+// 0x0000026C System.Void GoogleARCoreInternal.ILifecycleManager::remove_UpdateSessionFeatures(System.Action)
+// 0x0000026D System.Void GoogleARCoreInternal.ILifecycleManager::add_EarlyUpdate(System.Action)
+// 0x0000026E System.Void GoogleARCoreInternal.ILifecycleManager::remove_EarlyUpdate(System.Action)
+// 0x0000026F System.Void GoogleARCoreInternal.ILifecycleManager::add_OnSessionSetEnabled(System.Action`1<System.Boolean>)
+// 0x00000270 System.Void GoogleARCoreInternal.ILifecycleManager::remove_OnSessionSetEnabled(System.Action`1<System.Boolean>)
+// 0x00000271 System.Void GoogleARCoreInternal.ILifecycleManager::add_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
+// 0x00000272 System.Void GoogleARCoreInternal.ILifecycleManager::remove_OnSetConfiguration(System.Action`2<System.IntPtr,System.IntPtr>)
+// 0x00000273 System.Void GoogleARCoreInternal.ILifecycleManager::add_OnResetInstance(System.Action)
+// 0x00000274 System.Void GoogleARCoreInternal.ILifecycleManager::remove_OnResetInstance(System.Action)
+// 0x00000275 GoogleARCore.SessionStatus GoogleARCoreInternal.ILifecycleManager::get_SessionStatus()
+// 0x00000276 GoogleARCore.LostTrackingReason GoogleARCoreInternal.ILifecycleManager::get_LostTrackingReason()
+// 0x00000277 GoogleARCore.ARCoreSession GoogleARCoreInternal.ILifecycleManager::get_SessionComponent()
+// 0x00000278 GoogleARCoreInternal.NativeSession GoogleARCoreInternal.ILifecycleManager::get_NativeSession()
+// 0x00000279 System.Boolean GoogleARCoreInternal.ILifecycleManager::get_IsSessionChangedThisFrame()
+// 0x0000027A GoogleARCore.AsyncTask`1<GoogleARCore.ApkAvailabilityStatus> GoogleARCoreInternal.ILifecycleManager::CheckApkAvailability()
+// 0x0000027B GoogleARCore.AsyncTask`1<GoogleARCore.ApkInstallationStatus> GoogleARCoreInternal.ILifecycleManager::RequestApkInstallation(System.Boolean)
+// 0x0000027C System.Void GoogleARCoreInternal.ILifecycleManager::CreateSession(GoogleARCore.ARCoreSession)
+// 0x0000027D System.Void GoogleARCoreInternal.ILifecycleManager::EnableSession()
+// 0x0000027E System.Void GoogleARCoreInternal.ILifecycleManager::DisableSession()
+// 0x0000027F System.Void GoogleARCoreInternal.ILifecycleManager::ResetSession()
+// 0x00000280 GoogleARCoreInternal.ILifecycleManager GoogleARCoreInternal.LifecycleManager::get_Instance()
+extern void LifecycleManager_get_Instance_mDDC3D090E8A00DD237434723651ED7BC1A7F2562 ();
+// 0x00000281 System.Void GoogleARCoreInternal.LifecycleManager::ResetInstance()
+extern void LifecycleManager_ResetInstance_m3DADA26BFA9E5A810291DE526F06555AB59A68EF ();
+// 0x00000282 System.Void GoogleARCoreInternal.LifecycleManager::.ctor()
+extern void LifecycleManager__ctor_m675FB4C79DA5909235C5222650979BF1F2DA18FF ();
+// 0x00000283 System.Void GoogleARCoreInternal.PointCloudManager::.ctor(GoogleARCoreInternal.NativeSession)
+extern void PointCloudManager__ctor_m958AD18BB283509C68D2896DB582F2CD21443009 ();
+// 0x00000284 System.IntPtr GoogleARCoreInternal.PointCloudManager::get_PointCloudHandle()
+extern void PointCloudManager_get_PointCloudHandle_m1361B1E2B6EFDD626A93C266CC1A42BF3D2DF5FC ();
+// 0x00000285 System.Void GoogleARCoreInternal.PointCloudManager::set_PointCloudHandle(System.IntPtr)
+extern void PointCloudManager_set_PointCloudHandle_m1796AF40062F9A50B58F3D95E3E7805770044770 ();
+// 0x00000286 System.Boolean GoogleARCoreInternal.PointCloudManager::get_IsPointCloudNew()
+extern void PointCloudManager_get_IsPointCloudNew_m14AA786A96278807CFAB40FD8AA0BBC81062A6F1 ();
+// 0x00000287 System.Void GoogleARCoreInternal.PointCloudManager::OnUpdate()
+extern void PointCloudManager_OnUpdate_m7987CB8710BF2E999F03640E6029F2172B6E1838 ();
+// 0x00000288 System.Void GoogleARCoreInternal.TrackableManager::.ctor(GoogleARCoreInternal.NativeSession)
+extern void TrackableManager__ctor_m4303AB086237E7A7FA0ACFC8CF15817A7E86955E ();
+// 0x00000289 GoogleARCore.Trackable GoogleARCoreInternal.TrackableManager::TrackableFactory(System.IntPtr)
+extern void TrackableManager_TrackableFactory_m89FB3D3FC0ADD099377EC4C195326F712270A953 ();
+// 0x0000028A System.Void GoogleARCoreInternal.TrackableManager::GetTrackables(System.Collections.Generic.List`1<T>,GoogleARCore.TrackableQueryFilter)
+// 0x0000028B System.Void GoogleARCoreInternal.TrackableManager::SafeAdd(GoogleARCore.Trackable,System.Collections.Generic.List`1<T>)
+// 0x0000028C System.Void GoogleARCoreInternal.TrackableManager::ClearCachedTrackables()
+extern void TrackableManager_ClearCachedTrackables_m34E2A3C9BCF2144845B0D9D1511B3EDF28895B5E ();
+// 0x0000028D GoogleARCoreInternal.ARCoreProjectSettings GoogleARCoreInternal.ARCoreProjectSettings::get_Instance()
+extern void ARCoreProjectSettings_get_Instance_m560A1018A19430532A385C9DD22E6A72D50E09A4 ();
+// 0x0000028E System.Void GoogleARCoreInternal.ARCoreProjectSettings::Load()
+extern void ARCoreProjectSettings_Load_mB42F054542610EBA5F132BA784F642A3471AD169 ();
+// 0x0000028F System.Void GoogleARCoreInternal.ARCoreProjectSettings::Save()
+extern void ARCoreProjectSettings_Save_m00414AFD23CE5DD269D2DF8FDFD941A8F49DBD5C ();
+// 0x00000290 System.Boolean GoogleARCoreInternal.ARCoreProjectSettings::IsAndroidApiKeyFieldDisplayed()
+extern void ARCoreProjectSettings_IsAndroidApiKeyFieldDisplayed_m1BE8CE407A9CA34312A886FBA6EEBE055B3A8E86 ();
+// 0x00000291 GoogleARCoreInternal.HelpAttribute GoogleARCoreInternal.ARCoreProjectSettings::GetAndroidStrategyHelpInfo()
+extern void ARCoreProjectSettings_GetAndroidStrategyHelpInfo_mF7801046EE4A5F6836E8AC30F04D111FBE4A9655 ();
+// 0x00000292 System.Array GoogleARCoreInternal.ARCoreProjectSettings::GetAndroidStrategyRange()
+extern void ARCoreProjectSettings_GetAndroidStrategyRange_mF8362CEE242FA2F82885A6707DBA3BF9CB081AD2 ();
+// 0x00000293 System.Boolean GoogleARCoreInternal.ARCoreProjectSettings::IsIosApiKeyFieldDisplayed()
+extern void ARCoreProjectSettings_IsIosApiKeyFieldDisplayed_mF11D9054E5B7C9D14F0A26A6880E2A94BC292871 ();
+// 0x00000294 System.Array GoogleARCoreInternal.ARCoreProjectSettings::GetIosStrategyRange()
+extern void ARCoreProjectSettings_GetIosStrategyRange_m37DBD25B3DA88C781F89F25023A372B7D1207533 ();
+// 0x00000295 GoogleARCoreInternal.HelpAttribute GoogleARCoreInternal.ARCoreProjectSettings::GetIosStrategyHelpInfo()
+extern void ARCoreProjectSettings_GetIosStrategyHelpInfo_m865EC4A950482439C962732E86A26E119719B51D ();
+// 0x00000296 System.Void GoogleARCoreInternal.ARCoreProjectSettings::.ctor()
+extern void ARCoreProjectSettings__ctor_m60AFCEA39EC303015B0D6803FEE690A9FE98C94E ();
+// 0x00000297 System.Void GoogleARCoreInternal.ARCoreProjectSettings::.cctor()
+extern void ARCoreProjectSettings__cctor_m7FAFAD4971A28240D1B5329DD155FAE6F6845C2E ();
+// 0x00000298 System.Void GoogleARCoreInternal.DisplayConditionAttribute::.ctor(System.String)
+extern void DisplayConditionAttribute__ctor_mD2CC6CE2701AC48235AD59EA9C00C9564247A5C2 ();
+// 0x00000299 System.Void GoogleARCoreInternal.DisplayNameAttribute::.ctor(System.String)
+extern void DisplayNameAttribute__ctor_mFF09F9F835B9140C5049606E1CA5ED141FB03B44 ();
+// 0x0000029A System.Void GoogleARCoreInternal.DynamicHelpAttribute::.ctor(System.String)
+extern void DynamicHelpAttribute__ctor_mA73D0284A48BA0A8B66E67E60CDF4DA0F81A358A ();
+// 0x0000029B System.Void GoogleARCoreInternal.EnumRangeAttribute::.ctor(System.String)
+extern void EnumRangeAttribute__ctor_m35D4274785B8EBD1B0E74EA44A35A32AA48E9B2A ();
+// 0x0000029C System.Void GoogleARCoreInternal.ARDebug::LogError(System.Object)
+extern void ARDebug_LogError_mABBAE51E5B59E186765D33F75E4F21FA3C5EBA3D ();
+// 0x0000029D System.Void GoogleARCoreInternal.ARDebug::LogErrorFormat(System.String,System.Object[])
+extern void ARDebug_LogErrorFormat_mA6C2AB606A1391648B9187B6C62E0A3E03D57C38 ();
+// 0x0000029E System.Void GoogleARCoreInternal.ARDebug::.ctor()
+extern void ARDebug__ctor_m866B1F91E5DA911DBE2E6388A38274BA60E958D8 ();
+// 0x0000029F GoogleARCoreInternal.AndroidNativeHelper_AndroidSurfaceRotation GoogleARCoreInternal.AndroidNativeHelper::GetDisplayRotation()
+extern void AndroidNativeHelper_GetDisplayRotation_mEC48CFB79CC9C3C481CC72F859746283A07F0805 ();
+// 0x000002A0 System.Void GoogleARCoreInternal.AndroidNativeHelper::.ctor()
+extern void AndroidNativeHelper__ctor_m956F6E395E847E28307825ACEDB0F6DADB88DD3D ();
+// 0x000002A1 System.Void GoogleARCoreInternal.ConversionHelper::UnityPoseToApiPose(UnityEngine.Pose,GoogleARCoreInternal.ApiPoseData&)
+extern void ConversionHelper_UnityPoseToApiPose_m8A849F3BE2890015767620A9E627CD0276A8AEE5 ();
+// 0x000002A2 System.Void GoogleARCoreInternal.ConversionHelper::ApiPoseToUnityPose(GoogleARCoreInternal.ApiPoseData,UnityEngine.Pose&)
+extern void ConversionHelper_ApiPoseToUnityPose_m4F715993588B1D7FECF27071AFFE0FA50917839F ();
+// 0x000002A3 System.Void GoogleARCoreInternal.ConversionHelper::ApiVectorToUnityVector(System.Single[],UnityEngine.Vector3&)
+extern void ConversionHelper_ApiVectorToUnityVector_m5E125355EA51EFFAEE749907B43F48682D296AF4 ();
+// 0x000002A4 System.Void GoogleARCoreInternal.ConversionHelper::.ctor()
+extern void ConversionHelper__ctor_m6ED1A6961699330348B66D916AC82591F3B0888A ();
+// 0x000002A5 System.Void GoogleARCoreInternal.ConversionHelper::.cctor()
+extern void ConversionHelper__cctor_m663F66364A56F3ACEDFBD865E2EA7BABD10FA3F0 ();
+// 0x000002A6 System.Collections.Generic.List`1<GoogleARCoreInternal.IDependentModule> GoogleARCoreInternal.DependentModulesManager::GetModules()
+extern void DependentModulesManager_GetModules_m2D6B3F0FAF561935F9F0611B908AF34273199B7A ();
+// 0x000002A7 System.Void GoogleARCoreInternal.DependentModulesManager::.ctor()
+extern void DependentModulesManager__ctor_m6FF53CA21AA944BD87E85B0DD20D9930DC860FF4 ();
+// 0x000002A8 System.Boolean GoogleARCoreInternal.IDependentModule::IsEnabled(GoogleARCoreInternal.ARCoreProjectSettings)
+// 0x000002A9 System.String GoogleARCoreInternal.IDependentModule::GetAndroidManifestSnippet(GoogleARCoreInternal.ARCoreProjectSettings)
+// 0x000002AA System.Boolean GoogleARCoreInternal.IDependentModule::IsCompatibleWithSessionConfig(GoogleARCoreInternal.ARCoreProjectSettings,GoogleARCore.ARCoreSessionConfig)
+// 0x000002AB System.Void GoogleARCoreInternal.DllImportNoop::.ctor(System.String)
+extern void DllImportNoop__ctor_m0DAABE1C5E4A5D196D21C129653C1146DB6BB654 ();
+// 0x000002AC System.Void GoogleARCoreInternal.HelpAttribute::.ctor(System.String,GoogleARCoreInternal.HelpAttribute_HelpMessageType)
+extern void HelpAttribute__ctor_mC02B159F46023A060AD03DFAB2ABFD091745BE13 ();
+// 0x000002AD System.Boolean GoogleARCoreInternal.IntPtrEqualityComparer::Equals(System.IntPtr,System.IntPtr)
+extern void IntPtrEqualityComparer_Equals_m7EA558982D90E881128049EDDCFEDA4B01B1DCBA ();
+// 0x000002AE System.Int32 GoogleARCoreInternal.IntPtrEqualityComparer::GetHashCode(System.IntPtr)
+extern void IntPtrEqualityComparer_GetHashCode_m665D2F35A3036F8A555A077A4AD2F3650F366A90 ();
+// 0x000002AF System.Void GoogleARCoreInternal.IntPtrEqualityComparer::.ctor()
+extern void IntPtrEqualityComparer__ctor_mEA35D3EAE04688FB7732363769080AEB926224F1 ();
+// 0x000002B0 System.Void GoogleARCoreInternal.MarshalingHelper::AddUnmanagedStructArrayToList(System.IntPtr,System.Int32,System.Collections.Generic.List`1<T>)
+// 0x000002B1 System.IntPtr GoogleARCoreInternal.MarshalingHelper::GetPtrToUnmanagedArrayElement(System.IntPtr,System.Int32)
+// 0x000002B2 System.Void GoogleARCoreInternal.MarshalingHelper::.ctor()
+extern void MarshalingHelper__ctor_mB0453A8D07B38E580FA5D4E041A5832F74B8293A ();
+// 0x000002B3 System.Int32 GoogleARCoreInternal.OpenGL::glGetError()
+extern void OpenGL_glGetError_mE3F924F6798D7670CAECD14FD4294730B204D78E ();
+// 0x000002B4 System.Void GoogleARCoreInternal.OpenGL::glGenTextures(System.Int32,System.Int32[])
+extern void OpenGL_glGenTextures_m3BF8711561796FD860D758FAB698777C7CD82B60 ();
+// 0x000002B5 System.Void GoogleARCoreInternal.OpenGL::glBindTexture(GoogleARCoreInternal.OpenGL_Target,System.Int32)
+extern void OpenGL_glBindTexture_m4C913E92AF29262C72C4E3044857D50F62A9A9C3 ();
+// 0x000002B6 System.Void GoogleARCoreInternal.ShellHelper::RunCommand(System.String,System.String,System.String&,System.String&)
+extern void ShellHelper_RunCommand_m4128394A59634C7B2E5804BDBAD1432DD2B5F18B ();
+// 0x000002B7 System.String GoogleARCoreInternal.ShellHelper::GetAdbPath()
+extern void ShellHelper_GetAdbPath_m942481F6ECF56AD4FEE44462D49F410EC16D9D80 ();
+// 0x000002B8 System.String GoogleARCoreInternal.ShellHelper::GetAdbFileName()
+extern void ShellHelper_GetAdbFileName_mEA91D296CF591BBA5F4EEC181099416BA2BAECB3 ();
+// 0x000002B9 System.Void GoogleARCoreInternal.ShellHelper_<>c__DisplayClass0_0::.ctor()
+extern void U3CU3Ec__DisplayClass0_0__ctor_m20F131D123A2C7B175E8D8EBCC7EC6B19ABFB4D8 ();
+// 0x000002BA System.Void GoogleARCoreInternal.ShellHelper_<>c__DisplayClass0_0::<RunCommand>b__0(System.Object,System.Diagnostics.DataReceivedEventArgs)
+extern void U3CU3Ec__DisplayClass0_0_U3CRunCommandU3Eb__0_mECA49AD5E5FBF42E78E3D029F13F63F06C5F7F49 ();
+// 0x000002BB System.Void GoogleARCoreInternal.ShellHelper_<>c__DisplayClass0_0::<RunCommand>b__1(System.Object,System.Diagnostics.DataReceivedEventArgs)
+extern void U3CU3Ec__DisplayClass0_0_U3CRunCommandU3Eb__1_mD625D81D584AECCB9153C57012E69AA169B9CC69 ();
+// 0x000002BC System.Void GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::.ctor()
+extern void SuppressMemoryAllocationErrorAttribute__ctor_mE6149C39C914B236A4C7044E58F33C5A2A523373 ();
+// 0x000002BD System.Boolean GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::get_IsWarning()
+extern void SuppressMemoryAllocationErrorAttribute_get_IsWarning_m361825948A2EAF15B652FB79AE7E61644ACC1648 ();
+// 0x000002BE System.Void GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::set_IsWarning(System.Boolean)
+extern void SuppressMemoryAllocationErrorAttribute_set_IsWarning_mEFCDD49433B9E7BEE8D521B6D5A6B57435201B10 ();
+// 0x000002BF System.String GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::get_Reason()
+extern void SuppressMemoryAllocationErrorAttribute_get_Reason_m67A343438C32699A303B285351F5E27A24B35E59 ();
+// 0x000002C0 System.Void GoogleARCoreInternal.SuppressMemoryAllocationErrorAttribute::set_Reason(System.String)
+extern void SuppressMemoryAllocationErrorAttribute_set_Reason_mD579752BEB9785DA0CDE53A2EE0AC6C025707D4C ();
+// 0x000002C1 System.Void GoogleARCoreInternal.ThrottledLogMessage::.ctor(System.Single)
+extern void ThrottledLogMessage__ctor_m6F9613930C91B373EC4F8F4F829AFEDBDBDC459C ();
+// 0x000002C2 System.Void GoogleARCoreInternal.ThrottledLogMessage::ThrottledLogWarningFormat(System.String,System.Object[])
+extern void ThrottledLogMessage_ThrottledLogWarningFormat_mD565390D0DB4E4A24F365063862907AF8CBEBA17 ();
+// 0x000002C3 System.Boolean GoogleARCoreInternal.ThrottledLogMessage::ShouldLog()
+extern void ThrottledLogMessage_ShouldLog_m91971BFF61B0E3B0B0608E31D35C6C846478413B ();
+// 0x000002C4 GoogleARCoreInternal.CrossPlatform.CloudServiceManager GoogleARCoreInternal.CrossPlatform.CloudServiceManager::get_Instance()
+extern void CloudServiceManager_get_Instance_m1B6F9FC0F64273DF16B530B46C1706D1213E0C62 ();
+// 0x000002C5 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(GoogleARCore.Anchor)
+extern void CloudServiceManager_CreateCloudAnchor_m30D1B1474903D977F132A28463421D9086BCA76A ();
+// 0x000002C6 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(UnityEngine.Pose)
+extern void CloudServiceManager_CreateCloudAnchor_mEB901F4FF4E153DDC8D64751AD7DA12BC6E28C7A ();
+// 0x000002C7 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::ResolveCloudAnchor(System.String)
+extern void CloudServiceManager_ResolveCloudAnchor_mBD8E39F4F8CE47999830581EA0C3D1DB73547FDF ();
+// 0x000002C8 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CancelCloudAnchorAsyncTask(System.String)
+extern void CloudServiceManager_CancelCloudAnchorAsyncTask_m1C8C9A0D76F8B763F573DEB846CF6F8551945284 ();
+// 0x000002C9 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(GoogleARCore.Anchor,System.Int32)
+extern void CloudServiceManager_CreateCloudAnchor_m91101F2DE9FA5AA115FEA9CA63FE0CA2D346A5CF ();
+// 0x000002CA GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(UnityEngine.Pose,System.Int32)
+extern void CloudServiceManager_CreateCloudAnchor_mC48DB044129D8622FDCC7E78EAECC55346E4F5A1 ();
+// 0x000002CB System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::SetAuthToken(System.String)
+extern void CloudServiceManager_SetAuthToken_m52A5035F5DB70DC6E8C8C09576C2DF30E5E9858B ();
+// 0x000002CC GoogleARCore.CrossPlatform.FeatureMapQuality GoogleARCoreInternal.CrossPlatform.CloudServiceManager::EstimateFeatureMapQualityForHosting(UnityEngine.Pose)
+extern void CloudServiceManager_EstimateFeatureMapQualityForHosting_m34B92096D46E4115C9F78B94E1AED20AECE12535 ();
+// 0x000002CD System.Boolean GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchorResultAsyncTask(System.Action`1<GoogleARCore.CrossPlatform.CloudAnchorResult>&,GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult>&)
+extern void CloudServiceManager_CreateCloudAnchorResultAsyncTask_mABC34504530B4681357651F95EC74BA10657BD15 ();
+// 0x000002CE System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateAndTrackCloudAnchorRequest(System.IntPtr,System.Action`1<GoogleARCore.CrossPlatform.CloudAnchorResult>,System.String)
+extern void CloudServiceManager_CreateAndTrackCloudAnchorRequest_m16CCDF3F3BE52905BB5AA455785ED3B42ACC2CB1 ();
+// 0x000002CF System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(System.Action`1<GoogleARCore.CrossPlatform.CloudAnchorResult>,System.IntPtr)
+extern void CloudServiceManager_CreateCloudAnchor_m4773352CCD25ADA1BBB21CE6FFD146E6C352E8BC ();
+// 0x000002D0 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CreateCloudAnchor(System.Action`1<GoogleARCore.CrossPlatform.CloudAnchorResult>,System.IntPtr,System.Int32)
+extern void CloudServiceManager_CreateCloudAnchor_mD4F2F0CD760207383B51722D8ED1BD72CD767034 ();
+// 0x000002D1 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::CancelCloudAnchorRequest(System.String)
+extern void CloudServiceManager_CancelCloudAnchorRequest_m396A2C25CACCC3E3796CDBF210CF42F105067951 ();
+// 0x000002D2 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::ResetInstance()
+extern void CloudServiceManager_ResetInstance_m6A738B9740AB1D11DF053B5792E1F4C01F6B4AEB ();
+// 0x000002D3 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::OnEarlyUpdate()
+extern void CloudServiceManager_OnEarlyUpdate_mFB1EE1F77E97230A40FFA0CDE3D1F5DC054EC0BE ();
+// 0x000002D4 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::UpdateCloudAnchorRequest(GoogleARCoreInternal.CrossPlatform.CloudServiceManager_CloudAnchorRequest,System.Boolean)
+extern void CloudServiceManager_UpdateCloudAnchorRequest_m3CDA0B1C6BFF7C8D25B29C65CB2121BDCBFFF779 ();
+// 0x000002D5 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager::.ctor()
+extern void CloudServiceManager__ctor_m18AF885B2BAA23D98B28090F3D71E2DD1015D2E5 ();
+// 0x000002D6 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager_ExternApi::ARKitAnchor_create(System.IntPtr,System.IntPtr&)
+extern void ExternApi_ARKitAnchor_create_m63DD59CF8AD9F1D9C49C2D860F5923EE3B662E65 ();
+// 0x000002D7 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager_ExternApi::ARKitAnchor_release(System.IntPtr)
+extern void ExternApi_ARKitAnchor_release_mA8898D2CDF5FEE68F8E69AC2C9A9C27760D1FE08 ();
+// 0x000002D8 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager_CloudAnchorRequest::.ctor()
+extern void CloudAnchorRequest__ctor_m6AA5EAFE49CCEE85D4A0C06F3941D3DC9B119F04 ();
+// 0x000002D9 System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager_<>c::.cctor()
+extern void U3CU3Ec__cctor_mA88F175C060D085668C5DA8DF150F8BAF13A24D2 ();
+// 0x000002DA System.Void GoogleARCoreInternal.CrossPlatform.CloudServiceManager_<>c::.ctor()
+extern void U3CU3Ec__ctor_mEF496D1D5CA6E2C3A4AF29691F7CB1F97052AEA0 ();
+// 0x000002DB System.Boolean GoogleARCoreInternal.CrossPlatform.CloudServiceManager_<>c::<CancelCloudAnchorRequest>b__16_0(GoogleARCoreInternal.CrossPlatform.CloudServiceManager_CloudAnchorRequest)
+extern void U3CU3Ec_U3CCancelCloudAnchorRequestU3Eb__16_0_mD48D3472B26D1DE76DB8BA346DAAF6598FE84C46 ();
+// 0x000002DC System.Boolean GoogleARCoreInternal.CrossPlatform.CloudServiceManager_<>c::<OnEarlyUpdate>b__18_0(GoogleARCoreInternal.CrossPlatform.CloudServiceManager_CloudAnchorRequest)
+extern void U3CU3Ec_U3COnEarlyUpdateU3Eb__18_0_m164CBA387E0282CFD235641AEBFDFE299464A826 ();
+// 0x000002DD System.String GoogleARCore.InstantPreviewInput::get_inputString()
+extern void InstantPreviewInput_get_inputString_mC5493D6D339519D93FE744A7413CAF7192AF93DB ();
+// 0x000002DE UnityEngine.Touch[] GoogleARCore.InstantPreviewInput::get_touches()
+extern void InstantPreviewInput_get_touches_m689C3D501675C7925190F24F410474E493A00B75 ();
+// 0x000002DF System.Int32 GoogleARCore.InstantPreviewInput::get_touchCount()
+extern void InstantPreviewInput_get_touchCount_m35EB2374852D3DCB44ACDC3F1930348F95DBD432 ();
+// 0x000002E0 UnityEngine.Vector3 GoogleARCore.InstantPreviewInput::get_mousePosition()
+extern void InstantPreviewInput_get_mousePosition_m3A6DB6BE4B4824DB0E21D9F199B396EF5A7E6E7B ();
+// 0x000002E1 System.Boolean GoogleARCore.InstantPreviewInput::get_mousePresent()
+extern void InstantPreviewInput_get_mousePresent_m00F5141D17CBF2F2527C9E879B1FEEE469BBEC2A ();
+// 0x000002E2 UnityEngine.Touch GoogleARCore.InstantPreviewInput::GetTouch(System.Int32)
+extern void InstantPreviewInput_GetTouch_m6AA92D813B6334666D9FA1F76F77FBAA5AC20077 ();
+// 0x000002E3 System.Boolean GoogleARCore.InstantPreviewInput::GetKey(UnityEngine.KeyCode)
+extern void InstantPreviewInput_GetKey_m32F47E397F9A3A7ACCFAB0577420F9737FCA525E ();
+// 0x000002E4 System.Boolean GoogleARCore.InstantPreviewInput::GetMouseButton(System.Int32)
+extern void InstantPreviewInput_GetMouseButton_m3EBA43A954F9018EF8BCAFBC3126B9FF2B69E029 ();
+// 0x000002E5 System.Boolean GoogleARCore.InstantPreviewInput::GetMouseButtonDown(System.Int32)
+extern void InstantPreviewInput_GetMouseButtonDown_m50B4302321F6ED7CBA33C9D17029EC515E3A174D ();
+// 0x000002E6 System.Boolean GoogleARCore.InstantPreviewInput::GetMouseButtonUp(System.Int32)
+extern void InstantPreviewInput_GetMouseButtonUp_m909C7A6B2B7460080A9CEE6D529073DF1AD71D41 ();
+// 0x000002E7 System.Void GoogleARCore.InstantPreviewInput::Update()
+extern void InstantPreviewInput_Update_m65DE7E123596CE3C41EAA8A0F6A4610D42B29EB7 ();
+// 0x000002E8 System.Void GoogleARCore.InstantPreviewInput::.cctor()
+extern void InstantPreviewInput__cctor_m89335DFA25E45E0EAF761A4FFECD08629A08E1A3 ();
+// 0x000002E9 System.Void GoogleARCore.InstantPreviewInput_NativeApi::GetTouches(System.IntPtr&,System.Int32&)
+extern void NativeApi_GetTouches_mA5D8F9DF53E05455A744CF1EF51D2C70E00585A2 ();
+// 0x000002EA System.Void GoogleARCore.InstantPreviewInput_NativeApi::UnityGotTouches()
+extern void NativeApi_UnityGotTouches_m947A9BB55CE2DB4F2366E6125B8B06FEC880106F ();
+// 0x000002EB System.Void GoogleARCore.InstantPreviewInput_<>c__DisplayClass17_0::.ctor()
+extern void U3CU3Ec__DisplayClass17_0__ctor_m5278B1C9E1E7F9037CD4BAECEA66C8263BF27E65 ();
+// 0x000002EC System.Boolean GoogleARCore.InstantPreviewInput_<>c__DisplayClass17_0::<Update>b__0(UnityEngine.Touch)
+extern void U3CU3Ec__DisplayClass17_0_U3CUpdateU3Eb__0_mB33A5975A654C60B7B8983BA976ECF7B247045F1 ();
+// 0x000002ED System.Void GoogleARCore.InstantPreviewTrackedPoseDriver::Update()
+extern void InstantPreviewTrackedPoseDriver_Update_mFA0FAE9348B9CA782AB7FF720602EF9B72574EC7 ();
+// 0x000002EE System.Void GoogleARCore.InstantPreviewTrackedPoseDriver::.ctor()
+extern void InstantPreviewTrackedPoseDriver__ctor_m0954FBF0DFFD93DAD41B2A18D898597C209DA7D6 ();
+// 0x000002EF System.Void GoogleARCore.ARCoreBackgroundRenderer::OnEnable()
+extern void ARCoreBackgroundRenderer_OnEnable_m3551F668793F78703ADF0EBC230A50E6B9EABA62 ();
+// 0x000002F0 System.Void GoogleARCore.ARCoreBackgroundRenderer::OnDisable()
+extern void ARCoreBackgroundRenderer_OnDisable_m1FD35B46CC63087B82BB558F2308B3DF1CCD273E ();
+// 0x000002F1 System.Void GoogleARCore.ARCoreBackgroundRenderer::OnPreRender()
+extern void ARCoreBackgroundRenderer_OnPreRender_m0F47E5877B9F117F3FD5B07FCCC755B392EEB349 ();
+// 0x000002F2 System.Void GoogleARCore.ARCoreBackgroundRenderer::OnPostRender()
+extern void ARCoreBackgroundRenderer_OnPostRender_m590B9C4DB530369823F3E33E50E0F4EFFAFC1D15 ();
+// 0x000002F3 System.Void GoogleARCore.ARCoreBackgroundRenderer::Update()
+extern void ARCoreBackgroundRenderer_Update_m450142E347BC9D533E3D3633384FC87A5E000895 ();
+// 0x000002F4 System.Void GoogleARCore.ARCoreBackgroundRenderer::UpdateState()
+extern void ARCoreBackgroundRenderer_UpdateState_m3F2DB8AE4D1BDC77A38465B18AE02999503A41CA ();
+// 0x000002F5 System.Void GoogleARCore.ARCoreBackgroundRenderer::UpdateShaderVariables()
+extern void ARCoreBackgroundRenderer_UpdateShaderVariables_mD1A6AC2AA5E63C06558CB53F2376245794A48A85 ();
+// 0x000002F6 System.Void GoogleARCore.ARCoreBackgroundRenderer::OnSessionSetEnabled(System.Boolean)
+extern void ARCoreBackgroundRenderer_OnSessionSetEnabled_m6C8E1C05B76522EBC6A2FB9EC5B9CD994FD12B8A ();
+// 0x000002F7 System.Single GoogleARCore.ARCoreBackgroundRenderer::CosineLerp(System.Single,System.Single)
+extern void ARCoreBackgroundRenderer_CosineLerp_mF6234E47BA220969AB78198D07C2145BA9391511 ();
+// 0x000002F8 UnityEngine.Vector4 GoogleARCore.ARCoreBackgroundRenderer::TextureTransform()
+extern void ARCoreBackgroundRenderer_TextureTransform_m7B33EBC73AEFEE3D1824E80E79A706CAE3AE4D5C ();
+// 0x000002F9 System.Void GoogleARCore.ARCoreBackgroundRenderer::EnableARBackgroundRendering()
+extern void ARCoreBackgroundRenderer_EnableARBackgroundRendering_m0812A1EB134FE87E59C2B3EFE917613CCA44449C ();
+// 0x000002FA System.Void GoogleARCore.ARCoreBackgroundRenderer::DisableARBackgroundRendering()
+extern void ARCoreBackgroundRenderer_DisableARBackgroundRendering_m0C91FC263718DFF63EFDBA8DD68BCBE4EB862D12 ();
+// 0x000002FB System.Void GoogleARCore.ARCoreBackgroundRenderer::.ctor()
+extern void ARCoreBackgroundRenderer__ctor_mD970EC607B47326A88D48C7E2A02EC838E50C122 ();
+// 0x000002FC System.Void GoogleARCore.ARCoreBackgroundRenderer::.cctor()
+extern void ARCoreBackgroundRenderer__cctor_mBD2A277098710F94643C90EDB860ECCE76D43C44 ();
+// 0x000002FD System.IntPtr GoogleARCore.ARCoreBackgroundRenderer_ExternApi::ARCoreRenderingUtils_GetRenderEventFunc()
+extern void ExternApi_ARCoreRenderingUtils_GetRenderEventFunc_m3BEAC8F2E614D9CF92E1208672262E0C75E1EE35 ();
+// 0x000002FE System.Void GoogleARCore.ARCoreCameraConfigFilter::OnValidate()
+extern void ARCoreCameraConfigFilter_OnValidate_mA6373D73E6911C590CF1E8A0592708B2667E91C5 ();
+// 0x000002FF System.Void GoogleARCore.ARCoreCameraConfigFilter::.ctor()
+extern void ARCoreCameraConfigFilter__ctor_m5088B127061FBA0428101058454D1280EF3FBC2F ();
+// 0x00000300 System.Void GoogleARCore.ARCoreCameraConfigFilter_TargetCameraFramerateFilter::.ctor()
+extern void TargetCameraFramerateFilter__ctor_m326BB673141C9DE39AA841681A27EF5DC2FB614C ();
+// 0x00000301 System.Void GoogleARCore.ARCoreCameraConfigFilter_DepthSensorUsageFilter::.ctor()
+extern void DepthSensorUsageFilter__ctor_mC1FBB25E03AE53DD5214BB9072DB98E9D5269FFD ();
+// 0x00000302 System.Void GoogleARCore.ARCoreCameraConfigFilter_StereoCameraUsageFilter::.ctor()
+extern void StereoCameraUsageFilter__ctor_m217AE3E4E976317D7286B4420B8187D5687FC71F ();
+// 0x00000303 System.Void GoogleARCore.ARCoreRecordingConfig::.ctor()
+extern void ARCoreRecordingConfig__ctor_m2F6A10C4277AFBB36A4F5EBFA6E5CCA1A0AB8340 ();
+// 0x00000304 System.Void GoogleARCore.ARCoreSession::Awake()
+extern void ARCoreSession_Awake_mE42AEAAB112938B7A9E5283D97CF65D96D109717 ();
+// 0x00000305 System.Void GoogleARCore.ARCoreSession::OnDestroy()
+extern void ARCoreSession_OnDestroy_m20133E6D16EB6B1C3197F9A57F7992D09B9C398F ();
+// 0x00000306 System.Void GoogleARCore.ARCoreSession::OnEnable()
+extern void ARCoreSession_OnEnable_m58C2CFE707E4A33806E240E612EE8AC7FE957F8B ();
+// 0x00000307 System.Void GoogleARCore.ARCoreSession::OnDisable()
+extern void ARCoreSession_OnDisable_m73F055AEA8D704C06718B963B18D21B9E61644BD ();
+// 0x00000308 System.Void GoogleARCore.ARCoreSession::OnValidate()
+extern void ARCoreSession_OnValidate_mF6F1A169E09D05AD9AD2D75986F061F92D29275E ();
+// 0x00000309 System.Void GoogleARCore.ARCoreSession::RegisterChooseCameraConfigurationCallback(GoogleARCore.ARCoreSession_OnChooseCameraConfigurationDelegate)
+extern void ARCoreSession_RegisterChooseCameraConfigurationCallback_mFCE35E3BC41030425C250DE37B5647C8D468383F ();
+// 0x0000030A GoogleARCore.ARCoreSession_OnChooseCameraConfigurationDelegate GoogleARCore.ARCoreSession::GetChooseCameraConfigurationCallback()
+extern void ARCoreSession_GetChooseCameraConfigurationCallback_mCBE460D1E81312B791E22F133239264126668506 ();
+// 0x0000030B System.Void GoogleARCore.ARCoreSession::.ctor()
+extern void ARCoreSession__ctor_mB8A9BCF700BD400C5787B7D335DC108F9ED493AC ();
+// 0x0000030C System.Void GoogleARCore.ARCoreSession_OnChooseCameraConfigurationDelegate::.ctor(System.Object,System.IntPtr)
+extern void OnChooseCameraConfigurationDelegate__ctor_m69DBFFF2DB28A56C8618E16706800CDD9D8867EB ();
+// 0x0000030D System.Int32 GoogleARCore.ARCoreSession_OnChooseCameraConfigurationDelegate::Invoke(System.Collections.Generic.List`1<GoogleARCore.CameraConfig>)
+extern void OnChooseCameraConfigurationDelegate_Invoke_m2D2C53A61841FF1D4F0EE27DD6FFCFE69FC23737 ();
+// 0x0000030E System.IAsyncResult GoogleARCore.ARCoreSession_OnChooseCameraConfigurationDelegate::BeginInvoke(System.Collections.Generic.List`1<GoogleARCore.CameraConfig>,System.AsyncCallback,System.Object)
+extern void OnChooseCameraConfigurationDelegate_BeginInvoke_mF74D24E357BE48E530064F905F9A94B759BB28F9 ();
+// 0x0000030F System.Int32 GoogleARCore.ARCoreSession_OnChooseCameraConfigurationDelegate::EndInvoke(System.IAsyncResult)
+extern void OnChooseCameraConfigurationDelegate_EndInvoke_m1528F6A92B42CF50726FBA4B5362A48F0FBDBD91 ();
+// 0x00000310 System.Boolean GoogleARCore.ARCoreSessionConfig::get_EnablePlaneFinding()
+extern void ARCoreSessionConfig_get_EnablePlaneFinding_m35B4F068F491D802913B5B3199BFD71E40941DA5 ();
+// 0x00000311 System.Void GoogleARCore.ARCoreSessionConfig::set_EnablePlaneFinding(System.Boolean)
+extern void ARCoreSessionConfig_set_EnablePlaneFinding_m88FE9191310FCDE7D2DB0F3127E9A8DBEF0CF404 ();
+// 0x00000312 System.Boolean GoogleARCore.ARCoreSessionConfig::get_EnableLightEstimation()
+extern void ARCoreSessionConfig_get_EnableLightEstimation_m862E7C509DE03E8216B281C990CBEE70F1987DE9 ();
+// 0x00000313 System.Void GoogleARCore.ARCoreSessionConfig::set_EnableLightEstimation(System.Boolean)
+extern void ARCoreSessionConfig_set_EnableLightEstimation_m46AAD69CBDE06AF3250007238F3EA504A34D2133 ();
+// 0x00000314 System.Boolean GoogleARCore.ARCoreSessionConfig::get_EnableCloudAnchor()
+extern void ARCoreSessionConfig_get_EnableCloudAnchor_mB2D0AF6541FB3E83A84846174537A635C013BEDE ();
+// 0x00000315 System.Void GoogleARCore.ARCoreSessionConfig::set_EnableCloudAnchor(System.Boolean)
+extern void ARCoreSessionConfig_set_EnableCloudAnchor_m430DBD4EDD9912EFE93A36EF9FB34CEA9520B647 ();
+// 0x00000316 System.Boolean GoogleARCore.ARCoreSessionConfig::Equals(System.Object)
+extern void ARCoreSessionConfig_Equals_mC592A53827E96A27CBF3AB7B7D7CE54A72066066 ();
+// 0x00000317 System.Int32 GoogleARCore.ARCoreSessionConfig::GetHashCode()
+extern void ARCoreSessionConfig_GetHashCode_m5EB1AD3DCC168EEC1A3CF9190196BF4D3257E5C8 ();
+// 0x00000318 System.Void GoogleARCore.ARCoreSessionConfig::CopyFrom(GoogleARCore.ARCoreSessionConfig)
+extern void ARCoreSessionConfig_CopyFrom_mC67E35AE933E89480196B5284A9EDECA7B59F801 ();
+// 0x00000319 System.Void GoogleARCore.ARCoreSessionConfig::OnValidate()
+extern void ARCoreSessionConfig_OnValidate_m82E9BF73D1E1B435BD6C9D463205ABA6FB6D2882 ();
+// 0x0000031A System.Void GoogleARCore.ARCoreSessionConfig::.ctor()
+extern void ARCoreSessionConfig__ctor_m701363C4F5440F9A1D13C59CC74310514789A019 ();
+// 0x0000031B GoogleARCore.TrackingState GoogleARCore.Anchor::get_TrackingState()
+extern void Anchor_get_TrackingState_mE67114ABA6356E0219E6BD9A798FAA805774B367 ();
+// 0x0000031C GoogleARCoreInternal.NativeSession GoogleARCore.Anchor::get__nativeSession()
+extern void Anchor_get__nativeSession_m9D3431933368A94ECF5D98D0EFD83BD49B934B82 ();
+// 0x0000031D System.Void GoogleARCore.Anchor::set__nativeSession(GoogleARCoreInternal.NativeSession)
+extern void Anchor_set__nativeSession_mAF6AAAF401198155142F20498BBDB93297E159AB ();
+// 0x0000031E System.IntPtr GoogleARCore.Anchor::get__nativeHandle()
+extern void Anchor_get__nativeHandle_m4389D0800B6398061C457360A02CACD96A6F031B ();
+// 0x0000031F System.Void GoogleARCore.Anchor::set__nativeHandle(System.IntPtr)
+extern void Anchor_set__nativeHandle_m7485FE645C21E1CA2423F9F60DFE1F8F8C29FEB5 ();
+// 0x00000320 GoogleARCore.Anchor GoogleARCore.Anchor::Factory(GoogleARCoreInternal.NativeSession,System.IntPtr,System.Boolean)
+extern void Anchor_Factory_m6708B90A6F469F1143CEC20D000D63D0A8E8B262 ();
+// 0x00000321 System.Void GoogleARCore.Anchor::Update()
+extern void Anchor_Update_mCDD0474A9CBB2732235DA301E4B9504FB011C330 ();
+// 0x00000322 System.Void GoogleARCore.Anchor::OnDestroy()
+extern void Anchor_OnDestroy_mB8E1C6FFCC354D83F9ECE62DD9BA4D3EFFB2E28A ();
+// 0x00000323 System.Boolean GoogleARCore.Anchor::IsSessionDestroyed()
+extern void Anchor_IsSessionDestroyed_mBF1FE7821ED0540E40667E089DD8C6A7FCCDB78B ();
+// 0x00000324 System.Void GoogleARCore.Anchor::.ctor()
+extern void Anchor__ctor_mD98F10A81E90B9E7DE08DD775C3715F7F61DFB63 ();
+// 0x00000325 System.Void GoogleARCore.Anchor::.cctor()
+extern void Anchor__cctor_mAC3C1F75A9454DF78B969E57E38BB3FB83BFDA25 ();
+// 0x00000326 System.Void GoogleARCore.AndroidPermissionsManager::.ctor()
+extern void AndroidPermissionsManager__ctor_mB31918A611E0C28C8D3A71E0686697A99CD1AAA5 ();
+// 0x00000327 System.Boolean GoogleARCore.AndroidPermissionsManager::IsPermissionGranted(System.String)
+extern void AndroidPermissionsManager_IsPermissionGranted_mBF5A0A33F7FE635CDDBA10841BA5BA530621EB06 ();
+// 0x00000328 GoogleARCore.AsyncTask`1<GoogleARCore.AndroidPermissionsRequestResult> GoogleARCore.AndroidPermissionsManager::RequestPermission(System.String)
+extern void AndroidPermissionsManager_RequestPermission_mC5B346626166EAC8EA4774843EFC3CEE1055ADBE ();
+// 0x00000329 GoogleARCore.AsyncTask`1<GoogleARCore.AndroidPermissionsRequestResult> GoogleARCore.AndroidPermissionsManager::RequestAndroidPermission(System.String)
+extern void AndroidPermissionsManager_RequestAndroidPermission_m291BD36228AA7CB8AF3CE831A11C432D2CFD6392 ();
+// 0x0000032A System.Void GoogleARCore.AndroidPermissionsManager::OnPermissionGranted(System.String)
+extern void AndroidPermissionsManager_OnPermissionGranted_mC5F80A4C77BBBB5F16A0729391B7A50D413CC6C2 ();
+// 0x0000032B System.Void GoogleARCore.AndroidPermissionsManager::OnPermissionDenied(System.String)
+extern void AndroidPermissionsManager_OnPermissionDenied_m43D5360DD5A2B759D8865E499046DFACCB81E13F ();
+// 0x0000032C System.Void GoogleARCore.AndroidPermissionsManager::OnActivityResult()
+extern void AndroidPermissionsManager_OnActivityResult_m2BB73A1CA840325734BA7B37AE582417D3C55E8C ();
+// 0x0000032D GoogleARCore.AndroidPermissionsManager GoogleARCore.AndroidPermissionsManager::GetInstance()
+extern void AndroidPermissionsManager_GetInstance_mF88E8DCC1AE985C8E1B79B3D4FE976CB6BB120D0 ();
+// 0x0000032E UnityEngine.AndroidJavaObject GoogleARCore.AndroidPermissionsManager::GetUnityActivity()
+extern void AndroidPermissionsManager_GetUnityActivity_mF2ECBCC42060509B4CF5B43AFCA42D5F9DCADA47 ();
+// 0x0000032F UnityEngine.AndroidJavaObject GoogleARCore.AndroidPermissionsManager::GetPermissionsService()
+extern void AndroidPermissionsManager_GetPermissionsService_mB9278230270FFE8257AE39AFFEBCC2FCFFE2886E ();
+// 0x00000330 System.Void GoogleARCore.AndroidPermissionsManager::OnPermissionResult(System.String,System.Boolean)
+extern void AndroidPermissionsManager_OnPermissionResult_mD3AF1929BAE3B8D40D2A7FAA746F1895AFF00FF2 ();
+// 0x00000331 System.Void GoogleARCore.AndroidPermissionsManager::.cctor()
+extern void AndroidPermissionsManager__cctor_m994A431346170BD0F7490BD39EE1C0A4288FCECD ();
+// 0x00000332 System.Void GoogleARCore.AndroidPermissionsRequestResult::.ctor(System.String[],System.Boolean[])
+extern void AndroidPermissionsRequestResult__ctor_m0D1A6593BF4A0D8C23B9FCD52D79EFB5DA36850A_AdjustorThunk ();
+// 0x00000333 System.String[] GoogleARCore.AndroidPermissionsRequestResult::get_PermissionNames()
+extern void AndroidPermissionsRequestResult_get_PermissionNames_m3D11FBF0DC9372B7FC9007B054722252FE8D4E69_AdjustorThunk ();
+// 0x00000334 System.Void GoogleARCore.AndroidPermissionsRequestResult::set_PermissionNames(System.String[])
+extern void AndroidPermissionsRequestResult_set_PermissionNames_m1B8BE87193234B48541BD2BC67FF8DE08ACA16B3_AdjustorThunk ();
+// 0x00000335 System.Boolean[] GoogleARCore.AndroidPermissionsRequestResult::get_GrantResults()
+extern void AndroidPermissionsRequestResult_get_GrantResults_m4BAE332947D61F7DF1624FBCDB6483E0E89C074D_AdjustorThunk ();
+// 0x00000336 System.Void GoogleARCore.AndroidPermissionsRequestResult::set_GrantResults(System.Boolean[])
+extern void AndroidPermissionsRequestResult_set_GrantResults_m6B486059B32D26D8764191D511B19FB1C0ADA0DC_AdjustorThunk ();
+// 0x00000337 System.Boolean GoogleARCore.AndroidPermissionsRequestResult::get_IsAllGranted()
+extern void AndroidPermissionsRequestResult_get_IsAllGranted_mB6231F02790A3AF7AB392026A878C7445B31F879_AdjustorThunk ();
+// 0x00000338 System.Void GoogleARCore.AsyncTask`1::.ctor(System.Action`1<T>&)
+// 0x00000339 System.Void GoogleARCore.AsyncTask`1::.ctor(T)
+// 0x0000033A System.Boolean GoogleARCore.AsyncTask`1::get_IsComplete()
+// 0x0000033B System.Void GoogleARCore.AsyncTask`1::set_IsComplete(System.Boolean)
+// 0x0000033C T GoogleARCore.AsyncTask`1::get_Result()
+// 0x0000033D System.Void GoogleARCore.AsyncTask`1::set_Result(T)
+// 0x0000033E UnityEngine.CustomYieldInstruction GoogleARCore.AsyncTask`1::WaitForCompletion()
+// 0x0000033F GoogleARCore.AsyncTask`1<T> GoogleARCore.AsyncTask`1::ThenAction(System.Action`1<T>)
+// 0x00000340 System.Void GoogleARCore.AsyncTask`1::<.ctor>b__1_0(T)
+// 0x00000341 System.Void GoogleARCore.AsyncTask`1_<>c__DisplayClass1_0::.ctor()
+// 0x00000342 System.Void GoogleARCore.AsyncTask`1_<>c__DisplayClass1_0::<.ctor>b__1()
+// 0x00000343 System.Boolean GoogleARCore.AsyncTask::get_IsInitialized()
+extern void AsyncTask_get_IsInitialized_mC258EF0D0D4CB7C25713FD2574641127284EBB58 ();
+// 0x00000344 System.Void GoogleARCore.AsyncTask::set_IsInitialized(System.Boolean)
+extern void AsyncTask_set_IsInitialized_mADA6E885D9779BCD06C84D2F9B1FE7E753B44E0A ();
+// 0x00000345 System.Void GoogleARCore.AsyncTask::PerformActionInUpdate(System.Action)
+extern void AsyncTask_PerformActionInUpdate_m3AA08E1F2666A4823F5CD72CC9B7197C211130BD ();
+// 0x00000346 System.Void GoogleARCore.AsyncTask::OnUpdate()
+extern void AsyncTask_OnUpdate_m15747531A3B522338556A3D6C48D8D61B0BBC09E ();
+// 0x00000347 System.Void GoogleARCore.AsyncTask::InitAsyncTask()
+extern void AsyncTask_InitAsyncTask_mC94AB4F1F04B084E187AF0A6ABECF186CBF20A10 ();
+// 0x00000348 System.Void GoogleARCore.AsyncTask::ResetAsyncTask()
+extern void AsyncTask_ResetAsyncTask_mC728784B290D654EAA4CD573ABFEC32720EE8F69 ();
+// 0x00000349 System.Void GoogleARCore.AsyncTask::.ctor()
+extern void AsyncTask__ctor_mA10AF754AE318FE9196C6FF7DD17F3B216850D5A ();
+// 0x0000034A System.Void GoogleARCore.AsyncTask::.cctor()
+extern void AsyncTask__cctor_m8A3D39A22838E5BD70F07A1064BC73EF61CD9BD6 ();
+// 0x0000034B System.Void GoogleARCore.AugmentedFace::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+extern void AugmentedFace__ctor_mED73196F0469C88BCC61911804E7B84E79B3AFE7 ();
+// 0x0000034C UnityEngine.Pose GoogleARCore.AugmentedFace::get_CenterPose()
+extern void AugmentedFace_get_CenterPose_m5F487CA9F9BED5BD593165E3E6E30F334AC70ED0 ();
+// 0x0000034D UnityEngine.Pose GoogleARCore.AugmentedFace::GetRegionPose(GoogleARCore.AugmentedFaceRegion)
+extern void AugmentedFace_GetRegionPose_m47FFBD5E04A9E6BC3FD568AF5CEAE11EF10FAF9C ();
+// 0x0000034E System.Void GoogleARCore.AugmentedFace::GetVertices(System.Collections.Generic.List`1<UnityEngine.Vector3>)
+extern void AugmentedFace_GetVertices_m80343756E825D912921CB0199DBFA860D839C8B7 ();
+// 0x0000034F System.Void GoogleARCore.AugmentedFace::GetTextureCoordinates(System.Collections.Generic.List`1<UnityEngine.Vector2>)
+extern void AugmentedFace_GetTextureCoordinates_mC389358F7DFB62E311043E4F00DA4EB4C6198543 ();
+// 0x00000350 System.Void GoogleARCore.AugmentedFace::GetNormals(System.Collections.Generic.List`1<UnityEngine.Vector3>)
+extern void AugmentedFace_GetNormals_m3F606B9D0887BC13F6214CF04BB6A3FE6C811DB3 ();
+// 0x00000351 System.Void GoogleARCore.AugmentedFace::GetTriangleIndices(System.Collections.Generic.List`1<System.Int32>)
+extern void AugmentedFace_GetTriangleIndices_mCBFB00FDC7C0EBB49147B9FD5C138DB1B9A91F00 ();
+// 0x00000352 System.Void GoogleARCore.AugmentedImage::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+extern void AugmentedImage__ctor_mE5DFF7953A1007DDFB61F1BE4436FA324B8E488A ();
+// 0x00000353 System.Int32 GoogleARCore.AugmentedImage::get_DatabaseIndex()
+extern void AugmentedImage_get_DatabaseIndex_m45C5C87292E2F57797F93E9D1DC5DADACCACA385 ();
+// 0x00000354 System.String GoogleARCore.AugmentedImage::get_Name()
+extern void AugmentedImage_get_Name_m57307C4C9994857BB0C16CD86BDEDFAC63AB41B9 ();
+// 0x00000355 UnityEngine.Pose GoogleARCore.AugmentedImage::get_CenterPose()
+extern void AugmentedImage_get_CenterPose_m19D78748108E47A4F91799100B6FE3A49617FC27 ();
+// 0x00000356 System.Single GoogleARCore.AugmentedImage::get_ExtentX()
+extern void AugmentedImage_get_ExtentX_mCF2EAE35D987CD5E06FD4AE3EC5914CFD67AC47C ();
+// 0x00000357 System.Single GoogleARCore.AugmentedImage::get_ExtentZ()
+extern void AugmentedImage_get_ExtentZ_mC2BD28EEBA749D0CB97B41315B660B0BACD9171A ();
+// 0x00000358 GoogleARCore.AugmentedImageTrackingMethod GoogleARCore.AugmentedImage::get_TrackingMethod()
+extern void AugmentedImage_get_TrackingMethod_mBD30160B9E640C9CB735F374290BF92AAF75EA6E ();
+// 0x00000359 System.Void GoogleARCore.AugmentedImageDatabase::.ctor()
+extern void AugmentedImageDatabase__ctor_m8D66B51FE0BFD955E4C21F58463F3B955CD298C3 ();
+// 0x0000035A System.Int32 GoogleARCore.AugmentedImageDatabase::get_Count()
+extern void AugmentedImageDatabase_get_Count_m95779DAA112ED0DB5D6F6AD6593E9C4BFD922DA1 ();
+// 0x0000035B System.Boolean GoogleARCore.AugmentedImageDatabase::get__isDirty()
+extern void AugmentedImageDatabase_get__isDirty_mF8020BC1E3572B5B5897EAADE1F46F49E3CC598E ();
+// 0x0000035C System.Void GoogleARCore.AugmentedImageDatabase::set__isDirty(System.Boolean)
+extern void AugmentedImageDatabase_set__isDirty_mFA65019616F5C5D4635D3B5397C6631B26E65B1D ();
+// 0x0000035D System.IntPtr GoogleARCore.AugmentedImageDatabase::get__nativeHandle()
+extern void AugmentedImageDatabase_get__nativeHandle_mB8133829D95F233CC041125F5FB44A15EFE13A53 ();
+// 0x0000035E System.Void GoogleARCore.AugmentedImageDatabase::set__nativeHandle(System.IntPtr)
+extern void AugmentedImageDatabase_set__nativeHandle_m404BB13C8001A75545701048970B7D7E3DEBC7A3 ();
+// 0x0000035F GoogleARCore.AugmentedImageDatabaseEntry GoogleARCore.AugmentedImageDatabase::get_Item(System.Int32)
+extern void AugmentedImageDatabase_get_Item_m4E7060E62DAD0C41F6EA8CDAD4B761AAFB411852 ();
+// 0x00000360 System.Int32 GoogleARCore.AugmentedImageDatabase::AddImage(System.String,UnityEngine.Texture2D,System.Single)
+extern void AugmentedImageDatabase_AddImage_mD57AC60EAC52F654AE806589C5C656EFFB524E7F ();
+// 0x00000361 System.Int32 GoogleARCore.AugmentedImageDatabase::AddImage(System.String,GoogleARCore.AugmentedImageSrc,System.Single)
+extern void AugmentedImageDatabase_AddImage_m946650CB2FC7880A8D3C1A9025FFF26F2C653EE0 ();
+// 0x00000362 System.Void GoogleARCore.AugmentedImageDatabaseEntry::.ctor(System.String,System.Single)
+extern void AugmentedImageDatabaseEntry__ctor_mCC84306C332A0471CB5C4074600602ECEB607F0A_AdjustorThunk ();
+// 0x00000363 System.Void GoogleARCore.AugmentedImageSrc::.ctor(UnityEngine.Texture2D)
+extern void AugmentedImageSrc__ctor_mCEDABF4AE0391A282E24E6072BE277EAB687F9B7 ();
+// 0x00000364 UnityEngine.TextureFormat GoogleARCore.AugmentedImageSrc::get__format()
+extern void AugmentedImageSrc_get__format_mCE06830AB40CC5B8E37CC307C0B31FC3AD5EBD54 ();
+// 0x00000365 System.Void GoogleARCore.AugmentedImageSrc::set__format(UnityEngine.TextureFormat)
+extern void AugmentedImageSrc_set__format_mA93D2764A27885125C1D24069FC5019F6F0A2D09 ();
+// 0x00000366 UnityEngine.Color[] GoogleARCore.AugmentedImageSrc::get__pixels()
+extern void AugmentedImageSrc_get__pixels_m6E392BE854E2E2A6748EB6EA7A81EF712C69F09B ();
+// 0x00000367 System.Void GoogleARCore.AugmentedImageSrc::set__pixels(UnityEngine.Color[])
+extern void AugmentedImageSrc_set__pixels_mA666ABDEC272AADC679E3146E2704B5637694414 ();
+// 0x00000368 System.Int32 GoogleARCore.AugmentedImageSrc::get__height()
+extern void AugmentedImageSrc_get__height_mDE266DD5A6D3617F89311C9B037D6E979AA7333A ();
+// 0x00000369 System.Void GoogleARCore.AugmentedImageSrc::set__height(System.Int32)
+extern void AugmentedImageSrc_set__height_m18D13B5F9E5BBBD58854F59C52002566D6534B4D ();
+// 0x0000036A System.Int32 GoogleARCore.AugmentedImageSrc::get__width()
+extern void AugmentedImageSrc_get__width_mA0C413B87C7C4958CCECDE14097C2137C69BFAA2 ();
+// 0x0000036B System.Void GoogleARCore.AugmentedImageSrc::set__width(System.Int32)
+extern void AugmentedImageSrc_set__width_m59D443D1537CC5CB10133D66C9801302CEFE3B66 ();
+// 0x0000036C System.Void GoogleARCore.CameraConfig::.ctor(UnityEngine.Vector2,UnityEngine.Vector2,System.Int32,System.Int32,GoogleARCore.CameraConfigDepthSensorUsage,GoogleARCore.CameraConfigStereoCameraUsage)
+extern void CameraConfig__ctor_m20552A600CFE8EF6563128431FE1DE6DB167B32F_AdjustorThunk ();
+// 0x0000036D UnityEngine.Vector2 GoogleARCore.CameraConfig::get_ImageSize()
+extern void CameraConfig_get_ImageSize_mE15084C898263241A9FD29C3E3A706674A04C8B1_AdjustorThunk ();
+// 0x0000036E System.Void GoogleARCore.CameraConfig::set_ImageSize(UnityEngine.Vector2)
+extern void CameraConfig_set_ImageSize_mA971CA13E2B274355131BC0F19105D49F283276D_AdjustorThunk ();
+// 0x0000036F UnityEngine.Vector2 GoogleARCore.CameraConfig::get_TextureSize()
+extern void CameraConfig_get_TextureSize_mF0BDBD4356EC843D6D452078459D57113F46C74B_AdjustorThunk ();
+// 0x00000370 System.Void GoogleARCore.CameraConfig::set_TextureSize(UnityEngine.Vector2)
+extern void CameraConfig_set_TextureSize_m5271FFAEF3440B905D148630403017983CF722B5_AdjustorThunk ();
+// 0x00000371 System.Int32 GoogleARCore.CameraConfig::get_MinFPS()
+extern void CameraConfig_get_MinFPS_m3F7CCEBBCEEB80CDC21F0A42840B762C94DA4AAD_AdjustorThunk ();
+// 0x00000372 System.Void GoogleARCore.CameraConfig::set_MinFPS(System.Int32)
+extern void CameraConfig_set_MinFPS_mC926EAB0551FEBB354890F8C7B9735C137814FF9_AdjustorThunk ();
+// 0x00000373 System.Int32 GoogleARCore.CameraConfig::get_MaxFPS()
+extern void CameraConfig_get_MaxFPS_m3AB55ED36FCEB92AB39A3C84FF8DF127E3C5D608_AdjustorThunk ();
+// 0x00000374 System.Void GoogleARCore.CameraConfig::set_MaxFPS(System.Int32)
+extern void CameraConfig_set_MaxFPS_m62FA578E86EE9006A8C31A4E9209481D0356D4A5_AdjustorThunk ();
+// 0x00000375 GoogleARCore.CameraConfigDepthSensorUsage GoogleARCore.CameraConfig::get_DepthSensorUsage()
+extern void CameraConfig_get_DepthSensorUsage_m23643C2DDE7C8B1F829A84FE4289F6453657F608_AdjustorThunk ();
+// 0x00000376 System.Void GoogleARCore.CameraConfig::set_DepthSensorUsage(GoogleARCore.CameraConfigDepthSensorUsage)
+extern void CameraConfig_set_DepthSensorUsage_mA1B634AFF069A80A5503603855E1D45A9781E5AA_AdjustorThunk ();
+// 0x00000377 GoogleARCore.CameraConfigStereoCameraUsage GoogleARCore.CameraConfig::get_StereoCameraUsage()
+extern void CameraConfig_get_StereoCameraUsage_m3753CBC8710CBC6C23EBB5A4DB64D91A854FABA2_AdjustorThunk ();
+// 0x00000378 System.Void GoogleARCore.CameraConfig::set_StereoCameraUsage(GoogleARCore.CameraConfigStereoCameraUsage)
+extern void CameraConfig_set_StereoCameraUsage_m4136594CA1B634FAF9C4073BE36220B636037A03_AdjustorThunk ();
+// 0x00000379 System.Void GoogleARCore.CameraImageBytes::.ctor(System.IntPtr)
+extern void CameraImageBytes__ctor_m81AB1C3C96D86D2E7DBE94645F04D187777231AD_AdjustorThunk ();
+// 0x0000037A System.Boolean GoogleARCore.CameraImageBytes::get_IsAvailable()
+extern void CameraImageBytes_get_IsAvailable_m902A9BDE960F082ADE1AC369A8DC57DBEA82FB79_AdjustorThunk ();
+// 0x0000037B System.Void GoogleARCore.CameraImageBytes::set_IsAvailable(System.Boolean)
+extern void CameraImageBytes_set_IsAvailable_m9498E128E8E349D811DA4FEBCD2F97CF86F70D83_AdjustorThunk ();
+// 0x0000037C System.Int32 GoogleARCore.CameraImageBytes::get_Width()
+extern void CameraImageBytes_get_Width_m3C2081AD065D4250578729FAA2D0CD8AC026D5E1_AdjustorThunk ();
+// 0x0000037D System.Void GoogleARCore.CameraImageBytes::set_Width(System.Int32)
+extern void CameraImageBytes_set_Width_m4C942AC605660944CE2042C72D783E35BBB67B6D_AdjustorThunk ();
+// 0x0000037E System.Int32 GoogleARCore.CameraImageBytes::get_Height()
+extern void CameraImageBytes_get_Height_m4B67600CECF7D4D457160BC8ED5E36AED08C48B0_AdjustorThunk ();
+// 0x0000037F System.Void GoogleARCore.CameraImageBytes::set_Height(System.Int32)
+extern void CameraImageBytes_set_Height_m0E4AC394EA231E017776A511E50BB83BEF63D1C0_AdjustorThunk ();
+// 0x00000380 System.IntPtr GoogleARCore.CameraImageBytes::get_Y()
+extern void CameraImageBytes_get_Y_mC080D9A201D6AC0A9961362B12EE5E0DB1DCFCA1_AdjustorThunk ();
+// 0x00000381 System.Void GoogleARCore.CameraImageBytes::set_Y(System.IntPtr)
+extern void CameraImageBytes_set_Y_m36D8CF2DD6164B33EF1B9FE3D204A6CF3E3BBF5B_AdjustorThunk ();
+// 0x00000382 System.IntPtr GoogleARCore.CameraImageBytes::get_U()
+extern void CameraImageBytes_get_U_mFAC887AB88C48948A26F712202C35271BA57FE61_AdjustorThunk ();
+// 0x00000383 System.Void GoogleARCore.CameraImageBytes::set_U(System.IntPtr)
+extern void CameraImageBytes_set_U_mF6A0D769B57B36094E5D580C5DE30CD62042578E_AdjustorThunk ();
+// 0x00000384 System.IntPtr GoogleARCore.CameraImageBytes::get_V()
+extern void CameraImageBytes_get_V_m90213E0148E094797134FF6DE9C841F71C2F7531_AdjustorThunk ();
+// 0x00000385 System.Void GoogleARCore.CameraImageBytes::set_V(System.IntPtr)
+extern void CameraImageBytes_set_V_mBE84CB5528B13CEF081EAA2F126910C1B92206E7_AdjustorThunk ();
+// 0x00000386 System.Int32 GoogleARCore.CameraImageBytes::get_YRowStride()
+extern void CameraImageBytes_get_YRowStride_mCF2D30406687556BBAD6DE75E738D0C8B1A90162_AdjustorThunk ();
+// 0x00000387 System.Void GoogleARCore.CameraImageBytes::set_YRowStride(System.Int32)
+extern void CameraImageBytes_set_YRowStride_mCB2C856325D05DB67B9826F0E2062FAC4195E2CC_AdjustorThunk ();
+// 0x00000388 System.Int32 GoogleARCore.CameraImageBytes::get_UVPixelStride()
+extern void CameraImageBytes_get_UVPixelStride_mF891C03F6407A3FC7C74A2CB668905037E81E6D1_AdjustorThunk ();
+// 0x00000389 System.Void GoogleARCore.CameraImageBytes::set_UVPixelStride(System.Int32)
+extern void CameraImageBytes_set_UVPixelStride_m11A8437442B991559A22205C0A05923404814F0E_AdjustorThunk ();
+// 0x0000038A System.Int32 GoogleARCore.CameraImageBytes::get_UVRowStride()
+extern void CameraImageBytes_get_UVRowStride_m8FC19FDA3E6E2722C3583D1733664E0BBB239083_AdjustorThunk ();
+// 0x0000038B System.Void GoogleARCore.CameraImageBytes::set_UVRowStride(System.Int32)
+extern void CameraImageBytes_set_UVRowStride_mB45016DED6336F485BF4C5AFF583CBAA12638BD6_AdjustorThunk ();
+// 0x0000038C System.Void GoogleARCore.CameraImageBytes::Release()
+extern void CameraImageBytes_Release_m352F34E053CE406787442C5F698D50EFB5C0C458_AdjustorThunk ();
+// 0x0000038D System.Void GoogleARCore.CameraImageBytes::Dispose()
+extern void CameraImageBytes_Dispose_mDB068A6483143D5AF017F243E928EAECFD261FB8_AdjustorThunk ();
+// 0x0000038E System.Void GoogleARCore.CameraIntrinsics::.ctor(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2Int)
+extern void CameraIntrinsics__ctor_m96537FC425924E1CB7B41237662BBE09D7711C35_AdjustorThunk ();
+// 0x0000038F System.Void GoogleARCore.CameraMetadataValue::.ctor(System.SByte)
+extern void CameraMetadataValue__ctor_m2006BD09C205C54CBC7AF0D94869BE92C4360949_AdjustorThunk ();
+// 0x00000390 System.Void GoogleARCore.CameraMetadataValue::.ctor(System.Int32)
+extern void CameraMetadataValue__ctor_m479E594AFA6FDB64603099BC966CD34A5CD40935_AdjustorThunk ();
+// 0x00000391 System.Void GoogleARCore.CameraMetadataValue::.ctor(System.Int64)
+extern void CameraMetadataValue__ctor_m791DB045F0ACE8B87DC05B3DA2B7559915B0DD7D_AdjustorThunk ();
+// 0x00000392 System.Void GoogleARCore.CameraMetadataValue::.ctor(System.Single)
+extern void CameraMetadataValue__ctor_mD41B030FE8EF718911106B60EF256FE662D7722A_AdjustorThunk ();
+// 0x00000393 System.Void GoogleARCore.CameraMetadataValue::.ctor(System.Double)
+extern void CameraMetadataValue__ctor_mF04A5F2181E8349392F376F1737EB94AA4331AB8_AdjustorThunk ();
+// 0x00000394 System.Void GoogleARCore.CameraMetadataValue::.ctor(GoogleARCore.CameraMetadataRational)
+extern void CameraMetadataValue__ctor_m5BA811CD78826395D7461D23E9C5324FE7C5DDD7_AdjustorThunk ();
+// 0x00000395 System.Type GoogleARCore.CameraMetadataValue::get_ValueType()
+extern void CameraMetadataValue_get_ValueType_m148E46D73CFF76E58F6826C08A2B5F2936A00DF4_AdjustorThunk ();
+// 0x00000396 System.SByte GoogleARCore.CameraMetadataValue::AsByte()
+extern void CameraMetadataValue_AsByte_mFB69A9B3858C99893C9F62CF5928E8578C835513_AdjustorThunk ();
+// 0x00000397 System.Int32 GoogleARCore.CameraMetadataValue::AsInt()
+extern void CameraMetadataValue_AsInt_mFD084EF223FC8929325035506D9CFAE372F3DA7C_AdjustorThunk ();
+// 0x00000398 System.Single GoogleARCore.CameraMetadataValue::AsFloat()
+extern void CameraMetadataValue_AsFloat_m574F980346DB342FC98FA604AB4180E314920D07_AdjustorThunk ();
+// 0x00000399 System.Int64 GoogleARCore.CameraMetadataValue::AsLong()
+extern void CameraMetadataValue_AsLong_m0A4076235121B531878E47A5D770F71B54BCDAEA_AdjustorThunk ();
+// 0x0000039A System.Double GoogleARCore.CameraMetadataValue::AsDouble()
+extern void CameraMetadataValue_AsDouble_mA58D942DC75FD4975A0307DEFD16065C22B4E8E9_AdjustorThunk ();
+// 0x0000039B GoogleARCore.CameraMetadataRational GoogleARCore.CameraMetadataValue::AsRational()
+extern void CameraMetadataValue_AsRational_m209F625A9318DCF13AC3134C28DD463B6AE58122_AdjustorThunk ();
+// 0x0000039C System.Void GoogleARCore.CameraMetadataValue::LogError(GoogleARCoreInternal.ArCameraMetadataType)
+extern void CameraMetadataValue_LogError_m6502FC39926823DAA701C37BE9FF024AA9AC89A2_AdjustorThunk ();
+// 0x0000039D System.Void GoogleARCore.TrackedPlane::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+extern void TrackedPlane__ctor_m5FE26E2E006DEB398638737095EAA157E3FEE3AA ();
+// 0x0000039E GoogleARCore.TrackedPlane GoogleARCore.TrackedPlane::get_SubsumedBy()
+extern void TrackedPlane_get_SubsumedBy_m93312066459A800B802E874B89987F1B5B56C5C3 ();
+// 0x0000039F System.Void GoogleARCore.TrackedPoint::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+extern void TrackedPoint__ctor_m350B5F8EE85E0691CF22539E69882CCA17D7FFC9 ();
+// 0x000003A0 GoogleARCore.TrackedPointOrientationMode GoogleARCore.TrackedPoint::get_OrientationMode()
+extern void TrackedPoint_get_OrientationMode_m94B61E06276A2AFEA3BB5D9E81479671722EB8D7 ();
+// 0x000003A1 System.Void GoogleARCore.DetectedPlane::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+extern void DetectedPlane__ctor_m68AF79F5E72B78F9C9ED059308FA5280C45D519C ();
+// 0x000003A2 GoogleARCore.DetectedPlane GoogleARCore.DetectedPlane::get_SubsumedBy()
+extern void DetectedPlane_get_SubsumedBy_m8901D05D370DA8011427338E6272C7C4B9F91680 ();
+// 0x000003A3 UnityEngine.Pose GoogleARCore.DetectedPlane::get_CenterPose()
+extern void DetectedPlane_get_CenterPose_m7C86581D60BF89E5F8554A03A21936A76DAAF1EC ();
+// 0x000003A4 System.Single GoogleARCore.DetectedPlane::get_ExtentX()
+extern void DetectedPlane_get_ExtentX_mCA253C8FCD1CF3CDA762D0F66754420904342A9C ();
+// 0x000003A5 System.Single GoogleARCore.DetectedPlane::get_ExtentZ()
+extern void DetectedPlane_get_ExtentZ_m392E24ECD4E6C7898D996489BF92289EEFFCE960 ();
+// 0x000003A6 GoogleARCore.DetectedPlaneType GoogleARCore.DetectedPlane::get_PlaneType()
+extern void DetectedPlane_get_PlaneType_mF59336E2BED3B9C34ADAEB89D4B3FF539C072D26 ();
+// 0x000003A7 System.Void GoogleARCore.DetectedPlane::GetBoundaryPolygon(System.Collections.Generic.List`1<UnityEngine.Vector3>)
+extern void DetectedPlane_GetBoundaryPolygon_mF6A99EC7BF74DBF511CE29CA283E3A868212337B ();
+// 0x000003A8 GoogleARCoreInternal.ApiCoordinates2dType GoogleARCore.DisplayUvCoordinateTypeExtension::ToApiCoordinates2dType(GoogleARCore.DisplayUvCoordinateType)
+extern void DisplayUvCoordinateTypeExtension_ToApiCoordinates2dType_mD201BEAFA69EBF639B005799A11B57594E1E349B ();
+// 0x000003A9 System.Void GoogleARCore.DisplayUvCoords::.ctor(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+extern void DisplayUvCoords__ctor_mF896193EA18358E0A75BE702A1DF0626080626FE_AdjustorThunk ();
+// 0x000003AA GoogleARCoreInternal.ApiDisplayUvCoords GoogleARCore.DisplayUvCoords::op_Implicit(GoogleARCore.DisplayUvCoords)
+extern void DisplayUvCoords_op_Implicit_mB56B02B22992A56F69C0641CD3BFB05D12015810 ();
+// 0x000003AB System.Void GoogleARCore.DisplayUvCoords::.cctor()
+extern void DisplayUvCoords__cctor_mC1A784B1CDA7A0307253B283300FCBC8C5E84C8F ();
+// 0x000003AC System.Void GoogleARCore.EnvironmentalLight::Update()
+extern void EnvironmentalLight_Update_m69A21350ADF6D49F4A14670318128C1B98262EEA ();
+// 0x000003AD System.Void GoogleARCore.EnvironmentalLight::.ctor()
+extern void EnvironmentalLight__ctor_mE6A8FDF0BA24822E3A79539BA18BAF665E50FD50 ();
+// 0x000003AE System.Void GoogleARCore.FeaturePoint::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+extern void FeaturePoint__ctor_m2EA644B1A9D8B8DBDF7C0F9FA7536E6BE6B50734 ();
+// 0x000003AF UnityEngine.Pose GoogleARCore.FeaturePoint::get_Pose()
+extern void FeaturePoint_get_Pose_m445C9C443F5C933B78FD30B992880346BF3B47D1 ();
+// 0x000003B0 GoogleARCore.FeaturePointOrientationMode GoogleARCore.FeaturePoint::get_OrientationMode()
+extern void FeaturePoint_get_OrientationMode_mF542E7366DADAC302F0D78F8F2873E3CE5736AE8 ();
+// 0x000003B1 UnityEngine.Pose GoogleARCore.Frame::get_Pose()
+extern void Frame_get_Pose_m11AF5B26AD8B48C57B8EEDCDDDF065BB14E938A5 ();
+// 0x000003B2 GoogleARCore.LightEstimate GoogleARCore.Frame::get_LightEstimate()
+extern void Frame_get_LightEstimate_mA7B3415381516FCAAA78D5A8996C5B6B757DA0CA ();
+// 0x000003B3 System.Boolean GoogleARCore.Frame::Raycast(System.Single,System.Single,GoogleARCore.TrackableHitFlags,GoogleARCore.TrackableHit&)
+extern void Frame_Raycast_m5ED32D7F60C77F46285E5963A6983FD4A6AA039A ();
+// 0x000003B4 System.Boolean GoogleARCore.Frame::RaycastInstantPlacement(System.Single,System.Single,System.Single,GoogleARCore.TrackableHit&)
+extern void Frame_RaycastInstantPlacement_m896600D69915BC8459BF9705C1EC5EA0FA215478 ();
+// 0x000003B5 System.Boolean GoogleARCore.Frame::Raycast(UnityEngine.Vector3,UnityEngine.Vector3,GoogleARCore.TrackableHit&,System.Single,GoogleARCore.TrackableHitFlags)
+extern void Frame_Raycast_m39FDFC8DA0C47695B947A5EA0532FD6CF1756A18 ();
+// 0x000003B6 System.Boolean GoogleARCore.Frame::RaycastAll(System.Single,System.Single,GoogleARCore.TrackableHitFlags,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>)
+extern void Frame_RaycastAll_m8C0BE51D701B215047E6122961E3C458E32B8702 ();
+// 0x000003B7 System.Boolean GoogleARCore.Frame::RaycastAll(UnityEngine.Vector3,UnityEngine.Vector3,System.Collections.Generic.List`1<GoogleARCore.TrackableHit>,System.Single,GoogleARCore.TrackableHitFlags)
+extern void Frame_RaycastAll_m2F525E02AF172E899F878CCFD8C83F8A04C7E1DC ();
+// 0x000003B8 System.Void GoogleARCore.Frame::.ctor()
+extern void Frame__ctor_m0E70462A45484BC92E4BF345CBCBCCBDA4DA2853 ();
+// 0x000003B9 System.Void GoogleARCore.Frame::.cctor()
+extern void Frame__cctor_m164E64FAD92938A26CD4261D9072B711DC02D328 ();
+// 0x000003BA System.Boolean GoogleARCore.Frame_CameraMetadata::TryGetValues(GoogleARCore.CameraMetadataTag,System.Collections.Generic.List`1<GoogleARCore.CameraMetadataValue>)
+extern void CameraMetadata_TryGetValues_mB2CFD5AB568EFEA86BF848B897D0A4668B431CD5 ();
+// 0x000003BB System.Boolean GoogleARCore.Frame_CameraMetadata::GetAllCameraMetadataTags(System.Collections.Generic.List`1<GoogleARCore.CameraMetadataTag>)
+extern void CameraMetadata_GetAllCameraMetadataTags_m1EF73AEF0A2B4318E3FF3F13126F1D3BE388C32C ();
+// 0x000003BC System.Boolean GoogleARCore.Frame_PointCloud::get_IsUpdatedThisFrame()
+extern void PointCloud_get_IsUpdatedThisFrame_m5FFE657725DE76A0DEF8A9FB27A640F2B14371F2 ();
+// 0x000003BD System.Int32 GoogleARCore.Frame_PointCloud::get_PointCount()
+extern void PointCloud_get_PointCount_m1DCCD43D5D4A90108A7A56A7798FECCEB246168F ();
+// 0x000003BE UnityEngine.Vector4 GoogleARCore.Frame_PointCloud::GetPoint(System.Int32)
+extern void PointCloud_GetPoint_m58BD0BEA4F08BE084921BBBD53A61F10A87A3D9D ();
+// 0x000003BF GoogleARCore.PointCloudPoint GoogleARCore.Frame_PointCloud::GetPointAsStruct(System.Int32)
+extern void PointCloud_GetPointAsStruct_mE3C5E7194133CED79A48DB2629851BB839A56D65 ();
+// 0x000003C0 System.Void GoogleARCore.Frame_PointCloud::CopyPoints(System.Collections.Generic.List`1<UnityEngine.Vector4>)
+extern void PointCloud_CopyPoints_m56EC75D109497717E71C066C552BF4DCF2E590D7 ();
+// 0x000003C1 UnityEngine.Texture GoogleARCore.Frame_CameraImage::get_Texture()
+extern void CameraImage_get_Texture_m696EF313A0448445275AF96D76A86344F9620C2C ();
+// 0x000003C2 GoogleARCore.DisplayUvCoords GoogleARCore.Frame_CameraImage::get_DisplayUvCoords()
+extern void CameraImage_get_DisplayUvCoords_mA863FF4D032B7E8E944A6865951A812D97289772 ();
+// 0x000003C3 GoogleARCore.DisplayUvCoords GoogleARCore.Frame_CameraImage::get_TextureDisplayUvs()
+extern void CameraImage_get_TextureDisplayUvs_m2344A140F34873341C39789BF377538A4C0423BC ();
+// 0x000003C4 GoogleARCore.DisplayUvCoords GoogleARCore.Frame_CameraImage::get_ImageDisplayUvs()
+extern void CameraImage_get_ImageDisplayUvs_mEBCAB63D1574D29138119104F40726815C3993DB ();
+// 0x000003C5 GoogleARCore.CameraIntrinsics GoogleARCore.Frame_CameraImage::get_TextureIntrinsics()
+extern void CameraImage_get_TextureIntrinsics_mE86CCC75C4162F755ED4635F5810ECCFFA15A808 ();
+// 0x000003C6 GoogleARCore.CameraIntrinsics GoogleARCore.Frame_CameraImage::get_ImageIntrinsics()
+extern void CameraImage_get_ImageIntrinsics_m26472C47410411CF84BA0CE31DAEE6808E385026 ();
+// 0x000003C7 UnityEngine.Vector2 GoogleARCore.Frame_CameraImage::TransformCoordinate(UnityEngine.Vector2,GoogleARCore.DisplayUvCoordinateType,GoogleARCore.DisplayUvCoordinateType)
+extern void CameraImage_TransformCoordinate_m84013FCE8A4793938DC301D3E9DFC8B9887F23E8 ();
+// 0x000003C8 GoogleARCore.CameraImageBytes GoogleARCore.Frame_CameraImage::AcquireCameraImageBytes()
+extern void CameraImage_AcquireCameraImageBytes_m005BFAE6B0B8E85642E62C824DACC598B6F9BC6F ();
+// 0x000003C9 UnityEngine.Matrix4x4 GoogleARCore.Frame_CameraImage::GetCameraProjectionMatrix(System.Single,System.Single)
+extern void CameraImage_GetCameraProjectionMatrix_mEFAA0AB6300C6B84948498F83D8086CDECAF32F9 ();
+// 0x000003CA GoogleARCore.DepthStatus GoogleARCore.Frame_CameraImage::UpdateDepthTexture(UnityEngine.Texture2D&)
+extern void CameraImage_UpdateDepthTexture_mB22D38E47768AB191F08463F8E2A5935B2E892EC ();
+// 0x000003CB GoogleARCore.AsyncTask`1<GoogleARCore.AndroidPermissionsRequestResult> GoogleARCore.IAndroidPermissionsCheck::RequestAndroidPermission(System.String)
+// 0x000003CC System.Void GoogleARCore.InstantPlacementPoint::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+extern void InstantPlacementPoint__ctor_m228EE4CD196BAAA6ED6370517EF4C7208EEE8A06 ();
+// 0x000003CD UnityEngine.Pose GoogleARCore.InstantPlacementPoint::get_Pose()
+extern void InstantPlacementPoint_get_Pose_m181F747512161839384317E1CEA3E8FA263930CC ();
+// 0x000003CE GoogleARCore.InstantPlacementPointTrackingMethod GoogleARCore.InstantPlacementPoint::get_TrackingMethod()
+extern void InstantPlacementPoint_get_TrackingMethod_mE8CD56DE2FD663C285C9AB265662642C2BC59790 ();
+// 0x000003CF System.Void GoogleARCore.LightEstimate::.ctor(GoogleARCore.LightEstimateState,System.Single,UnityEngine.Color)
+extern void LightEstimate__ctor_mDE37E5F7641E60B4C7A7E8666F5AA0603119207A_AdjustorThunk ();
+// 0x000003D0 System.Void GoogleARCore.LightEstimate::.ctor(GoogleARCore.LightEstimateState,System.Single,UnityEngine.Color,UnityEngine.Quaternion,UnityEngine.Color,System.Single[0...,0...],System.Int64)
+extern void LightEstimate__ctor_m67758CAE25BDDB381AA180665FE90938E0FEEF80_AdjustorThunk ();
+// 0x000003D1 GoogleARCore.LightEstimationMode GoogleARCore.LightEstimate::get_Mode()
+extern void LightEstimate_get_Mode_mB16BA6A1A5623C8F088BF36C86ACABE82889D1DD_AdjustorThunk ();
+// 0x000003D2 System.Void GoogleARCore.LightEstimate::set_Mode(GoogleARCore.LightEstimationMode)
+extern void LightEstimate_set_Mode_mC495E818E1EADE44D9DA898514AC55E8117EFD5F_AdjustorThunk ();
+// 0x000003D3 GoogleARCore.LightEstimateState GoogleARCore.LightEstimate::get_State()
+extern void LightEstimate_get_State_mB4BFD250977744201434E0810D23B40483112B0B_AdjustorThunk ();
+// 0x000003D4 System.Void GoogleARCore.LightEstimate::set_State(GoogleARCore.LightEstimateState)
+extern void LightEstimate_set_State_m42E12EBE9CC333E15D79E19419B7E823FCDFE555_AdjustorThunk ();
+// 0x000003D5 System.Single GoogleARCore.LightEstimate::get_PixelIntensity()
+extern void LightEstimate_get_PixelIntensity_mD8DC01A00D8E869BCAE4FA81EE7A81A02745BD4F_AdjustorThunk ();
+// 0x000003D6 System.Void GoogleARCore.LightEstimate::set_PixelIntensity(System.Single)
+extern void LightEstimate_set_PixelIntensity_m7642C93D663C0F5CC08B11BF94DDFA796C95F415_AdjustorThunk ();
+// 0x000003D7 UnityEngine.Color GoogleARCore.LightEstimate::get_ColorCorrection()
+extern void LightEstimate_get_ColorCorrection_mEC1A39D7026A3934EED7143714ACBB6AEED970D6_AdjustorThunk ();
+// 0x000003D8 System.Void GoogleARCore.LightEstimate::set_ColorCorrection(UnityEngine.Color)
+extern void LightEstimate_set_ColorCorrection_m6B0DD69545F2E450B6C1FCFC3F13B13A078F0F40_AdjustorThunk ();
+// 0x000003D9 UnityEngine.Quaternion GoogleARCore.LightEstimate::get_DirectionalLightRotation()
+extern void LightEstimate_get_DirectionalLightRotation_mFEC1F6AB28302DD968EC59A1CD76C6EC46709228_AdjustorThunk ();
+// 0x000003DA System.Void GoogleARCore.LightEstimate::set_DirectionalLightRotation(UnityEngine.Quaternion)
+extern void LightEstimate_set_DirectionalLightRotation_m06FE1F726DC23D7F1B63EFA553383A2293FD6E71_AdjustorThunk ();
+// 0x000003DB UnityEngine.Color GoogleARCore.LightEstimate::get_DirectionalLightColor()
+extern void LightEstimate_get_DirectionalLightColor_m78A82D0BC4A6137311A91E19E788FDCA4A363A7D_AdjustorThunk ();
+// 0x000003DC System.Void GoogleARCore.LightEstimate::set_DirectionalLightColor(UnityEngine.Color)
+extern void LightEstimate_set_DirectionalLightColor_m697B7C1C412D80FBAE79A8FC26E818A98A6F5F8E_AdjustorThunk ();
+// 0x000003DD UnityEngine.Rendering.SphericalHarmonicsL2 GoogleARCore.LightEstimate::get_AmbientProbe()
+extern void LightEstimate_get_AmbientProbe_mF997A2237AEC27BA6068F89B87B4F508F02C780B_AdjustorThunk ();
+// 0x000003DE System.Void GoogleARCore.LightEstimate::set_AmbientProbe(UnityEngine.Rendering.SphericalHarmonicsL2)
+extern void LightEstimate_set_AmbientProbe_mFC0663F1A3B31743BFED8B35E2199B453A8D118D_AdjustorThunk ();
+// 0x000003DF UnityEngine.Cubemap GoogleARCore.LightEstimate::get_ReflectionProbe()
+extern void LightEstimate_get_ReflectionProbe_mCE75A96BB8084756AAF812BF770DABCA27CA58B4_AdjustorThunk ();
+// 0x000003E0 System.Int64 GoogleARCore.LightEstimate::get_Timestamp()
+extern void LightEstimate_get_Timestamp_m3BDA494617CACD8DED5F1B472F10370201123E52_AdjustorThunk ();
+// 0x000003E1 System.Void GoogleARCore.LightEstimate::set_Timestamp(System.Int64)
+extern void LightEstimate_set_Timestamp_m57D9B0087E77FBBD39DD26A9E5F990721D7268AA_AdjustorThunk ();
+// 0x000003E2 System.Void GoogleARCore.LightEstimate::InitializeLightEstimateMode()
+extern void LightEstimate_InitializeLightEstimateMode_m23C0CAB62F37BACA4A1CA5B588CBDA68B2E10576_AdjustorThunk ();
+// 0x000003E3 System.Void GoogleARCore.PointCloudPoint::.ctor(System.Int32,UnityEngine.Vector3,System.Single)
+extern void PointCloudPoint__ctor_m85AB242C4EF5B52326A04712885209C3098A4B2D_AdjustorThunk ();
+// 0x000003E4 System.Int32 GoogleARCore.PointCloudPoint::get_Id()
+extern void PointCloudPoint_get_Id_m6DBACEA8654BE9594464EC98E323D8B55473546B_AdjustorThunk ();
+// 0x000003E5 System.Void GoogleARCore.PointCloudPoint::set_Id(System.Int32)
+extern void PointCloudPoint_set_Id_m347D06F08793C70EDDA90B15B77F4F125FA78F57_AdjustorThunk ();
+// 0x000003E6 UnityEngine.Vector3 GoogleARCore.PointCloudPoint::get_Position()
+extern void PointCloudPoint_get_Position_m9C73CF998AF06060B50BF0BE0364106121163176_AdjustorThunk ();
+// 0x000003E7 System.Void GoogleARCore.PointCloudPoint::set_Position(UnityEngine.Vector3)
+extern void PointCloudPoint_set_Position_mC8FD4DCA8E503B64E5591046110F361BEACBEAA1_AdjustorThunk ();
+// 0x000003E8 System.Single GoogleARCore.PointCloudPoint::get_Confidence()
+extern void PointCloudPoint_get_Confidence_m6F3C62388A262AD5035B925BD1CB441325E8D0FC_AdjustorThunk ();
+// 0x000003E9 System.Void GoogleARCore.PointCloudPoint::set_Confidence(System.Single)
+extern void PointCloudPoint_set_Confidence_mAC7972980E7CD33E75E782EB50485B49A062F61F_AdjustorThunk ();
+// 0x000003EA UnityEngine.Vector3 GoogleARCore.PointCloudPoint::op_Implicit(GoogleARCore.PointCloudPoint)
+extern void PointCloudPoint_op_Implicit_mB47775DA245EE1974D50AB85D6161D0B53083469 ();
+// 0x000003EB GoogleARCore.SessionStatus GoogleARCore.Session::get_Status()
+extern void Session_get_Status_mDAD0DB1DA8CD27F815B08E8EDC926AF06F88AFAB ();
+// 0x000003EC GoogleARCore.LostTrackingReason GoogleARCore.Session::get_LostTrackingReason()
+extern void Session_get_LostTrackingReason_mD97D3A5368B8E06ADC29B411CB78DCB8C78E31BF ();
+// 0x000003ED GoogleARCore.RecordingStatus GoogleARCore.Session::get_RecordingStatus()
+extern void Session_get_RecordingStatus_m3DAAF5406D368A7DF759F32CEDEBB151EBA301F0 ();
+// 0x000003EE GoogleARCore.PlaybackStatus GoogleARCore.Session::get_PlaybackStatus()
+extern void Session_get_PlaybackStatus_m7DCA8CACA8240E22A60799BC3515143A9D6CA519 ();
+// 0x000003EF GoogleARCore.Anchor GoogleARCore.Session::CreateAnchor(UnityEngine.Pose,GoogleARCore.Trackable)
+extern void Session_CreateAnchor_m0B4CFA5F26CA684277C06752F455DB3AD9C0491D ();
+// 0x000003F0 System.Void GoogleARCore.Session::GetTrackables(System.Collections.Generic.List`1<T>,GoogleARCore.TrackableQueryFilter)
+// 0x000003F1 GoogleARCore.CameraConfig GoogleARCore.Session::GetCameraConfig()
+extern void Session_GetCameraConfig_mA5EB28BC2101B9BC3D09DC01D7A0E1C340DBF6B0 ();
+// 0x000003F2 GoogleARCore.AsyncTask`1<GoogleARCore.ApkAvailabilityStatus> GoogleARCore.Session::CheckApkAvailability()
+extern void Session_CheckApkAvailability_m66F67E262A46E44195D48BABE258ED6F071BBD59 ();
+// 0x000003F3 GoogleARCore.AsyncTask`1<GoogleARCore.ApkInstallationStatus> GoogleARCore.Session::RequestApkInstallation(System.Boolean)
+extern void Session_RequestApkInstallation_mF285710C11BEE00CB247ADA3C03E064A482A658D ();
+// 0x000003F4 System.Boolean GoogleARCore.Session::IsDepthModeSupported(GoogleARCore.DepthMode)
+extern void Session_IsDepthModeSupported_mC33172931838BC04874B6C76111C589D4FC39274 ();
+// 0x000003F5 GoogleARCore.RecordingResult GoogleARCore.Session::StartRecording(GoogleARCore.ARCoreRecordingConfig)
+extern void Session_StartRecording_mAF175574D97FFA306C43B452D298947FEA297AED ();
+// 0x000003F6 GoogleARCore.RecordingResult GoogleARCore.Session::StopRecording()
+extern void Session_StopRecording_m97655B6BAD60E6472461BF209D919B2DC9D3909B ();
+// 0x000003F7 GoogleARCore.PlaybackResult GoogleARCore.Session::SetPlaybackDataset(System.String)
+extern void Session_SetPlaybackDataset_m4A84C2739B9EE338927703D52A6F78885F2E51EB ();
+// 0x000003F8 System.Boolean GoogleARCore.SessionStatusExtensions::IsNotInitialized(GoogleARCore.SessionStatus)
+extern void SessionStatusExtensions_IsNotInitialized_m3DC49F4C872E1050D16B005ACFF502F9380982C9 ();
+// 0x000003F9 System.Boolean GoogleARCore.SessionStatusExtensions::IsValid(GoogleARCore.SessionStatus)
+extern void SessionStatusExtensions_IsValid_m498E54E87EADCE92AF60748419AC427F571E8C0C ();
+// 0x000003FA System.Boolean GoogleARCore.SessionStatusExtensions::IsError(GoogleARCore.SessionStatus)
+extern void SessionStatusExtensions_IsError_m4E27C4946A0C4FFB63DF04C6CA1656390B3AF844 ();
+// 0x000003FB System.Void GoogleARCore.Trackable::.ctor()
+extern void Trackable__ctor_m1E233EF59F5AE3D0988A9CC6F403811522228833 ();
+// 0x000003FC System.Void GoogleARCore.Trackable::.ctor(System.IntPtr,GoogleARCoreInternal.NativeSession)
+extern void Trackable__ctor_m32DF2DCB0ED25EED72EDDBB1BF490DEA0CF7EA48 ();
+// 0x000003FD System.Void GoogleARCore.Trackable::Finalize()
+extern void Trackable_Finalize_mD5F6618FDB75AA9A4ADA1FECC013EFD1579EB4C5 ();
+// 0x000003FE GoogleARCore.TrackingState GoogleARCore.Trackable::get_TrackingState()
+extern void Trackable_get_TrackingState_m7E875B65F50FAD9B2B0602BB52BDEFBF77B3598F ();
+// 0x000003FF GoogleARCore.Anchor GoogleARCore.Trackable::CreateAnchor(UnityEngine.Pose)
+extern void Trackable_CreateAnchor_m3CDAEB7BC54B2F51792E2ED21983006200B4647A ();
+// 0x00000400 System.Void GoogleARCore.Trackable::GetAllAnchors(System.Collections.Generic.List`1<GoogleARCore.Anchor>)
+extern void Trackable_GetAllAnchors_m72B25907B0B7A9A6AD88BDF4EDF75062B0E72B17 ();
+// 0x00000401 System.Boolean GoogleARCore.Trackable::IsSessionDestroyed()
+extern void Trackable_IsSessionDestroyed_mF130A5C3FE09AC375D47ADDE6C88D9B0FA51F1D6 ();
+// 0x00000402 System.Void GoogleARCore.TrackableHit::.ctor(UnityEngine.Pose,System.Single,GoogleARCore.TrackableHitFlags,GoogleARCore.Trackable)
+extern void TrackableHit__ctor_m1E469ADA7B22212ADE71E38E2323B032BC59ABE0_AdjustorThunk ();
+// 0x00000403 UnityEngine.Pose GoogleARCore.TrackableHit::get_Pose()
+extern void TrackableHit_get_Pose_m724DDF1536051D050B90AB17B4F3803015A70784_AdjustorThunk ();
+// 0x00000404 System.Void GoogleARCore.TrackableHit::set_Pose(UnityEngine.Pose)
+extern void TrackableHit_set_Pose_m52A3FE05A608283321F3DF3EAFE00CCE2E691EEE_AdjustorThunk ();
+// 0x00000405 System.Single GoogleARCore.TrackableHit::get_Distance()
+extern void TrackableHit_get_Distance_m0ED8EBBC90F7343347952B63392ACF43BB03B975_AdjustorThunk ();
+// 0x00000406 System.Void GoogleARCore.TrackableHit::set_Distance(System.Single)
+extern void TrackableHit_set_Distance_mDD3B2E801D862FF3D9531AC042F495432E4DA129_AdjustorThunk ();
+// 0x00000407 GoogleARCore.TrackableHitFlags GoogleARCore.TrackableHit::get_Flags()
+extern void TrackableHit_get_Flags_mEFB3039136A7B44F84359ED66E480C9C6A8DD40B_AdjustorThunk ();
+// 0x00000408 System.Void GoogleARCore.TrackableHit::set_Flags(GoogleARCore.TrackableHitFlags)
+extern void TrackableHit_set_Flags_m8C1BA3427CE50D7F05B91EBB8262AC69C072DF13_AdjustorThunk ();
+// 0x00000409 GoogleARCore.Trackable GoogleARCore.TrackableHit::get_Trackable()
+extern void TrackableHit_get_Trackable_m0025274D8B54108849A8C36F31CDED1CDD698242_AdjustorThunk ();
+// 0x0000040A System.Void GoogleARCore.TrackableHit::set_Trackable(GoogleARCore.Trackable)
+extern void TrackableHit_set_Trackable_mA7A86038EFA102EBD519A2B47C5CA2AA77EB4354_AdjustorThunk ();
+// 0x0000040B System.Void GoogleARCore.VersionInfo::.cctor()
+extern void VersionInfo__cctor_mED834C2A6C318AABAF69470011BCE2E451760EE0 ();
+// 0x0000040C System.String GoogleARCore.CrossPlatform.XPAnchor::get_CloudId()
+extern void XPAnchor_get_CloudId_m372ACFEAD3F9CE19DBF834FC096D7F1DE887FCC9 ();
+// 0x0000040D System.Void GoogleARCore.CrossPlatform.XPAnchor::set_CloudId(System.String)
+extern void XPAnchor_set_CloudId_m44CFEA56217F641D22992005C4495C9366574068 ();
+// 0x0000040E GoogleARCore.CrossPlatform.XPTrackingState GoogleARCore.CrossPlatform.XPAnchor::get_TrackingState()
+extern void XPAnchor_get_TrackingState_mAE7E905AE2D494F1FD426A5BB17E6032EEE56B4F ();
+// 0x0000040F GoogleARCoreInternal.NativeSession GoogleARCore.CrossPlatform.XPAnchor::get__nativeSession()
+extern void XPAnchor_get__nativeSession_m7B2A170B1C0F851543F3804C910E0E517D2034E1 ();
+// 0x00000410 System.Void GoogleARCore.CrossPlatform.XPAnchor::set__nativeSession(GoogleARCoreInternal.NativeSession)
+extern void XPAnchor_set__nativeSession_m4BC51490A40502620AA6A86D7A94CE5CAFD9747A ();
+// 0x00000411 System.IntPtr GoogleARCore.CrossPlatform.XPAnchor::get__nativeHandle()
+extern void XPAnchor_get__nativeHandle_m63E6B2AAA798DCB40E68C1B92CE4CFF860D8A02C ();
+// 0x00000412 System.Void GoogleARCore.CrossPlatform.XPAnchor::set__nativeHandle(System.IntPtr)
+extern void XPAnchor_set__nativeHandle_m7BAB2127A782A76B09A2509A105FB88E44E2462F ();
+// 0x00000413 GoogleARCore.CrossPlatform.XPAnchor GoogleARCore.CrossPlatform.XPAnchor::Factory(GoogleARCoreInternal.NativeSession,System.IntPtr,System.Boolean)
+extern void XPAnchor_Factory_m9F5CFAC2BFFA67DFCD258893BC070D230AC91CD8 ();
+// 0x00000414 System.Void GoogleARCore.CrossPlatform.XPAnchor::Update()
+extern void XPAnchor_Update_mF4BA6863F7A303E5D3F18E5A646A5480AFED2E23 ();
+// 0x00000415 System.Void GoogleARCore.CrossPlatform.XPAnchor::OnDestroy()
+extern void XPAnchor_OnDestroy_m206D969801B236D291781034FCA7796ECC334988 ();
+// 0x00000416 System.Boolean GoogleARCore.CrossPlatform.XPAnchor::IsSessionDestroyed()
+extern void XPAnchor_IsSessionDestroyed_m5F1DD679024FFC92AAE58E9080951DD24BD22D9D ();
+// 0x00000417 System.Void GoogleARCore.CrossPlatform.XPAnchor::.ctor()
+extern void XPAnchor__ctor_mE14F7AF4B28676CCF74E1BFAB6D92CAF6A7FF486 ();
+// 0x00000418 System.Void GoogleARCore.CrossPlatform.XPAnchor::.cctor()
+extern void XPAnchor__cctor_mC505CAB67BEF842A81F56E56C101FC0D6EDFE668 ();
+// 0x00000419 GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCore.CrossPlatform.XPSession::CreateCloudAnchor(GoogleARCore.Anchor)
+extern void XPSession_CreateCloudAnchor_m2CF4201F5B9D7A379ADE54C7C01DB23759C38493 ();
+// 0x0000041A GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCore.CrossPlatform.XPSession::ResolveCloudAnchor(System.String)
+extern void XPSession_ResolveCloudAnchor_m9B350C29B9DC83CD6A0B5933CF5DA5B1E3385F14 ();
+// 0x0000041B System.Void GoogleARCore.CrossPlatform.XPSession::CancelCloudAnchorAsyncTask(System.String)
+extern void XPSession_CancelCloudAnchorAsyncTask_m08B5B3699155017FA4E7E539018D25F3AE34F7D6 ();
+// 0x0000041C GoogleARCore.AsyncTask`1<GoogleARCore.CrossPlatform.CloudAnchorResult> GoogleARCore.CrossPlatform.XPSession::CreateCloudAnchor(GoogleARCore.Anchor,System.Int32)
+extern void XPSession_CreateCloudAnchor_m0BF3975026E315C0B4FC0D7CEDE6B5C7EC4B9FF0 ();
+// 0x0000041D GoogleARCore.CrossPlatform.FeatureMapQuality GoogleARCore.CrossPlatform.XPSession::EstimateFeatureMapQualityForHosting(UnityEngine.Pose)
+extern void XPSession_EstimateFeatureMapQualityForHosting_m473E49C76CEC0A8F1C1AE7EBA8D8827FD1533FE7 ();
+// 0x0000041E UnityEngine.Pose GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::GetCameraPose()
+extern void ARViewManager_GetCameraPose_mCFC592427CCB2BE7A5CAE79A5D51C49CF245E0FA ();
+// 0x0000041F System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnInputFieldValueChanged(System.String)
+extern void ARViewManager_OnInputFieldValueChanged_m78FB2D9E21E520B9420EE090B0F1D37083B97199 ();
+// 0x00000420 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnSaveButtonClicked()
+extern void ARViewManager_OnSaveButtonClicked_mC239C60200B9DD2CB6D8541D40C8E7B1E0E2E385 ();
+// 0x00000421 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnShareButtonClicked()
+extern void ARViewManager_OnShareButtonClicked_m41B11DCEE1250698DF8E536B1B8E652536ED0FB5 ();
+// 0x00000422 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnCopyCompleted()
+extern void ARViewManager_OnCopyCompleted_m9A1D56BD1C018C46FDF49BD23484C2B4FFB78952 ();
+// 0x00000423 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::Awake()
+extern void ARViewManager_Awake_m908C35C5D1A3DBF78243862C5EC66EABF0CCF4BA ();
+// 0x00000424 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnEnable()
+extern void ARViewManager_OnEnable_mB7AF8EFD9D444EE806E29076A42E00F2228E9803 ();
+// 0x00000425 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnDisable()
+extern void ARViewManager_OnDisable_m5AE6090EB94D159C11A10CBCB23B04E06193E06C ();
+// 0x00000426 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::Update()
+extern void ARViewManager_Update_m0B2953381F9973D572602212527790713EC3B136 ();
+// 0x00000427 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::PerformHitTest(UnityEngine.Vector2)
+extern void ARViewManager_PerformHitTest_m2BAC46A2028B1B6C25C6AB5F96005C4563170C8D ();
+// 0x00000428 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::HostingCloudAnchor()
+extern void ARViewManager_HostingCloudAnchor_m452A360387B1930D01780BAD9F39B6D5046DFDB1 ();
+// 0x00000429 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::ResolvingCloudAnchors()
+extern void ARViewManager_ResolvingCloudAnchors_mD0FF2AFAF09A699A02F6DE10735D3CCC90C1F28B ();
+// 0x0000042A System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnAnchorHostedFinished(System.Boolean,System.String)
+extern void ARViewManager_OnAnchorHostedFinished_m56FA19A0380C81A8D4573900F9EAC199EC020F08 ();
+// 0x0000042B System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::OnAnchorResolvedFinished(System.Boolean,System.String)
+extern void ARViewManager_OnAnchorResolvedFinished_mFA760805F679B023D53FD43259872CB30B7DB339 ();
+// 0x0000042C System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::UpdateInitialInstruction()
+extern void ARViewManager_UpdateInitialInstruction_m73A8614D3A53CB1DC683D926661F720084537E0E ();
+// 0x0000042D System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::ARCoreLifecycleUpdate()
+extern void ARViewManager_ARCoreLifecycleUpdate_mC36FEEB7CEEF15AAB46A8B2575E5133F8DB598A8 ();
+// 0x0000042E System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::ReturnToHomePage(System.String)
+extern void ARViewManager_ReturnToHomePage_mA511E03C21F36E0E328D5DABCE4B3EFD1888AABF ();
+// 0x0000042F System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::DoReturnToHomePage()
+extern void ARViewManager_DoReturnToHomePage_m2D485D498CC428EE5F9F25FB9C9ABDF5C285F7C1 ();
+// 0x00000430 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::DoHideInstructionBar()
+extern void ARViewManager_DoHideInstructionBar_mC7F2E92AC5EA82B74BBF133FF9D2290B0B86C79F ();
+// 0x00000431 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::SetSaveButtonActive(System.Boolean)
+extern void ARViewManager_SetSaveButtonActive_m128CBE1427FC434244F57764CDC78E0617F7B6A9 ();
+// 0x00000432 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::.ctor()
+extern void ARViewManager__ctor_m9D6E2DDC6F51F5B28AB323FF01265A2445F266B3 ();
+// 0x00000433 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager::<HostingCloudAnchor>b__33_0(GoogleARCore.CrossPlatform.CloudAnchorResult)
+extern void ARViewManager_U3CHostingCloudAnchorU3Eb__33_0_mE1202971C1B45F0E782FC7CB34833825A8AE7BA0 ();
+// 0x00000434 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager_<>c__DisplayClass34_0::.ctor()
+extern void U3CU3Ec__DisplayClass34_0__ctor_m7F4C1147C61728E3334AF89E5B050DE5CCEB251B ();
+// 0x00000435 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ARViewManager_<>c__DisplayClass34_0::<ResolvingCloudAnchors>b__0(GoogleARCore.CrossPlatform.CloudAnchorResult)
+extern void U3CU3Ec__DisplayClass34_0_U3CResolvingCloudAnchorsU3Eb__0_mD2E7431E6B32BD92C9E814B059ED5F90AC555578 ();
+// 0x00000436 System.Void GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer::SetAlpha(System.Single)
+extern void CircleRenderer_SetAlpha_mECEB57F2B05C8F33056706CD6E8CF22B79EB6D6B ();
+// 0x00000437 System.Void GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer::DrawArc(UnityEngine.Vector3,System.Single,System.Single)
+extern void CircleRenderer_DrawArc_mEF149784C1C7E25ABE8FE137C5B0F2613C4F6EEC ();
+// 0x00000438 System.Void GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer::Update()
+extern void CircleRenderer_Update_m2EE936F063C356347E6A4FC90DEE10C83B04AF37 ();
+// 0x00000439 System.Void GoogleARCore.Examples.PersistentCloudAnchors.CircleRenderer::.ctor()
+extern void CircleRenderer__ctor_mE5EEF8CA66CF6F6E8D8048729B72780417B94914 ();
+// 0x0000043A System.Void GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory::.ctor(System.String,System.String,System.DateTime)
+extern void CloudAnchorHistory__ctor_m4EB733CAC6891BBF6C9A903B428B3EC20B3EF82A_AdjustorThunk ();
+// 0x0000043B System.Void GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory::.ctor(System.String,System.String)
+extern void CloudAnchorHistory__ctor_m833E3CFBF3BCA81E6566C2AD1C096298D02A6451_AdjustorThunk ();
+// 0x0000043C System.DateTime GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory::get_CreatedTime()
+extern void CloudAnchorHistory_get_CreatedTime_mD074BD455B818D6B09ECCD800BD5CDE3E86CAFE5_AdjustorThunk ();
+// 0x0000043D System.String GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory::ToString()
+extern void CloudAnchorHistory_ToString_m244EA2CA6FD0DF150DE35904C198609AF388E7C2_AdjustorThunk ();
+// 0x0000043E System.Void GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistoryCollection::.ctor()
+extern void CloudAnchorHistoryCollection__ctor_m9A159FAC48824DACE11C70124B538056C176F22B ();
+// 0x0000043F System.Void GoogleARCore.Examples.PersistentCloudAnchors.DoubleLabelsItem::SetLabels(System.String,System.String)
+extern void DoubleLabelsItem_SetLabels_m946FC839FCFC47DB8D8193831310060F9A0D52C4 ();
+// 0x00000440 System.Void GoogleARCore.Examples.PersistentCloudAnchors.DoubleLabelsItem::.ctor()
+extern void DoubleLabelsItem__ctor_mF321EBD9535F69E699344F78FC596ED43AE15669 ();
+// 0x00000441 System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::get_IsVisited()
+extern void MapQualityBar_get_IsVisited_m9152F7C2FABBE6A1C98941A8C40F5A1055775C39 ();
+// 0x00000442 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::set_IsVisited(System.Boolean)
+extern void MapQualityBar_set_IsVisited_m39D84AB650CB59105AF873F66303D07632B78C3D ();
+// 0x00000443 System.Int32 GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::get_QualityState()
+extern void MapQualityBar_get_QualityState_m66167B4D27A260614945DC7E72898621D0C1C586 ();
+// 0x00000444 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::set_QualityState(System.Int32)
+extern void MapQualityBar_set_QualityState_mFC4E0AAC2FC778C7078E5F33690FF17547E32697 ();
+// 0x00000445 System.Single GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::get_Weight()
+extern void MapQualityBar_get_Weight_mF1758879F4AEF88A45F0BEF2ED801325B8F4BE16 ();
+// 0x00000446 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::SetAlpha(System.Single)
+extern void MapQualityBar_SetAlpha_mD9FB750B6E61E8DBD3BEDE2A8503C02DD02B895A ();
+// 0x00000447 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::Update()
+extern void MapQualityBar_Update_m627E1F7C632E27E59E7BAEDF464AD0D47FE84172 ();
+// 0x00000448 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::.ctor()
+extern void MapQualityBar__ctor_m40FE48CE9DA4E2339A376A905F129EF3399403E8 ();
+// 0x00000449 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar::.cctor()
+extern void MapQualityBar__cctor_mE0E10A309282BD7D606B2036C4E704FD986B8912 ();
+// 0x0000044A System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::get_ReachQualityThreshold()
+extern void MapQualityIndicator_get_ReachQualityThreshold_mDC4F0621A068223FF06856CE36836380018DABF9 ();
+// 0x0000044B System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::get_ReachTopviewAngle()
+extern void MapQualityIndicator_get_ReachTopviewAngle_m6D6D657A5CE136F47671EA3237BC6914C1EA6C70 ();
+// 0x0000044C System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::DrawIndicator(GoogleARCore.DetectedPlaneType,UnityEngine.Camera)
+extern void MapQualityIndicator_DrawIndicator_m45F002FFC47F1A26CDDE86539C863F00079716C9 ();
+// 0x0000044D System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::Awake()
+extern void MapQualityIndicator_Awake_m9C6CCB5906692E65BD5122B4B00C4A49DAD8AFD0 ();
+// 0x0000044E System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::Update()
+extern void MapQualityIndicator_Update_m1497F8E4813C17F3C17F1153CB2CF47A8A708F82 ();
+// 0x0000044F System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::DrawRing()
+extern void MapQualityIndicator_DrawRing_mCB3E69F894A1AD8E0F387BDE5D582E6BE390CE83 ();
+// 0x00000450 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::DrawBars()
+extern void MapQualityIndicator_DrawBars_mEF414F38B735862D39FE0F8FA0A51D77BE7E3B48 ();
+// 0x00000451 System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::IsLookingAtBar(GoogleARCore.Examples.PersistentCloudAnchors.MapQualityBar)
+extern void MapQualityIndicator_IsLookingAtBar_mFAB07505526500FE68FEDB2FEC050BCD4060A356 ();
+// 0x00000452 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::PlayDisappearAnimation()
+extern void MapQualityIndicator_PlayDisappearAnimation_mB156B27669852CEA54FA7984154FAFD14A94C9F4 ();
+// 0x00000453 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MapQualityIndicator::.ctor()
+extern void MapQualityIndicator__ctor_mE30314007EBCC921BF6AD31FCD7C9078BCDD7F55 ();
+// 0x00000454 System.Collections.Generic.List`1<GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown_OptionData> GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::get_Options()
+extern void MultiselectionDropdown_get_Options_m93037504689BD4421CC64A70127212DD6E2B8A6D ();
+// 0x00000455 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::set_Options(System.Collections.Generic.List`1<GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown_OptionData>)
+extern void MultiselectionDropdown_set_Options_m00F13CDB654315B4DEF728DCAEB025BC423A0736 ();
+// 0x00000456 System.Collections.Generic.List`1<System.Int32> GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::get_SelectedValues()
+extern void MultiselectionDropdown_get_SelectedValues_m2BD2120261BB64E3CCE904BCA829BCF55DEA77B5 ();
+// 0x00000457 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::Deselect()
+extern void MultiselectionDropdown_Deselect_mA7471A74820C2CECE2FDA7683C9934DD272CBFAC ();
+// 0x00000458 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::UnityEngine.EventSystems.IPointerClickHandler.OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+extern void MultiselectionDropdown_UnityEngine_EventSystems_IPointerClickHandler_OnPointerClick_m5937FE6B81A97E26A92BD0D5B668306118C23144 ();
+// 0x00000459 System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::UnityEngine.EventSystems.ISubmitHandler.OnSubmit(UnityEngine.EventSystems.BaseEventData)
+extern void MultiselectionDropdown_UnityEngine_EventSystems_ISubmitHandler_OnSubmit_m91461A175EBA9D2A6D2B94856F89F126D265C318 ();
+// 0x0000045A System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::UnityEngine.EventSystems.ICancelHandler.OnCancel(UnityEngine.EventSystems.BaseEventData)
+extern void MultiselectionDropdown_UnityEngine_EventSystems_ICancelHandler_OnCancel_m0E5628D0B03DD330875297EE799BB962CCB6106A ();
+// 0x0000045B System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::Awake()
+extern void MultiselectionDropdown_Awake_mEA2378FE06FE6F3920240FEE6F586955094F51DE ();
+// 0x0000045C System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::OnSelectionChanged(System.Boolean)
+extern void MultiselectionDropdown_OnSelectionChanged_mE8D0485996E8E7CE70B27FCF6E315239E9CC33D5 ();
+// 0x0000045D System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::UpdateOptionRect()
+extern void MultiselectionDropdown_UpdateOptionRect_m9180DE8D8B6F9800C08ED77E0C4EEDC49B4B149E ();
+// 0x0000045E System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown::.ctor()
+extern void MultiselectionDropdown__ctor_m933B72BE42323D077D5339870A9E157A2F3381E5 ();
+// 0x0000045F System.Void GoogleARCore.Examples.PersistentCloudAnchors.MultiselectionDropdown_OptionData::.ctor(System.String,System.String)
+extern void OptionData__ctor_mBF7662CB9EED1EC7756E49EF3D2B422DF69EDC14 ();
+// 0x00000460 UnityEngine.Camera GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::get_MainCamera()
+extern void PersistentCloudAnchorsController_get_MainCamera_m6E0AF46FC02D57146365B98055784C28CA5C769E ();
+// 0x00000461 UnityEngine.GameObject GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::get_PlaneGenerator()
+extern void PersistentCloudAnchorsController_get_PlaneGenerator_mD3C17C6EAFB4ABA8C33B83B6721B80DD64AF9A8E ();
+// 0x00000462 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::OnHostButtonClicked()
+extern void PersistentCloudAnchorsController_OnHostButtonClicked_m8FB1E0C4C8A569D92FCC13ACFE00D4171E3EE9BF ();
+// 0x00000463 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::OnResolveButtonClicked()
+extern void PersistentCloudAnchorsController_OnResolveButtonClicked_mC8B8E415FCE1ECC600950C7D8A61F7A57C7CCA7E ();
+// 0x00000464 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::OnLearnMoreButtonClicked()
+extern void PersistentCloudAnchorsController_OnLearnMoreButtonClicked_mB1176718E8A03721FA55ABE48BCD61CC54C11CDE ();
+// 0x00000465 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SwitchToHomePage()
+extern void PersistentCloudAnchorsController_SwitchToHomePage_m176BA9FF99F81279F2AF4849D25E4270941FA781 ();
+// 0x00000466 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SwitchToResolveMenu()
+extern void PersistentCloudAnchorsController_SwitchToResolveMenu_mEAFE913153357AA07A3B69632E2BA1414BA51A62 ();
+// 0x00000467 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SwitchToPrivacyPrompt()
+extern void PersistentCloudAnchorsController_SwitchToPrivacyPrompt_m58AA383611DA2A7C05BFEAA95EC8DC6FE81DE990 ();
+// 0x00000468 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SwitchToARView()
+extern void PersistentCloudAnchorsController_SwitchToARView_mDC74EACB8ABBC691491E1B3255A5EDE88158102F ();
+// 0x00000469 GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistoryCollection GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::LoadCloudAnchorHistory()
+extern void PersistentCloudAnchorsController_LoadCloudAnchorHistory_mC1F53936F9319877F634697FD21106A2F5E013A5 ();
+// 0x0000046A System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SaveCloudAnchorHistory(GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory)
+extern void PersistentCloudAnchorsController_SaveCloudAnchorHistory_mE654DDCD166991A2F2342524BA530D378C0EB1F3 ();
+// 0x0000046B System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::Awake()
+extern void PersistentCloudAnchorsController_Awake_mAA2E7AB583976B992D87CB5F6B3FFF998D61D3D5 ();
+// 0x0000046C System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::Update()
+extern void PersistentCloudAnchorsController_Update_mB4E675A63CECBA4F6E0680609BDD5D1B50C26C2B ();
+// 0x0000046D System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::ResetAllViews()
+extern void PersistentCloudAnchorsController_ResetAllViews_m580DC9B9E3F75297E3EE9BD5715670497B99519E ();
+// 0x0000046E System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::SetPlatformActive(System.Boolean)
+extern void PersistentCloudAnchorsController_SetPlatformActive_m96DA7A95CC63EDA6758B12E507BFD4B683B9A01F ();
+// 0x0000046F System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController::.ctor()
+extern void PersistentCloudAnchorsController__ctor_m4389C325D464B90629F67AD67F99B66E7470273B ();
+// 0x00000470 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController_<>c__DisplayClass27_0::.ctor()
+extern void U3CU3Ec__DisplayClass27_0__ctor_m434B49A7EE2FB95A456B77D989E00470DB7AC0D1 ();
+// 0x00000471 System.Boolean GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController_<>c__DisplayClass27_0::<LoadCloudAnchorHistory>b__0(GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory)
+extern void U3CU3Ec__DisplayClass27_0_U3CLoadCloudAnchorHistoryU3Eb__0_m5BD47AFF96692F142B74DE617EBFCAA976C781A0 ();
+// 0x00000472 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController_<>c::.cctor()
+extern void U3CU3Ec__cctor_m692E7B9971C51501E6D4BE49F4D4C6D21DE859BA ();
+// 0x00000473 System.Void GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController_<>c::.ctor()
+extern void U3CU3Ec__ctor_m02C9B7BFE219F8F7577C99418366BACADE95E71E ();
+// 0x00000474 System.Int32 GoogleARCore.Examples.PersistentCloudAnchors.PersistentCloudAnchorsController_<>c::<SaveCloudAnchorHistory>b__28_0(GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory,GoogleARCore.Examples.PersistentCloudAnchors.CloudAnchorHistory)
+extern void U3CU3Ec_U3CSaveCloudAnchorHistoryU3Eb__28_0_mF869ED869714E8496AFBEDE86F3355745E4109C9 ();
+// 0x00000475 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnInputFieldValueChanged(System.String)
+extern void ResolveMenuManager_OnInputFieldValueChanged_mBD5E92E41F514A9C9DE820E4F9E724A85ECB8ABC ();
+// 0x00000476 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnInputFieldEndEdit(System.String)
+extern void ResolveMenuManager_OnInputFieldEndEdit_m745E4FEFEAE79EBE6B21AFD009D79D8F8DD37C7E ();
+// 0x00000477 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnResolvingSelectionChanged()
+extern void ResolveMenuManager_OnResolvingSelectionChanged_mFC545995F6C40C8B767159A9CC204B279F7285B6 ();
+// 0x00000478 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::Awake()
+extern void ResolveMenuManager_Awake_mB5F14884BCDAA5E7B3485E57A35651B5A8F2950B ();
+// 0x00000479 System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnEnable()
+extern void ResolveMenuManager_OnEnable_m9E92DF749CDF3CFC7E0E239BB5EFB967271CF23B ();
+// 0x0000047A System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::OnDisable()
+extern void ResolveMenuManager_OnDisable_m6D4319ABEC551DAAB137E3CB81A214F730D735EA ();
+// 0x0000047B System.String GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::FormatDateTime(System.DateTime)
+extern void ResolveMenuManager_FormatDateTime_m204A0618FEF71107325FC9FA290613C23DBE4088 ();
+// 0x0000047C System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::SetButtonActive(UnityEngine.UI.Button,System.Boolean)
+extern void ResolveMenuManager_SetButtonActive_m9DAC6A686DC4B0763DB6573DDFBFBC8A055C3ABD ();
+// 0x0000047D System.Void GoogleARCore.Examples.PersistentCloudAnchors.ResolveMenuManager::.ctor()
+extern void ResolveMenuManager__ctor_m0A5069EF2B23D925F7F1015026AC8659E42FE1D7 ();
+// 0x0000047E System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::.ctor(GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1<T>)
+// 0x0000047F System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::add_onStart(System.Action`1<T>)
+// 0x00000480 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::remove_onStart(System.Action`1<T>)
+// 0x00000481 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::add_onUpdated(System.Action`1<T>)
+// 0x00000482 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::remove_onUpdated(System.Action`1<T>)
+// 0x00000483 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::add_onFinished(System.Action`1<T>)
+// 0x00000484 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::remove_onFinished(System.Action`1<T>)
+// 0x00000485 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::get_WasCancelled()
+// 0x00000486 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::set_WasCancelled(System.Boolean)
+// 0x00000487 UnityEngine.GameObject GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::get_TargetObject()
+// 0x00000488 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::set_TargetObject(UnityEngine.GameObject)
+// 0x00000489 GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1<T> GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::get__recognizer()
+// 0x0000048A System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::set__recognizer(GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1<T>)
+// 0x0000048B System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::Update()
+// 0x0000048C System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::Cancel()
+// 0x0000048D System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::CanStart()
+// 0x0000048E System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::OnStart()
+// 0x0000048F System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::UpdateGesture()
+// 0x00000490 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::OnCancel()
+// 0x00000491 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::OnFinish()
+// 0x00000492 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::Complete()
+// 0x00000493 System.Void GoogleARCore.Examples.ObjectManipulationInternal.Gesture`1::Start()
+// 0x00000494 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::add_onGestureStarted(System.Action`1<T>)
+// 0x00000495 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::remove_onGestureStarted(System.Action`1<T>)
+// 0x00000496 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::Update()
+// 0x00000497 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::TryCreateGestures()
+// 0x00000498 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::TryCreateOneFingerGestureOnTouchBegan(System.Func`2<UnityEngine.Touch,T>)
+// 0x00000499 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::TryCreateTwoFingerGestureOnTouchBegan(System.Func`3<UnityEngine.Touch,UnityEngine.Touch,T>)
+// 0x0000049A System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::TryCreateGestureTwoFingerGestureOnTouchBeganForTouchIndex(System.Int32,System.Func`3<UnityEngine.Touch,UnityEngine.Touch,T>)
+// 0x0000049B System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::OnStart(T)
+// 0x0000049C System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::OnFinished(T)
+// 0x0000049D System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureRecognizer`1::.ctor()
+// 0x0000049E System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::.ctor()
+extern void GestureTouchesUtility__ctor_m489F9C9AF5ABFDEB9552E61C1CE59136B55D81DB ();
+// 0x0000049F System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::TryFindTouch(System.Int32,UnityEngine.Touch&)
+extern void GestureTouchesUtility_TryFindTouch_m55ADDE760E08FD7C063C305B0862EEDE6348CDD8 ();
+// 0x000004A0 System.Single GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::PixelsToInches(System.Single)
+extern void GestureTouchesUtility_PixelsToInches_mCB45B125F694F12F933366C0211D9D2DD2B1DFD6 ();
+// 0x000004A1 System.Single GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::InchesToPixels(System.Single)
+extern void GestureTouchesUtility_InchesToPixels_m5DE571151CC82993BA03A7539C452585A3F5F65D ();
+// 0x000004A2 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::IsTouchOffScreenEdge(UnityEngine.Touch)
+extern void GestureTouchesUtility_IsTouchOffScreenEdge_mD12C5CEEAFE9EAF41AC830CC41DE3C9613505E9F ();
+// 0x000004A3 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::RaycastFromCamera(UnityEngine.Vector2,UnityEngine.RaycastHit&)
+extern void GestureTouchesUtility_RaycastFromCamera_mCC6A0E33F53EA778DC6E19BA5E6D085D3663948B ();
+// 0x000004A4 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::LockFingerId(System.Int32)
+extern void GestureTouchesUtility_LockFingerId_mFA848B03D45C51EF6D9B5E21BBE9491BCB42B03F ();
+// 0x000004A5 System.Void GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::ReleaseFingerId(System.Int32)
+extern void GestureTouchesUtility_ReleaseFingerId_m3322C11D18157D390C1F2AE256BADB3CEA8DB1CE ();
+// 0x000004A6 System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::IsFingerIdRetained(System.Int32)
+extern void GestureTouchesUtility_IsFingerIdRetained_m1317D55860BF450242CDDD9962DD5D9BD486FAD2 ();
+// 0x000004A7 GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility GoogleARCore.Examples.ObjectManipulationInternal.GestureTouchesUtility::GetInstance()
+extern void GestureTouchesUtility_GetInstance_m076662ACA5783F233E8BE0F7C6632AB306ACD645 ();
+// 0x000004A8 GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility_Placement GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility::GetBestPlacementPosition(UnityEngine.Vector3,UnityEngine.Vector2,System.Single,System.Single,System.Single,GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility_TranslationMode)
+extern void TransformationUtility_GetBestPlacementPosition_m2B565A4F916679BA98EDC233205BA39BE10D4E08 ();
+// 0x000004A9 UnityEngine.Vector3 GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility::LimitTranslation(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+extern void TransformationUtility_LimitTranslation_m375B29B0F9B160D77C75836ABE4AE3AC2E466061 ();
+// 0x000004AA System.Boolean GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility::IsPlaneTypeAllowed(GoogleARCore.Examples.ObjectManipulationInternal.TransformationUtility_TranslationMode,GoogleARCore.DetectedPlaneType)
+extern void TransformationUtility_IsPlaneTypeAllowed_mD481846F5C250769A785E83C6BEF2E8C2F2C69DA ();
+// 0x000004AB System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer,UnityEngine.Touch)
+extern void DragGesture__ctor_mE9E0DC848FB6A6EA3A5EE81AC4F405581703D5F7 ();
+// 0x000004AC System.Int32 GoogleARCore.Examples.ObjectManipulation.DragGesture::get_FingerId()
+extern void DragGesture_get_FingerId_m1C354D990849F7FF19F42CA138C0A287D6CDEA01 ();
+// 0x000004AD System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::set_FingerId(System.Int32)
+extern void DragGesture_set_FingerId_mEC0E39222EB65C1C2F65B01FBFE4BBAD73BED391 ();
+// 0x000004AE UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.DragGesture::get_StartPosition()
+extern void DragGesture_get_StartPosition_mDF53DD8C9CF6B1559F2D81F98AA8E0611E39AB9E ();
+// 0x000004AF System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::set_StartPosition(UnityEngine.Vector2)
+extern void DragGesture_set_StartPosition_m5D2E900EEB0C53A1DADDA5590FB4B49BD6966683 ();
+// 0x000004B0 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.DragGesture::get_Position()
+extern void DragGesture_get_Position_mE21053D871BADD445C6BDF8431B31C9BCFA04757 ();
+// 0x000004B1 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::set_Position(UnityEngine.Vector2)
+extern void DragGesture_set_Position_mDAD3616E994C530F7B190DB1DCD46BAF92DC5D68 ();
+// 0x000004B2 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.DragGesture::get_Delta()
+extern void DragGesture_get_Delta_mFF3112EDF21745F2A65CE016E734244C25AA838A ();
+// 0x000004B3 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::set_Delta(UnityEngine.Vector2)
+extern void DragGesture_set_Delta_m1FB52C92B4ED75298D0D75E9E2F32FB743D27146 ();
+// 0x000004B4 System.Boolean GoogleARCore.Examples.ObjectManipulation.DragGesture::CanStart()
+extern void DragGesture_CanStart_m7AFBB3C9FD3A790D7E314DDDDC49712918DC289C ();
+// 0x000004B5 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::OnStart()
+extern void DragGesture_OnStart_m65A1099F6D8FA26D9CAB235079DFCA22AEFD3613 ();
+// 0x000004B6 System.Boolean GoogleARCore.Examples.ObjectManipulation.DragGesture::UpdateGesture()
+extern void DragGesture_UpdateGesture_m8CF9E628D49E8B36B531447E2307C073CA400DE9 ();
+// 0x000004B7 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::OnCancel()
+extern void DragGesture_OnCancel_mF22860FA6A47875BB628B8E82D32BE25ABCD8556 ();
+// 0x000004B8 System.Void GoogleARCore.Examples.ObjectManipulation.DragGesture::OnFinish()
+extern void DragGesture_OnFinish_mF91A6360663FF6E3CADE3B01F24AD4386D57BFDD ();
+// 0x000004B9 GoogleARCore.Examples.ObjectManipulation.DragGesture GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer::CreateGesture(UnityEngine.Touch)
+extern void DragGestureRecognizer_CreateGesture_mDC38F59A390723234A5AF46BB9B5A962DFA1828A ();
+// 0x000004BA System.Void GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer::TryCreateGestures()
+extern void DragGestureRecognizer_TryCreateGestures_mD5D53EF485DC7D2F6B60FA6DC8AD96542CE308B5 ();
+// 0x000004BB System.Void GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer::.ctor()
+extern void DragGestureRecognizer__ctor_mF25B65D4CCD2908BFB24AA981BDBCBF10D05AD13 ();
+// 0x000004BC System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer,UnityEngine.Touch,UnityEngine.Touch)
+extern void PinchGesture__ctor_mFF7E8270E96F673FD030DD6374D419BCF34C5985 ();
+// 0x000004BD System.Int32 GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_FingerId1()
+extern void PinchGesture_get_FingerId1_m40CE931FF1049F1589587FC39F3272CFB54C4646 ();
+// 0x000004BE System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_FingerId1(System.Int32)
+extern void PinchGesture_set_FingerId1_m743A13092AA70101A295563E1BA600647962CD69 ();
+// 0x000004BF System.Int32 GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_FingerId2()
+extern void PinchGesture_get_FingerId2_m848F0ED2E024D63DD35ED556B2BB0F61F99C210A ();
+// 0x000004C0 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_FingerId2(System.Int32)
+extern void PinchGesture_set_FingerId2_m886C874723954DD97C3E63EC853CB505E1D2776B ();
+// 0x000004C1 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_StartPosition1()
+extern void PinchGesture_get_StartPosition1_m9AF235FB95F33761AA4502751D3BB110640F61BE ();
+// 0x000004C2 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_StartPosition1(UnityEngine.Vector2)
+extern void PinchGesture_set_StartPosition1_mB43D3456F3B68B44031DC7DB327F3EDD09720A13 ();
+// 0x000004C3 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_StartPosition2()
+extern void PinchGesture_get_StartPosition2_m89DA37D24C951AF32AF36DCAAAF198E721397626 ();
+// 0x000004C4 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_StartPosition2(UnityEngine.Vector2)
+extern void PinchGesture_set_StartPosition2_m472B2177C731FF71EDC9800C36BE9953F3B27A18 ();
+// 0x000004C5 System.Single GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_Gap()
+extern void PinchGesture_get_Gap_m53369B9713B34D9AFB7BED9E74A11E1A3DA1CA1C ();
+// 0x000004C6 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_Gap(System.Single)
+extern void PinchGesture_set_Gap_mF043B6FE5C240C979450FD05046BA7A4530C7A06 ();
+// 0x000004C7 System.Single GoogleARCore.Examples.ObjectManipulation.PinchGesture::get_GapDelta()
+extern void PinchGesture_get_GapDelta_m541A0E0C1A3FC180C4BB4B5FEF10F4364E797396 ();
+// 0x000004C8 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::set_GapDelta(System.Single)
+extern void PinchGesture_set_GapDelta_mAB484B3CEDF618FDE9514EF9FCE848C5AA34675D ();
+// 0x000004C9 System.Boolean GoogleARCore.Examples.ObjectManipulation.PinchGesture::CanStart()
+extern void PinchGesture_CanStart_m25180FB4EBEB271BA0ABCB98F6B2D16082BB0F12 ();
+// 0x000004CA System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::OnStart()
+extern void PinchGesture_OnStart_mADD27654542809060009DBAA72F6163D0CB3F545 ();
+// 0x000004CB System.Boolean GoogleARCore.Examples.ObjectManipulation.PinchGesture::UpdateGesture()
+extern void PinchGesture_UpdateGesture_m3661140F1006850065822CAB7BDBBD5BEF405F23 ();
+// 0x000004CC System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::OnCancel()
+extern void PinchGesture_OnCancel_m7AC2DE804DCA39A67CF5BA892AAFF48F9779EF0B ();
+// 0x000004CD System.Void GoogleARCore.Examples.ObjectManipulation.PinchGesture::OnFinish()
+extern void PinchGesture_OnFinish_m478AB3B05381C73213A8D8C74E69110C029932BB ();
+// 0x000004CE GoogleARCore.Examples.ObjectManipulation.PinchGesture GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer::CreateGesture(UnityEngine.Touch,UnityEngine.Touch)
+extern void PinchGestureRecognizer_CreateGesture_mA2C5AC875FEC050BD51E4F0480A4E465E4D51037 ();
+// 0x000004CF System.Void GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer::TryCreateGestures()
+extern void PinchGestureRecognizer_TryCreateGestures_mEEE760BF679BBA3950F335315EE70E380EE886B5 ();
+// 0x000004D0 System.Void GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer::.ctor()
+extern void PinchGestureRecognizer__ctor_m8350979E1ED3F2B04AD083D9B66EAF543E1F09D3 ();
+// 0x000004D1 System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer,UnityEngine.Touch)
+extern void TapGesture__ctor_m84FC8DC5DA06C0B62C9C5CFBE2BD5BF3524B4062 ();
+// 0x000004D2 System.Int32 GoogleARCore.Examples.ObjectManipulation.TapGesture::get_FingerId()
+extern void TapGesture_get_FingerId_mC3B516F3B252E909682DE574C383C3F7AFBB8090 ();
+// 0x000004D3 System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::set_FingerId(System.Int32)
+extern void TapGesture_set_FingerId_mFF67C8E1725A418C4C8A03283808E01A0A674166 ();
+// 0x000004D4 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TapGesture::get_StartPosition()
+extern void TapGesture_get_StartPosition_mDE15A8377525CD7FFAABD856056CA5F3E5B8B2AC ();
+// 0x000004D5 System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::set_StartPosition(UnityEngine.Vector2)
+extern void TapGesture_set_StartPosition_mD88392FF940F3185537FBCEB69EEA6FD973DF132 ();
+// 0x000004D6 System.Boolean GoogleARCore.Examples.ObjectManipulation.TapGesture::CanStart()
+extern void TapGesture_CanStart_m1702B70344D3545081259CB6EA4D862B48187F57 ();
+// 0x000004D7 System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::OnStart()
+extern void TapGesture_OnStart_mA5D68A59C51EC3029FD51C049270292F3FAFB899 ();
+// 0x000004D8 System.Boolean GoogleARCore.Examples.ObjectManipulation.TapGesture::UpdateGesture()
+extern void TapGesture_UpdateGesture_mF6741175A28A1D42A5A36F8DEF9A0830B83A03A2 ();
+// 0x000004D9 System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::OnCancel()
+extern void TapGesture_OnCancel_m12BF6D6A2F857DE19A0D77AE6673895D2893EB11 ();
+// 0x000004DA System.Void GoogleARCore.Examples.ObjectManipulation.TapGesture::OnFinish()
+extern void TapGesture_OnFinish_mD352BF892F0EC576ED5102BC9CBAB941EC4A9358 ();
+// 0x000004DB GoogleARCore.Examples.ObjectManipulation.TapGesture GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer::CreateGesture(UnityEngine.Touch)
+extern void TapGestureRecognizer_CreateGesture_m8ACCDA7AFA0F41B8E3755BE6BA0CCF9FE9CCB33B ();
+// 0x000004DC System.Void GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer::TryCreateGestures()
+extern void TapGestureRecognizer_TryCreateGestures_m136E2D51DC50B072173A6E3CAAB8F67CBBD3EE2A ();
+// 0x000004DD System.Void GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer::.ctor()
+extern void TapGestureRecognizer__ctor_mEEC13C927A3DEAFE13487C8C1362A995119B2606 ();
+// 0x000004DE System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer,UnityEngine.Touch,UnityEngine.Touch)
+extern void TwistGesture__ctor_mACCAC0C8A5199B93EB72F8B912D549ADC059B933 ();
+// 0x000004DF System.Int32 GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_FingerId1()
+extern void TwistGesture_get_FingerId1_mD960FF79A556BBE282515BC5F7C88120A7961130 ();
+// 0x000004E0 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_FingerId1(System.Int32)
+extern void TwistGesture_set_FingerId1_mCDE0CF744B5573CC1F40FCBEDFA720E2EBDEA801 ();
+// 0x000004E1 System.Int32 GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_FingerId2()
+extern void TwistGesture_get_FingerId2_m9D6D87BBBD37934F9C7C538D4C5DF08430000B7A ();
+// 0x000004E2 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_FingerId2(System.Int32)
+extern void TwistGesture_set_FingerId2_m17810F37DD3318F2CC082363A1289B4419875F66 ();
+// 0x000004E3 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_StartPosition1()
+extern void TwistGesture_get_StartPosition1_m21CF28434F217756AF2F3F400CCCAAEF114EB26C ();
+// 0x000004E4 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_StartPosition1(UnityEngine.Vector2)
+extern void TwistGesture_set_StartPosition1_m74C5585FCFB8822A3472C2A335EFFED322FC77D2 ();
+// 0x000004E5 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_StartPosition2()
+extern void TwistGesture_get_StartPosition2_mA5D7B306AF97FE0A430C3BADE46668CCACD43C11 ();
+// 0x000004E6 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_StartPosition2(UnityEngine.Vector2)
+extern void TwistGesture_set_StartPosition2_mF58D301CC126DBC1A9CA563BD600CCAAC27C6AA2 ();
+// 0x000004E7 System.Single GoogleARCore.Examples.ObjectManipulation.TwistGesture::get_DeltaRotation()
+extern void TwistGesture_get_DeltaRotation_m74BD83DB36EB50AA2505B6B23C9BF37736AD73B4 ();
+// 0x000004E8 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::set_DeltaRotation(System.Single)
+extern void TwistGesture_set_DeltaRotation_m4185D204F99B05A84A5DEA556F9CC6B77AA56D5B ();
+// 0x000004E9 System.Boolean GoogleARCore.Examples.ObjectManipulation.TwistGesture::CanStart()
+extern void TwistGesture_CanStart_m43E73609602FC926DDD1036AB4AD635124DF6AD5 ();
+// 0x000004EA System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::OnStart()
+extern void TwistGesture_OnStart_m9E9614F0D96911F0AAB12E4BB8C103FD0929DDA9 ();
+// 0x000004EB System.Boolean GoogleARCore.Examples.ObjectManipulation.TwistGesture::UpdateGesture()
+extern void TwistGesture_UpdateGesture_mD35D91B678AFE7D5375149D09572BD5A6272ABE9 ();
+// 0x000004EC System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::OnCancel()
+extern void TwistGesture_OnCancel_mF8D119025B02A0EEA4666FFFC776C7EFCD845FB9 ();
+// 0x000004ED System.Void GoogleARCore.Examples.ObjectManipulation.TwistGesture::OnFinish()
+extern void TwistGesture_OnFinish_mF6A95D9F301D8D79E46D4011A3C4D4AF6D349864 ();
+// 0x000004EE System.Single GoogleARCore.Examples.ObjectManipulation.TwistGesture::CalculateDeltaRotation(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+extern void TwistGesture_CalculateDeltaRotation_mD454DB46D2A106DAAD22840DE3236970AE04F9B1 ();
+// 0x000004EF GoogleARCore.Examples.ObjectManipulation.TwistGesture GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer::CreateGesture(UnityEngine.Touch,UnityEngine.Touch)
+extern void TwistGestureRecognizer_CreateGesture_m880AFFCAA7C7E511D3842B2D6952F9CBAEB42523 ();
+// 0x000004F0 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer::TryCreateGestures()
+extern void TwistGestureRecognizer_TryCreateGestures_m40B0D4706EF3CAA15D03572C5B38F4BF0198B05A ();
+// 0x000004F1 System.Void GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer::.ctor()
+extern void TwistGestureRecognizer__ctor_mE0A1B74525591FEC46B4064BD60F126527A01261 ();
+// 0x000004F2 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::.ctor(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer,UnityEngine.Touch,UnityEngine.Touch)
+extern void TwoFingerDragGesture__ctor_m8F208797315C5D55D04467DB4F16AB1B91210455 ();
+// 0x000004F3 System.Int32 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_FingerId1()
+extern void TwoFingerDragGesture_get_FingerId1_m4BA66064F8C91C180A67A101747E6B6BC405E7A2 ();
+// 0x000004F4 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_FingerId1(System.Int32)
+extern void TwoFingerDragGesture_set_FingerId1_m93BB6EFA5699441A7C8FF2C5E9AC66EC109145B6 ();
+// 0x000004F5 System.Int32 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_FingerId2()
+extern void TwoFingerDragGesture_get_FingerId2_m9B0590B5D3595FFBD1A7D03BFEE1BF6ED80691F1 ();
+// 0x000004F6 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_FingerId2(System.Int32)
+extern void TwoFingerDragGesture_set_FingerId2_mB71666356AD3184045E20E3EBDE562A28F8E48EA ();
+// 0x000004F7 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_StartPosition1()
+extern void TwoFingerDragGesture_get_StartPosition1_m4D1B09F37808713D90579224C49E838D2BA9316D ();
+// 0x000004F8 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_StartPosition1(UnityEngine.Vector2)
+extern void TwoFingerDragGesture_set_StartPosition1_mAA3E1F7C155DE228DDB7FA448259A0DAA686FEDC ();
+// 0x000004F9 UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_StartPosition2()
+extern void TwoFingerDragGesture_get_StartPosition2_m88A010D2F2D318B4C9554E93D88C2F04D6882AC1 ();
+// 0x000004FA System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_StartPosition2(UnityEngine.Vector2)
+extern void TwoFingerDragGesture_set_StartPosition2_m80C70C21E07F998DA7B9F87E95DE201E320BA618 ();
+// 0x000004FB UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_Position()
+extern void TwoFingerDragGesture_get_Position_m2CEB641220776E657ABFB1BDE38EE9626BADF7CF ();
+// 0x000004FC System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_Position(UnityEngine.Vector2)
+extern void TwoFingerDragGesture_set_Position_mFECEAF87A66B114848B2C5D0D4DDEF545813E158 ();
+// 0x000004FD UnityEngine.Vector2 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::get_Delta()
+extern void TwoFingerDragGesture_get_Delta_mE4537EFC12CA5DAFD15DF9B4F5B87DBDA45E5E08 ();
+// 0x000004FE System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::set_Delta(UnityEngine.Vector2)
+extern void TwoFingerDragGesture_set_Delta_mB4BE678CADBEF1D68C76F89AF17F6734681ACF8B ();
+// 0x000004FF System.Boolean GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::CanStart()
+extern void TwoFingerDragGesture_CanStart_mFD596861CC48F4698EA742E2E58D481BAA7F89D1 ();
+// 0x00000500 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::OnStart()
+extern void TwoFingerDragGesture_OnStart_m18E41888FB751E7B2EE7C803EDA55FE84CDAE3EB ();
+// 0x00000501 System.Boolean GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::UpdateGesture()
+extern void TwoFingerDragGesture_UpdateGesture_m2E67366B6108A80B033C685862DC42631885B3CD ();
+// 0x00000502 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::OnCancel()
+extern void TwoFingerDragGesture_OnCancel_m380BE121240FFD5B0249080DACCCD67809D5FE5C ();
+// 0x00000503 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture::OnFinish()
+extern void TwoFingerDragGesture_OnFinish_mD0E7D2E46605C8B1A644E94FF0A502015A4EE277 ();
+// 0x00000504 GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer::CreateGesture(UnityEngine.Touch,UnityEngine.Touch)
+extern void TwoFingerDragGestureRecognizer_CreateGesture_m5547764D2E65075F4586791334ED758CAA15C0D4 ();
+// 0x00000505 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer::TryCreateGestures()
+extern void TwoFingerDragGestureRecognizer_TryCreateGestures_m980F8E9CFD068A2BD5DB7CEC070B0EA4795F4ED2 ();
+// 0x00000506 System.Void GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer::.ctor()
+extern void TwoFingerDragGestureRecognizer__ctor_mA2BF1DC3094A5598463BCE764A0DBB9C76186C44 ();
+// 0x00000507 GoogleARCore.Examples.ObjectManipulation.ManipulationSystem GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_Instance()
+extern void ManipulationSystem_get_Instance_m162A0A9614E9510AD628A94F80F5867DB8F40CC5 ();
+// 0x00000508 GoogleARCore.Examples.ObjectManipulation.DragGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_DragGestureRecognizer()
+extern void ManipulationSystem_get_DragGestureRecognizer_mE4B07C65E23BC35D1F512910F9FC9B587A1602E7 ();
+// 0x00000509 GoogleARCore.Examples.ObjectManipulation.PinchGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_PinchGestureRecognizer()
+extern void ManipulationSystem_get_PinchGestureRecognizer_m51480E14A6733749FA53E922059FCEB6BA07F193 ();
+// 0x0000050A GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_TwoFingerDragGestureRecognizer()
+extern void ManipulationSystem_get_TwoFingerDragGestureRecognizer_m0C2F5DA4EE104025898F76AF1FE46CD5FC6C5613 ();
+// 0x0000050B GoogleARCore.Examples.ObjectManipulation.TapGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_TapGestureRecognizer()
+extern void ManipulationSystem_get_TapGestureRecognizer_mB764FBFCDEE6BCBDC1AA06BB3B4781BC489A1EFC ();
+// 0x0000050C GoogleARCore.Examples.ObjectManipulation.TwistGestureRecognizer GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_TwistGestureRecognizer()
+extern void ManipulationSystem_get_TwistGestureRecognizer_m4C474E1AA52570ADE803043A4D9327AD29E67130 ();
+// 0x0000050D UnityEngine.GameObject GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::get_SelectedObject()
+extern void ManipulationSystem_get_SelectedObject_m911D8C059206D102AD70DBFD14EE890E6E75FF5B ();
+// 0x0000050E System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::set_SelectedObject(UnityEngine.GameObject)
+extern void ManipulationSystem_set_SelectedObject_m2BDF50A6700E258AB54FDDC9F9B0E013BBBDF404 ();
+// 0x0000050F System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::Awake()
+extern void ManipulationSystem_Awake_mCC934CDD3D5003084B25C71486964355006F510C ();
+// 0x00000510 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::Update()
+extern void ManipulationSystem_Update_m96677985720B1ABF792B9BF8285336A1F5F0C5BD ();
+// 0x00000511 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::Deselect()
+extern void ManipulationSystem_Deselect_mA16CD593390A56B7576D923F918F450F19DF99A0 ();
+// 0x00000512 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::Select(UnityEngine.GameObject)
+extern void ManipulationSystem_Select_m76ECABA46E1C067FD1342446BFE6C63A13496736 ();
+// 0x00000513 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::.ctor()
+extern void ManipulationSystem__ctor_m694B4E8E8C00BD60D3D496EEC8A9E08715912AB1 ();
+// 0x00000514 System.Void GoogleARCore.Examples.ObjectManipulation.ManipulationSystem::.cctor()
+extern void ManipulationSystem__cctor_mC703D3BAC53587393427B0FB073D727E81F0A723 ();
+// 0x00000515 System.Boolean GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+extern void ElevationManipulator_CanStartManipulationForGesture_mF7909493296B118CCB4D6DF8BD804BED7C458571 ();
+// 0x00000516 System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+extern void ElevationManipulator_OnStartManipulation_mD7F8E91521C3D63556549DF3E272B418AA118263 ();
+// 0x00000517 System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+extern void ElevationManipulator_OnContinueManipulation_mF8B0989F86065CDAFA94E9B06515637C93724E01 ();
+// 0x00000518 System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+extern void ElevationManipulator_OnEndManipulation_m831B908792453870F85A63F8F11A004C5CD2BE20 ();
+// 0x00000519 System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnStartElevationVisualization(UnityEngine.Vector3,UnityEngine.Vector3)
+extern void ElevationManipulator_OnStartElevationVisualization_m38EC17901E25B0DDF56BBC033F455F78C2FF7348 ();
+// 0x0000051A System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnContinueElevationVisualization(UnityEngine.Vector3)
+extern void ElevationManipulator_OnContinueElevationVisualization_m344FA40789BE53087730B35D7F128CB73641D5C4 ();
+// 0x0000051B System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::OnEndElevationVisualization()
+extern void ElevationManipulator_OnEndElevationVisualization_m11B39600BE131F689C152DE97B15DDED0CA3BC3F ();
+// 0x0000051C System.Void GoogleARCore.Examples.ObjectManipulation.ElevationManipulator::.ctor()
+extern void ElevationManipulator__ctor_m2579EC57ED8592339169AA7BDE9E387F4891DB5A ();
+// 0x0000051D System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::Select()
+extern void Manipulator_Select_m2ABE5DA403A7B9D402315A2C37CE6008CB08963D ();
+// 0x0000051E System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::Deselect()
+extern void Manipulator_Deselect_mC07812FB179325FF688E2EA31F2A6064FCCFEA7A ();
+// 0x0000051F System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::IsSelected()
+extern void Manipulator_IsSelected_mC4BD95EF61E04D1868B4DCB0DABB7D5E1F774D85 ();
+// 0x00000520 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void Manipulator_CanStartManipulationForGesture_mFB28DEE2D716D446FDFD458C1CADC028629875BE ();
+// 0x00000521 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+extern void Manipulator_CanStartManipulationForGesture_mBCA6E10F22F7855861AE4F23FE27F579CD7B2A8E ();
+// 0x00000522 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+extern void Manipulator_CanStartManipulationForGesture_m2912C6321555ED26D02934C732F03A7E1B11374B ();
+// 0x00000523 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+extern void Manipulator_CanStartManipulationForGesture_mB1A6B51CA7F207F14B924981AEDE87B920AE1B79 ();
+// 0x00000524 System.Boolean GoogleARCore.Examples.ObjectManipulation.Manipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+extern void Manipulator_CanStartManipulationForGesture_m85CC7BE9DC2C47B333893AB53489930FE021EF7B ();
+// 0x00000525 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void Manipulator_OnStartManipulation_m888B482ECC394855454865762BD691823D4A596D ();
+// 0x00000526 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+extern void Manipulator_OnStartManipulation_mA6E3114C188EF85515108BC0D26359B7CAE6782C ();
+// 0x00000527 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+extern void Manipulator_OnStartManipulation_m46758CF6F9418AA4A7B4B24360B8F180A23E76DB ();
+// 0x00000528 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+extern void Manipulator_OnStartManipulation_mD6ECFA05A2611FB4DC8A64A7A0AAA6C2BFACF453 ();
+// 0x00000529 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+extern void Manipulator_OnStartManipulation_m0D90C09FEC23D548E1AD7B6D44F0F6AB1291519C ();
+// 0x0000052A System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void Manipulator_OnContinueManipulation_m9B1F8B43289538673F21D70A4536D03C89B2AEB3 ();
+// 0x0000052B System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+extern void Manipulator_OnContinueManipulation_mFC38B46CD42FF8D1621C65212C6AE7E864C60A49 ();
+// 0x0000052C System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+extern void Manipulator_OnContinueManipulation_m98A48C518EBD0B9303AD4F76DD1704A2996E8F4B ();
+// 0x0000052D System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+extern void Manipulator_OnContinueManipulation_m13394A0D37C9F8815FB315591C37D63ECE411D8B ();
+// 0x0000052E System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+extern void Manipulator_OnContinueManipulation_mBF91C7264368B6A58AF8042DFA873C7600121401 ();
+// 0x0000052F System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void Manipulator_OnEndManipulation_m4FBE567E87444B17AB42136B858B5F5D0B78585C ();
+// 0x00000530 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+extern void Manipulator_OnEndManipulation_m45FCF6033B52F1BAE0ED720F089A18485C34F312 ();
+// 0x00000531 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+extern void Manipulator_OnEndManipulation_m3E927DEF19015CD0F3035734AF373E6D8669C48B ();
+// 0x00000532 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+extern void Manipulator_OnEndManipulation_m9241A0EEF4308E4E16412440DDBF3FCD7998D914 ();
+// 0x00000533 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+extern void Manipulator_OnEndManipulation_m4028C7D307F901415725EB15B5AA2DA16A199BD5 ();
+// 0x00000534 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnSelected()
+extern void Manipulator_OnSelected_mBBA77E651A08F10926B56A26A2892A093ED7FBC6 ();
+// 0x00000535 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnDeselected()
+extern void Manipulator_OnDeselected_mAA1E95140314B5B83BC95E2A6F56801D2DA64FA7 ();
+// 0x00000536 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnEnable()
+extern void Manipulator_OnEnable_m8EE4AE24156C480127BC1DB16EAB1FE337BBFBB0 ();
+// 0x00000537 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnDisable()
+extern void Manipulator_OnDisable_m4EF028EC7DEB976E0CEB26BF4425437E412FA34A ();
+// 0x00000538 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::Update()
+extern void Manipulator_Update_mE4219967A9C0C623C00AF593C217F8B4505F4024 ();
+// 0x00000539 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::ConnectToRecognizers()
+extern void Manipulator_ConnectToRecognizers_m36D5FB98767168B9770AAD011484EE6FFD48A259 ();
+// 0x0000053A System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::DisconnectFromRecognizers()
+extern void Manipulator_DisconnectFromRecognizers_m70412D11525FA9F79560283126393FC948CFDFA5 ();
+// 0x0000053B System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void Manipulator_OnGestureStarted_mC295E9F728223DE8C4D5F4C98E64511E6D742253 ();
+// 0x0000053C System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+extern void Manipulator_OnGestureStarted_m27A20C8FDFFBB19369A6792B31DD0E6A7CA041A6 ();
+// 0x0000053D System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+extern void Manipulator_OnGestureStarted_m3B21D223D2680414FBB8FEF272051318B7BBF11D ();
+// 0x0000053E System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+extern void Manipulator_OnGestureStarted_m0FD2A51241D9045F9A2E7A1461BF4C020CD5AC70 ();
+// 0x0000053F System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnGestureStarted(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+extern void Manipulator_OnGestureStarted_m200913F629DBDA034E44DBCAB170E88761B6C59C ();
+// 0x00000540 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void Manipulator_OnUpdated_mB34496E33DEAC0DB0ADD7650F58CB49A32B121AC ();
+// 0x00000541 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+extern void Manipulator_OnUpdated_m0DAB2023F6E405D8BFF1EF6A5D10A1739FB9EC16 ();
+// 0x00000542 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+extern void Manipulator_OnUpdated_mC3C10DD07B1E12299702507C2A0B01CEB81BB853 ();
+// 0x00000543 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+extern void Manipulator_OnUpdated_mDA49B2656168DFD2EEC0F72F3A21BD927BEE08C4 ();
+// 0x00000544 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnUpdated(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+extern void Manipulator_OnUpdated_m947C9D5742A0B1CB40A9CD8F7005403C5379ABAC ();
+// 0x00000545 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void Manipulator_OnFinished_m6820395B5DB503EFF6E6B641D3E97FB2A462C4E7 ();
+// 0x00000546 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+extern void Manipulator_OnFinished_m6F6970F30A0D8816CB98D1C4E8AA7BC48453018F ();
+// 0x00000547 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+extern void Manipulator_OnFinished_m6231E840F901BE4795BB4915A0E5AF05214D6246 ();
+// 0x00000548 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+extern void Manipulator_OnFinished_m5D00E20386616E90BB2E627FB7D866D56403E130 ();
+// 0x00000549 System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::OnFinished(GoogleARCore.Examples.ObjectManipulation.TwoFingerDragGesture)
+extern void Manipulator_OnFinished_m209B5A4A0133082E076D9094A748BEFDAB673FEE ();
+// 0x0000054A System.Void GoogleARCore.Examples.ObjectManipulation.Manipulator::.ctor()
+extern void Manipulator__ctor_mB1773CA8DDC7BFD9D16034931DDA90E55B9A8B3E ();
+// 0x0000054B System.Boolean GoogleARCore.Examples.ObjectManipulation.RotationManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void RotationManipulator_CanStartManipulationForGesture_m4479AA58F2B3D410E8F3D463875418C805DBD2DF ();
+// 0x0000054C System.Boolean GoogleARCore.Examples.ObjectManipulation.RotationManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+extern void RotationManipulator_CanStartManipulationForGesture_m0074074E186ABA95911B9B259884B363D71A312E ();
+// 0x0000054D System.Void GoogleARCore.Examples.ObjectManipulation.RotationManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void RotationManipulator_OnContinueManipulation_m348A26D10E55F499FF1E76886B99139EBF34889E ();
+// 0x0000054E System.Void GoogleARCore.Examples.ObjectManipulation.RotationManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.TwistGesture)
+extern void RotationManipulator_OnContinueManipulation_m6D9C2117D3A4A747B78E43ABFCD57F95260E465C ();
+// 0x0000054F System.Void GoogleARCore.Examples.ObjectManipulation.RotationManipulator::.ctor()
+extern void RotationManipulator__ctor_m6E8EDC8ED0898B2D73D8278058FF3ABE6FC95610 ();
+// 0x00000550 System.Single GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::get__scaleDelta()
+extern void ScaleManipulator_get__scaleDelta_m48EE59AFF98D9AEEB49A73DFDD15E3DB424AACDD ();
+// 0x00000551 System.Single GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::get__clampedScaleRatio()
+extern void ScaleManipulator_get__clampedScaleRatio_mF7C14FDFAA51859923CCE2FD094EAAE4938AF0B4 ();
+// 0x00000552 System.Single GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::get__currentScale()
+extern void ScaleManipulator_get__currentScale_mE753F7C473BEC552B78EE433C6577E30F427D7AA ();
+// 0x00000553 System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::OnEnable()
+extern void ScaleManipulator_OnEnable_m39D30EB9F2DF76ECEB2D6CF59FFD22F71C69D977 ();
+// 0x00000554 System.Boolean GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+extern void ScaleManipulator_CanStartManipulationForGesture_m97EAF7081EF4229F0D5B0AC6ED7A846B5F899F0B ();
+// 0x00000555 System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+extern void ScaleManipulator_OnStartManipulation_m13532D20907B64DC181C169F82D11DCC5BF632A5 ();
+// 0x00000556 System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+extern void ScaleManipulator_OnContinueManipulation_m58FCDDE8729653DC9F1DE34788F564139C64AA59 ();
+// 0x00000557 System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.PinchGesture)
+extern void ScaleManipulator_OnEndManipulation_mDF7D05A7CDE76796CB57C1C0D0EEFF1FA82DD460 ();
+// 0x00000558 System.Single GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::ElasticDelta()
+extern void ScaleManipulator_ElasticDelta_m4728B7F3F76AFEDEAEE517B5697850E37D6C9F59 ();
+// 0x00000559 System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::LateUpdate()
+extern void ScaleManipulator_LateUpdate_mD803398563C4063565FF7C7D8DD4F6AE0F832D82 ();
+// 0x0000055A System.Void GoogleARCore.Examples.ObjectManipulation.ScaleManipulator::.ctor()
+extern void ScaleManipulator__ctor_mE6962209F15BB92787D36F56575CC13EC2A15790 ();
+// 0x0000055B System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnElevationChanged(System.Single)
+extern void SelectionManipulator_OnElevationChanged_mFE66E3E316469FE31A8BA0929945A17084FB66EB ();
+// 0x0000055C System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnElevationChangedScaled(System.Single)
+extern void SelectionManipulator_OnElevationChangedScaled_m8F6D3C547AAC35929CF62B1C48B0194CB975C4B6 ();
+// 0x0000055D System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::Update()
+extern void SelectionManipulator_Update_mC8EDA8CE9FF1A61E6B4806D49528C1F19D684A8E ();
+// 0x0000055E System.Boolean GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+extern void SelectionManipulator_CanStartManipulationForGesture_m498ECFB8ABB416DA5F081B2115A4B18644F82D86 ();
+// 0x0000055F System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+extern void SelectionManipulator_OnEndManipulation_mF503331CDEB325E5387AB117B76CCA61620F674A ();
+// 0x00000560 System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnSelected()
+extern void SelectionManipulator_OnSelected_m19D7AD566D91C2C1B1A6E72F712103D68FBF41AE ();
+// 0x00000561 System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::OnDeselected()
+extern void SelectionManipulator_OnDeselected_mC83891AB5EEB2A1FC7A30E7B35E46B7A973E2CA3 ();
+// 0x00000562 System.Void GoogleARCore.Examples.ObjectManipulation.SelectionManipulator::.ctor()
+extern void SelectionManipulator__ctor_m5E794853ED192BC36A723BD2B2DFFDB69D0D6322 ();
+// 0x00000563 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::Start()
+extern void TranslationManipulator_Start_mE3B57A3FE831E862883FD41ACE6AD79AD060E982 ();
+// 0x00000564 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::Update()
+extern void TranslationManipulator_Update_m48F7B8739A628BD20564BC72AD8CC499D9984A1C ();
+// 0x00000565 System.Boolean GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void TranslationManipulator_CanStartManipulationForGesture_m239EEF8290444AA81F6BDF3B1D3B8ED0C3F133C2 ();
+// 0x00000566 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::OnStartManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void TranslationManipulator_OnStartManipulation_mEC59C39A5B0CDC992F2D9F11F608F679F7EAFAD1 ();
+// 0x00000567 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::OnContinueManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void TranslationManipulator_OnContinueManipulation_mF62795F560B8ED380406F43E0E0B8180E51A648D ();
+// 0x00000568 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.DragGesture)
+extern void TranslationManipulator_OnEndManipulation_mDC8E51994C4CAA14803AC65E66EC9E2E00CFBF8B ();
+// 0x00000569 System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::UpdatePosition()
+extern void TranslationManipulator_UpdatePosition_m7720F46F0E1090C4F9601BA9E1E4BFB5375E48A1 ();
+// 0x0000056A System.Void GoogleARCore.Examples.ObjectManipulation.TranslationManipulator::.ctor()
+extern void TranslationManipulator__ctor_m4BDFE679D975E450632A5E3C29EADC96F544BC3E ();
+// 0x0000056B System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::Update()
+extern void ObjectManipulationController_Update_m6710A897FC30EB5C28E03A8A452249DF5621A0AF ();
+// 0x0000056C System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::Awake()
+extern void ObjectManipulationController_Awake_m818C65EE4E684F9BB9372114A1CF1C2A165D414E ();
+// 0x0000056D System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::UpdateApplicationLifecycle()
+extern void ObjectManipulationController_UpdateApplicationLifecycle_mBEB53A1FCF16BD366F30D27C414341D35014272F ();
+// 0x0000056E System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::DoQuit()
+extern void ObjectManipulationController_DoQuit_m73D6A0DA629B1877EA5C2407937692F4D5B0F057 ();
+// 0x0000056F System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::ShowAndroidToastMessage(System.String)
+extern void ObjectManipulationController_ShowAndroidToastMessage_mB5A546B6B26BD4AF34F2C9346661C75CE939A7C1 ();
+// 0x00000570 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController::.ctor()
+extern void ObjectManipulationController__ctor_mE4F0E6C62DD9F8A7EACFA1A94F29E92D92351EA4 ();
+// 0x00000571 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController_<>c__DisplayClass5_0::.ctor()
+extern void U3CU3Ec__DisplayClass5_0__ctor_m53F19FC5F716D3153DDBB443FBCA3C79F0340309 ();
+// 0x00000572 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController_<>c__DisplayClass5_1::.ctor()
+extern void U3CU3Ec__DisplayClass5_1__ctor_m91B82D61ACEE09A6813828727647D7F4FD4389F2 ();
+// 0x00000573 System.Void GoogleARCore.Examples.ObjectManipulation.ObjectManipulationController_<>c__DisplayClass5_1::<ShowAndroidToastMessage>b__0()
+extern void U3CU3Ec__DisplayClass5_1_U3CShowAndroidToastMessageU3Eb__0_m35A40D470A477C4D6964E53F0C832A85A4B4CDA5 ();
+// 0x00000574 System.Boolean GoogleARCore.Examples.ObjectManipulation.PawnManipulator::CanStartManipulationForGesture(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+extern void PawnManipulator_CanStartManipulationForGesture_m8F605131F13B45F8AA8F5CC23EE9C31956C457F1 ();
+// 0x00000575 System.Void GoogleARCore.Examples.ObjectManipulation.PawnManipulator::OnEndManipulation(GoogleARCore.Examples.ObjectManipulation.TapGesture)
+extern void PawnManipulator_OnEndManipulation_m0D4EAADDABF9A7B17A46A42E264D5C0A9AE80E5D ();
+// 0x00000576 System.Void GoogleARCore.Examples.ObjectManipulation.PawnManipulator::.ctor()
+extern void PawnManipulator__ctor_mFDF1ECE772DEDCB7C39811A473F2F95E5C2BEDEF ();
+// 0x00000577 System.Void GoogleARCore.Examples.HelloAR.HelloARController::Awake()
+extern void HelloARController_Awake_m6C813914DD6ACE139F18CEF8F039584E3EF96C58 ();
+// 0x00000578 System.Void GoogleARCore.Examples.HelloAR.HelloARController::Update()
+extern void HelloARController_Update_mC1ECADC133DCB09543B223713CC57C850FA8686C ();
+// 0x00000579 System.Void GoogleARCore.Examples.HelloAR.HelloARController::UpdateApplicationLifecycle()
+extern void HelloARController_UpdateApplicationLifecycle_m7CFB3E11B58E86A71E071DC63B5928EF12B6565D ();
+// 0x0000057A System.Void GoogleARCore.Examples.HelloAR.HelloARController::DoQuit()
+extern void HelloARController_DoQuit_mFE1A934E15412C78D24599BFDC3395582D2D8FF5 ();
+// 0x0000057B System.Void GoogleARCore.Examples.HelloAR.HelloARController::ShowAndroidToastMessage(System.String)
+extern void HelloARController_ShowAndroidToastMessage_m62B3C2AD891278E78E12628824C7744275D3C5F8 ();
+// 0x0000057C System.Void GoogleARCore.Examples.HelloAR.HelloARController::.ctor()
+extern void HelloARController__ctor_mEDDF25F39B2D067ECE41FCFA9BFD32C860C759F4 ();
+// 0x0000057D System.Void GoogleARCore.Examples.HelloAR.HelloARController_<>c__DisplayClass13_0::.ctor()
+extern void U3CU3Ec__DisplayClass13_0__ctor_mFB9CD007B51C63D7068B37295FEBEEFDC9A3CBBC ();
+// 0x0000057E System.Void GoogleARCore.Examples.HelloAR.HelloARController_<>c__DisplayClass13_1::.ctor()
+extern void U3CU3Ec__DisplayClass13_1__ctor_mC17CD8A6B35DE038BFCF076FC96FDE46AB6755A7 ();
+// 0x0000057F System.Void GoogleARCore.Examples.HelloAR.HelloARController_<>c__DisplayClass13_1::<ShowAndroidToastMessage>b__0()
+extern void U3CU3Ec__DisplayClass13_1_U3CShowAndroidToastMessageU3Eb__0_m756BE566A1A7532AC94B2FAD34E409B1DE3CE22F ();
+// 0x00000580 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::Start()
+extern void SettingsMenu_Start_mC53BB2D17BCBC913698F9BA80E163DD3F3DB4BED ();
+// 0x00000581 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnDestroy()
+extern void SettingsMenu_OnDestroy_mCEEB8BB8FB4C54BFE210DCE3C6DDFCEFBACDDF2D ();
+// 0x00000582 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnMenuClosed()
+extern void SettingsMenu_OnMenuClosed_mC6D1FF8836EDBC5D93CF155A6C095384FB6F9C0E ();
+// 0x00000583 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnMenuButtonClick()
+extern void SettingsMenu_OnMenuButtonClick_mF9DA90FB07B9CCE4A811A59ABD0B300F47033EA5 ();
+// 0x00000584 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnClickDepthMenu()
+extern void SettingsMenu_OnClickDepthMenu_mCD01605F01558983B5D5D8EF396B4146916596FF ();
+// 0x00000585 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::OnClickInstantPlacementMenu()
+extern void SettingsMenu_OnClickInstantPlacementMenu_m9EAD2EC1D140CA4D3AEB6B52932A61F70BAA640F ();
+// 0x00000586 System.Void GoogleARCore.Examples.HelloAR.SettingsMenu::.ctor()
+extern void SettingsMenu__ctor_mD9AADCEBB3EF16F4DA716D6DBCDEFE832D29913D ();
+// 0x00000587 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::Awake()
+extern void ComputerVisionController_Awake_mA6E061A0EBE0ACF342272DAA7A59D11B9EF766F9 ();
+// 0x00000588 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::Start()
+extern void ComputerVisionController_Start_m31F444EF0CFA67EF0A1D2E1D680AD80CEAC2CC5B ();
+// 0x00000589 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::Update()
+extern void ComputerVisionController_Update_m3CB9CDF11DCEB04F7F69980BBC74AD1F9F4E5DAE ();
+// 0x0000058A System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnLowResolutionCheckboxValueChanged(System.Boolean)
+extern void ComputerVisionController_OnLowResolutionCheckboxValueChanged_mD03F0370C9F2BEDEC7DD9D79A3857442FA3BA0FF ();
+// 0x0000058B System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnHighResolutionCheckboxValueChanged(System.Boolean)
+extern void ComputerVisionController_OnHighResolutionCheckboxValueChanged_mAFDEC9C62211C5741795F6C783670DCF10FFB8D6 ();
+// 0x0000058C System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnAutoFocusCheckboxValueChanged(System.Boolean)
+extern void ComputerVisionController_OnAutoFocusCheckboxValueChanged_m371A27830273B3EB72F5908C958AF900E5D21B48 ();
+// 0x0000058D System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnBackgroundClicked()
+extern void ComputerVisionController_OnBackgroundClicked_m9BCE21DE7F922D090B086F3D72DCACF3BBCE0EA4 ();
+// 0x0000058E System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::UpdateFrameRate()
+extern void ComputerVisionController_UpdateFrameRate_m5CBCA42921803DFD68D0A7625B81C9B60528E938 ();
+// 0x0000058F System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::OnImageAvailable(System.Int32,System.Int32,System.Int32,System.IntPtr,System.Int32)
+extern void ComputerVisionController_OnImageAvailable_m2171E71EA57D36960AB30419E03F0E9E3E551FD3 ();
+// 0x00000590 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::QuitOnConnectionErrors()
+extern void ComputerVisionController_QuitOnConnectionErrors_m103624848B08E94F1A4EBE778EEFC712EB333E82 ();
+// 0x00000591 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::ShowAndroidToastMessage(System.String)
+extern void ComputerVisionController_ShowAndroidToastMessage_m34CC7F6FA626C191DB9C856EF48B7E5A20818DAF ();
+// 0x00000592 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::DoQuit()
+extern void ComputerVisionController_DoQuit_m82FD32B797F67BF97AF456953703FAD5CAD3D9D6 ();
+// 0x00000593 System.String GoogleARCore.Examples.ComputerVision.ComputerVisionController::CameraIntrinsicsToString(GoogleARCore.CameraIntrinsics,System.String)
+extern void ComputerVisionController_CameraIntrinsicsToString_m225C5D0C72BC01D9CFD72F6850F784115E4022F0 ();
+// 0x00000594 System.Int32 GoogleARCore.Examples.ComputerVision.ComputerVisionController::ChooseCameraConfiguration(System.Collections.Generic.List`1<GoogleARCore.CameraConfig>)
+extern void ComputerVisionController_ChooseCameraConfiguration_mDB97E56864493ECF406241062113C017484A6373 ();
+// 0x00000595 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::.ctor()
+extern void ComputerVisionController__ctor_m495D916CA238EA1993FBD9ADA082DDFBC7211E00 ();
+// 0x00000596 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController::.cctor()
+extern void ComputerVisionController__cctor_mF1B3761E9645687B389C3D85F37C43F213ADA61E ();
+// 0x00000597 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController_<>c__DisplayClass35_0::.ctor()
+extern void U3CU3Ec__DisplayClass35_0__ctor_mF4169D7B092262380143E8999D6ED662E83EA1E7 ();
+// 0x00000598 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController_<>c__DisplayClass35_1::.ctor()
+extern void U3CU3Ec__DisplayClass35_1__ctor_m94F99BF72740311AE6F5FACFE008FE10C746CA3A ();
+// 0x00000599 System.Void GoogleARCore.Examples.ComputerVision.ComputerVisionController_<>c__DisplayClass35_1::<ShowAndroidToastMessage>b__0()
+extern void U3CU3Ec__DisplayClass35_1_U3CShowAndroidToastMessageU3Eb__0_m2EA4FA63E0E2489CF87ABC47B09AEB5961D56B68 ();
+// 0x0000059A System.Boolean GoogleARCore.Examples.ComputerVision.EdgeDetector::Detect(System.Byte[],System.IntPtr,System.Int32,System.Int32,System.Int32)
+extern void EdgeDetector_Detect_m094BE6C9AC8ADD2569259F30C3BE48E233E4D1D6 ();
+// 0x0000059B System.Void GoogleARCore.Examples.ComputerVision.EdgeDetector::Sobel(System.Byte[],System.IntPtr,System.Int32,System.Int32,System.Int32)
+extern void EdgeDetector_Sobel_m76B47DA391F886687228B385B5666572234DED3A ();
+// 0x0000059C System.Void GoogleARCore.Examples.ComputerVision.EdgeDetector::.ctor()
+extern void EdgeDetector__ctor_m0653712B5671CB95BF6770B318190CA8459815F6 ();
+// 0x0000059D System.Void GoogleARCore.Examples.ComputerVision.EdgeDetector::.cctor()
+extern void EdgeDetector__cctor_mE4DCF42B8A19D095BA1BA0A133D6735BBFDFB724 ();
+// 0x0000059E System.Void GoogleARCore.Examples.ComputerVision.PointClickHandler::add_OnPointClickDetected(System.Action)
+extern void PointClickHandler_add_OnPointClickDetected_mE7917451F54AB44A913B306FB1E9C5D1D77AE936 ();
+// 0x0000059F System.Void GoogleARCore.Examples.ComputerVision.PointClickHandler::remove_OnPointClickDetected(System.Action)
+extern void PointClickHandler_remove_OnPointClickDetected_m1EF04C2C5E6A08AFBC7EEC00CD166C987FCFD20E ();
+// 0x000005A0 System.Void GoogleARCore.Examples.ComputerVision.PointClickHandler::OnPointerClick(UnityEngine.EventSystems.PointerEventData)
+extern void PointClickHandler_OnPointerClick_m85EF23A0D95C192D364A3E9A09D22FA89F5505C5 ();
+// 0x000005A1 System.Void GoogleARCore.Examples.ComputerVision.PointClickHandler::.ctor()
+extern void PointClickHandler__ctor_m194CE3CA6358CDA740184A3B2136BE231EE497FA ();
+// 0x000005A2 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::add_OnImageAvailableCallback(GoogleARCore.Examples.ComputerVision.TextureReader_OnImageAvailableCallbackFunc)
+extern void TextureReader_add_OnImageAvailableCallback_m9688306257E3C5588783AB7F78984A6879BFB3A3 ();
+// 0x000005A3 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::remove_OnImageAvailableCallback(GoogleARCore.Examples.ComputerVision.TextureReader_OnImageAvailableCallbackFunc)
+extern void TextureReader_remove_OnImageAvailableCallback_m6108E20F9C07DE7260800210FE7FD434CB038BED ();
+// 0x000005A4 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::Start()
+extern void TextureReader_Start_m0A1EEC8DF20B9B5459F01C61F9A8C5CA395097F9 ();
+// 0x000005A5 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::Apply()
+extern void TextureReader_Apply_m5A10272A8C05DC7A6B603CD2527ABBE43D4C8DD7 ();
+// 0x000005A6 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::Update()
+extern void TextureReader_Update_mF99B75EDD5CD9C104CA3C6D372CB763C64633D3E ();
+// 0x000005A7 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::OnDestroy()
+extern void TextureReader_OnDestroy_m142DC8F2ABB127F2BD7662E95B184C615909F134 ();
+// 0x000005A8 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::OnDisable()
+extern void TextureReader_OnDisable_m94D19D468A965EAFE2086F12E3608BE2C7DD9C66 ();
+// 0x000005A9 System.Void GoogleARCore.Examples.ComputerVision.TextureReader::.ctor()
+extern void TextureReader__ctor_mB0DA53C9F8680D31F05C85409355BC318ED9A8EB ();
+// 0x000005AA System.Void GoogleARCore.Examples.ComputerVision.TextureReader_OnImageAvailableCallbackFunc::.ctor(System.Object,System.IntPtr)
+extern void OnImageAvailableCallbackFunc__ctor_m0DB999A8336A56F38E6B47AAB81D3341FEC9FE56 ();
+// 0x000005AB System.Void GoogleARCore.Examples.ComputerVision.TextureReader_OnImageAvailableCallbackFunc::Invoke(GoogleARCore.Examples.ComputerVision.TextureReaderApi_ImageFormatType,System.Int32,System.Int32,System.IntPtr,System.Int32)
+extern void OnImageAvailableCallbackFunc_Invoke_m895D9751EB522F6D7C4F9B01B2648CD37F0EBD4C ();
+// 0x000005AC System.IAsyncResult GoogleARCore.Examples.ComputerVision.TextureReader_OnImageAvailableCallbackFunc::BeginInvoke(GoogleARCore.Examples.ComputerVision.TextureReaderApi_ImageFormatType,System.Int32,System.Int32,System.IntPtr,System.Int32,System.AsyncCallback,System.Object)
+extern void OnImageAvailableCallbackFunc_BeginInvoke_mF61C060F00B5F3B0D2E0608FBF6D3323BA559950 ();
+// 0x000005AD System.Void GoogleARCore.Examples.ComputerVision.TextureReader_OnImageAvailableCallbackFunc::EndInvoke(System.IAsyncResult)
+extern void OnImageAvailableCallbackFunc_EndInvoke_m653F5454E25A890341B8A71B153917F2AA0F1227 ();
+// 0x000005AE System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi::Create(GoogleARCore.Examples.ComputerVision.TextureReaderApi_ImageFormatType,System.Int32,System.Int32,System.Boolean)
+extern void TextureReaderApi_Create_mE20AD7FAEE3C4456865346919D35BBBCBADF858A ();
+// 0x000005AF System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi::Destroy()
+extern void TextureReaderApi_Destroy_m81806BFEA51571DA4C197B30BB4A3E732B0F0A2F ();
+// 0x000005B0 System.Int32 GoogleARCore.Examples.ComputerVision.TextureReaderApi::SubmitFrame(System.Int32,System.Int32,System.Int32)
+extern void TextureReaderApi_SubmitFrame_mE881C6698D9574AD12161E2EB5FD1C13F61E7DF1 ();
+// 0x000005B1 System.IntPtr GoogleARCore.Examples.ComputerVision.TextureReaderApi::AcquireFrame(System.Int32,System.Int32&)
+extern void TextureReaderApi_AcquireFrame_m1F65A50610DD44BBBCEDBF69E0DB83D62805C8DF ();
+// 0x000005B2 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi::ReleaseFrame(System.Int32)
+extern void TextureReaderApi_ReleaseFrame_mB3A3293C4A113B2A8E94E3FAF3A27D13F1AD1F82 ();
+// 0x000005B3 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi::.ctor()
+extern void TextureReaderApi__ctor_m8D963F784AFA9C231E430011A4148328405ECB61 ();
+// 0x000005B4 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi_ExternApi::TextureReader_create(System.Int32,System.Int32,System.Int32,System.Boolean)
+extern void ExternApi_TextureReader_create_m3E5ABB75DAD7F09CF7024D03560D4D10F0EF3987 ();
+// 0x000005B5 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi_ExternApi::TextureReader_destroy()
+extern void ExternApi_TextureReader_destroy_mDDBD2F730D871686A38D32D963FB47135E4123FD ();
+// 0x000005B6 System.Int32 GoogleARCore.Examples.ComputerVision.TextureReaderApi_ExternApi::TextureReader_submitFrame(System.Int32,System.Int32,System.Int32)
+extern void ExternApi_TextureReader_submitFrame_mED6CAFE2A908549F88C8388098D7D13A1EB05950 ();
+// 0x000005B7 System.IntPtr GoogleARCore.Examples.ComputerVision.TextureReaderApi_ExternApi::TextureReader_acquireFrame(System.Int32,System.Int32&)
+extern void ExternApi_TextureReader_acquireFrame_m704CE59C38139633F941776A94B7C787B4C59883 ();
+// 0x000005B8 System.Void GoogleARCore.Examples.ComputerVision.TextureReaderApi_ExternApi::TextureReader_releaseFrame(System.Int32)
+extern void ExternApi_TextureReader_releaseFrame_m8F85C0954FDFFA368D2CAC75E4F7588A7F1B9B8E ();
+// 0x000005B9 System.Void GoogleARCore.Examples.Common.DepthEffect::Awake()
+extern void DepthEffect_Awake_mE2181DE5C972ACDE91FF640187215EC9553E799D ();
+// 0x000005BA System.Void GoogleARCore.Examples.Common.DepthEffect::Update()
+extern void DepthEffect_Update_m643317A6DDEB51D160321393BC35C41E245290B3 ();
+// 0x000005BB System.Void GoogleARCore.Examples.Common.DepthEffect::OnEnable()
+extern void DepthEffect_OnEnable_mAC83591B6721C5FA8FF2C21510289B5561F6FDEF ();
+// 0x000005BC System.Void GoogleARCore.Examples.Common.DepthEffect::OnDisable()
+extern void DepthEffect_OnDisable_m4048C4562728D7465371EF958EEA4224E9CB975F ();
+// 0x000005BD System.Void GoogleARCore.Examples.Common.DepthEffect::OnRenderImage(UnityEngine.RenderTexture,UnityEngine.RenderTexture)
+extern void DepthEffect_OnRenderImage_m0AACBEF04CDD5AA75B0D22DC7782B69933BC014C ();
+// 0x000005BE System.Void GoogleARCore.Examples.Common.DepthEffect::UpdateScreenOrientationOnMaterial()
+extern void DepthEffect_UpdateScreenOrientationOnMaterial_m0E632853284A74D5E1918C756DCC63B74CA68DF3 ();
+// 0x000005BF System.Void GoogleARCore.Examples.Common.DepthEffect::.ctor()
+extern void DepthEffect__ctor_mD71EDA8654AF4BF702D1ADA3001C2793F68B18EB ();
+// 0x000005C0 System.Void GoogleARCore.Examples.Common.DepthEffect::.cctor()
+extern void DepthEffect__cctor_m8C0547D4659843FF14F5022DB034F3CC9994FB0B ();
+// 0x000005C1 System.Void GoogleARCore.Examples.Common.DepthMenu::Start()
+extern void DepthMenu_Start_m76AFDB494E6EFBE46E3E5FE5749A63A70BB2AED9 ();
+// 0x000005C2 System.Void GoogleARCore.Examples.Common.DepthMenu::OnDestroy()
+extern void DepthMenu_OnDestroy_m3AC57C9093A55FD4A985B8C3412D7B49327124EC ();
+// 0x000005C3 System.Void GoogleARCore.Examples.Common.DepthMenu::ConfigureDepthBeforePlacingFirstAsset()
+extern void DepthMenu_ConfigureDepthBeforePlacingFirstAsset_mFDA25F6A16BA96520C2360B7F8514338CEFA610F ();
+// 0x000005C4 System.Boolean GoogleARCore.Examples.Common.DepthMenu::IsDepthEnabled()
+extern void DepthMenu_IsDepthEnabled_m4BD59523988749536321B78086894F93CAC90D1B ();
+// 0x000005C5 System.Void GoogleARCore.Examples.Common.DepthMenu::OnMenuButtonClicked()
+extern void DepthMenu_OnMenuButtonClicked_mAB780268858ED4539374E12C9A1AB64F2B4ED521 ();
+// 0x000005C6 System.Void GoogleARCore.Examples.Common.DepthMenu::OnApplyButtonClicked()
+extern void DepthMenu_OnApplyButtonClicked_mDA7BB290D9121771EADD6F9997243A17D0FFAD41 ();
+// 0x000005C7 System.Void GoogleARCore.Examples.Common.DepthMenu::OnCancelButtonClicked()
+extern void DepthMenu_OnCancelButtonClicked_m199D1FFEDA36B34085B6CB42B781A29A78AF2278 ();
+// 0x000005C8 System.Void GoogleARCore.Examples.Common.DepthMenu::OnEnableDepthButtonClicked()
+extern void DepthMenu_OnEnableDepthButtonClicked_mE31CDA420B50CFF8C4821759722986C69F1E5D3B ();
+// 0x000005C9 System.Void GoogleARCore.Examples.Common.DepthMenu::OnDisableDepthButtonClicked()
+extern void DepthMenu_OnDisableDepthButtonClicked_m51E564D73CE6EBAD1FFB3CE6A2CE7383814D2FA9 ();
+// 0x000005CA System.Void GoogleARCore.Examples.Common.DepthMenu::OnEnableDepthToggleValueChanged(System.Boolean)
+extern void DepthMenu_OnEnableDepthToggleValueChanged_mF509881FCC56E9EC270F3FEA1EDF8E6F729451EA ();
+// 0x000005CB System.Void GoogleARCore.Examples.Common.DepthMenu::ConfigureDepth(System.Boolean)
+extern void DepthMenu_ConfigureDepth_m4DA1F20EB0FDC395D8C6F17B8D5E840A3F849E11 ();
+// 0x000005CC System.Void GoogleARCore.Examples.Common.DepthMenu::ApplyDepthState()
+extern void DepthMenu_ApplyDepthState_m7440B047F2C3B044F1E23B948A97FDC994E3D32E ();
+// 0x000005CD System.Void GoogleARCore.Examples.Common.DepthMenu::.ctor()
+extern void DepthMenu__ctor_m41CD309A502A231B6390153B08CBC831AE874327 ();
+// 0x000005CE System.Void GoogleARCore.Examples.Common.DepthTexture::Start()
+extern void DepthTexture_Start_mD6205995640DD13CA2DA3D96C8A564EED8C23222 ();
+// 0x000005CF System.Void GoogleARCore.Examples.Common.DepthTexture::Update()
+extern void DepthTexture_Update_mCFDE8D92153D02E9B2C43B455AB9C4EF076DE7B8 ();
+// 0x000005D0 System.Void GoogleARCore.Examples.Common.DepthTexture::UpdateScreenOrientationOnMaterial()
+extern void DepthTexture_UpdateScreenOrientationOnMaterial_m337EE0CAB8670934065468DD7E85D1230DF248DF ();
+// 0x000005D1 System.Void GoogleARCore.Examples.Common.DepthTexture::.ctor()
+extern void DepthTexture__ctor_mBF00DB952FA044724E7C04EA0F5C233F69714E58 ();
+// 0x000005D2 System.Void GoogleARCore.Examples.Common.DepthTexture::.cctor()
+extern void DepthTexture__cctor_m427ADADAB533555E61A66F211DC143518B4478D9 ();
+// 0x000005D3 System.Void GoogleARCore.Examples.Common.DetectedPlaneGenerator::Update()
+extern void DetectedPlaneGenerator_Update_mC4FE2F5D813D9EDF67D25FE8ECFE3C12CA52D968 ();
+// 0x000005D4 System.Void GoogleARCore.Examples.Common.DetectedPlaneGenerator::.ctor()
+extern void DetectedPlaneGenerator__ctor_mE3432FDBBE20C23C3BE3DF16159067CF6F6F03E6 ();
+// 0x000005D5 System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::Awake()
+extern void DetectedPlaneVisualizer_Awake_mBDEEEE3BD2C3E007D01FAD6A5713D513AB7116E9 ();
+// 0x000005D6 System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::Update()
+extern void DetectedPlaneVisualizer_Update_m12A95695E7B27CFC448E129CC6E8F04675D86DDD ();
+// 0x000005D7 System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::Initialize(GoogleARCore.DetectedPlane)
+extern void DetectedPlaneVisualizer_Initialize_m435FFF2A7EE15A8536313B12B3FC7ADCEEE960E6 ();
+// 0x000005D8 System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::UpdateMeshIfNeeded()
+extern void DetectedPlaneVisualizer_UpdateMeshIfNeeded_m4BAA7FBFFE4B0DC8DA25B5CC3024BE2255E5E028 ();
+// 0x000005D9 System.Boolean GoogleARCore.Examples.Common.DetectedPlaneVisualizer::AreVerticesListsEqual(System.Collections.Generic.List`1<UnityEngine.Vector3>,System.Collections.Generic.List`1<UnityEngine.Vector3>)
+extern void DetectedPlaneVisualizer_AreVerticesListsEqual_m42275C700C6BB821B5FA36FC70E9BDDFADA36016 ();
+// 0x000005DA System.Void GoogleARCore.Examples.Common.DetectedPlaneVisualizer::.ctor()
+extern void DetectedPlaneVisualizer__ctor_m446A569D3E5DEAD5A26F9DC5EB69C31FE0E7DF57 ();
+// 0x000005DB System.Void GoogleARCore.Examples.Common.InstantPlacementEffect::InitializeWithTrackable(GoogleARCore.Trackable)
+extern void InstantPlacementEffect_InitializeWithTrackable_m9E6B0A9EC496B57254E8B90091D4E800A4506B93 ();
+// 0x000005DC System.Void GoogleARCore.Examples.Common.InstantPlacementEffect::Update()
+extern void InstantPlacementEffect_Update_mF1214165CBE15355958D5D8B2772FC992187D67A ();
+// 0x000005DD System.Void GoogleARCore.Examples.Common.InstantPlacementEffect::.ctor()
+extern void InstantPlacementEffect__ctor_mB8CC67D2537F8FA51526AC19214A5062B2776AE9 ();
+// 0x000005DE System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::Start()
+extern void InstantPlacementMenu_Start_m3BD17FAA759A9DC43198C7740B7FF696EF78D8E0 ();
+// 0x000005DF System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::OnDestroy()
+extern void InstantPlacementMenu_OnDestroy_mDC5E70ECF64B54B7FE809E6D3AE8A4DEBAA04272 ();
+// 0x000005E0 System.Boolean GoogleARCore.Examples.Common.InstantPlacementMenu::IsInstantPlacementEnabled()
+extern void InstantPlacementMenu_IsInstantPlacementEnabled_m6132F117ADB67BA4ADD3851DF5A54CC3A8889107 ();
+// 0x000005E1 System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::ApplySettings()
+extern void InstantPlacementMenu_ApplySettings_mDD832BC780DC59988D1F59E9C9AE60821B665F65 ();
+// 0x000005E2 System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::ResetSettings()
+extern void InstantPlacementMenu_ResetSettings_mA5A7032B08211017A21851E7FF9FABA017521A06 ();
+// 0x000005E3 System.Void GoogleARCore.Examples.Common.InstantPlacementMenu::.ctor()
+extern void InstantPlacementMenu__ctor_mC2481895F8C245C1A43B71058EB10C7460DACBC9 ();
+// 0x000005E4 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::Start()
+extern void PlaneDiscoveryGuide_Start_m8A49B3AFEECD31A6268E0D2D60F3100D9BFDC57F ();
+// 0x000005E5 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::OnDestroy()
+extern void PlaneDiscoveryGuide_OnDestroy_m025A7BA9905D358C71C0B9153201C32F4599C817 ();
+// 0x000005E6 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::Update()
+extern void PlaneDiscoveryGuide_Update_m284FBA42F8FCFBB2C3B896EDF5D3C0B4E01C6CA6 ();
+// 0x000005E7 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::EnablePlaneDiscoveryGuide(System.Boolean)
+extern void PlaneDiscoveryGuide_EnablePlaneDiscoveryGuide_m8A25A09254C513072D83815CCF9449FB3833A78C ();
+// 0x000005E8 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::OnOpenButtonClicked()
+extern void PlaneDiscoveryGuide_OnOpenButtonClicked_m35A44E1140F1364AB8B2ECC53991950A5B417309 ();
+// 0x000005E9 System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::OnGotItButtonClicked()
+extern void PlaneDiscoveryGuide_OnGotItButtonClicked_m9B742F3B4200E87D9DA38EB8BC1B27593796CEC6 ();
+// 0x000005EA System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::UpdateDetectedPlaneTrackingState()
+extern void PlaneDiscoveryGuide_UpdateDetectedPlaneTrackingState_m74FCCF3ED34A8D04A3135F41F9FA8AC1CEB0C3BB ();
+// 0x000005EB System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::UpdateUI()
+extern void PlaneDiscoveryGuide_UpdateUI_mBC6CF2F3ED49C834B11FD11EF0CAFE6669F7BCDB ();
+// 0x000005EC System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::CheckFieldsAreNotNull()
+extern void PlaneDiscoveryGuide_CheckFieldsAreNotNull_mCE85FF6ED5CCD488A4C6430BB316BA33E3915B0B ();
+// 0x000005ED System.Void GoogleARCore.Examples.Common.PlaneDiscoveryGuide::.ctor()
+extern void PlaneDiscoveryGuide__ctor_m5D380CC611CF2C17C78D63A1061B4F64388DE3D7 ();
+// 0x000005EE System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::Start()
+extern void PointcloudVisualizer_Start_m19F9C8415A3CCE38E8A4CCE7B553AE47977935A9 ();
+// 0x000005EF System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::OnDisable()
+extern void PointcloudVisualizer_OnDisable_m44DCF3E775344349FFD50EC9A7BB81702C9F7685 ();
+// 0x000005F0 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::Update()
+extern void PointcloudVisualizer_Update_mCE417D4DD9A976A60931E5776CE2582C710E3C64 ();
+// 0x000005F1 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::ClearCachedPoints()
+extern void PointcloudVisualizer_ClearCachedPoints_mFA5EB7E9C5A4CB0D169AEF2DF75A81CD8ADD1A11 ();
+// 0x000005F2 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::UpdateResolution()
+extern void PointcloudVisualizer_UpdateResolution_m36140B5B58E98F7EC6CBAD9EF431B963534C475A ();
+// 0x000005F3 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::UpdateColor()
+extern void PointcloudVisualizer_UpdateColor_mBD44C49C396BDC45FE942CB4C59E46AACB960F49 ();
+// 0x000005F4 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::AddPointsIncrementallyToCache()
+extern void PointcloudVisualizer_AddPointsIncrementallyToCache_m24B7189B8ADC8BE08ABC0F3AA9109A5141A4E4B1 ();
+// 0x000005F5 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::AddAllPointsToCache()
+extern void PointcloudVisualizer_AddAllPointsToCache_mD9254EE8EE6DA7A52356E15DF7478760B600A1BD ();
+// 0x000005F6 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::AddPointToCache(UnityEngine.Vector3)
+extern void PointcloudVisualizer_AddPointToCache_m5D8B71E3617D76BE87F02A06FE15BC65FC21FCCA ();
+// 0x000005F7 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::UpdatePointSize()
+extern void PointcloudVisualizer_UpdatePointSize_m54469681C00D11C3A7587092C6F408E6AE58CCD9 ();
+// 0x000005F8 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::UpdateMesh()
+extern void PointcloudVisualizer_UpdateMesh_mFF7DF036F5D4A111155E89122171C243833B2391 ();
+// 0x000005F9 System.Void GoogleARCore.Examples.Common.PointcloudVisualizer::.ctor()
+extern void PointcloudVisualizer__ctor_m7EC1FBEB017419AEFDD65F3D1B0BAB0BEC4C6193 ();
+// 0x000005FA System.Void GoogleARCore.Examples.Common.PointcloudVisualizer_PointInfo::.ctor(UnityEngine.Vector3,UnityEngine.Vector2,System.Single)
+extern void PointInfo__ctor_mEDEE569B61898D05A1466118A3D7D619B2C09C2D_AdjustorThunk ();
+// 0x000005FB System.Void GoogleARCore.Examples.Common.PointcloudVisualizer_<>c::.cctor()
+extern void U3CU3Ec__cctor_m2012DA64764E1899C7824BF6360FF742EEEEA4DA ();
+// 0x000005FC System.Void GoogleARCore.Examples.Common.PointcloudVisualizer_<>c::.ctor()
+extern void U3CU3Ec__ctor_mD809B985F23BB19AC9014D7D0F516F2F03BF6B55 ();
+// 0x000005FD UnityEngine.Vector3 GoogleARCore.Examples.Common.PointcloudVisualizer_<>c::<UpdateMesh>b__26_0(GoogleARCore.Examples.Common.PointcloudVisualizer_PointInfo)
+extern void U3CU3Ec_U3CUpdateMeshU3Eb__26_0_m6F9549B4CD16BF4F723DCAAAB8171B6ABF95EAA0 ();
+// 0x000005FE UnityEngine.Vector2 GoogleARCore.Examples.Common.PointcloudVisualizer_<>c::<UpdateMesh>b__26_1(GoogleARCore.Examples.Common.PointcloudVisualizer_PointInfo)
+extern void U3CU3Ec_U3CUpdateMeshU3Eb__26_1_m8FF71BA6A712EDD8D7EF80796BDD5D8645EFFAB0 ();
+// 0x000005FF System.Void GoogleARCore.Examples.Common.RawImageVideoPlayer::Start()
+extern void RawImageVideoPlayer_Start_m6CC27957D165366EBAABB1D816C7D053BD2BBE05 ();
+// 0x00000600 System.Void GoogleARCore.Examples.Common.RawImageVideoPlayer::Update()
+extern void RawImageVideoPlayer_Update_mCF3C7519054BF95E311101C011EF63166D395655 ();
+// 0x00000601 System.Void GoogleARCore.Examples.Common.RawImageVideoPlayer::PrepareCompleted(UnityEngine.Video.VideoPlayer)
+extern void RawImageVideoPlayer_PrepareCompleted_mB28E497AEF10A6F54ABE27CF459E1DC7343BC083 ();
+// 0x00000602 System.Void GoogleARCore.Examples.Common.RawImageVideoPlayer::.ctor()
+extern void RawImageVideoPlayer__ctor_mC7A3031488C7477ADABB808F2C98A3E6BBF2C5B2 ();
+// 0x00000603 System.Void GoogleARCore.Examples.Common.SafeAreaScaler::Update()
+extern void SafeAreaScaler_Update_m1B0B28CBCC6722DCC26B1D8871D2EF997969C1C8 ();
+// 0x00000604 System.Void GoogleARCore.Examples.Common.SafeAreaScaler::MatchRectTransformToSafeArea()
+extern void SafeAreaScaler_MatchRectTransformToSafeArea_mE15061F77AB95F125737BF61259403074C29B3D3 ();
+// 0x00000605 System.Void GoogleARCore.Examples.Common.SafeAreaScaler::.ctor()
+extern void SafeAreaScaler__ctor_m14A9DA9567F16E955F8B45FEEF90DA6919397253 ();
+// 0x00000606 System.Void GoogleARCore.Examples.Common.ShadowQuadHelper::Start()
+extern void ShadowQuadHelper_Start_m0C486232EB5DCF8BB1D39E9D1269E7BFF3692700 ();
+// 0x00000607 System.Void GoogleARCore.Examples.Common.ShadowQuadHelper::Update()
+extern void ShadowQuadHelper_Update_m4CCF46D311CF0F3369BEF5CE08884527CE338285 ();
+// 0x00000608 System.Void GoogleARCore.Examples.Common.ShadowQuadHelper::.ctor()
+extern void ShadowQuadHelper__ctor_m4D32D02315F26B9E21DEAB8A9598CEE5C29B827C ();
+// 0x00000609 System.Void GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::Update()
+extern void ARCoreWorldOriginHelper_Update_mD0108003E155ADBB337FA88EDEEC1C06C281D32D ();
+// 0x0000060A System.Void GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::SetWorldOrigin(UnityEngine.Transform)
+extern void ARCoreWorldOriginHelper_SetWorldOrigin_m981593CB50D11835C21E5FC6A19600709B53F08C ();
+// 0x0000060B System.Boolean GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::Raycast(System.Single,System.Single,GoogleARCore.TrackableHitFlags,GoogleARCore.TrackableHit&)
+extern void ARCoreWorldOriginHelper_Raycast_m3B5A058434BF94A73BB82EB7F9141EC31DFF5E99 ();
+// 0x0000060C UnityEngine.Pose GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::WorldToAnchorPose(UnityEngine.Pose)
+extern void ARCoreWorldOriginHelper_WorldToAnchorPose_mB068D54247CB8B21F09D8DD8A6805199CA299549 ();
+// 0x0000060D System.Void GoogleARCore.Examples.CloudAnchors.ARCoreWorldOriginHelper::.ctor()
+extern void ARCoreWorldOriginHelper__ctor_m56ADD2DBB5C6C8BE78A12B3384D15D01AFFBE461 ();
+// 0x0000060E System.Boolean GoogleARCore.Examples.CloudAnchors.ARKitHelper::RaycastPlane(UnityEngine.Camera,System.Single,System.Single,UnityEngine.Pose&)
+extern void ARKitHelper_RaycastPlane_m34816F8198B12522934EC312FD6521B9160A1CD7 ();
+// 0x0000060F UnityEngine.Component GoogleARCore.Examples.CloudAnchors.ARKitHelper::CreateAnchor(UnityEngine.Pose)
+extern void ARKitHelper_CreateAnchor_m2118DF404837352B4BAB3AEF497E5046CC7D1D64 ();
+// 0x00000610 System.Void GoogleARCore.Examples.CloudAnchors.ARKitHelper::SetWorldOrigin(UnityEngine.Transform)
+extern void ARKitHelper_SetWorldOrigin_m7AAECE7B8B4FE3A449CF4BA714F12ED1BE0B8BEE ();
+// 0x00000611 System.Void GoogleARCore.Examples.CloudAnchors.ARKitHelper::.ctor()
+extern void ARKitHelper__ctor_mAE9D23562A3CF02C674DF980FE51394E49AE8BC4 ();
+// 0x00000612 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::Awake()
+extern void AnchorController_Awake_mF35E847D344F4476966090B7B8D68B396E0D2C0C ();
+// 0x00000613 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::OnStartClient()
+extern void AnchorController_OnStartClient_mD985E2825248EA46C404364F452CBE84A5440D6B ();
+// 0x00000614 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::Update()
+extern void AnchorController_Update_mD0413CD64A1900BA8557A485621A32669F0D607E ();
+// 0x00000615 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::CmdSetCloudAnchorId(System.String)
+extern void AnchorController_CmdSetCloudAnchorId_mF5C44FE6A02B7CB0BCA2A500E16B502A867349A7 ();
+// 0x00000616 System.String GoogleARCore.Examples.CloudAnchors.AnchorController::GetCloudAnchorId()
+extern void AnchorController_GetCloudAnchorId_mFDEE946F4EA292FD8CC3A05814FE36424A43EBD3 ();
+// 0x00000617 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::HostLastPlacedAnchor(UnityEngine.Component)
+extern void AnchorController_HostLastPlacedAnchor_m40941217A4A3A9D3EA49AE82E7351226D303CD89 ();
+// 0x00000618 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::ResolveAnchorFromId(System.String)
+extern void AnchorController_ResolveAnchorFromId_m2E74031FF391B20D6EBB224597DA0D101A1797F4 ();
+// 0x00000619 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::OnResolved(UnityEngine.Transform)
+extern void AnchorController_OnResolved_m86C29E8184CE1AB2187EF5F9ACCD29F5C1E62F09 ();
+// 0x0000061A System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::OnChangeId(System.String)
+extern void AnchorController_OnChangeId_m356906DDED7F9F1D5F8CE78690ADAC00CBD0DE54 ();
+// 0x0000061B System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::.ctor()
+extern void AnchorController__ctor_m5F78AEFE851C100FAF941326F6895404D35DC8B1 ();
+// 0x0000061C System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::<HostLastPlacedAnchor>b__13_0(GoogleARCore.CrossPlatform.CloudAnchorResult)
+extern void AnchorController_U3CHostLastPlacedAnchorU3Eb__13_0_m7EEB0C2FAFA579640569846A53F21047144FAB02 ();
+// 0x0000061D System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::UNetVersion()
+extern void AnchorController_UNetVersion_mE4C7D34225D1F133F06A558688C5EB9E1F95D273 ();
+// 0x0000061E System.String GoogleARCore.Examples.CloudAnchors.AnchorController::get_Network_cloudAnchorId()
+extern void AnchorController_get_Network_cloudAnchorId_m802E8435F04F6970C16597FB5AACD1D4DAD6E5FF ();
+// 0x0000061F System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::set_Network_cloudAnchorId(System.String)
+extern void AnchorController_set_Network_cloudAnchorId_mFA8DD77EACD868ADC0EDA6066903203D14FFEBF3 ();
+// 0x00000620 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::InvokeCmdCmdSetCloudAnchorId(UnityEngine.Networking.NetworkBehaviour,UnityEngine.Networking.NetworkReader)
+extern void AnchorController_InvokeCmdCmdSetCloudAnchorId_mA2979FB2DB49717EEFD0EC52FF2B57F2034AE29C ();
+// 0x00000621 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::CallCmdSetCloudAnchorId(System.String)
+extern void AnchorController_CallCmdSetCloudAnchorId_m12B1158257F927F8CED18ED5F69A3071107F75AC ();
+// 0x00000622 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::.cctor()
+extern void AnchorController__cctor_m87D114901ABFEE1F7212E53B9ABE1381B94A91AB ();
+// 0x00000623 System.Boolean GoogleARCore.Examples.CloudAnchors.AnchorController::OnSerialize(UnityEngine.Networking.NetworkWriter,System.Boolean)
+extern void AnchorController_OnSerialize_m03C6328F68111C51AAA9EA24D2F286B0EC4AF8F3 ();
+// 0x00000624 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::OnDeserialize(UnityEngine.Networking.NetworkReader,System.Boolean)
+extern void AnchorController_OnDeserialize_m96EDC195C96FB4AB3AEAB1501265BDE19CDAA32B ();
+// 0x00000625 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController::PreStartClient()
+extern void AnchorController_PreStartClient_mDB63A70BBF323C9BF0DD57958D4BC009D194AB10 ();
+// 0x00000626 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController_<>c__DisplayClass14_0::.ctor()
+extern void U3CU3Ec__DisplayClass14_0__ctor_mA4E81CDC7B23CAFEB2941B16A3324AAC3370463C ();
+// 0x00000627 System.Void GoogleARCore.Examples.CloudAnchors.AnchorController_<>c__DisplayClass14_0::<ResolveAnchorFromId>b__0(GoogleARCore.CrossPlatform.CloudAnchorResult)
+extern void U3CU3Ec__DisplayClass14_0_U3CResolveAnchorFromIdU3Eb__0_m974A691963A74C9CE15E15C74DDF098645FFF90E ();
+// 0x00000628 System.Boolean GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::get_IsOriginPlaced()
+extern void CloudAnchorsExampleController_get_IsOriginPlaced_mC81494B87A3AC6FD2553D55C74BB6A65151CBA7F ();
+// 0x00000629 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::set_IsOriginPlaced(System.Boolean)
+extern void CloudAnchorsExampleController_set_IsOriginPlaced_mB1A97FEDE10745FC88E9F2D058E623FDAD998B5B ();
+// 0x0000062A System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnStartNowButtonClicked()
+extern void CloudAnchorsExampleController_OnStartNowButtonClicked_m7AD79E1B5B05A52522384C10F4562387726FAF4C ();
+// 0x0000062B System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnLearnMoreButtonClicked()
+extern void CloudAnchorsExampleController_OnLearnMoreButtonClicked_m2B125BE1F178EA8021815A43F1B88DE04A4D3A1A ();
+// 0x0000062C System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::Awake()
+extern void CloudAnchorsExampleController_Awake_m9C1707A118F5663C3A1E5C9E28E4AF251F8B3830 ();
+// 0x0000062D System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::Start()
+extern void CloudAnchorsExampleController_Start_mA309D713928F8D142EFC9E6CAA4EAEB39854979E ();
+// 0x0000062E System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::Update()
+extern void CloudAnchorsExampleController_Update_mB8D7919BD0195C89C8536392FA078EC20E0BB2F5 ();
+// 0x0000062F System.Boolean GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::IsResolvingPrepareTimePassed()
+extern void CloudAnchorsExampleController_IsResolvingPrepareTimePassed_m4752DA913652FB4FB83EED6B15AD34C170F33317 ();
+// 0x00000630 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::SetWorldOrigin(UnityEngine.Transform)
+extern void CloudAnchorsExampleController_SetWorldOrigin_m65B88BF9EAE3E4F313CD5C78569E7A13C433ED34 ();
+// 0x00000631 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnLobbyVisibilityChanged(System.Boolean)
+extern void CloudAnchorsExampleController_OnLobbyVisibilityChanged_mBF38502CF8A5E3774D34B74D0E2854F8991F9D16 ();
+// 0x00000632 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnResolvingTimeoutPassed()
+extern void CloudAnchorsExampleController_OnResolvingTimeoutPassed_mC683441185E4394C2BCBDD7A601789EA1295963D ();
+// 0x00000633 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnEnterHostingModeClick()
+extern void CloudAnchorsExampleController_OnEnterHostingModeClick_m573497FA24DF7B1669018027C6F9450104D52CFE ();
+// 0x00000634 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnEnterResolvingModeClick()
+extern void CloudAnchorsExampleController_OnEnterResolvingModeClick_mD1B2DF7F7CD4E54BFC31F543DFB8A939B15C31AA ();
+// 0x00000635 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnAnchorInstantiated(System.Boolean)
+extern void CloudAnchorsExampleController_OnAnchorInstantiated_m4DA704265D3AD794786D2AB515990488FADD35B0 ();
+// 0x00000636 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnAnchorHosted(System.Boolean,System.String)
+extern void CloudAnchorsExampleController_OnAnchorHosted_m5D6C281BE03DD91159A626EB4DA50EFAEF957B3E ();
+// 0x00000637 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnAnchorResolved(System.Boolean,System.String)
+extern void CloudAnchorsExampleController_OnAnchorResolved_mEE40087FB68A99DC85290D42F3E4A48FF7207810 ();
+// 0x00000638 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnConnectedToServer()
+extern void CloudAnchorsExampleController_OnConnectedToServer_m87114D387A2E013EBD11882D94BC8D437C11C5DD ();
+// 0x00000639 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::OnDisconnectedFromServer()
+extern void CloudAnchorsExampleController_OnDisconnectedFromServer_m3FA59BDE1131CF1DE50C083C52379024AED804B8 ();
+// 0x0000063A System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::InstantiateAnchor()
+extern void CloudAnchorsExampleController_InstantiateAnchor_mAA1D9FE7FB8260B276E352009BD1CE68F21591FB ();
+// 0x0000063B System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::InstantiateStar()
+extern void CloudAnchorsExampleController_InstantiateStar_m9170593B5E2A6C28DE6A250A7A28F570025A2287 ();
+// 0x0000063C System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::SetPlatformActive()
+extern void CloudAnchorsExampleController_SetPlatformActive_m2C0B679D9D1706A9761A81F7A61CD90D3C1485B1 ();
+// 0x0000063D System.Boolean GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::CanPlaceStars()
+extern void CloudAnchorsExampleController_CanPlaceStars_mC52E67B885EADFE9075107A07D74EC222A158350 ();
+// 0x0000063E System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::ResetStatus()
+extern void CloudAnchorsExampleController_ResetStatus_mEFBD0BEC6F514576D4D396DDDB83B4AC6A7755EA ();
+// 0x0000063F System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::SwitchActiveScreen(GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController_ActiveScreen)
+extern void CloudAnchorsExampleController_SwitchActiveScreen_mF15C9F2CF77BD17F1B367C51BA28C64C921710F2 ();
+// 0x00000640 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::UpdateApplicationLifecycle()
+extern void CloudAnchorsExampleController_UpdateApplicationLifecycle_mECB0E1737490CCCEB84D5683295B67D277D1AED6 ();
+// 0x00000641 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::QuitWithReason(System.String)
+extern void CloudAnchorsExampleController_QuitWithReason_m51EF610246B0CF2563ADC22CA49223ADE418218F ();
+// 0x00000642 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::ReturnToLobbyWithReason(System.String)
+extern void CloudAnchorsExampleController_ReturnToLobbyWithReason_mBD6B595B812DC2A6E9FEB535096C372498268C76 ();
+// 0x00000643 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::DoQuit()
+extern void CloudAnchorsExampleController_DoQuit_m34E8F2626DEFE54C92FB6E67257AF1E35A8A8F95 ();
+// 0x00000644 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::DoReturnToLobby()
+extern void CloudAnchorsExampleController_DoReturnToLobby_m768BCD67A890DC905F90E2E3FAC2D0B5E76784F2 ();
+// 0x00000645 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsExampleController::.ctor()
+extern void CloudAnchorsExampleController__ctor_mB013D5684E0AE2746FD02DABD9A6914306D901B1 ();
+// 0x00000646 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::add_OnClientConnected(System.Action)
+extern void CloudAnchorsNetworkManager_add_OnClientConnected_m68D75F31504443358E566769E7351229B23D4DEF ();
+// 0x00000647 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::remove_OnClientConnected(System.Action)
+extern void CloudAnchorsNetworkManager_remove_OnClientConnected_m0A70BA9458E72807F8379D2B9A5100C24A2C6B9C ();
+// 0x00000648 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::add_OnClientDisconnected(System.Action)
+extern void CloudAnchorsNetworkManager_add_OnClientDisconnected_m8483BBAB25FEADBA1636121C3A7F831F6CD08E49 ();
+// 0x00000649 System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::remove_OnClientDisconnected(System.Action)
+extern void CloudAnchorsNetworkManager_remove_OnClientDisconnected_m3E43167FFF485C18B1CFBBCB57E70653828CE411 ();
+// 0x0000064A System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::OnClientConnect(UnityEngine.Networking.NetworkConnection)
+extern void CloudAnchorsNetworkManager_OnClientConnect_m6F1F3166E87A40F39A09C388C0D9B4D14F6DA3E2 ();
+// 0x0000064B System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::OnClientDisconnect(UnityEngine.Networking.NetworkConnection)
+extern void CloudAnchorsNetworkManager_OnClientDisconnect_mE414E03C728DC6A728CA5BD85BDA5FAC0D627BB3 ();
+// 0x0000064C System.Void GoogleARCore.Examples.CloudAnchors.CloudAnchorsNetworkManager::.ctor()
+extern void CloudAnchorsNetworkManager__ctor_m8332FAEDBA49DDD7C37829430AC58E8A21FA9280 ();
+// 0x0000064D System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::OnStartLocalPlayer()
+extern void LocalPlayerController_OnStartLocalPlayer_m77B0CB0F0431F4061AF48B2B8D05A379C375684E ();
+// 0x0000064E System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::SpawnAnchor(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Component)
+extern void LocalPlayerController_SpawnAnchor_m54BB5EA6CB0C7B14E58CD152372C79FE11EC5084 ();
+// 0x0000064F System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::CmdSpawnStar(UnityEngine.Vector3,UnityEngine.Quaternion)
+extern void LocalPlayerController_CmdSpawnStar_m13DA261D02FC3FCC09D5A940BFA80954A6B14FDB ();
+// 0x00000650 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::.ctor()
+extern void LocalPlayerController__ctor_mA20E7ABE3E20BD2AC2771AB7BF389C53AE841955 ();
+// 0x00000651 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::UNetVersion()
+extern void LocalPlayerController_UNetVersion_mE42AAA99CF3EC5C16522892B7365F8ED31EA33D0 ();
+// 0x00000652 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::InvokeCmdCmdSpawnStar(UnityEngine.Networking.NetworkBehaviour,UnityEngine.Networking.NetworkReader)
+extern void LocalPlayerController_InvokeCmdCmdSpawnStar_mBEB149A6376BDE6F71EDEA428900CE71BE7E719D ();
+// 0x00000653 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::CallCmdSpawnStar(UnityEngine.Vector3,UnityEngine.Quaternion)
+extern void LocalPlayerController_CallCmdSpawnStar_mAB9E9C8DA0EF534C8DB2B17CFEBE0A5F6103FBD4 ();
+// 0x00000654 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::.cctor()
+extern void LocalPlayerController__cctor_m422729F323194E4FF8DC92AF9F3797FD2EC8682A ();
+// 0x00000655 System.Boolean GoogleARCore.Examples.CloudAnchors.LocalPlayerController::OnSerialize(UnityEngine.Networking.NetworkWriter,System.Boolean)
+extern void LocalPlayerController_OnSerialize_m5CCA91A7EBDBCAE5BD1EA521B41E1DE0C699DBA3 ();
+// 0x00000656 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::OnDeserialize(UnityEngine.Networking.NetworkReader,System.Boolean)
+extern void LocalPlayerController_OnDeserialize_m713F82043DC5FB24F04948E156FE045C6F9AE623 ();
+// 0x00000657 System.Void GoogleARCore.Examples.CloudAnchors.LocalPlayerController::PreStartClient()
+extern void LocalPlayerController_PreStartClient_m4B6C4FF8DB1E36FCF07D64D9B421D222F421A522 ();
+// 0x00000658 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::Awake()
+extern void NetworkManagerUIController_Awake_m28AF03A2C1F8DC0A55A7FAEB723B1B5256C06666 ();
+// 0x00000659 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnCreateRoomClicked()
+extern void NetworkManagerUIController_OnCreateRoomClicked_m9B0D18F3EE5A94D04BCF0C8DF750DB01C5D7F5E0 ();
+// 0x0000065A System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnReturnToLobbyClick()
+extern void NetworkManagerUIController_OnReturnToLobbyClick_m10A59A82B52F66BC6DB9D41981EE69AF4A845EB7 ();
+// 0x0000065B System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnRefhreshRoomListClicked()
+extern void NetworkManagerUIController_OnRefhreshRoomListClicked_m8CA380C27CAFBB81D53C0DBE053DD8113DAB0D78 ();
+// 0x0000065C System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnAnchorInstantiated(System.Boolean)
+extern void NetworkManagerUIController_OnAnchorInstantiated_m2023EA868876DC51B3144FB709DB79BBA627967E ();
+// 0x0000065D System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnAnchorHosted(System.Boolean,System.String)
+extern void NetworkManagerUIController_OnAnchorHosted_mB07918811192A3AA3F7AAF3DD98452C5BF95FF69 ();
+// 0x0000065E System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnAnchorResolved(System.Boolean,System.String)
+extern void NetworkManagerUIController_OnAnchorResolved_m170FDAA104D8B9F0071BD216CCE51362781E91EF ();
+// 0x0000065F System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::ShowDebugMessage(System.String)
+extern void NetworkManagerUIController_ShowDebugMessage_m682D6132F7E5DBFE44BCB971E10F5C0141FC12B5 ();
+// 0x00000660 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnJoinRoomClicked(UnityEngine.Networking.Match.MatchInfoSnapshot)
+extern void NetworkManagerUIController_OnJoinRoomClicked_m83CA53F8D664C4449534C115CFC31E276DBC2492 ();
+// 0x00000661 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnMatchList(System.Boolean,System.String,System.Collections.Generic.List`1<UnityEngine.Networking.Match.MatchInfoSnapshot>)
+extern void NetworkManagerUIController_OnMatchList_m76D515D11FB354E6913AFCDF2705414E5A39B13C ();
+// 0x00000662 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnMatchCreate(System.Boolean,System.String,UnityEngine.Networking.Match.MatchInfo)
+extern void NetworkManagerUIController_OnMatchCreate_mBDD3D8100142E575DC40B2544BAC9D89651ABAA8 ();
+// 0x00000663 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnMatchJoined(System.Boolean,System.String,UnityEngine.Networking.Match.MatchInfo)
+extern void NetworkManagerUIController_OnMatchJoined_mA7591B9BC519705235D74251FB430D051F7BB988 ();
+// 0x00000664 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::OnMatchDropped(System.Boolean,System.String)
+extern void NetworkManagerUIController_OnMatchDropped_mE2F0E43C2377A5556857FB6F4D8792DF69706063 ();
+// 0x00000665 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::ChangeLobbyUIVisibility(System.Boolean)
+extern void NetworkManagerUIController_ChangeLobbyUIVisibility_mE3D2F04A35EED0062C5E5ADACD1186E97C2C37A5 ();
+// 0x00000666 System.String GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::GetRoomNumberFromNetworkId(UnityEngine.Networking.Types.NetworkID)
+extern void NetworkManagerUIController_GetRoomNumberFromNetworkId_m268EF036C4DBF0F0CEC485BE4DDD4534F6AAC350 ();
+// 0x00000667 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController::.ctor()
+extern void NetworkManagerUIController__ctor_mB6FF8D9AEF44E2EDBFF3D26D67A07DF54E851C16 ();
+// 0x00000668 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController_<>c__DisplayClass20_0::.ctor()
+extern void U3CU3Ec__DisplayClass20_0__ctor_m2A98A4468ABF81256CA227488A699D99F989FFB0 ();
+// 0x00000669 System.Void GoogleARCore.Examples.CloudAnchors.NetworkManagerUIController_<>c__DisplayClass20_0::<OnMatchList>b__0()
+extern void U3CU3Ec__DisplayClass20_0_U3COnMatchListU3Eb__0_mD52D0681777C6947C8864D3AE048BD5CEB4CDDF5 ();
+// 0x0000066A System.Void GoogleARCore.Examples.CloudAnchors.StarController::Awake()
+extern void StarController_Awake_m52C7F8893FC21BCE5A10D05732AF56E98B5C0461 ();
+// 0x0000066B System.Void GoogleARCore.Examples.CloudAnchors.StarController::Update()
+extern void StarController_Update_m2BFCC212A47B47DCD609524521247A64A9FB0E60 ();
+// 0x0000066C System.Void GoogleARCore.Examples.CloudAnchors.StarController::.ctor()
+extern void StarController__ctor_m47061974B837357EA24277A70AA119953196244E ();
+// 0x0000066D System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageExampleController::Awake()
+extern void AugmentedImageExampleController_Awake_m277AE9319FD5CC2CF402929F3FBA25519D144C27 ();
+// 0x0000066E System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageExampleController::Update()
+extern void AugmentedImageExampleController_Update_mD16913D0E58C9EC9BA3D40BC43F4FCB253C8B5E2 ();
+// 0x0000066F System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageExampleController::.ctor()
+extern void AugmentedImageExampleController__ctor_m9D672C076E36C0BE0845CC95E07B4C63A9A9765A ();
+// 0x00000670 System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageVisualizer::Update()
+extern void AugmentedImageVisualizer_Update_m44C8007DF69EF12FBACBC39CFFE475BB0A0B17F7 ();
+// 0x00000671 System.Void GoogleARCore.Examples.AugmentedImage.AugmentedImageVisualizer::.ctor()
+extern void AugmentedImageVisualizer__ctor_m3926BBD6A6935E9528EC5BC542FEE6CF202B9E65 ();
+// 0x00000672 GoogleARCore.AugmentedFace GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::get_AumgnetedFace()
+extern void ARCoreAugmentedFaceMeshFilter_get_AumgnetedFace_m0096D07952071E74AC9810E999D2BE01779F6119 ();
+// 0x00000673 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::set_AumgnetedFace(GoogleARCore.AugmentedFace)
+extern void ARCoreAugmentedFaceMeshFilter_set_AumgnetedFace_m5D70396D2466C8AE0885F6B92070A037CDF84434 ();
+// 0x00000674 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::Awake()
+extern void ARCoreAugmentedFaceMeshFilter_Awake_m27543F17F06F9349ED4847879144467C7D471B92 ();
+// 0x00000675 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::Update()
+extern void ARCoreAugmentedFaceMeshFilter_Update_m89B75AC2DE1853AEADAF1623DA41652195D4C9D5 ();
+// 0x00000676 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::UpdateMesh()
+extern void ARCoreAugmentedFaceMeshFilter_UpdateMesh_m8D99827A7F27DBC977FF0ACF53157E85702D2D70 ();
+// 0x00000677 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceMeshFilter::.ctor()
+extern void ARCoreAugmentedFaceMeshFilter__ctor_m0C9A365E30B9811257E56DF3913899BC7DC964CF ();
+// 0x00000678 GoogleARCore.AugmentedFace GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::get_AumgnetedFace()
+extern void ARCoreAugmentedFaceRig_get_AumgnetedFace_m36668C085EB591F601F7C721ED100359DFF3F84A ();
+// 0x00000679 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::set_AumgnetedFace(GoogleARCore.AugmentedFace)
+extern void ARCoreAugmentedFaceRig_set_AumgnetedFace_mB6B94E6BD38EF21E62C6BDA709F91AC7D01F6D8F ();
+// 0x0000067A System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::Awake()
+extern void ARCoreAugmentedFaceRig_Awake_mD6DAC5F6992FF1BA2258BDDB7C0752C2E5F2609A ();
+// 0x0000067B System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::Update()
+extern void ARCoreAugmentedFaceRig_Update_mF79D69FA876CB39BF5DF4C2FF17D4D248787DF4C ();
+// 0x0000067C System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::InitializeFaceRegions()
+extern void ARCoreAugmentedFaceRig_InitializeFaceRegions_m426594D9A80005F74D6F1B8D0AEBF9238C36F77C ();
+// 0x0000067D UnityEngine.Transform GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::FindChildTransformRecursive(UnityEngine.Transform,System.String)
+extern void ARCoreAugmentedFaceRig_FindChildTransformRecursive_mFDD3F01FFF77AF9A9E9F65B988E7B32BE8216B9F ();
+// 0x0000067E System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::UpdateRegions()
+extern void ARCoreAugmentedFaceRig_UpdateRegions_m14B57B3C2F04CAB81F6F2C876870956E249DAD2B ();
+// 0x0000067F System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::.ctor()
+extern void ARCoreAugmentedFaceRig__ctor_mB3924A6F9B3B5FCA701D4F0068B28306ACB995CF ();
+// 0x00000680 System.Void GoogleARCore.Examples.AugmentedFaces.ARCoreAugmentedFaceRig::.cctor()
+extern void ARCoreAugmentedFaceRig__cctor_m4E17EF787D6CB6BF6D1368FDA316EC9015DDE8D3 ();
+// 0x00000681 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::Awake()
+extern void AugmentedFacesExampleController_Awake_mB343AF36EF1863A460F2792D485597C23B444275 ();
+// 0x00000682 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::Update()
+extern void AugmentedFacesExampleController_Update_m594BEE7E460EB962E567EA74475A89CC8CF8ABE1 ();
+// 0x00000683 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::UpdateApplicationLifecycle()
+extern void AugmentedFacesExampleController_UpdateApplicationLifecycle_mA5A4EC75CD7A85803244AC7D1134E44C65806E6D ();
+// 0x00000684 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::DoQuit()
+extern void AugmentedFacesExampleController_DoQuit_m4273F3D8982764A2C10B951C5E9C22DAD2528D03 ();
+// 0x00000685 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::ShowAndroidToastMessage(System.String)
+extern void AugmentedFacesExampleController_ShowAndroidToastMessage_mF484F432EB30B0AEFA39A77187566DDD8D7C47C1 ();
+// 0x00000686 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController::.ctor()
+extern void AugmentedFacesExampleController__ctor_mD639B87D7457B8B173F9B2F23B541016D39E631A ();
+// 0x00000687 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController_<>c__DisplayClass7_0::.ctor()
+extern void U3CU3Ec__DisplayClass7_0__ctor_m093B79E0C9191DE7DE44DF0EC772144AC51FD1E0 ();
+// 0x00000688 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController_<>c__DisplayClass7_1::.ctor()
+extern void U3CU3Ec__DisplayClass7_1__ctor_m5456F9622B2781D03F47A06D79EBDC3BABE98480 ();
+// 0x00000689 System.Void GoogleARCore.Examples.AugmentedFaces.AugmentedFacesExampleController_<>c__DisplayClass7_1::<ShowAndroidToastMessage>b__0()
+extern void U3CU3Ec__DisplayClass7_1_U3CShowAndroidToastMessageU3Eb__0_m3CCF15EF4361E13195E9397ADE1405DC9B1F43A9 ();
+static Il2CppMethodPointer s_methodPointers[1673] = 
+{
+	InstantPreviewManager_get_IsProvidingPlatform_mF3189B3DC43C6EFCF827794B524B6ED38962B5FD,
+	InstantPreviewManager_ValidateSessionConfig_m23C53773AC24A5F0461C7D4A66B07A0ED4702960,
+	InstantPreviewManager_GenerateInstantPreviewSupportedConfig_m0AD534C694A270325BD7AF04B22AF19A65A7D82C,
+	InstantPreviewManager_LogLimitedSupportMessage_mFE537FCA5847DAC0CC18DB1D156F0A46FD800828,
+	InstantPreviewManager_InitializeIfNeeded_mA12743725C30A2EBE4094AA723ABC44746E90A6A,
+	InstantPreviewManager_UpdateBackgroundTextureIfNeeded_mFDF8708FE097909F05AA851E09B991F2EDFC456C,
+	InstantPreviewManager_UpdateLoop_m025F4C88712C258D41F80EAFA1E4EFEFF8C80A33,
+	InstantPreviewManager_AddInstantPreviewTrackedPoseDriverWhenNeeded_m332A6710AC3B508BB6137778B32C27D84AE83D35,
+	InstantPreviewManager_InstallApkAndRunIfConnected_m1A8EC070DC7DF6BE70E8BF1A70BC109ABF46524A,
+	InstantPreviewManager_PromptToInstall_m56BF51CF1E2939ACE7D162DBED4FED4285E2326D,
+	InstantPreviewManager_PromptToRebuildAugmentedImagesDatabase_m79EB978E8451691BB3F61898F300460849323204,
+	InstantPreviewManager_StartServer_m173FA94CEAF0323A48240E027749D18883C67F0E,
+	InstantPreviewManager_RoundUpToNearestMultipleOf16_mE10FA3E03E959A7700BD6454A2EAAD574CF278BE,
+	InstantPreviewManager_GetMinGameViewScaleOrUnknown_m0A47FFAE2934ACFEF07A53A21640E88A4B90A315,
+	InstantPreviewManager__cctor_mEED63997E130B39CEAB9E4251ACD596CD70EBEC6,
+	NativeApi_InitializeInstantPreview_m73488C1D737581D97B8CEE359C2D40643500073F,
+	NativeApi_Update_mA9603CC5EA381B3F3CDE408B1511CB092E784941,
+	NativeApi_GetRenderEventFunc_m423C64F9790912B179C8B2D83325F3D8CCAEED2C,
+	NativeApi_SendFrame_m0AB568F54DEC00BCFA79FA800A493B478942D3F4,
+	NativeApi_LockCameraTexture_m5DCEC34C8EC1F8C496BF00D61D36A4400F0DE591,
+	NativeApi_UnlockCameraTexture_m2CA07AE05E363B4C4C5AE1C6D6C3ABF3410E730C,
+	NativeApi_IsConnected_m8387CEAB749857760EF00147C4821043C615D5DD,
+	NativeApi_AppShowedTouchWarning_mA80D989AE4A3944F1CACD00986EEF141AC377178,
+	NativeApi_UnityLoggedTouchWarning_m4E12DEFE6543C978BE556D9CF99461D4F4F7D6FB,
+	NativeApi_SendToast_mEA32617B4D72BF122C27BDE5DF179012D43E6750,
+	Result__ctor_mCD9BE7270CE315EF120C718DFCB4D489C34979D2,
+	U3CInitializeIfNeededU3Ed__17__ctor_mAD7118030300F661FF2C313DA3B98B9724B71851,
+	U3CInitializeIfNeededU3Ed__17_System_IDisposable_Dispose_mB586A48CF06DFB3CB54A7773965D1C680B994AE7,
+	U3CInitializeIfNeededU3Ed__17_MoveNext_mC99D63C41B8887BA4EC91FDC3ED9F58D5E0FAA13,
+	U3CInitializeIfNeededU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m800F876C17F0D1CCBAE29F6B872BE623DD6100E2,
+	U3CInitializeIfNeededU3Ed__17_System_Collections_IEnumerator_Reset_m475DE2E0A97EBB2BCE0B435CE5650C08868CB0A8,
+	U3CInitializeIfNeededU3Ed__17_System_Collections_IEnumerator_get_Current_mC864D064B451B3A90A830DC9A367420B17A3E47D,
+	U3CUpdateLoopU3Ed__19__ctor_m0B4D4C220BDB21321CB8D4E63DEBC0E05D07BDCA,
+	U3CUpdateLoopU3Ed__19_System_IDisposable_Dispose_m4D69E8AD1FB37EAFAF459C3A805E8D2E7AD3E609,
+	U3CUpdateLoopU3Ed__19_MoveNext_mBFEE508784D69F33AB400619AD2880A9A78BB933,
+	U3CUpdateLoopU3Ed__19_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4923F1AAB47C4A7553601D0B6947B329F18D86C8,
+	U3CUpdateLoopU3Ed__19_System_Collections_IEnumerator_Reset_m3BC608EBDA1B0D15A9354520E3A593F186BC9D52,
+	U3CUpdateLoopU3Ed__19_System_Collections_IEnumerator_get_Current_m395326249988E467084D0D8B4DA466C25980D71E,
+	U3CU3Ec__DisplayClass21_0__ctor_mE973CD7F8918FF81B243B8224B48FCA6A0991DA7,
+	U3CU3Ec__DisplayClass21_0_U3CInstallApkAndRunIfConnectedU3Eb__0_mAF49AC7A7E0CCBA2C304FB38A3E95107759F1393,
+	U3CU3Ec__DisplayClass21_0_U3CInstallApkAndRunIfConnectedU3Eb__1_m752A7843A71D59F89DDA34C8CC6A5676B1071430,
+	U3CInstallApkAndRunIfConnectedU3Ed__21__ctor_mC3B6D7F10932249AD4EFAFB4531FACFB747673D1,
+	U3CInstallApkAndRunIfConnectedU3Ed__21_System_IDisposable_Dispose_m28E0FA29C1F3CB3D4015ECDBA34C9657784B7916,
+	U3CInstallApkAndRunIfConnectedU3Ed__21_MoveNext_mFD33A6F27AD9BE302D960366F73D60B87A70C7FE,
+	U3CInstallApkAndRunIfConnectedU3Ed__21_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9D5C436206C12143BC13C54D4F07DBE3AD0EB7AE,
+	U3CInstallApkAndRunIfConnectedU3Ed__21_System_Collections_IEnumerator_Reset_m73386B97F6667AA3567EBFD845002E6ACDBA8471,
+	U3CInstallApkAndRunIfConnectedU3Ed__21_System_Collections_IEnumerator_get_Current_mCF22E96122A7DA57C3E57C5B34E64A31D8C21F05,
+	NativeSession__ctor_m1F724BAEAE55B0EF53B63E08697A85A222429D6A,
+	NativeSession_get_IsDestroyed_mCBF04A4F1C8C1234E13F19AA4E07D60B25856593,
+	NativeSession_set_IsDestroyed_m9CCCA86F1E3BEC5D42114534AC30623ACA53AA46,
+	NativeSession_get_SessionHandle_m23EB8D18AEB320BBCE4C88D4B03AC37247243500,
+	NativeSession_set_SessionHandle_m216DE4EA663757DFC8BCCA9249C309B9B3F7FB32,
+	NativeSession_get_FrameHandle_m3B7C312F8BC126B54D383EFA152A10ACB3F81492,
+	NativeSession_set_FrameHandle_mE417FCFAF555D763F60828EA6B303A60024F395D,
+	NativeSession_get_PointCloudHandle_m2DFF3E070F582B01CF39788901DF028B5259DAAD,
+	NativeSession_get_IsPointCloudNew_m4960DC5086E1149C1A3CB5DEE8EE7307CA45E623,
+	NativeSession_get_AnchorApi_mA0A65E55B0F9C5689D7D6D481044ABC6ACF75863,
+	NativeSession_set_AnchorApi_mFDCB76F3E1BC4FE5A54A499EDDC90CC9E66F6E5F,
+	NativeSession_get_AugmentedFaceApi_m0E2F39CEDC79E75C0F26529602AC222282FAFFFF,
+	NativeSession_set_AugmentedFaceApi_m35C93731622FD58CD73E9C930B0DFB0CE3C7A0A0,
+	NativeSession_get_AugmentedImageApi_m3BDAC3D505669C32C6BB106BD5EF91A0F42550A9,
+	NativeSession_set_AugmentedImageApi_m08E4D44CA6C22B758E9DC0C1981C4ABA44D4DA83,
+	NativeSession_get_AugmentedImageDatabaseApi_m31C1BDE02EE4FBFDD75B9242E6AC74A22A152E85,
+	NativeSession_set_AugmentedImageDatabaseApi_mA579E93BC09CF8F424F60AED6187738ECDE89C50,
+	NativeSession_get_CameraApi_m274AEF29C06B0C0D66587003FA70412A05213E84,
+	NativeSession_set_CameraApi_m6EFA2A33101F2E174B18858FCE13EE5C5FA5E559,
+	NativeSession_get_CameraConfigApi_m439BC7DEFAB836C9A1F71C29ED1C1AFE9AFF0302,
+	NativeSession_set_CameraConfigApi_m44F39C9067810FE20F318F2B3D7C120B20D0D3D4,
+	NativeSession_get_CameraConfigFilterApi_mE6FA2919ABE3132B31DD2E0E96FF2992B6FCE91B,
+	NativeSession_set_CameraConfigFilterApi_mF5BF49482873A596330C6C22420239CE7175412E,
+	NativeSession_get_CameraConfigListApi_m0A6FBABCFAD79F98367BC8AD15BDB56828DC0EC5,
+	NativeSession_set_CameraConfigListApi_m95F4B31F90BE257D1A63D6DBC6B83D2AA2E075F7,
+	NativeSession_get_CameraMetadataApi_m2E33F34D2AF2881A846E34265AEF459EC613E060,
+	NativeSession_set_CameraMetadataApi_mDAD348D09D91CD76434BFA13E56F15B3670FBA7B,
+	NativeSession_get_FrameApi_mF6B1876F8C372C156E6595646731098CA8AE28BF,
+	NativeSession_set_FrameApi_m50B417EBE3EC5CFA735AD31862449E2CC07B7F69,
+	NativeSession_get_HitTestApi_mA4D9ED60C9E9584101E8537DE574B583ED8419C3,
+	NativeSession_set_HitTestApi_m51345BD5D3B7B2374E114B4B7C23B851D5716E69,
+	NativeSession_get_ImageApi_mFE320A28C517F190CBF3AF4F46CFC814F21112E1,
+	NativeSession_set_ImageApi_mE6FC30D8AEB6CB108F0CEC4476BD13E474DA1210,
+	NativeSession_get_LightEstimateApi_m39DE47BB304C988969E9AEE4D5870B1E7F1F63BB,
+	NativeSession_set_LightEstimateApi_m293EEAF1AE2F78B2DD0937A2DEAF7DA3787BDB33,
+	NativeSession_get_PlaneApi_m05B2C0F8972EC48F07DB11A7C2EE982F3C85FC29,
+	NativeSession_set_PlaneApi_mAA32D3D53B6512873EB2C1DF8898FA63AD5C2444,
+	NativeSession_get_PointApi_m15D20D61B6CC69591AB7F340FC1BE7C831699C0F,
+	NativeSession_set_PointApi_mA127696F25A2D5BF0D4FA829658B1C5C8782C65C,
+	NativeSession_get_PointCloudApi_mDF60D6D4D98B70AAD5A61B60902DF72F192CD5D9,
+	NativeSession_set_PointCloudApi_m9225ECF1F3CD777CEBF493D6A5E9C5E7A4E0E84F,
+	NativeSession_get_PoseApi_mB84B5C0BCCB60C68C2ED9E5528FF2ACE46078A11,
+	NativeSession_set_PoseApi_m27796E7AF57D831B0D82490E42337C6E81EA9F44,
+	NativeSession_get_RecordingConfigApi_mFBE6D5F7545B295A4D9E2ADAECDFAB5A62C705FE,
+	NativeSession_set_RecordingConfigApi_mCFD15898E8AE8BAE0D05975A9884F8A30FC4BA5C,
+	NativeSession_get_SessionApi_m069448B8EEBCCD2A750B9907EC7559B0EE5E71F9,
+	NativeSession_set_SessionApi_mE42AF30BC514B0DD6E857FCD87FE9100B4BCC4EA,
+	NativeSession_get_SessionConfigApi_m267F66371C11CA140D3892002C039D580DEE59B6,
+	NativeSession_set_SessionConfigApi_m68DAF23F279373D2979E9E9EF687A3DF736818B3,
+	NativeSession_get_TrackableApi_m4BB38B9A7E6127D0F2741D8DCB1EDFDCAACB7F2C,
+	NativeSession_set_TrackableApi_m994FCE2B238C892D18CA1E507FC6269FA14F19F2,
+	NativeSession_get_TrackableListApi_mDB87564B01ACF612F5110DDA8FE60D5D2FF6F497,
+	NativeSession_set_TrackableListApi_m983608BAB3D44E624EE478C54104464BC276543C,
+	NativeSession_TrackableFactory_m62C275559D88C7AFB80694D471E157FCDBF3B3D0,
+	NULL,
+	NativeSession_OnUpdate_m09839ADF0780B8D269EEBDF394657DD8C74F70A7,
+	NativeSession_MarkDestroyed_m093CE63E99DFF76DAEA6E85A6A37117B7AFE140F,
+	ApiDisplayUvCoords__ctor_m95B8DAFD46C73A8EE669DA522663E3539A419698_AdjustorThunk,
+	ApiPoseData__ctor_m6946A48BDF900BB7EBB3972083DC72EAAD30D31A_AdjustorThunk,
+	ApiPoseData_ToUnityPose_m5AAB568DA753E1A6B45376365AFFF0632B14A1B9_AdjustorThunk,
+	ApiPoseData_ToString_m1F496078D60AAAA2EFD7E1F246D9CB89115F704E_AdjustorThunk,
+	ApiTypeExtensions_ToApkAvailabilityStatus_m0F6E45897164305CFE60655F1F5D2E09CE31B248,
+	ApiTypeExtensions_ToApkInstallationStatus_m79A6B49874D7059FCD9F92798F75D82AFD5CA42D,
+	ApiTypeExtensions_ToSessionStatus_mD2BE38472C9EFA04AEBD2DBF5A04C09F750DBA19,
+	ApiTypeExtensions_ToTrackingState_m1D3CB45744BAB3084920B8732D1B316EB62F61E7,
+	ApiTypeExtensions_ToXPTrackingState_m2F9DECCEA15F8CFE5CB3D0DC35557D6F671A7CFA,
+	ApiTypeExtensions_ToLostTrackingReason_mAC9B601AAB5BF8572ED8159A6D894182E1A07374,
+	ApiTypeExtensions_ToDeviceCameraDirection_m8C461AB218476D84DE713E97117661424C95605C,
+	ApiTypeExtensions_ToLightEstimateState_mF7D12235F043D4E460D56BA0CEA039BC0F6F3161,
+	ApiTypeExtensions_ToApiLightEstimationMode_m551F997CAA89802233C2EC52E45012EB2EDE3F9F,
+	ApiTypeExtensions_ToApiPlaneFindingMode_m8DCB21217BBE00667CD70FD23B2F047458494C0A,
+	ApiTypeExtensions_ToApiAugmentedFaceMode_mC2D2F68DE3007431E1CE2448E441B3751A0CFAA6,
+	ApiTypeExtensions_ToApiCameraFocusMode_mE4F9C9887D8562ED52A78D6B2F097CAD6D4C3838,
+	ApiTypeExtensions_ToDepthStatus_m93215DC31BBC2CDB09E9EC4FA031A79582C582A1,
+	ApiTypeExtensions_ToApiDepthMode_m42D130DF6826024A761EFD45E0319530FCA1F3F3,
+	ApiTypeExtensions_ToApiCloudAnchorMode_mFE3DDDF47ED97BFDFE96EF69B1A6BFD3A32E47D1,
+	ApiTypeExtensions_ToDetectedPlaneType_m9D32D997A4FC4C72FF765E716F644FB9FCC1854F,
+	ApiTypeExtensions_ToDisplayUvCoords_m1F55A59F6214FE608A28D78A0F33968E078E2E71,
+	ApiTypeExtensions_ToFeaturePointOrientationMode_m5703CB2533B54EE3A04CEDC0C7D747CFF145A658,
+	ApiTypeExtensions_ToCloudServiceResponse_m8B758FA3D53CA199451620F936FD69AD4A09BF70,
+	ApiTypeExtensions_ToCloudServiceResponse_m2E53E64DA8EA141BF8F9B3A2650EE7B56F6FB237,
+	ApiTypeExtensions_ToRecordingStatus_m1B86F4016D256D4E1E3697B986844D5B846C1559,
+	ApiTypeExtensions_ToPlaybackStatus_m2A5741D2DCA7267DB0B755669AD0BF174B562916,
+	AnchorApi__ctor_m98F174EA6145A166975E1763411BA435A62D49B0,
+	AnchorApi_Release_m730528C100D6ABA6564BEAF449B4D1FF0DF4E0C2,
+	AnchorApi_GetPose_m5A3A5DD5457D969A94ADC13C7FBC0D1EDD24B9AF,
+	AnchorApi_GetTrackingState_mD9C0756CE66604CAB6F22BFD915DD456A1226C89,
+	AnchorApi_GetCloudAnchorState_mB2A5996A81C235C4B20A9D4E44D28245AEDEF47F,
+	AnchorApi_GetCloudAnchorId_mF77348D93A63CF1F961DFBF10E3DB55A9CE21990,
+	AnchorApi_Detach_mDC46CB9CE6E51BC0C2853C49CF0AA6D3B816CD17,
+	AnchorApi_CreateList_m39750FFD2A4408B17A067EC47279B64AD1218896,
+	AnchorApi_GetListSize_m540EA25E0088384EDE1A4619D3842141B39478DC,
+	AnchorApi_AcquireListItem_m0933FFAF112F51243E8A7DCB59F5D15B4561055A,
+	AnchorApi_DestroyList_m506445DC703D5DD3A12F0EAB0020087B5A105880,
+	ExternApi_ArAnchor_getPose_mB758AE304B1263764FFA954B1A71FFD1D1DCE314,
+	ExternApi_ArAnchor_getTrackingState_m85A8CD967CB5B77DF1B78EF11E45C891F10B2A16,
+	ExternApi_ArAnchor_getCloudAnchorState_mDFDB6A1924F7927456148E0A659D98328C16E560,
+	ExternApi_ArAnchor_acquireCloudAnchorId_mF04CF75F3935434CD9B1164204EA805D159D6B46,
+	ExternApi_ArAnchor_release_mFFADAADC8BBF4DE83DB56F0CF9623C26401E28D3,
+	ExternApi_ArAnchor_detach_mC6F7DA9E41F85F8BF2F1519ECE7BEA9F48262A9C,
+	ExternApi_ArString_release_mB9BB928C5C3B749EAE5DF598E3B63ED92A6E464B,
+	ExternApi_ArAnchorList_create_mFB4D84E6A59061EC46667C4105A551F0A5A38AFB,
+	ExternApi_ArAnchorList_destroy_m0C04566B2DDC6529D230AF20B02A288A78FDFE08,
+	ExternApi_ArAnchorList_getSize_mD1D749BDCF653970F9011F90CF73659B175DCD22,
+	ExternApi_ArAnchorList_acquireItem_m7719144D43885DFD83348B0CF3B2BD34D20D977A,
+	AugmentedFaceApi__ctor_m2ED44CB97D2119ED37F0E1FEAB1316F8B0D9B934,
+	AugmentedFaceApi_GetCenterPose_m586AEF955D54AF1C7D3CC75C7F10677B2972087B,
+	AugmentedFaceApi_GetRegionPose_mC51B9DF733DE60942815C4238F15A8CA20BEA664,
+	AugmentedFaceApi_GetVertices_m505BA2D18CA51B2656A8EDA6A7A8F64A3609CA6E,
+	AugmentedFaceApi_GetNormals_mAA7748ED95A093F1A423898D8800DD2629C9B5A1,
+	AugmentedFaceApi_GetTextureCoordinates_mC02CADA328FE499EA20731B9E5FA663F49D4C7B6,
+	AugmentedFaceApi_GetTriangleIndices_m619C60F59E58322AA47667AE08BAC2AEEC345DB5,
+	ExternApi_ArAugmentedFace_getCenterPose_mA5EB7C0547A4169B8E4A76D2175EF8C532622C66,
+	ExternApi_ArAugmentedFace_getMeshVertices_m87FB3B61114B266D357898976C82D5E5D7D268AD,
+	ExternApi_ArAugmentedFace_getMeshNormals_mB8D365E2C6F460E1F896AAC6D863C223FD264D67,
+	ExternApi_ArAugmentedFace_getMeshTextureCoordinates_m8D9825061591B2E95380A10DFF0D40E310F7DC58,
+	ExternApi_ArAugmentedFace_getMeshTriangleIndices_m7CF8623CFA4550D8531D65F81F481AC0D880E6F8,
+	ExternApi_ArAugmentedFace_getRegionPose_m2E49581D5039C813B70213BBE1BE3516088D53F7,
+	AugmentedImageApi__ctor_m70669C231DAB8796884195AA266B3D1A3247A674,
+	AugmentedImageApi_GetDatabaseIndex_m0AE4965C77F594E73FE2EECB22D94E631C735E1F,
+	AugmentedImageApi_GetCenterPose_mD7922ECFE1F375AC380560B2ACB8B1B91CC49974,
+	AugmentedImageApi_GetExtentX_m7405E3A54561F258D576F1B517EBC20BAC9A0553,
+	AugmentedImageApi_GetExtentZ_m28E71AB227D4704C93D5EBE88A2E77C7469EB3F7,
+	AugmentedImageApi_GetName_m288B8708FF82E45EEB64E9922F60DC6E633D7413,
+	AugmentedImageApi_GetTrackingMethod_m59895CDAE4F1A820160E4E187376DA5E0AB1B52E,
+	ExternApi_ArAugmentedImage_getIndex_mFC3DBF4860991BE918518CC1E761DCA4A59F943B,
+	ExternApi_ArAugmentedImage_getCenterPose_mB3C0D0800DBCFFBB6AEF88F33E9325A1520D010A,
+	ExternApi_ArAugmentedImage_getExtentX_m3A460645D181D0FA9ED20AFF8AD2684B0E263CE2,
+	ExternApi_ArAugmentedImage_getExtentZ_mB5FA08B68808CA4EDF477927E8043BC26B644F43,
+	ExternApi_ArAugmentedImage_acquireName_m0774FF44B470B254DC6DD5ADA3CCC5E102B3DBFA,
+	ExternApi_ArAugmentedImage_getTrackingMethod_m980B33150071961B20FDC8969072F5AE0D0A2BBB,
+	ExternApi_ArString_release_m8C6B026695E001A01EDA310B0A1D7C9A0D12CE82,
+	AugmentedImageDatabaseApi__ctor_m0D7C3B6059E81CE14729F899110FB9E527B550DD,
+	AugmentedImageDatabaseApi_Release_m0AF3979E4B41B6DF915A5ADDBD98A27BCD341BDD,
+	AugmentedImageDatabaseApi_Create_mC15CBD248387282136598389149B9A7FF2FF09C6,
+	AugmentedImageDatabaseApi_AddAugmentedImageAtRuntime_mAB49E5181CD36DE91A1C5AFB13CE1239788BA40E,
+	AugmentedImageDatabaseApi_ConvertTextureToGrayscaleBytes_mFFD7AE4B6D077AAD815258C6FA1990F9A9E333F5,
+	ExternApi_ArAugmentedImageDatabase_create_mB2C51DD530C57430AD04D63D352B078F1499F3B2,
+	ExternApi_ArAugmentedImageDatabase_destroy_m2CD9C20B8743EF5463DF2FF04812AC2BB81EA3E5,
+	ExternApi_ArAugmentedImageDatabase_deserialize_m684C894ED2009D74DCAC3E4C7556EAA0FD33AC03,
+	ExternApi_ArAugmentedImageDatabase_addImageWithPhysicalSize_m3BF5D791D1AD0F840B76871559DDC80ED1B4E3C0,
+	ExternApi_ArAugmentedImageDatabase_addImage_m1DA896B181DE1D998A5058184E2909F81669A9B8,
+	CameraApi__ctor_m620421804F6DE840A2440DC130945C1550D58C8E,
+	CameraApi_GetTrackingState_m57F5002A524252A0B16CD6CCFA33DB11D75C2DBD,
+	CameraApi_GetLostTrackingReason_m32E2D7F5C0864034B5F6755E5EEF64DD90EC9BAE,
+	CameraApi_GetPose_mD1EEBD0CA0C366D0586EDA09DC6843762C7CDD0C,
+	CameraApi_GetProjectionMatrix_m41D56D3C4F4CC4BEC8795B3A05EED8B343787548,
+	CameraApi_GetTextureIntrinsics_mD911187585001FEB6B9DC71D688347A3C62CE4B2,
+	CameraApi_GetImageIntrinsics_mED469CEFBCF22D49D32C6DA48195826A5BE52419,
+	CameraApi_Release_m87150EACF46C83450BBC52A39B18F28D2AB97584,
+	CameraApi_GetCameraIntrinsicsFromHandle_mC2D8C5612E27D622331B7DD327B1BCF47751D7EF,
+	ExternApi_ArCamera_getTrackingState_m14BB0309F1EF6125BCEE760F2C91854C7E60ABBA,
+	ExternApi_ArCamera_getTrackingFailureReason_mAD00EA2684FEF9222D778AEA7E83E1ACC66D39BF,
+	ExternApi_ArCamera_getDisplayOrientedPose_mC74EF34E931A689F4B5CDB1C7FC1782854FFE8F1,
+	ExternApi_ArCamera_getProjectionMatrix_mF53AAD4E061680A029FE6632D99CE8E232BA9E86,
+	ExternApi_ArCamera_getTextureIntrinsics_mE810340B2A84AC04B59ED45EBB8CB9D9BF4160B5,
+	ExternApi_ArCamera_getImageIntrinsics_m68483B30C6B821D55B4E71CDEA85C7CC466E76DD,
+	ExternApi_ArCamera_release_mD515CDAD1E0507D5FD2A3094520C573EAF2BB622,
+	ExternApi_ArCameraIntrinsics_create_m59E8505C12E92073905DC13DADE81320EF73A6A2,
+	ExternApi_ArCameraIntrinsics_getFocalLength_m47413C3B228675F4B2698C293C72AB7DAE308D15,
+	ExternApi_ArCameraIntrinsics_getPrincipalPoint_mA9A76A2F9135841EFC3810609DFD5FABADA1AAB4,
+	ExternApi_ArCameraIntrinsics_getImageDimensions_mEDD7B781315CE877ACFACD3A3FE3149B078C855F,
+	ExternApi_ArCameraIntrinsics_destroy_m4F4071148E3367C244A274E72B0D649403D514F9,
+	CameraConfigApi__ctor_m18EBE4A91269532CCA804418F7745E9EC9C8FD71,
+	CameraConfigApi_Create_m739F3AB9D56C67E81318B57840164767B7144C3F,
+	CameraConfigApi_Destroy_mCC14BD7F44EB8A37F8BF4DE7857AE4C32F68ECC3,
+	CameraConfigApi_GetImageDimensions_m64D85F5CF1167DCBC32365E060CDEBD954B6ABF6,
+	CameraConfigApi_GetTextureDimensions_mD3353BECDC79C79EFBBD98776B5FB83ED6889785,
+	CameraConfigApi_GetFacingDirection_m26204EAE48B59CF25E02F34128C5FFB198E27EF0,
+	CameraConfigApi_GetFpsRange_mDB8934E1081D6E8A4AFEC6C81A4B0B71C06FAF1B,
+	CameraConfigApi_GetDepthSensorUsage_m3046DCD87A8A89F496C317E55532BA7A0FEC06DC,
+	CameraConfigApi_GetStereoCameraUsage_m77E03780B8FD5B4D5E4C09ADDE1D0358956D9C1E,
+	ExternApi_ArCameraConfig_create_mE38A1781B5E0ADF680CDFC6C56378961A39DF55D,
+	ExternApi_ArCameraConfig_destroy_m4E0A37A94E0E32F9B0FBBF909D8E75371FAB989F,
+	ExternApi_ArCameraConfig_getImageDimensions_m98CE28B39A97AC0EE1BB7A118B7862999FAFD1A5,
+	ExternApi_ArCameraConfig_getTextureDimensions_m2F9F64DF295CCC8EE7CE9D4F6A48183B4B89D7E6,
+	ExternApi_ArCameraConfig_getFacingDirection_m5AF454767AB7C66ECCDCD10742E26F27E71EAEBD,
+	ExternApi_ArCameraConfig_getFpsRange_mCB7651386EE8F28BEF3BBEA414DD646B834FC395,
+	ExternApi_ArCameraConfig_getDepthSensorUsage_mF8385AA0DB6ABBB7DF4E5F00D3D16781E1F422F3,
+	ExternApi_ArCameraConfig_getStereoCameraUsage_mFF2254F6FD7EDB03A3924C62AA0F67F156CE9B5D,
+	CameraConfigFilterApi__ctor_m022F21A6A10C804102A97177064BF0B89A2E0776,
+	CameraConfigFilterApi_Create_m0FC70081AA441BB9F319BB382B79091DC98EC692,
+	CameraConfigFilterApi_Destroy_m04FE1DF3975AC9F314B535C5646D3BDCDA910CB0,
+	CameraConfigFilterApi_ConvertToFpsFilter_mFE007951C167B9328F6DBEBC603BA2146A673362,
+	CameraConfigFilterApi_ConvertToDepthFilter_m4D62DB1279B3F3FFC8F09C12E16CDC17F3E7B466,
+	CameraConfigFilterApi_ConvertToStereoFilter_mFB3702F81A1D02F892DDCD5BCE2503EB92FB6C75,
+	ExternApi_ArCameraConfigFilter_create_mDCBE1124A925D25CCE77829BA5E217CB880ACB52,
+	ExternApi_ArCameraConfigFilter_destroy_mE79893226CA5806BADD9895A19DC55748EFCDBE6,
+	ExternApi_ArCameraConfigFilter_setTargetFps_m86F9E1889D96A1CD9CCE16F6AD5FBB0F9573F271,
+	ExternApi_ArCameraConfigFilter_setDepthSensorUsage_m08EF8684C2CD3BDB6545396A3CA04853A53A538D,
+	ExternApi_ArCameraConfigFilter_setStereoCameraUsage_m703C4AF47BC92F1C9A0C319839BC4216F1F953D9,
+	CameraConfigListApi__ctor_m54D7CE1C4F6E4072483E970964D1F5B56E63159C,
+	CameraConfigListApi_Create_mFCC9EC87A4CD1A235C12F883AFBD657CCC28EA46,
+	CameraConfigListApi_Destroy_mF25AB82822D971DF587EB4958E3A90FB3A8BCCE4,
+	CameraConfigListApi_GetSize_m86A32F4E5C18F85B45727A8803F1BBD9C9A6FC98,
+	CameraConfigListApi_GetItemAt_mF187EA35E24CD515FA8D88E79520BF8373BE39BF,
+	ExternApi_ArCameraConfigList_create_m5E38F21C7732E6EE0510C0F3B0C6976353B55535,
+	ExternApi_ArCameraConfigList_destroy_m7D2DD8E21B91831A7ED1F39F417228B06B4431B8,
+	ExternApi_ArCameraConfigList_getSize_mEFD6057EC587763FE8143A3AD0D3E52A71CCE846,
+	ExternApi_ArCameraConfigList_getItem_m15F48E8CF02F49E183CEB82B28A77E8666333E8A,
+	CameraMetadataApi__ctor_m6303EB60D1FF8C7269984832E665F0E0AC3CDBD8,
+	CameraMetadataApi_Release_m2E150C11FAE947536006CB14A4F7E45F2EB959CF,
+	CameraMetadataApi_TryGetValues_m1D97BE16DD539ED5E1F574DD660252AB34351C92,
+	CameraMetadataApi_GetAllCameraMetadataTags_mE3B639405684C00986E745945B28DADF3C720563,
+	ExternApi_ArImageMetadata_release_mAB6E8F7E9342E81DDF0185E5948027A7A5230628,
+	ExternApi_ArImageMetadata_getAllKeys_mE4A5006F2A3F5B4965C0149873C034FDEB971385,
+	ExternApi_ArImageMetadata_getConstEntry_m20D186E6503142F82A74B1A86F57250293D7AEF7,
+	FrameApi__ctor_mA18B1911DBB7A84658FC50C7DD0D80F532133D79,
+	FrameApi_Release_m3347101031B0F53DDEC27663C2F3518C07A41941,
+	FrameApi_GetTimestamp_mD7179A33F385147098DBFF7014894EF51D26CC14,
+	FrameApi_AcquireCamera_m135B633DE4BC81002CFB7C04D530C6EEB6785813,
+	FrameApi_AcquireCameraImageBytes_mBA3669EE3C24987EA02D92444A82C38FC43D4355,
+	FrameApi_TryAcquirePointCloudHandle_mBF609DA97DA8E4A0813C364E9F255B9E5894B9EA,
+	FrameApi_AcquireImageMetadata_m3ED5DD734F1A5D4E5AE105C7E50BB1B632D74EFC,
+	FrameApi_GetLightEstimate_mE5219132D5C9B6F861AD1422390966382A2A0B81,
+	FrameApi_GetReflectionCubemap_m145BE49CF526CC713D722FFE306C779C64E3693B,
+	FrameApi_TransformDisplayUvCoords_m9FF25A22D1692E41CD5697877A7E4F2693F6D0D3,
+	FrameApi_TransformCoordinates2d_mA7B7F92B81DA27720B3E9E9F36BB8FB3F06A0323,
+	FrameApi_GetUpdatedTrackables_m88370792F6C23D54F28768FAD95C65A252B629C1,
+	FrameApi_GetCameraTextureName_m64548F69A1E63CF573FB3A5F026813EAB3F4F388,
+	FrameApi_UpdateDepthTexture_mDC2F2AADCBFDC413273724D8C9B758BACF13BBEE,
+	FrameApi_UpdateDepthTexture_mA7479AEEEA9E2BDC88DCEA6FF5B50DEE4347E3BC,
+	ExternApi_ArFrame_release_mC7350E5F91A9602DB6966B18ED37896E4684C7A6,
+	ExternApi_ArFrame_getTimestamp_m151D63A2E0BE8C8650D1846802EDFA1FC2A3B739,
+	ExternApi_ArFrame_acquireCamera_mC7168AADF477A72E9CCD1F45D2A714E7124BA62A,
+	ExternApi_ArFrame_acquireCameraImage_m4E4606F3F8B2B12664815A09D913D60717812684,
+	ExternApi_ArFrame_acquirePointCloud_mF5A7D525D496C7B478A8A7158110FC5D04B0445A,
+	ExternApi_ArFrame_transformDisplayUvCoords_m0C8C6C675688B162A5FC50FBBD8C68365F27328B,
+	ExternApi_ArFrame_transformCoordinates2d_mBF66E38B82061CDD0FBAA53E8F64269743C5AF95,
+	ExternApi_ArFrame_getUpdatedTrackables_m654062ED7615C0BD076D1BE867B3D5D3AF150FAD,
+	ExternApi_ArFrame_getLightEstimate_mE29D42CBFA5D169C749F67783CBF613D34FDF590,
+	ExternApi_ArFrame_acquireImageMetadata_m35EF1137A21F52F89B9531476A02F34F3367DD2B,
+	ExternApi_ArFrame_getCameraTextureName_m3A3BA41970CAA9A4F6604AC4523B4EA4E89E4619,
+	ExternApi_ArFrame_acquireDepthImage_m3D881434AE875DCF56B32FD50808239A000F3DF8,
+	ExternApi_ArImage_getPlanePixelStride_mE4DAE6629AE0E55ADEC9BDBE1AFCCEB4F37C5D45,
+	HitTestApi__ctor_m0F653EBB8079B090756ACDD8FDA9D2F1DFFDB56C,
+	HitTestApi_Raycast_mC7194AD7005A4B7DE57C7A2BADD86D612AF5FDA2,
+	HitTestApi_Raycast_m806150EAEF9239FCAA977E78ADAC66713433B3E7,
+	HitTestApi_Raycast_m663659458D4B692734FD8976DBFFC71671B543CA,
+	HitTestApi_FilterTrackableHits_m55CC4B435C216802536BCA64C28B4D37AA9799A8,
+	HitTestApi_HitResultListGetItemAt_m02A9243DB62EC97714C978763335D13388945380,
+	ExternApi_ArFrame_hitTest_m7BB0D10C88975EECBB1C0E486ABD6BFAF3A5267A,
+	ExternApi_ArFrame_hitTestRay_m263E607E660E6783D2F06CD68AECF35FAD196B1B,
+	ExternApi_ArFrame_hitTestInstantPlacement_mB746217C45A0B3EEA9D2EB674B85D158CB3EC131,
+	ExternApi_ArHitResultList_create_m4BE138C4E158E5C97555129B3F8ED2EDE16A894F,
+	ExternApi_ArHitResultList_destroy_mB1AE352617DDDD67D3A4CA8E1BB71254747BDE9B,
+	ExternApi_ArHitResultList_getSize_m6FC5B3395A4FDB0D9D1419EBABE56C89776C2C5C,
+	ExternApi_ArHitResultList_getItem_mEC0455D774626E33B5A68AC02CA837B55D3EA6A4,
+	ExternApi_ArHitResult_create_m79997E9E7127B809B54F5321F12DF3758B159CC4,
+	ExternApi_ArHitResult_destroy_m2674071C23E1153DD07C3EA30ECB14790D0AA991,
+	ExternApi_ArHitResult_getDistance_m320413C8828E3C0635DF5B713D18ED4185E71550,
+	ExternApi_ArHitResult_getHitPose_m670E63AA8D13DDD7258E5828712EBB130B713226,
+	ExternApi_ArHitResult_acquireTrackable_mDFCFB0404E91444B90E095AB7E63A52E1977C720,
+	ImageApi__ctor_m461EC4A24D24459805F6E0749BF0E675FFFEE467,
+	ImageApi_GetImageBuffer_mF1998870BB7AC83E88A6D19B9731C3D0FF5A66B7,
+	ImageApi_GetPlaneData_m416AAB9B570716AC561B3550C6FA8189773EB59B,
+	ImageApi_GetWidth_m8B54498E4E357CFCCAF118DAFD42B6EDF801DA92,
+	ImageApi_GetHeight_mD377C1757D65415038DBE1A7DEC467E8615943E3,
+	ImageApi_Release_m7818ADF3B1EF82E12A6BD09220FFB9810A4D9B68,
+	ExternApi_ArImage_getNdkImage_m769E0547D9B680DF15359280FAAA5828D00CE2AA,
+	ExternApi_ArImage_release_m3480389C04C28F0F3E1A6D4D5327CC0C5D5F1DED,
+	ExternApi_AImage_getWidth_mFC0301E8ECA1B603420FAB988BF2083F6BC49FBA,
+	ExternApi_AImage_getHeight_m88D0645CBC29A775EE628B5B9CFBDA8C9D226733,
+	ExternApi_AImage_getPlaneData_m9A9C85FFB20FF79C41187CE1C84A7F7F40C535BA,
+	ExternApi_AImage_getPlanePixelStride_m29A2A598FAF356B8116894CCB65A70731BADFE48,
+	ExternApi_AImage_getPlaneRowStride_m660ABDB19A94E1E9F941385A753E246AB0CA9B05,
+	ExternApi_ArImage_getWidth_m1EEC6FE6B4CE918C31C485C16DEBCC3C1ECBD554,
+	ExternApi_ArImage_getHeight_m808C0C9C46C1FF403107689B5D58C682AB62CFE7,
+	ExternApi_ArImage_getPlaneData_m95EF470611472697F0EDE05E262D1CA14B9D6C6E,
+	LightEstimateApi__ctor_m6A56BA66FDC7675DD62551D2A87719EFE83B21E0,
+	LightEstimateApi_Create_m8A283120F9D472E696D43A748718E097C218E9A7,
+	LightEstimateApi_Destroy_m72A8663C2F33C865932A395467CD76996A8B811F,
+	LightEstimateApi_GetState_mC5E2BE9CE90FE20BEAA8890AEA24F230361358DB,
+	LightEstimateApi_GetPixelIntensity_m6E3DA875F217D594EDDC3E0DCB74E5B4B22BF69A,
+	LightEstimateApi_GetColorCorrection_mA1F20C2C1544B35FB4B4018941CF8F855D15D6B5,
+	LightEstimateApi_GetMainDirectionalLight_m04AB27D61CD2F63046EF027305D26772D54F3410,
+	LightEstimateApi_GetAmbientSH_m12343B992286C9D70066E45F7BD92778772A2827,
+	LightEstimateApi_GetReflectionCubemap_mD00781248BCE6DC974C7770B4FE53ECAE92B5C02,
+	LightEstimateApi_GetTimestamp_m2CA49B20C191D3DAD3ACBF4CF178E7A6913E1E17,
+	LightEstimateApi__cctor_mD1C118491AA5542E56DA459A5D6C1A552000FBDA,
+	ExternApi_ArLightEstimate_create_mA9FB56368F9B890DF252BF905049A8BE7307A697,
+	ExternApi_ArLightEstimate_destroy_m4AAA80CFF525A4C6E176AE811B7A9B58304AFEB4,
+	ExternApi_ArLightEstimate_getState_m29C5CD490683AE4E323AF96ECAAF10F472FF8B57,
+	ExternApi_ArLightEstimate_getPixelIntensity_m13FF36707B6C7D8A9DBC52F0C41BB934821D684B,
+	ExternApi_ArLightEstimate_getColorCorrection_m44AEAD259ABCCB56B95D850CCC513B8B60F96DFA,
+	ExternApi_ArLightEstimate_getEnvironmentalHdrMainLightDirection_m7670ECB511E0C91E4E5AA9DE95F31CBD8F878FDA,
+	ExternApi_ArLightEstimate_getEnvironmentalHdrMainLightIntensity_m11E815591E5CECEDA91240FD638588F41BA958D5,
+	ExternApi_ArLightEstimate_getEnvironmentalHdrAmbientSphericalHarmonics_m0C2701D942D72AF450CEADBBFD633D92E3EE433B,
+	ExternApi_ArLightEstimate_acquireEnvironmentalHdrCubemap_mB52519639020DA00BA6EF651038862FD252FD2C5,
+	ExternApi_ArLightEstimate_getTimestamp_mFE24D28B86EB846FC2EEACD909201DB79C7C6440,
+	ExternApi_ARCoreRenderingUtils_SetTextureDataType_mCEE531BAC6FE053280E4329FAA72993243FAFE55,
+	ExternApi_ARCoreRenderingUtils_SetActiveColorSpace_mF976651979B86A99EE7B031DE0AA8E618010B212,
+	ExternApi_ARCoreRenderingUtils_SetARCoreLightEstimation_mD8C598C44B5E9AB72B12E8BC66C71227C1187777,
+	ExternApi_ARCoreRenderingUtils_GetCubemapTexture_m792D6F4382CD8A7CA24CA8886146C9BB5A0DB481,
+	ExternApi_ARCoreRenderingUtils_GetCubemapRawColors_m2B4499554610E8AD30109AB85246E1757C439838,
+	ExternApi_ARCoreRenderingUtils_GetRenderEventFunc_m169466E4D0EF0D21F7D280C2B042C17D596E9C5B,
+	PlaneApi__ctor_mB6F5058CFB6253508E1DA34272DB1C8104B69D4B,
+	PlaneApi_Finalize_m9952F453CD96B037A8F1179A6DA2ED04AAFAD2A5,
+	PlaneApi_GetCenterPose_mF38FFB96CB0DFED9721DBFA2BB4157788CC9A1AE,
+	PlaneApi_GetExtentX_mB7BCEFF5F79C5F59D5356AAF30DA9DA37D525450,
+	PlaneApi_GetExtentZ_mC2D19D2F7AEDC91C3056FC1B34EC6421624BD0AB,
+	PlaneApi_GetPolygon_m52265C31D7CF1154AB0AD2B11ED8481BEF25CB61,
+	PlaneApi_GetSubsumedBy_m58B56BCB8EE90ADEE43BCBB7628DD3874088536E,
+	PlaneApi_GetPlaneType_m56A77385DF661D35EA8378E221237B6BCE59F236,
+	PlaneApi_IsPoseInExtents_m25F5C38C0B5F6E879AA4444F6CE146D3593D6A70,
+	PlaneApi_IsPoseInExtents_m42EF1C713072F18DE58F7BFE80059F784C82B2FF,
+	PlaneApi_IsPoseInPolygon_m31FB4CA20A8A1BA037C65151054FDD49C453D4E7,
+	PlaneApi_IsPoseInPolygon_m0442E851504F17DBB60C5A3F40C0628EAC38EEA8,
+	ExternApi_ArPlane_getCenterPose_m4D08680E9EBE7B3E7CDAE43C5FD01ADBC12B2821,
+	ExternApi_ArPlane_acquireSubsumedBy_m73B85CED6259B40E0CC715E720E5267AD7E7CEAA,
+	ExternApi_ArPlane_getExtentX_m240429CCE668AF87BA187BAD4346A23599A49B04,
+	ExternApi_ArPlane_getExtentZ_m54A7B536E8E4EA71F5834BCFD98D9416248BA686,
+	ExternApi_ArPlane_getType_mC81EEBF45409B72F9840D60ED7284E9CF5C044D5,
+	ExternApi_ArPlane_getPolygonSize_mD5618FD3CE014C7E957148D996F47CE3CC43E910,
+	ExternApi_ArPlane_getPolygon_m068566C41AB7D4535CDD29A1906971668D7DE3C8,
+	ExternApi_ArPlane_isPoseInExtents_mDAB5110E69D31B743FFCA934D2BA2A7E8DB14125,
+	ExternApi_ArPlane_isPoseInPolygon_mCCA944D047D8FDA94CE05741E69396FFA918743C,
+	PointApi__ctor_mDD4EC103B2E0276CC4326156A5C036ED20AD296E,
+	PointApi_GetPose_m63190512DDD53141EF1EBE92EE355165E8088960,
+	PointApi_GetInstantPlacementPointPose_m756FA6939D2A3FFEF722B9AF96639FEACE36BFBE,
+	PointApi_GetInstantPlacementPointTrackingMethod_mAA7B56B526BB48EAB7BD7437C27C3B0D29FB9373,
+	PointApi_GetOrientationMode_mD2F929A5443E7223ADF0E16BE4CCA53AC72995BF,
+	ExternApi_ArPoint_getPose_m18F245CAF5276F425B04B9AD2EEAAFD662F8ED39,
+	ExternApi_ArPoint_getOrientationMode_m8F721B7D1D1C777D6DDD9F2C07F23BBFD90546FD,
+	ExternApi_ArInstantPlacementPoint_getPose_mEC192CC80224C979CAA10E6612898B7996EAAE83,
+	ExternApi_ArInstantPlacementPoint_getTrackingMethod_m9D2A599E88472F2D6BF3506D60623E8E7714258A,
+	PointCloudApi__ctor_m89EEB6D1C2BC4924F987AE44BE3C4FD0CB1E0E05,
+	PointCloudApi_GetTimestamp_m783631EEB9388D364517AFF4ED63EF35768C63B5,
+	PointCloudApi_GetNumberOfPoints_m1247CDDB383A96EB1F2530C81D8EE6D276A2CAB0,
+	PointCloudApi_GetPoint_m58592B69EAAE2081A15A0970DE9CBA2CDF1A7A8D,
+	PointCloudApi_Release_m12F13291108B4D606F7F10EAA2873721C2B041E2,
+	PointCloudApi_GetPointId_m3638B6CE494019D41452212290E449F02F01C7DF,
+	ExternApi_ArPointCloud_getTimestamp_m532109ACA66B3D87C63422E8CF902DFB4E732061,
+	ExternApi_ArPointCloud_getNumberOfPoints_m5885E90BA5768F078DBF1F25673770D085C18AFA,
+	ExternApi_ArPointCloud_getData_mBB7D0E77FA885C6D5E5B768B83EAF79B3C960CF8,
+	ExternApi_ArPointCloud_getPointIds_m2BF9EF437AADB8ED3268B4542FDD5772389876D5,
+	ExternApi_ArPointCloud_release_mA56E20C6B757591CBDFE68BA91ACB21D468BC003,
+	PoseApi__ctor_mC92FC90123B47B358B19367D73023AFCBA96BD2B,
+	PoseApi_Create_mD79D050BEDF82B8193505761780C998BB2FFB69E,
+	PoseApi_Create_m5D71024A0D8C1E74C3E6920AB65CD1DC2A831E90,
+	PoseApi_Destroy_mA3C61417C8C22997F02BAE706A26B8723C76FA58,
+	PoseApi_ExtractPoseValue_mCFD919BA367F02CC32EDA34CA226004F011B4C8C,
+	ExternApi_ArPose_create_m696E74DEFCD8ED2B07FF066F80DEFFE05E443030,
+	ExternApi_ArPose_destroy_m8DEF4A1B9859A93A1E2F17A329AF8D0AB07587BE,
+	ExternApi_ArPose_getPoseRaw_mFA15CEEFB12D7E130D2DEE0A542095CBDC1C1229,
+	RecordingConfigApi__ctor_m1349BBC1EBE3E749C75979FFB15BEEDEB47686FD,
+	RecordingConfigApi_Create_m28B76CED767CA5BEA5C1E708E37768EE451DFE81,
+	RecordingConfigApi_Destory_m5404CEF8F4FDB4AF09925BCE153D8E5B3024F9E6,
+	ExternApi_ArRecordingConfig_create_mE3BC2A5DE9887B39DB49449FAD5BB7B4270CC785,
+	ExternApi_ArRecordingConfig_destroy_mF6F6C3B720482F3E64A39A03D48103611F0DE6E8,
+	ExternApi_ArRecordingConfig_setMp4DatasetFilePath_mDF397C8CDF276BBED9B9A520B1967F9CE2F2D725,
+	ExternApi_ArRecordingConfig_setAutoStopOnPause_m2F773B089AB6F1274575EA5B17375607DA15DAD5,
+	SessionApi__ctor_m00965A6413933D9C389CA0EEC06F01435DDD9E0B,
+	SessionApi_ReportEngineType_m05A842391EF8152E3FFBE9303150CE5DF64F9FB9,
+	SessionApi_GetSupportedCameraConfigurationsWithFilter_m15F9D8BEB9008EC65BBED28E8BE717F3769BC93D,
+	SessionApi_SetCameraConfig_m7F131BC49316DAA046307B8D9DB3002C97DD5DC6,
+	SessionApi_GetCameraConfig_m7FD46FD28A63C7179DC70E214D013E44BE397982,
+	SessionApi_GetAllTrackables_m514D986A3B15F674FDFC288B5D5C8F4C8BAE32FF,
+	SessionApi_SetDisplayGeometry_m95A357F1C63D42DB62BAC9ABCEFF771ACA657541,
+	SessionApi_CreateAnchor_mE252F31602E46CEFCA46DEDDA2EE60BD73F1B867,
+	SessionApi_CreateCloudAnchor_mBCD4693AC3848B8B5AA1E222260570BBA7932B7A,
+	SessionApi_ResolveCloudAnchor_mEF8B754B8E0C8FE5DD03BD78FA0971625B135970,
+	SessionApi_IsDepthModeSupported_mE181DEE4971318689291EF455DE67B3B0042C02C,
+	SessionApi_HostCloudAnchor_mF94FFB806299A7FE652E2CA5FF54946902F3F16C,
+	SessionApi_SetAuthToken_mE2D9E9981209309EC6FA866BC21408AB87B2E064,
+	SessionApi_EstimateFeatureMapQualityForHosting_m4C933F805E8459EF4C25963F4FF47EA5BD24102B,
+	SessionApi_GetPlaybackStatus_m555B936A73B08E9FF32D4F55118A4C8ADC4AA8E7,
+	SessionApi_SetPlaybackDataset_mDB89747A5C9210A26C3FFEBE2B1F9D5853A4B855,
+	SessionApi_GetRecordingStatus_m89E73DFBA18884134464A38AAFB26852F0320DE0,
+	SessionApi_StartRecording_m8CD9FB13840ACB450A81E6E4660EA5CBCCD01C7C,
+	SessionApi_StopRecording_m74126AE84C7ABDF5B7AFE80A014740A73E25D781,
+	SessionApi_CreateCameraConfig_m4AEF06334772F811EE209914DEAFBF73BB741271,
+	ExternApi_ArSession_configure_m8637198BFA0938504DB99B181D665D428EB07D00,
+	ExternApi_ArSession_getSupportedCameraConfigsWithFilter_mF10E7D8556187F32586065E2F68B4C3B96871A60,
+	ExternApi_ArSession_setCameraConfig_m30A13AAB8C45C702EFCCE7067F7FAE08F871C644,
+	ExternApi_ArSession_getCameraConfig_m7AADA5452FE540870E82A5D1923BA7B48CECF271,
+	ExternApi_ArSession_getAllTrackables_m03C7FD03F4437EB020344CF168C7EFC1F962F891,
+	ExternApi_ArSession_setDisplayGeometry_m756EA2FAA124616BD3D0169DE7EB61ABC48EB2E2,
+	ExternApi_ArSession_acquireNewAnchor_m32172C7511869AB69B4200DD018C53233A1D5C50,
+	ExternApi_ArSession_isDepthModeSupported_m4975195E12BF7FD508BA46B8AD162369710BD074,
+	ExternApi_ArSession_reportEngineType_m23BE2113DAAF82764F41B8475EB0A2EDBB985870,
+	ExternApi_ArSession_hostAndAcquireNewCloudAnchor_m81BFCE501EB46628A18D1AB8BEFCAD81B83A8594,
+	ExternApi_ArSession_resolveAndAcquireNewCloudAnchor_mC07DADBABDEE6E9BF97F83E2104A2C1ABD40A739,
+	ExternApi_ArSession_hostAndAcquireNewCloudAnchorWithTtl_m1CEED197842B2A13A4E3228C09EDFCFBFF73031C,
+	ExternApi_ArSession_setAuthToken_m0143341EECB5F50C3DAC42AFA473C0D25763F20B,
+	ExternApi_ArSession_estimateFeatureMapQualityForHosting_m98496F9A3EB6E1DD170CB38F3388D544A64FF436,
+	ExternApi_ArSession_getRecordingStatus_mA1B762C00184B3BF35B4290CA6D588E81FEEB812,
+	ExternApi_ArSession_startRecording_mEEA2F33CD786C74A76CCA64DAEA09308F3542F9C,
+	ExternApi_ArSession_stopRecording_mB60CB75FB11C083D9C8FFA515413963BC9A72883,
+	ExternApi_ArSession_getPlaybackStatus_m922E7FDB23E1B36215CB99B09601C4DC0210FFA4,
+	ExternApi_ArSession_setPlaybackDataset_m555447E58B0C8432B8843518DEFEE30D00532C7E,
+	SessionConfigApi__ctor_m5A10598DC6459444B333D4ACA873E0A5220BECE1,
+	SessionConfigApi_UpdateApiConfigWithARCoreSessionConfig_m4767BDC816BDD2FD83C5CB8F880CCC318D6A38B1,
+	SessionConfigApi_Create_m500A4E15A3283A2B4291D7BE3D52912D1D1BB743,
+	SessionConfigApi_Destroy_mA12A4B3E50A60546892E2ED7D7F2CE12A5F9FFB9,
+	ExternApi_ArConfig_create_m4ED2081BB0C6E0ED226D8547D726E0B9A34C5CFD,
+	ExternApi_ArConfig_destroy_m09E687BD22C6587A5168AD1D239E73507EA734F0,
+	ExternApi_ArConfig_setLightEstimationMode_m10DBFB29E71D128DADD86EED9D94CA64BB506105,
+	ExternApi_ArConfig_setPlaneFindingMode_mB9053621FD05501AE6D961337747FFCE87A68452,
+	ExternApi_ArConfig_setUpdateMode_mBF871D467F2626068679E5ABE1365843BDA45F36,
+	ExternApi_ArConfig_setCloudAnchorMode_mB9954062FA24D81638FDD4F8142B88BD36A57382,
+	ExternApi_ArConfig_setAugmentedImageDatabase_m664DA333750506314E7DAFD88F9C55EF7C5AD0F0,
+	ExternApi_ArConfig_setAugmentedFaceMode_m1E7ED4FCF10D20388711A2430B8371E139B0A432,
+	ExternApi_ArConfig_setFocusMode_m6C720580C5DEC96C3AFB814C01CDD18566D59AF4,
+	ExternApi_ArConfig_setDepthMode_m21985CBD5B9070737B48F6611A631A5D945A1A8B,
+	ExternApi_ArConfig_setInstantPlacementMode_mA16DF546C9AC1AAB2A914755D3117CA5331C9FF9,
+	TrackableApi__ctor_mA01D1F0EA6F52FF985026FDBD369C3779EE401CC,
+	TrackableApi_GetType_mC4BD4C8AE5AA1198BBEF81A1FBDCA4B0EBFFCC59,
+	TrackableApi_GetTrackingState_mD09F2537F188C9D736CD14D2D0634267F5E832CD,
+	TrackableApi_AcquireNewAnchor_m30857A941CB9E4AA480A9F31DA600523A89F6EEB,
+	TrackableApi_Release_m3D929ABA22555415D5A38FDE73311EFE4CEC5BE9,
+	TrackableApi_GetAnchors_m0B5728D818E1B13FC9BB0D145E79B21E1F02B5CB,
+	ExternApi_ArTrackable_getType_m10F54C850976867C16EC2EE7F8926AA45D668684,
+	ExternApi_ArTrackable_getTrackingState_m98DA5975F94E9CFC66D81948A35202D00EDAEF5A,
+	ExternApi_ArTrackable_acquireNewAnchor_mE6BBB046F615E787F5ACA74AB526DED9FF5775E5,
+	ExternApi_ArTrackable_release_m597C54E09E5144C705D600ADA04A33B444491872,
+	ExternApi_ArTrackable_getAnchors_mF76F8299569B15A8C0FF2FCD9CAA53166AB32C8D,
+	TrackableListApi__ctor_m1ACB02BEAD527688454F4C0F3942B4F989114070,
+	TrackableListApi_Create_m869B234AFDD891B49BD2FF3A29379446E24E8A7F,
+	TrackableListApi_Destroy_m3702CEB3E8B482BF20DF62ED8404DE5011206DBC,
+	TrackableListApi_GetCount_m23ABBA2CF431D2001FBB2B624D84887FC0212595,
+	TrackableListApi_AcquireItem_m7E73CBAA04239D2B6777968B128E9008404507BB,
+	ExternApi_ArTrackableList_create_m50822592656DA26F54648ECB9C9A65AC26B878A8,
+	ExternApi_ArTrackableList_destroy_m39968FB89E295610766F088A9A6723748EFC8A72,
+	ExternApi_ArTrackableList_getSize_m132188BDDC38224A8822DF68B3342E13566928FE,
+	ExternApi_ArTrackableList_acquireItem_m91711B05FA7244C3DF9471CA9DD0EF5243D583C2,
+	NULL,
+	NULL,
+	ExperimentBase_GetExperimentalFeatureFlags_mF260ABC11C655D2CB244A1F06B386DE27212179E,
+	ExperimentBase_OnUpdateSessionFeatures_m3FC8411BA09755F79E5F2C24D29C276F8916BC97,
+	ExperimentBase_OnEarlyUpdate_mAA4CDA2127199FAADBDA1A1034B8F45D4FA363B8,
+	ExperimentBase_IsConfigurationDirty_mB108411D84555981DF30D09AAF0E59E112B50083,
+	ExperimentBase_OnSetConfiguration_m498569D2653AC4210605496A41B425F6FAFB2F09,
+	ExperimentBase_IsManagingTrackableType_mA21318B425F8EAE95FF2A3AC5942BF19A5AF3EFC,
+	ExperimentBase_GetTrackableHitFlags_m834554DEE819E5B2533D468949F96C78C3DD8BEA,
+	ExperimentBase_TrackableFactory_mF13FA59F8E9DAF1CED42D54F83BA7C103ACB8BC1,
+	ExperimentBase__ctor_mB8320B2D2FECEE2C1AE6A2F2BB98205D652EA1E0,
+	ExperimentManager__ctor_mF6B10E395C432C0439132B29927EB7C11E1A2278,
+	ExperimentManager_get_Instance_m134D096AE4871E79F5E489DAE9A364FA8122FA6C,
+	ExperimentManager_get_IsSessionExperimental_m7B642F71B942F1620517B4334B5A23E6FF2379F5,
+	ExperimentManager_set_IsSessionExperimental_mE1BE50016F7458626BA66B1EC67D97755F6013B3,
+	ExperimentManager_get_IsConfigurationDirty_m6EAC204263BBFE4CA486E747800BA336D1B750E9,
+	ExperimentManager_Initialize_m0EEAB93E7F82371B844C193EE447690A53159D7B,
+	ExperimentManager_IsManagingTrackableType_m974E8B7A8700FEA3F8CC757EFE797AFD8CD8D720,
+	ExperimentManager_GetTrackableHitFlags_mBBEDB7286142A9AC2C80901EDF707478FEACC6F4,
+	ExperimentManager_TrackableFactory_m0D710C41F8E14C6E06BCE7F88B032068E33DC5EF,
+	ExperimentManager_OnUpdateSessionFeatures_mC62E862451A3B1809A0CADD0447E676E7BCE53FC,
+	ExperimentManager_OnEarlyUpdate_mCC4C34C6CB34A9A8D5B8621ADD145620624F19E9,
+	ExperimentManager_SetConfiguration_m2D9A9E2B93CB18E59B0CE5756D37B49D6695927F,
+	ExperimentManager_GetTrackableTypeManager_mB8067D7CC7A7EC89041152C5AA47FBA4F217C01A,
+	ARCoreAndroidLifecycleManager_add_UpdateSessionFeatures_m1A62AC715C0437DC1BE19F41BB7E1D7B2B82D9D3,
+	ARCoreAndroidLifecycleManager_remove_UpdateSessionFeatures_mAAB5063A3B2BE4313EF074B4351C8FD591A4FA4B,
+	ARCoreAndroidLifecycleManager_add_EarlyUpdate_m8F35D5740C6DA63E7F8BD72445C0AFF45DD59D44,
+	ARCoreAndroidLifecycleManager_remove_EarlyUpdate_mE943B92F126D6327A9BEE265727C4BB51759C0B1,
+	ARCoreAndroidLifecycleManager_add_OnSessionSetEnabled_m89812CABDA4C6312DA801AFA209BBDC171A8B82A,
+	ARCoreAndroidLifecycleManager_remove_OnSessionSetEnabled_m4E26C7B5402D720C353F764DC59EE17B6957B04C,
+	ARCoreAndroidLifecycleManager_add_OnSetConfiguration_mE75FC9A444CC070FE8719A64E8755D74887B0C3B,
+	ARCoreAndroidLifecycleManager_remove_OnSetConfiguration_m53FB3F81350BFE74A53BE4F4F7FE8F1C58766235,
+	ARCoreAndroidLifecycleManager_add_OnResetInstance_mAD0DE42EDD7354596C6672D9B87DA8CE41831FC8,
+	ARCoreAndroidLifecycleManager_remove_OnResetInstance_m4431F3BEC8688ECE6E131F495E58344A0AF9DAC2,
+	ARCoreAndroidLifecycleManager_get_Instance_m4A1FE2FB6262647FEC62D5B04C9D378828465471,
+	ARCoreAndroidLifecycleManager_get_SessionStatus_m953BC11149B0D01F05BE3AA9E8498EFA50BDA280,
+	ARCoreAndroidLifecycleManager_set_SessionStatus_m7700A412ECC59421C7F4DFE203DF2F6D3F70929A,
+	ARCoreAndroidLifecycleManager_get_LostTrackingReason_mD46958E170907DE3EA7EF8A74F71639746897769,
+	ARCoreAndroidLifecycleManager_set_LostTrackingReason_m7D67BCC223B66F070122983A3CF4DFA2E29EA7B2,
+	ARCoreAndroidLifecycleManager_get_SessionComponent_m56F3C89C2D67C03CB9EB69D10F91D0BA17436629,
+	ARCoreAndroidLifecycleManager_set_SessionComponent_m6399F8B946C2F6F888381543BFAA90613C60FDC7,
+	ARCoreAndroidLifecycleManager_get_NativeSession_m7BAC70F05CFDBA46D6DB43B5CF97F59B0F75129A,
+	ARCoreAndroidLifecycleManager_get_IsSessionChangedThisFrame_m604507EA8038B1443A2832252C342FD4CFC4FF3D,
+	ARCoreAndroidLifecycleManager_set_IsSessionChangedThisFrame_m9D024DEADD01CBC73A6EC5F87F729E10C4C6E043,
+	ARCoreAndroidLifecycleManager_get_BackgroundTexture_m025EC1F6AEB25347D97091A4D9269F167CD57C17,
+	ARCoreAndroidLifecycleManager_set_BackgroundTexture_mA9159DF44A0A151F0DCF7CC8E084920E5D72FB65,
+	ARCoreAndroidLifecycleManager_CheckApkAvailability_m0091639FEA05F7EA8E8820E2B100F265371CC636,
+	ARCoreAndroidLifecycleManager_RequestApkInstallation_m8873830287B510BBB03BCFFE762027FAC34DCDAC,
+	ARCoreAndroidLifecycleManager_CreateSession_m7B8B5BAF7B5290E233519D7B85889040CD724311,
+	ARCoreAndroidLifecycleManager_EnableSession_m6EB587856D7D562F8DCC5F709350C44530BC47EB,
+	ARCoreAndroidLifecycleManager_DisableSession_m6757FBA7813DD58B6828FBF87CF3DED3EA62D59C,
+	ARCoreAndroidLifecycleManager_ResetSession_mA31C90273B291B3D8FBB82E9E8D13485527281CE,
+	ARCoreAndroidLifecycleManager_ResetInstance_m1460F6C734EE968DDBECE0CA0A3AA7CC87336146,
+	ARCoreAndroidLifecycleManager_OnBeforeResumeSession_mB34F2AD6EA6B8B7C7B8F8AFF09AB2D609DD7AD55,
+	ARCoreAndroidLifecycleManager_OnEarlyUpdate_mCA22B9790768933F669671F36695276A3010DA9F,
+	ARCoreAndroidLifecycleManager_SetCameraTextureNameIfNecessary_mCD6F5C478F8FDA6D9BCE71F3527AE7702662C561,
+	ARCoreAndroidLifecycleManager_ArCoreHasValidTextureName_m238F8BAA8C6516664A389C04A37F7B367C7D2E4C,
+	ARCoreAndroidLifecycleManager_GenerateCameraTextureNames_m33BEB9845C21CBF26478240A85B2332E2DB0C118,
+	ARCoreAndroidLifecycleManager_Initialize_m01AFAA8754E52FC45C958D82D31B1F8D05FB6A61,
+	ARCoreAndroidLifecycleManager_UpdateTextureIfNeeded_m13C81B432181FED77204001F9A84585E33090F17,
+	ARCoreAndroidLifecycleManager_SetSessionEnabled_mCF16D1D845ACB9063F2A27635F8A58608027C3DF,
+	ARCoreAndroidLifecycleManager_SetCameraDirection_mA82FC18C3CA830004C927468A2736F663D4814E5,
+	ARCoreAndroidLifecycleManager_SetSessionConfiguration_mBE390F170529CC10D52287B3C82E9AB0D1B351AB,
+	ARCoreAndroidLifecycleManager_UpdateConfiguration_mB7B2825AEA29F6F008105A2660A84D8A4BC2B8AD,
+	ARCoreAndroidLifecycleManager_UpdateDisplayGeometry_m864AD8D712A09E271495A1BC3FFD332D3EE24FA4,
+	ARCoreAndroidLifecycleManager_GetNativeSession_m9527AF376006A3B6A50F943E4085E7106DA16019,
+	ARCoreAndroidLifecycleManager_FireOnSessionSetEnabled_mCA9ABE1E2170C79B6D4860FF514CD63E3AC39DE5,
+	ARCoreAndroidLifecycleManager_RequestPermissions_m7B5B315974D52CEC03DB591F904411D76C22EAFD,
+	ARCoreAndroidLifecycleManager__ctor_m02DBF3CB5210D3AFAC85D115012DE753AE2E344D,
+	ARCoreAndroidLifecycleManager__cctor_mD3203361DF8624AA759C71D567D6652CF95B3613,
+	ARCoreAndroidLifecycleManager_U3CRequestPermissionsU3Eb__80_0_mD4A2B1B1CCA6F0B001667E0EA11D88880EE682DD,
+	ExternApi_ArCoreUnity_getBackgroundTextureId_mA90448D74CE999CE60A680748F08F3B0113F9DE5,
+	ExternApi_ArPresto_setDisplayGeometry_mDBAB474FED470DAC7FA48434520BE7C4260EF320,
+	ExternApi_ArPresto_getSession_mE3BD0AD31E0CCBDCFDD364ECE9F00C9C5B297066,
+	ExternApi_ArPresto_setDeviceCameraDirection_m0AAA0C06E2BB517981D1292747F10CE513736D6B,
+	ExternApi_ArPresto_setCameraTextureNames_mC6711990D055F431D1E1FDBAB70446FE2DE3C55E,
+	ExternApi_ARCoreRenderingUtils_CreatePostUpdateFence_mBE4128A9CC6FB7D666A43C68BA97575A27CADB2C,
+	ExternApi_ArPresto_setEnabled_m22382082155D89FD66E3E49D5173ECFD9407D5FC,
+	ExternApi_ArPresto_getFrame_mA8743CC14BA4D538D63BE72BAFFAF7A661050962,
+	ExternApi_ArPresto_getStatus_m04ECECF61D94F507387ADDE33B73B97B88DAF570,
+	ExternApi_ArPresto_update_mAFA9B64E5AFADCB6580D4F6D2E143C7056274A7B,
+	ExternApi_ArPresto_setConfigurationDirty_mED9F0F1FF5D97C4D97A8EE308EABB91BDA269ED6,
+	ExternApi_ArPresto_reset_m344DBD1D49C7CC7575AD2A68E2239DB04C94E664,
+	ARPrestoCallbackManager_add_EarlyUpdate_m259EE6964A1D84527644E747F09FFF6C1E618300,
+	ARPrestoCallbackManager_remove_EarlyUpdate_m45F3BD9904E1177704F337A5397F5D3DE405670E,
+	ARPrestoCallbackManager_add_BeforeResumeSession_m8322D4E20D0763E562B67350D7EC97C3F94B3D7D,
+	ARPrestoCallbackManager_remove_BeforeResumeSession_m1D1A473B607EBDEB9F552D52B25A94027D8ED0FF,
+	ARPrestoCallbackManager_add_OnSetConfiguration_mC6A3C196656E5F8D0A0C9FD22E39480800308A13,
+	ARPrestoCallbackManager_remove_OnSetConfiguration_m6A232B83FB1A248CC55781B7E39D103488792D57,
+	ARPrestoCallbackManager_get_Instance_m03D95C9BB69B20356991BB262C6558F8ADA9A177,
+	ARPrestoCallbackManager_CheckApkAvailability_m8CF9B660983B50F8C6B62B26D6C99AE02E283EC1,
+	ARPrestoCallbackManager_RequestApkInstallation_m4FBFC74D1323186E4AF94826C20B4D1FBE79A783,
+	ARPrestoCallbackManager_IsCameraPermissionGranted_m58CB6E071E7DCD8ACB7A088EB5CB93A8F365B372,
+	ARPrestoCallbackManager_ResetInstance_mF4E958608A162A98EB6DFB8786F72951E98BB41D,
+	ARPrestoCallbackManager_SetAndroidPermissionCheck_m86105F936F4DB0173539F0F04D5950D4C955A70E,
+	ARPrestoCallbackManager_OnCheckApkAvailabilityResultTrampoline_m83F30B2A4B9D0606CFCE8566CB055D05490E6F3A,
+	ARPrestoCallbackManager_OnApkInstallationResultTrampoline_m60F2B49D1EDF2FBC9F94C25404FC074C02576434,
+	ARPrestoCallbackManager_RequestCameraPermissionTrampoline_mC5160BF403DF1658635DA198268C4D86085DC019,
+	ARPrestoCallbackManager_EarlyUpdateTrampoline_m4CF0C470F81A88C3F0834263DB08EA64321F989F,
+	ARPrestoCallbackManager_BeforeSetConfigurationTrampoline_m1B377529B31646E3BD31EDA6AE3532893C2C583F,
+	ARPrestoCallbackManager_BeforeResumeSessionTrampoline_mE933F1A1817DFFB7894A9A4531FA8A6EFB565100,
+	ARPrestoCallbackManager_Initialize_m9C6C1F110FC608F684069CD7F9F9F8CB18459985,
+	ARPrestoCallbackManager_OnCheckApkAvailabilityResult_m25DBF49831DCE3D578969599D37B0AD4E25D7D2E,
+	ARPrestoCallbackManager_OnRequestApkInstallationResult_mDF938B58A4F37E7BDD41BA6DB6FE8E88DC30DFC9,
+	ARPrestoCallbackManager_RequestCameraPermission_mB303F9894EBCB2FC7F8ADBBEACB917B57DE187C2,
+	ARPrestoCallbackManager__ctor_m4F2B554C43CCE2F0A04CCC68ABF6F32315C33152,
+	EarlyUpdateCallback__ctor_m57963AA2DD748865B0AD89E33AA8B0546F49B647,
+	EarlyUpdateCallback_Invoke_m45725053F315B477EBA9E786ED6A5A465DD16A87,
+	EarlyUpdateCallback_BeginInvoke_m0B8FB55CF685BEB1D6E5346263387B967D9F119A,
+	EarlyUpdateCallback_EndInvoke_m0389BE5D3201088FCB5756836C02580400E77BAD,
+	OnBeforeSetConfigurationCallback__ctor_mF0A1883BC19CB7A193E7B5F5F77F85A4181BB749,
+	OnBeforeSetConfigurationCallback_Invoke_mB8B8FC04C611C84609531E1CD3D8358A6B49ADDE,
+	OnBeforeSetConfigurationCallback_BeginInvoke_mE496E1B96FC6CB1718CA8CD70CEB33EFD2684518,
+	OnBeforeSetConfigurationCallback_EndInvoke_mE95A1F43AE0838325F19A0BE0BFF406AF28E1C4A,
+	OnBeforeResumeSessionCallback__ctor_mDFBF9FF2AA6E885BDE2215DE38644ECD5024A1C2,
+	OnBeforeResumeSessionCallback_Invoke_m858397574A61B36EC41F64A9B88855537A087A15,
+	OnBeforeResumeSessionCallback_BeginInvoke_m02815EE89B54426B6D707555721ECE887BFE7215,
+	OnBeforeResumeSessionCallback_EndInvoke_mCFB293B2297EA0AC83059E1908D0E6D499459560,
+	CameraPermissionRequestProvider__ctor_mA8E6C28F4180A2972822E20163C980325FEBBCDF,
+	CameraPermissionRequestProvider_Invoke_m1715E724ADDB8DFFC3D963F62A19B5B337440858,
+	CameraPermissionRequestProvider_BeginInvoke_m0FA4FD36A27741317E89A23347991E176C77A3A9,
+	CameraPermissionRequestProvider_EndInvoke_mEF005937E07C0BCDA237101DC7807A80E7F0855D,
+	CameraPermissionsResultCallback__ctor_m06B7C18DAD48303105A7A05713E14C7B1141D0BF,
+	CameraPermissionsResultCallback_Invoke_m74BBAC5BF0BBCFCB58E99C64C203166FEDA52642,
+	CameraPermissionsResultCallback_BeginInvoke_mA49CF75B424B3E4A35080FE59555564093F5D2AA,
+	CameraPermissionsResultCallback_EndInvoke_mCB717E75EEADD77EF6BA23C51513C6DA832DFE8E,
+	CheckApkAvailabilityResultCallback__ctor_mA2C8D1C265ED49835F481D45AD326D7DC056065F,
+	CheckApkAvailabilityResultCallback_Invoke_m500DD1101EB2BDB107047B10EFBD548ADE010BE4,
+	CheckApkAvailabilityResultCallback_BeginInvoke_mF9B9A6CB4A3ABC8907C3E4759B3584566E2259EA,
+	CheckApkAvailabilityResultCallback_EndInvoke_m0AED8D194D4529A0D31911B15BD61E2576515342,
+	RequestApkInstallationResultCallback__ctor_m75F0A8DB9D67D13DB2F229DAE3B126EA7AEF8299,
+	RequestApkInstallationResultCallback_Invoke_m154CDFFC5FF94CA9BF20FA9999375C1C2C05DFBA,
+	RequestApkInstallationResultCallback_BeginInvoke_mD14102666BC5BA812E98FB5F4D556EB30D223B01,
+	RequestApkInstallationResultCallback_EndInvoke_m82A1DE91BECDEE9DA68064C861558EF3C942359F,
+	SessionCreationResultCallback__ctor_mB40B046086485B43748B90211FB8D8CF82145A75,
+	SessionCreationResultCallback_Invoke_m060B68C5593E985D9DA6E3A99E0B076066B827E2,
+	SessionCreationResultCallback_BeginInvoke_mD8B4F587B914A49F832AF50D4150563EBDC757BF,
+	SessionCreationResultCallback_EndInvoke_mAF4DA3EC9CD4B2649BA69826700E37C2062F617D,
+	ExternApi_ArCoreUnity_getJniInfo_m1AF585CD0FA57D8D7E543B4120AE77F19C8B2531,
+	ExternApi_ArCoreUnity_setArPrestoInitialized_m07FFF169BD92A44AD7E0393182DDE1A7E0E4C50D,
+	ExternApi_ArPresto_initialize_mF039D8A76C9C17442E809760C5574FA736BD51C3,
+	ExternApi_ArPresto_checkApkAvailability_mBE3B3AE97CFC9507BC98DB531505BBDBAA2A8F25,
+	ExternApi_ArPresto_requestApkInstallation_m1C4BFAF8839E8E67B616988169F9EB2033784D4D,
+	U3CU3Ec__DisplayClass44_0__ctor_mEA46027DD66CBF9BCE44EDDE8EA9ABA820E0FFDB,
+	U3CU3Ec__DisplayClass44_0_U3CRequestCameraPermissionU3Eb__0_m18DEE013CA6D6227E3C2CD95D5FA198E6582DE92,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	LifecycleManager_get_Instance_mDDC3D090E8A00DD237434723651ED7BC1A7F2562,
+	LifecycleManager_ResetInstance_m3DADA26BFA9E5A810291DE526F06555AB59A68EF,
+	LifecycleManager__ctor_m675FB4C79DA5909235C5222650979BF1F2DA18FF,
+	PointCloudManager__ctor_m958AD18BB283509C68D2896DB582F2CD21443009,
+	PointCloudManager_get_PointCloudHandle_m1361B1E2B6EFDD626A93C266CC1A42BF3D2DF5FC,
+	PointCloudManager_set_PointCloudHandle_m1796AF40062F9A50B58F3D95E3E7805770044770,
+	PointCloudManager_get_IsPointCloudNew_m14AA786A96278807CFAB40FD8AA0BBC81062A6F1,
+	PointCloudManager_OnUpdate_m7987CB8710BF2E999F03640E6029F2172B6E1838,
+	TrackableManager__ctor_m4303AB086237E7A7FA0ACFC8CF15817A7E86955E,
+	TrackableManager_TrackableFactory_m89FB3D3FC0ADD099377EC4C195326F712270A953,
+	NULL,
+	NULL,
+	TrackableManager_ClearCachedTrackables_m34E2A3C9BCF2144845B0D9D1511B3EDF28895B5E,
+	ARCoreProjectSettings_get_Instance_m560A1018A19430532A385C9DD22E6A72D50E09A4,
+	ARCoreProjectSettings_Load_mB42F054542610EBA5F132BA784F642A3471AD169,
+	ARCoreProjectSettings_Save_m00414AFD23CE5DD269D2DF8FDFD941A8F49DBD5C,
+	ARCoreProjectSettings_IsAndroidApiKeyFieldDisplayed_m1BE8CE407A9CA34312A886FBA6EEBE055B3A8E86,
+	ARCoreProjectSettings_GetAndroidStrategyHelpInfo_mF7801046EE4A5F6836E8AC30F04D111FBE4A9655,
+	ARCoreProjectSettings_GetAndroidStrategyRange_mF8362CEE242FA2F82885A6707DBA3BF9CB081AD2,
+	ARCoreProjectSettings_IsIosApiKeyFieldDisplayed_mF11D9054E5B7C9D14F0A26A6880E2A94BC292871,
+	ARCoreProjectSettings_GetIosStrategyRange_m37DBD25B3DA88C781F89F25023A372B7D1207533,
+	ARCoreProjectSettings_GetIosStrategyHelpInfo_m865EC4A950482439C962732E86A26E119719B51D,
+	ARCoreProjectSettings__ctor_m60AFCEA39EC303015B0D6803FEE690A9FE98C94E,
+	ARCoreProjectSettings__cctor_m7FAFAD4971A28240D1B5329DD155FAE6F6845C2E,
+	DisplayConditionAttribute__ctor_mD2CC6CE2701AC48235AD59EA9C00C9564247A5C2,
+	DisplayNameAttribute__ctor_mFF09F9F835B9140C5049606E1CA5ED141FB03B44,
+	DynamicHelpAttribute__ctor_mA73D0284A48BA0A8B66E67E60CDF4DA0F81A358A,
+	EnumRangeAttribute__ctor_m35D4274785B8EBD1B0E74EA44A35A32AA48E9B2A,
+	ARDebug_LogError_mABBAE51E5B59E186765D33F75E4F21FA3C5EBA3D,
+	ARDebug_LogErrorFormat_mA6C2AB606A1391648B9187B6C62E0A3E03D57C38,
+	ARDebug__ctor_m866B1F91E5DA911DBE2E6388A38274BA60E958D8,
+	AndroidNativeHelper_GetDisplayRotation_mEC48CFB79CC9C3C481CC72F859746283A07F0805,
+	AndroidNativeHelper__ctor_m956F6E395E847E28307825ACEDB0F6DADB88DD3D,
+	ConversionHelper_UnityPoseToApiPose_m8A849F3BE2890015767620A9E627CD0276A8AEE5,
+	ConversionHelper_ApiPoseToUnityPose_m4F715993588B1D7FECF27071AFFE0FA50917839F,
+	ConversionHelper_ApiVectorToUnityVector_m5E125355EA51EFFAEE749907B43F48682D296AF4,
+	ConversionHelper__ctor_m6ED1A6961699330348B66D916AC82591F3B0888A,
+	ConversionHelper__cctor_m663F66364A56F3ACEDFBD865E2EA7BABD10FA3F0,
+	DependentModulesManager_GetModules_m2D6B3F0FAF561935F9F0611B908AF34273199B7A,
+	DependentModulesManager__ctor_m6FF53CA21AA944BD87E85B0DD20D9930DC860FF4,
+	NULL,
+	NULL,
+	NULL,
+	DllImportNoop__ctor_m0DAABE1C5E4A5D196D21C129653C1146DB6BB654,
+	HelpAttribute__ctor_mC02B159F46023A060AD03DFAB2ABFD091745BE13,
+	IntPtrEqualityComparer_Equals_m7EA558982D90E881128049EDDCFEDA4B01B1DCBA,
+	IntPtrEqualityComparer_GetHashCode_m665D2F35A3036F8A555A077A4AD2F3650F366A90,
+	IntPtrEqualityComparer__ctor_mEA35D3EAE04688FB7732363769080AEB926224F1,
+	NULL,
+	NULL,
+	MarshalingHelper__ctor_mB0453A8D07B38E580FA5D4E041A5832F74B8293A,
+	OpenGL_glGetError_mE3F924F6798D7670CAECD14FD4294730B204D78E,
+	OpenGL_glGenTextures_m3BF8711561796FD860D758FAB698777C7CD82B60,
+	OpenGL_glBindTexture_m4C913E92AF29262C72C4E3044857D50F62A9A9C3,
+	ShellHelper_RunCommand_m4128394A59634C7B2E5804BDBAD1432DD2B5F18B,
+	ShellHelper_GetAdbPath_m942481F6ECF56AD4FEE44462D49F410EC16D9D80,
+	ShellHelper_GetAdbFileName_mEA91D296CF591BBA5F4EEC181099416BA2BAECB3,
+	U3CU3Ec__DisplayClass0_0__ctor_m20F131D123A2C7B175E8D8EBCC7EC6B19ABFB4D8,
+	U3CU3Ec__DisplayClass0_0_U3CRunCommandU3Eb__0_mECA49AD5E5FBF42E78E3D029F13F63F06C5F7F49,
+	U3CU3Ec__DisplayClass0_0_U3CRunCommandU3Eb__1_mD625D81D584AECCB9153C57012E69AA169B9CC69,
+	SuppressMemoryAllocationErrorAttribute__ctor_mE6149C39C914B236A4C7044E58F33C5A2A523373,
+	SuppressMemoryAllocationErrorAttribute_get_IsWarning_m361825948A2EAF15B652FB79AE7E61644ACC1648,
+	SuppressMemoryAllocationErrorAttribute_set_IsWarning_mEFCDD49433B9E7BEE8D521B6D5A6B57435201B10,
+	SuppressMemoryAllocationErrorAttribute_get_Reason_m67A343438C32699A303B285351F5E27A24B35E59,
+	SuppressMemoryAllocationErrorAttribute_set_Reason_mD579752BEB9785DA0CDE53A2EE0AC6C025707D4C,
+	ThrottledLogMessage__ctor_m6F9613930C91B373EC4F8F4F829AFEDBDBDC459C,
+	ThrottledLogMessage_ThrottledLogWarningFormat_mD565390D0DB4E4A24F365063862907AF8CBEBA17,
+	ThrottledLogMessage_ShouldLog_m91971BFF61B0E3B0B0608E31D35C6C846478413B,
+	CloudServiceManager_get_Instance_m1B6F9FC0F64273DF16B530B46C1706D1213E0C62,
+	CloudServiceManager_CreateCloudAnchor_m30D1B1474903D977F132A28463421D9086BCA76A,
+	CloudServiceManager_CreateCloudAnchor_mEB901F4FF4E153DDC8D64751AD7DA12BC6E28C7A,
+	CloudServiceManager_ResolveCloudAnchor_mBD8E39F4F8CE47999830581EA0C3D1DB73547FDF,
+	CloudServiceManager_CancelCloudAnchorAsyncTask_m1C8C9A0D76F8B763F573DEB846CF6F8551945284,
+	CloudServiceManager_CreateCloudAnchor_m91101F2DE9FA5AA115FEA9CA63FE0CA2D346A5CF,
+	CloudServiceManager_CreateCloudAnchor_mC48DB044129D8622FDCC7E78EAECC55346E4F5A1,
+	CloudServiceManager_SetAuthToken_m52A5035F5DB70DC6E8C8C09576C2DF30E5E9858B,
+	CloudServiceManager_EstimateFeatureMapQualityForHosting_m34B92096D46E4115C9F78B94E1AED20AECE12535,
+	CloudServiceManager_CreateCloudAnchorResultAsyncTask_mABC34504530B4681357651F95EC74BA10657BD15,
+	CloudServiceManager_CreateAndTrackCloudAnchorRequest_m16CCDF3F3BE52905BB5AA455785ED3B42ACC2CB1,
+	CloudServiceManager_CreateCloudAnchor_m4773352CCD25ADA1BBB21CE6FFD146E6C352E8BC,
+	CloudServiceManager_CreateCloudAnchor_mD4F2F0CD760207383B51722D8ED1BD72CD767034,
+	CloudServiceManager_CancelCloudAnchorRequest_m396A2C25CACCC3E3796CDBF210CF42F105067951,
+	CloudServiceManager_ResetInstance_m6A738B9740AB1D11DF053B5792E1F4C01F6B4AEB,
+	CloudServiceManager_OnEarlyUpdate_mFB1EE1F77E97230A40FFA0CDE3D1F5DC054EC0BE,
+	CloudServiceManager_UpdateCloudAnchorRequest_m3CDA0B1C6BFF7C8D25B29C65CB2121BDCBFFF779,
+	CloudServiceManager__ctor_m18AF885B2BAA23D98B28090F3D71E2DD1015D2E5,
+	ExternApi_ARKitAnchor_create_m63DD59CF8AD9F1D9C49C2D860F5923EE3B662E65,
+	ExternApi_ARKitAnchor_release_mA8898D2CDF5FEE68F8E69AC2C9A9C27760D1FE08,
+	CloudAnchorRequest__ctor_m6AA5EAFE49CCEE85D4A0C06F3941D3DC9B119F04,
+	U3CU3Ec__cctor_mA88F175C060D085668C5DA8DF150F8BAF13A24D2,
+	U3CU3Ec__ctor_mEF496D1D5CA6E2C3A4AF29691F7CB1F97052AEA0,
+	U3CU3Ec_U3CCancelCloudAnchorRequestU3Eb__16_0_mD48D3472B26D1DE76DB8BA346DAAF6598FE84C46,
+	U3CU3Ec_U3COnEarlyUpdateU3Eb__18_0_m164CBA387E0282CFD235641AEBFDFE299464A826,
+	InstantPreviewInput_get_inputString_mC5493D6D339519D93FE744A7413CAF7192AF93DB,
+	InstantPreviewInput_get_touches_m689C3D501675C7925190F24F410474E493A00B75,
+	InstantPreviewInput_get_touchCount_m35EB2374852D3DCB44ACDC3F1930348F95DBD432,
+	InstantPreviewInput_get_mousePosition_m3A6DB6BE4B4824DB0E21D9F199B396EF5A7E6E7B,
+	InstantPreviewInput_get_mousePresent_m00F5141D17CBF2F2527C9E879B1FEEE469BBEC2A,
+	InstantPreviewInput_GetTouch_m6AA92D813B6334666D9FA1F76F77FBAA5AC20077,
+	InstantPreviewInput_GetKey_m32F47E397F9A3A7ACCFAB0577420F9737FCA525E,
+	InstantPreviewInput_GetMouseButton_m3EBA43A954F9018EF8BCAFBC3126B9FF2B69E029,
+	InstantPreviewInput_GetMouseButtonDown_m50B4302321F6ED7CBA33C9D17029EC515E3A174D,
+	InstantPreviewInput_GetMouseButtonUp_m909C7A6B2B7460080A9CEE6D529073DF1AD71D41,
+	InstantPreviewInput_Update_m65DE7E123596CE3C41EAA8A0F6A4610D42B29EB7,
+	InstantPreviewInput__cctor_m89335DFA25E45E0EAF761A4FFECD08629A08E1A3,
+	NativeApi_GetTouches_mA5D8F9DF53E05455A744CF1EF51D2C70E00585A2,
+	NativeApi_UnityGotTouches_m947A9BB55CE2DB4F2366E6125B8B06FEC880106F,
+	U3CU3Ec__DisplayClass17_0__ctor_m5278B1C9E1E7F9037CD4BAECEA66C8263BF27E65,
+	U3CU3Ec__DisplayClass17_0_U3CUpdateU3Eb__0_mB33A5975A654C60B7B8983BA976ECF7B247045F1,
+	InstantPreviewTrackedPoseDriver_Update_mFA0FAE9348B9CA782AB7FF720602EF9B72574EC7,
+	InstantPreviewTrackedPoseDriver__ctor_m0954FBF0DFFD93DAD41B2A18D898597C209DA7D6,
+	ARCoreBackgroundRenderer_OnEnable_m3551F668793F78703ADF0EBC230A50E6B9EABA62,
+	ARCoreBackgroundRenderer_OnDisable_m1FD35B46CC63087B82BB558F2308B3DF1CCD273E,
+	ARCoreBackgroundRenderer_OnPreRender_m0F47E5877B9F117F3FD5B07FCCC755B392EEB349,
+	ARCoreBackgroundRenderer_OnPostRender_m590B9C4DB530369823F3E33E50E0F4EFFAFC1D15,
+	ARCoreBackgroundRenderer_Update_m450142E347BC9D533E3D3633384FC87A5E000895,
+	ARCoreBackgroundRenderer_UpdateState_m3F2DB8AE4D1BDC77A38465B18AE02999503A41CA,
+	ARCoreBackgroundRenderer_UpdateShaderVariables_mD1A6AC2AA5E63C06558CB53F2376245794A48A85,
+	ARCoreBackgroundRenderer_OnSessionSetEnabled_m6C8E1C05B76522EBC6A2FB9EC5B9CD994FD12B8A,
+	ARCoreBackgroundRenderer_CosineLerp_mF6234E47BA220969AB78198D07C2145BA9391511,
+	ARCoreBackgroundRenderer_TextureTransform_m7B33EBC73AEFEE3D1824E80E79A706CAE3AE4D5C,
+	ARCoreBackgroundRenderer_EnableARBackgroundRendering_m0812A1EB134FE87E59C2B3EFE917613CCA44449C,
+	ARCoreBackgroundRenderer_DisableARBackgroundRendering_m0C91FC263718DFF63EFDBA8DD68BCBE4EB862D12,
+	ARCoreBackgroundRenderer__ctor_mD970EC607B47326A88D48C7E2A02EC838E50C122,
+	ARCoreBackgroundRenderer__cctor_mBD2A277098710F94643C90EDB860ECCE76D43C44,
+	ExternApi_ARCoreRenderingUtils_GetRenderEventFunc_m3BEAC8F2E614D9CF92E1208672262E0C75E1EE35,
+	ARCoreCameraConfigFilter_OnValidate_mA6373D73E6911C590CF1E8A0592708B2667E91C5,
+	ARCoreCameraConfigFilter__ctor_m5088B127061FBA0428101058454D1280EF3FBC2F,
+	TargetCameraFramerateFilter__ctor_m326BB673141C9DE39AA841681A27EF5DC2FB614C,
+	DepthSensorUsageFilter__ctor_mC1FBB25E03AE53DD5214BB9072DB98E9D5269FFD,
+	StereoCameraUsageFilter__ctor_m217AE3E4E976317D7286B4420B8187D5687FC71F,
+	ARCoreRecordingConfig__ctor_m2F6A10C4277AFBB36A4F5EBFA6E5CCA1A0AB8340,
+	ARCoreSession_Awake_mE42AEAAB112938B7A9E5283D97CF65D96D109717,
+	ARCoreSession_OnDestroy_m20133E6D16EB6B1C3197F9A57F7992D09B9C398F,
+	ARCoreSession_OnEnable_m58C2CFE707E4A33806E240E612EE8AC7FE957F8B,
+	ARCoreSession_OnDisable_m73F055AEA8D704C06718B963B18D21B9E61644BD,
+	ARCoreSession_OnValidate_mF6F1A169E09D05AD9AD2D75986F061F92D29275E,
+	ARCoreSession_RegisterChooseCameraConfigurationCallback_mFCE35E3BC41030425C250DE37B5647C8D468383F,
+	ARCoreSession_GetChooseCameraConfigurationCallback_mCBE460D1E81312B791E22F133239264126668506,
+	ARCoreSession__ctor_mB8A9BCF700BD400C5787B7D335DC108F9ED493AC,
+	OnChooseCameraConfigurationDelegate__ctor_m69DBFFF2DB28A56C8618E16706800CDD9D8867EB,
+	OnChooseCameraConfigurationDelegate_Invoke_m2D2C53A61841FF1D4F0EE27DD6FFCFE69FC23737,
+	OnChooseCameraConfigurationDelegate_BeginInvoke_mF74D24E357BE48E530064F905F9A94B759BB28F9,
+	OnChooseCameraConfigurationDelegate_EndInvoke_m1528F6A92B42CF50726FBA4B5362A48F0FBDBD91,
+	ARCoreSessionConfig_get_EnablePlaneFinding_m35B4F068F491D802913B5B3199BFD71E40941DA5,
+	ARCoreSessionConfig_set_EnablePlaneFinding_m88FE9191310FCDE7D2DB0F3127E9A8DBEF0CF404,
+	ARCoreSessionConfig_get_EnableLightEstimation_m862E7C509DE03E8216B281C990CBEE70F1987DE9,
+	ARCoreSessionConfig_set_EnableLightEstimation_m46AAD69CBDE06AF3250007238F3EA504A34D2133,
+	ARCoreSessionConfig_get_EnableCloudAnchor_mB2D0AF6541FB3E83A84846174537A635C013BEDE,
+	ARCoreSessionConfig_set_EnableCloudAnchor_m430DBD4EDD9912EFE93A36EF9FB34CEA9520B647,
+	ARCoreSessionConfig_Equals_mC592A53827E96A27CBF3AB7B7D7CE54A72066066,
+	ARCoreSessionConfig_GetHashCode_m5EB1AD3DCC168EEC1A3CF9190196BF4D3257E5C8,
+	ARCoreSessionConfig_CopyFrom_mC67E35AE933E89480196B5284A9EDECA7B59F801,
+	ARCoreSessionConfig_OnValidate_m82E9BF73D1E1B435BD6C9D463205ABA6FB6D2882,
+	ARCoreSessionConfig__ctor_m701363C4F5440F9A1D13C59CC74310514789A019,
+	Anchor_get_TrackingState_mE67114ABA6356E0219E6BD9A798FAA805774B367,
+	Anchor_get__nativeSession_m9D3431933368A94ECF5D98D0EFD83BD49B934B82,
+	Anchor_set__nativeSession_mAF6AAAF401198155142F20498BBDB93297E159AB,
+	Anchor_get__nativeHandle_m4389D0800B6398061C457360A02CACD96A6F031B,
+	Anchor_set__nativeHandle_m7485FE645C21E1CA2423F9F60DFE1F8F8C29FEB5,
+	Anchor_Factory_m6708B90A6F469F1143CEC20D000D63D0A8E8B262,
+	Anchor_Update_mCDD0474A9CBB2732235DA301E4B9504FB011C330,
+	Anchor_OnDestroy_mB8E1C6FFCC354D83F9ECE62DD9BA4D3EFFB2E28A,
+	Anchor_IsSessionDestroyed_mBF1FE7821ED0540E40667E089DD8C6A7FCCDB78B,
+	Anchor__ctor_mD98F10A81E90B9E7DE08DD775C3715F7F61DFB63,
+	Anchor__cctor_mAC3C1F75A9454DF78B969E57E38BB3FB83BFDA25,
+	AndroidPermissionsManager__ctor_mB31918A611E0C28C8D3A71E0686697A99CD1AAA5,
+	AndroidPermissionsManager_IsPermissionGranted_mBF5A0A33F7FE635CDDBA10841BA5BA530621EB06,
+	AndroidPermissionsManager_RequestPermission_mC5B346626166EAC8EA4774843EFC3CEE1055ADBE,
+	AndroidPermissionsManager_RequestAndroidPermission_m291BD36228AA7CB8AF3CE831A11C432D2CFD6392,
+	AndroidPermissionsManager_OnPermissionGranted_mC5F80A4C77BBBB5F16A0729391B7A50D413CC6C2,
+	AndroidPermissionsManager_OnPermissionDenied_m43D5360DD5A2B759D8865E499046DFACCB81E13F,
+	AndroidPermissionsManager_OnActivityResult_m2BB73A1CA840325734BA7B37AE582417D3C55E8C,
+	AndroidPermissionsManager_GetInstance_mF88E8DCC1AE985C8E1B79B3D4FE976CB6BB120D0,
+	AndroidPermissionsManager_GetUnityActivity_mF2ECBCC42060509B4CF5B43AFCA42D5F9DCADA47,
+	AndroidPermissionsManager_GetPermissionsService_mB9278230270FFE8257AE39AFFEBCC2FCFFE2886E,
+	AndroidPermissionsManager_OnPermissionResult_mD3AF1929BAE3B8D40D2A7FAA746F1895AFF00FF2,
+	AndroidPermissionsManager__cctor_m994A431346170BD0F7490BD39EE1C0A4288FCECD,
+	AndroidPermissionsRequestResult__ctor_m0D1A6593BF4A0D8C23B9FCD52D79EFB5DA36850A_AdjustorThunk,
+	AndroidPermissionsRequestResult_get_PermissionNames_m3D11FBF0DC9372B7FC9007B054722252FE8D4E69_AdjustorThunk,
+	AndroidPermissionsRequestResult_set_PermissionNames_m1B8BE87193234B48541BD2BC67FF8DE08ACA16B3_AdjustorThunk,
+	AndroidPermissionsRequestResult_get_GrantResults_m4BAE332947D61F7DF1624FBCDB6483E0E89C074D_AdjustorThunk,
+	AndroidPermissionsRequestResult_set_GrantResults_m6B486059B32D26D8764191D511B19FB1C0ADA0DC_AdjustorThunk,
+	AndroidPermissionsRequestResult_get_IsAllGranted_mB6231F02790A3AF7AB392026A878C7445B31F879_AdjustorThunk,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	AsyncTask_get_IsInitialized_mC258EF0D0D4CB7C25713FD2574641127284EBB58,
+	AsyncTask_set_IsInitialized_mADA6E885D9779BCD06C84D2F9B1FE7E753B44E0A,
+	AsyncTask_PerformActionInUpdate_m3AA08E1F2666A4823F5CD72CC9B7197C211130BD,
+	AsyncTask_OnUpdate_m15747531A3B522338556A3D6C48D8D61B0BBC09E,
+	AsyncTask_InitAsyncTask_mC94AB4F1F04B084E187AF0A6ABECF186CBF20A10,
+	AsyncTask_ResetAsyncTask_mC728784B290D654EAA4CD573ABFEC32720EE8F69,
+	AsyncTask__ctor_mA10AF754AE318FE9196C6FF7DD17F3B216850D5A,
+	AsyncTask__cctor_m8A3D39A22838E5BD70F07A1064BC73EF61CD9BD6,
+	AugmentedFace__ctor_mED73196F0469C88BCC61911804E7B84E79B3AFE7,
+	AugmentedFace_get_CenterPose_m5F487CA9F9BED5BD593165E3E6E30F334AC70ED0,
+	AugmentedFace_GetRegionPose_m47FFBD5E04A9E6BC3FD568AF5CEAE11EF10FAF9C,
+	AugmentedFace_GetVertices_m80343756E825D912921CB0199DBFA860D839C8B7,
+	AugmentedFace_GetTextureCoordinates_mC389358F7DFB62E311043E4F00DA4EB4C6198543,
+	AugmentedFace_GetNormals_m3F606B9D0887BC13F6214CF04BB6A3FE6C811DB3,
+	AugmentedFace_GetTriangleIndices_mCBFB00FDC7C0EBB49147B9FD5C138DB1B9A91F00,
+	AugmentedImage__ctor_mE5DFF7953A1007DDFB61F1BE4436FA324B8E488A,
+	AugmentedImage_get_DatabaseIndex_m45C5C87292E2F57797F93E9D1DC5DADACCACA385,
+	AugmentedImage_get_Name_m57307C4C9994857BB0C16CD86BDEDFAC63AB41B9,
+	AugmentedImage_get_CenterPose_m19D78748108E47A4F91799100B6FE3A49617FC27,
+	AugmentedImage_get_ExtentX_mCF2EAE35D987CD5E06FD4AE3EC5914CFD67AC47C,
+	AugmentedImage_get_ExtentZ_mC2BD28EEBA749D0CB97B41315B660B0BACD9171A,
+	AugmentedImage_get_TrackingMethod_mBD30160B9E640C9CB735F374290BF92AAF75EA6E,
+	AugmentedImageDatabase__ctor_m8D66B51FE0BFD955E4C21F58463F3B955CD298C3,
+	AugmentedImageDatabase_get_Count_m95779DAA112ED0DB5D6F6AD6593E9C4BFD922DA1,
+	AugmentedImageDatabase_get__isDirty_mF8020BC1E3572B5B5897EAADE1F46F49E3CC598E,
+	AugmentedImageDatabase_set__isDirty_mFA65019616F5C5D4635D3B5397C6631B26E65B1D,
+	AugmentedImageDatabase_get__nativeHandle_mB8133829D95F233CC041125F5FB44A15EFE13A53,
+	AugmentedImageDatabase_set__nativeHandle_m404BB13C8001A75545701048970B7D7E3DEBC7A3,
+	AugmentedImageDatabase_get_Item_m4E7060E62DAD0C41F6EA8CDAD4B761AAFB411852,
+	AugmentedImageDatabase_AddImage_mD57AC60EAC52F654AE806589C5C656EFFB524E7F,
+	AugmentedImageDatabase_AddImage_m946650CB2FC7880A8D3C1A9025FFF26F2C653EE0,
+	AugmentedImageDatabaseEntry__ctor_mCC84306C332A0471CB5C4074600602ECEB607F0A_AdjustorThunk,
+	AugmentedImageSrc__ctor_mCEDABF4AE0391A282E24E6072BE277EAB687F9B7,
+	AugmentedImageSrc_get__format_mCE06830AB40CC5B8E37CC307C0B31FC3AD5EBD54,
+	AugmentedImageSrc_set__format_mA93D2764A27885125C1D24069FC5019F6F0A2D09,
+	AugmentedImageSrc_get__pixels_m6E392BE854E2E2A6748EB6EA7A81EF712C69F09B,
+	AugmentedImageSrc_set__pixels_mA666ABDEC272AADC679E3146E2704B5637694414,
+	AugmentedImageSrc_get__height_mDE266DD5A6D3617F89311C9B037D6E979AA7333A,
+	AugmentedImageSrc_set__height_m18D13B5F9E5BBBD58854F59C52002566D6534B4D,
+	AugmentedImageSrc_get__width_mA0C413B87C7C4958CCECDE14097C2137C69BFAA2,
+	AugmentedImageSrc_set__width_m59D443D1537CC5CB10133D66C9801302CEFE3B66,
+	CameraConfig__ctor_m20552A600CFE8EF6563128431FE1DE6DB167B32F_AdjustorThunk,
+	CameraConfig_get_ImageSize_mE15084C898263241A9FD29C3E3A706674A04C8B1_AdjustorThunk,
+	CameraConfig_set_ImageSize_mA971CA13E2B274355131BC0F19105D49F283276D_AdjustorThunk,
+	CameraConfig_get_TextureSize_mF0BDBD4356EC843D6D452078459D57113F46C74B_AdjustorThunk,
+	CameraConfig_set_TextureSize_m5271FFAEF3440B905D148630403017983CF722B5_AdjustorThunk,
+	CameraConfig_get_MinFPS_m3F7CCEBBCEEB80CDC21F0A42840B762C94DA4AAD_AdjustorThunk,
+	CameraConfig_set_MinFPS_mC926EAB0551FEBB354890F8C7B9735C137814FF9_AdjustorThunk,
+	CameraConfig_get_MaxFPS_m3AB55ED36FCEB92AB39A3C84FF8DF127E3C5D608_AdjustorThunk,
+	CameraConfig_set_MaxFPS_m62FA578E86EE9006A8C31A4E9209481D0356D4A5_AdjustorThunk,
+	CameraConfig_get_DepthSensorUsage_m23643C2DDE7C8B1F829A84FE4289F6453657F608_AdjustorThunk,
+	CameraConfig_set_DepthSensorUsage_mA1B634AFF069A80A5503603855E1D45A9781E5AA_AdjustorThunk,
+	CameraConfig_get_StereoCameraUsage_m3753CBC8710CBC6C23EBB5A4DB64D91A854FABA2_AdjustorThunk,
+	CameraConfig_set_StereoCameraUsage_m4136594CA1B634FAF9C4073BE36220B636037A03_AdjustorThunk,
+	CameraImageBytes__ctor_m81AB1C3C96D86D2E7DBE94645F04D187777231AD_AdjustorThunk,
+	CameraImageBytes_get_IsAvailable_m902A9BDE960F082ADE1AC369A8DC57DBEA82FB79_AdjustorThunk,
+	CameraImageBytes_set_IsAvailable_m9498E128E8E349D811DA4FEBCD2F97CF86F70D83_AdjustorThunk,
+	CameraImageBytes_get_Width_m3C2081AD065D4250578729FAA2D0CD8AC026D5E1_AdjustorThunk,
+	CameraImageBytes_set_Width_m4C942AC605660944CE2042C72D783E35BBB67B6D_AdjustorThunk,
+	CameraImageBytes_get_Height_m4B67600CECF7D4D457160BC8ED5E36AED08C48B0_AdjustorThunk,
+	CameraImageBytes_set_Height_m0E4AC394EA231E017776A511E50BB83BEF63D1C0_AdjustorThunk,
+	CameraImageBytes_get_Y_mC080D9A201D6AC0A9961362B12EE5E0DB1DCFCA1_AdjustorThunk,
+	CameraImageBytes_set_Y_m36D8CF2DD6164B33EF1B9FE3D204A6CF3E3BBF5B_AdjustorThunk,
+	CameraImageBytes_get_U_mFAC887AB88C48948A26F712202C35271BA57FE61_AdjustorThunk,
+	CameraImageBytes_set_U_mF6A0D769B57B36094E5D580C5DE30CD62042578E_AdjustorThunk,
+	CameraImageBytes_get_V_m90213E0148E094797134FF6DE9C841F71C2F7531_AdjustorThunk,
+	CameraImageBytes_set_V_mBE84CB5528B13CEF081EAA2F126910C1B92206E7_AdjustorThunk,
+	CameraImageBytes_get_YRowStride_mCF2D30406687556BBAD6DE75E738D0C8B1A90162_AdjustorThunk,
+	CameraImageBytes_set_YRowStride_mCB2C856325D05DB67B9826F0E2062FAC4195E2CC_AdjustorThunk,
+	CameraImageBytes_get_UVPixelStride_mF891C03F6407A3FC7C74A2CB668905037E81E6D1_AdjustorThunk,
+	CameraImageBytes_set_UVPixelStride_m11A8437442B991559A22205C0A05923404814F0E_AdjustorThunk,
+	CameraImageBytes_get_UVRowStride_m8FC19FDA3E6E2722C3583D1733664E0BBB239083_AdjustorThunk,
+	CameraImageBytes_set_UVRowStride_mB45016DED6336F485BF4C5AFF583CBAA12638BD6_AdjustorThunk,
+	CameraImageBytes_Release_m352F34E053CE406787442C5F698D50EFB5C0C458_AdjustorThunk,
+	CameraImageBytes_Dispose_mDB068A6483143D5AF017F243E928EAECFD261FB8_AdjustorThunk,
+	CameraIntrinsics__ctor_m96537FC425924E1CB7B41237662BBE09D7711C35_AdjustorThunk,
+	CameraMetadataValue__ctor_m2006BD09C205C54CBC7AF0D94869BE92C4360949_AdjustorThunk,
+	CameraMetadataValue__ctor_m479E594AFA6FDB64603099BC966CD34A5CD40935_AdjustorThunk,
+	CameraMetadataValue__ctor_m791DB045F0ACE8B87DC05B3DA2B7559915B0DD7D_AdjustorThunk,
+	CameraMetadataValue__ctor_mD41B030FE8EF718911106B60EF256FE662D7722A_AdjustorThunk,
+	CameraMetadataValue__ctor_mF04A5F2181E8349392F376F1737EB94AA4331AB8_AdjustorThunk,
+	CameraMetadataValue__ctor_m5BA811CD78826395D7461D23E9C5324FE7C5DDD7_AdjustorThunk,
+	CameraMetadataValue_get_ValueType_m148E46D73CFF76E58F6826C08A2B5F2936A00DF4_AdjustorThunk,
+	CameraMetadataValue_AsByte_mFB69A9B3858C99893C9F62CF5928E8578C835513_AdjustorThunk,
+	CameraMetadataValue_AsInt_mFD084EF223FC8929325035506D9CFAE372F3DA7C_AdjustorThunk,
+	CameraMetadataValue_AsFloat_m574F980346DB342FC98FA604AB4180E314920D07_AdjustorThunk,
+	CameraMetadataValue_AsLong_m0A4076235121B531878E47A5D770F71B54BCDAEA_AdjustorThunk,
+	CameraMetadataValue_AsDouble_mA58D942DC75FD4975A0307DEFD16065C22B4E8E9_AdjustorThunk,
+	CameraMetadataValue_AsRational_m209F625A9318DCF13AC3134C28DD463B6AE58122_AdjustorThunk,
+	CameraMetadataValue_LogError_m6502FC39926823DAA701C37BE9FF024AA9AC89A2_AdjustorThunk,
+	TrackedPlane__ctor_m5FE26E2E006DEB398638737095EAA157E3FEE3AA,
+	TrackedPlane_get_SubsumedBy_m93312066459A800B802E874B89987F1B5B56C5C3,
+	TrackedPoint__ctor_m350B5F8EE85E0691CF22539E69882CCA17D7FFC9,
+	TrackedPoint_get_OrientationMode_m94B61E06276A2AFEA3BB5D9E81479671722EB8D7,
+	DetectedPlane__ctor_m68AF79F5E72B78F9C9ED059308FA5280C45D519C,
+	DetectedPlane_get_SubsumedBy_m8901D05D370DA8011427338E6272C7C4B9F91680,
+	DetectedPlane_get_CenterPose_m7C86581D60BF89E5F8554A03A21936A76DAAF1EC,
+	DetectedPlane_get_ExtentX_mCA253C8FCD1CF3CDA762D0F66754420904342A9C,
+	DetectedPlane_get_ExtentZ_m392E24ECD4E6C7898D996489BF92289EEFFCE960,
+	DetectedPlane_get_PlaneType_mF59336E2BED3B9C34ADAEB89D4B3FF539C072D26,
+	DetectedPlane_GetBoundaryPolygon_mF6A99EC7BF74DBF511CE29CA283E3A868212337B,
+	DisplayUvCoordinateTypeExtension_ToApiCoordinates2dType_mD201BEAFA69EBF639B005799A11B57594E1E349B,
+	DisplayUvCoords__ctor_mF896193EA18358E0A75BE702A1DF0626080626FE_AdjustorThunk,
+	DisplayUvCoords_op_Implicit_mB56B02B22992A56F69C0641CD3BFB05D12015810,
+	DisplayUvCoords__cctor_mC1A784B1CDA7A0307253B283300FCBC8C5E84C8F,
+	EnvironmentalLight_Update_m69A21350ADF6D49F4A14670318128C1B98262EEA,
+	EnvironmentalLight__ctor_mE6A8FDF0BA24822E3A79539BA18BAF665E50FD50,
+	FeaturePoint__ctor_m2EA644B1A9D8B8DBDF7C0F9FA7536E6BE6B50734,
+	FeaturePoint_get_Pose_m445C9C443F5C933B78FD30B992880346BF3B47D1,
+	FeaturePoint_get_OrientationMode_mF542E7366DADAC302F0D78F8F2873E3CE5736AE8,
+	Frame_get_Pose_m11AF5B26AD8B48C57B8EEDCDDDF065BB14E938A5,
+	Frame_get_LightEstimate_mA7B3415381516FCAAA78D5A8996C5B6B757DA0CA,
+	Frame_Raycast_m5ED32D7F60C77F46285E5963A6983FD4A6AA039A,
+	Frame_RaycastInstantPlacement_m896600D69915BC8459BF9705C1EC5EA0FA215478,
+	Frame_Raycast_m39FDFC8DA0C47695B947A5EA0532FD6CF1756A18,
+	Frame_RaycastAll_m8C0BE51D701B215047E6122961E3C458E32B8702,
+	Frame_RaycastAll_m2F525E02AF172E899F878CCFD8C83F8A04C7E1DC,
+	Frame__ctor_m0E70462A45484BC92E4BF345CBCBCCBDA4DA2853,
+	Frame__cctor_m164E64FAD92938A26CD4261D9072B711DC02D328,
+	CameraMetadata_TryGetValues_mB2CFD5AB568EFEA86BF848B897D0A4668B431CD5,
+	CameraMetadata_GetAllCameraMetadataTags_m1EF73AEF0A2B4318E3FF3F13126F1D3BE388C32C,
+	PointCloud_get_IsUpdatedThisFrame_m5FFE657725DE76A0DEF8A9FB27A640F2B14371F2,
+	PointCloud_get_PointCount_m1DCCD43D5D4A90108A7A56A7798FECCEB246168F,
+	PointCloud_GetPoint_m58BD0BEA4F08BE084921BBBD53A61F10A87A3D9D,
+	PointCloud_GetPointAsStruct_mE3C5E7194133CED79A48DB2629851BB839A56D65,
+	PointCloud_CopyPoints_m56EC75D109497717E71C066C552BF4DCF2E590D7,
+	CameraImage_get_Texture_m696EF313A0448445275AF96D76A86344F9620C2C,
+	CameraImage_get_DisplayUvCoords_mA863FF4D032B7E8E944A6865951A812D97289772,
+	CameraImage_get_TextureDisplayUvs_m2344A140F34873341C39789BF377538A4C0423BC,
+	CameraImage_get_ImageDisplayUvs_mEBCAB63D1574D29138119104F40726815C3993DB,
+	CameraImage_get_TextureIntrinsics_mE86CCC75C4162F755ED4635F5810ECCFFA15A808,
+	CameraImage_get_ImageIntrinsics_m26472C47410411CF84BA0CE31DAEE6808E385026,
+	CameraImage_TransformCoordinate_m84013FCE8A4793938DC301D3E9DFC8B9887F23E8,
+	CameraImage_AcquireCameraImageBytes_m005BFAE6B0B8E85642E62C824DACC598B6F9BC6F,
+	CameraImage_GetCameraProjectionMatrix_mEFAA0AB6300C6B84948498F83D8086CDECAF32F9,
+	CameraImage_UpdateDepthTexture_mB22D38E47768AB191F08463F8E2A5935B2E892EC,
+	NULL,
+	InstantPlacementPoint__ctor_m228EE4CD196BAAA6ED6370517EF4C7208EEE8A06,
+	InstantPlacementPoint_get_Pose_m181F747512161839384317E1CEA3E8FA263930CC,
+	InstantPlacementPoint_get_TrackingMethod_mE8CD56DE2FD663C285C9AB265662642C2BC59790,
+	LightEstimate__ctor_mDE37E5F7641E60B4C7A7E8666F5AA0603119207A_AdjustorThunk,
+	LightEstimate__ctor_m67758CAE25BDDB381AA180665FE90938E0FEEF80_AdjustorThunk,
+	LightEstimate_get_Mode_mB16BA6A1A5623C8F088BF36C86ACABE82889D1DD_AdjustorThunk,
+	LightEstimate_set_Mode_mC495E818E1EADE44D9DA898514AC55E8117EFD5F_AdjustorThunk,
+	LightEstimate_get_State_mB4BFD250977744201434E0810D23B40483112B0B_AdjustorThunk,
+	LightEstimate_set_State_m42E12EBE9CC333E15D79E19419B7E823FCDFE555_AdjustorThunk,
+	LightEstimate_get_PixelIntensity_mD8DC01A00D8E869BCAE4FA81EE7A81A02745BD4F_AdjustorThunk,
+	LightEstimate_set_PixelIntensity_m7642C93D663C0F5CC08B11BF94DDFA796C95F415_AdjustorThunk,
+	LightEstimate_get_ColorCorrection_mEC1A39D7026A3934EED7143714ACBB6AEED970D6_AdjustorThunk,
+	LightEstimate_set_ColorCorrection_m6B0DD69545F2E450B6C1FCFC3F13B13A078F0F40_AdjustorThunk,
+	LightEstimate_get_DirectionalLightRotation_mFEC1F6AB28302DD968EC59A1CD76C6EC46709228_AdjustorThunk,
+	LightEstimate_set_DirectionalLightRotation_m06FE1F726DC23D7F1B63EFA553383A2293FD6E71_AdjustorThunk,
+	LightEstimate_get_DirectionalLightColor_m78A82D0BC4A6137311A91E19E788FDCA4A363A7D_AdjustorThunk,
+	LightEstimate_set_DirectionalLightColor_m697B7C1C412D80FBAE79A8FC26E818A98A6F5F8E_AdjustorThunk,
+	LightEstimate_get_AmbientProbe_mF997A2237AEC27BA6068F89B87B4F508F02C780B_AdjustorThunk,
+	LightEstimate_set_AmbientProbe_mFC0663F1A3B31743BFED8B35E2199B453A8D118D_AdjustorThunk,
+	LightEstimate_get_ReflectionProbe_mCE75A96BB8084756AAF812BF770DABCA27CA58B4_AdjustorThunk,
+	LightEstimate_get_Timestamp_m3BDA494617CACD8DED5F1B472F10370201123E52_AdjustorThunk,
+	LightEstimate_set_Timestamp_m57D9B0087E77FBBD39DD26A9E5F990721D7268AA_AdjustorThunk,
+	LightEstimate_InitializeLightEstimateMode_m23C0CAB62F37BACA4A1CA5B588CBDA68B2E10576_AdjustorThunk,
+	PointCloudPoint__ctor_m85AB242C4EF5B52326A04712885209C3098A4B2D_AdjustorThunk,
+	PointCloudPoint_get_Id_m6DBACEA8654BE9594464EC98E323D8B55473546B_AdjustorThunk,
+	PointCloudPoint_set_Id_m347D06F08793C70EDDA90B15B77F4F125FA78F57_AdjustorThunk,
+	PointCloudPoint_get_Position_m9C73CF998AF06060B50BF0BE0364106121163176_AdjustorThunk,
+	PointCloudPoint_set_Position_mC8FD4DCA8E503B64E5591046110F361BEACBEAA1_AdjustorThunk,
+	PointCloudPoint_get_Confidence_m6F3C62388A262AD5035B925BD1CB441325E8D0FC_AdjustorThunk,
+	PointCloudPoint_set_Confidence_mAC7972980E7CD33E75E782EB50485B49A062F61F_AdjustorThunk,
+	PointCloudPoint_op_Implicit_mB47775DA245EE1974D50AB85D6161D0B53083469,
+	Session_get_Status_mDAD0DB1DA8CD27F815B08E8EDC926AF06F88AFAB,
+	Session_get_LostTrackingReason_mD97D3A5368B8E06ADC29B411CB78DCB8C78E31BF,
+	Session_get_RecordingStatus_m3DAAF5406D368A7DF759F32CEDEBB151EBA301F0,
+	Session_get_PlaybackStatus_m7DCA8CACA8240E22A60799BC3515143A9D6CA519,
+	Session_CreateAnchor_m0B4CFA5F26CA684277C06752F455DB3AD9C0491D,
+	NULL,
+	Session_GetCameraConfig_mA5EB28BC2101B9BC3D09DC01D7A0E1C340DBF6B0,
+	Session_CheckApkAvailability_m66F67E262A46E44195D48BABE258ED6F071BBD59,
+	Session_RequestApkInstallation_mF285710C11BEE00CB247ADA3C03E064A482A658D,
+	Session_IsDepthModeSupported_mC33172931838BC04874B6C76111C589D4FC39274,
+	Session_StartRecording_mAF175574D97FFA306C43B452D298947FEA297AED,
+	Session_StopRecording_m97655B6BAD60E6472461BF209D919B2DC9D3909B,
+	Session_SetPlaybackDataset_m4A84C2739B9EE338927703D52A6F78885F2E51EB,
+	SessionStatusExtensions_IsNotInitialized_m3DC49F4C872E1050D16B005ACFF502F9380982C9,
+	SessionStatusExtensions_IsValid_m498E54E87EADCE92AF60748419AC427F571E8C0C,
+	SessionStatusExtensions_IsError_m4E27C4946A0C4FFB63DF04C6CA1656390B3AF844,
+	Trackable__ctor_m1E233EF59F5AE3D0988A9CC6F403811522228833,
+	Trackable__ctor_m32DF2DCB0ED25EED72EDDBB1BF490DEA0CF7EA48,
+	Trackable_Finalize_mD5F6618FDB75AA9A4ADA1FECC013EFD1579EB4C5,
+	Trackable_get_TrackingState_m7E875B65F50FAD9B2B0602BB52BDEFBF77B3598F,
+	Trackable_CreateAnchor_m3CDAEB7BC54B2F51792E2ED21983006200B4647A,
+	Trackable_GetAllAnchors_m72B25907B0B7A9A6AD88BDF4EDF75062B0E72B17,
+	Trackable_IsSessionDestroyed_mF130A5C3FE09AC375D47ADDE6C88D9B0FA51F1D6,
+	TrackableHit__ctor_m1E469ADA7B22212ADE71E38E2323B032BC59ABE0_AdjustorThunk,
+	TrackableHit_get_Pose_m724DDF1536051D050B90AB17B4F3803015A70784_AdjustorThunk,
+	TrackableHit_set_Pose_m52A3FE05A608283321F3DF3EAFE00CCE2E691EEE_AdjustorThunk,
+	TrackableHit_get_Distance_m0ED8EBBC90F7343347952B63392ACF43BB03B975_AdjustorThunk,
+	TrackableHit_set_Distance_mDD3B2E801D862FF3D9531AC042F495432E4DA129_AdjustorThunk,
+	TrackableHit_get_Flags_mEFB3039136A7B44F84359ED66E480C9C6A8DD40B_AdjustorThunk,
+	TrackableHit_set_Flags_m8C1BA3427CE50D7F05B91EBB8262AC69C072DF13_AdjustorThunk,
+	TrackableHit_get_Trackable_m0025274D8B54108849A8C36F31CDED1CDD698242_AdjustorThunk,
+	TrackableHit_set_Trackable_mA7A86038EFA102EBD519A2B47C5CA2AA77EB4354_AdjustorThunk,
+	VersionInfo__cctor_mED834C2A6C318AABAF69470011BCE2E451760EE0,
+	XPAnchor_get_CloudId_m372ACFEAD3F9CE19DBF834FC096D7F1DE887FCC9,
+	XPAnchor_set_CloudId_m44CFEA56217F641D22992005C4495C9366574068,
+	XPAnchor_get_TrackingState_mAE7E905AE2D494F1FD426A5BB17E6032EEE56B4F,
+	XPAnchor_get__nativeSession_m7B2A170B1C0F851543F3804C910E0E517D2034E1,
+	XPAnchor_set__nativeSession_m4BC51490A40502620AA6A86D7A94CE5CAFD9747A,
+	XPAnchor_get__nativeHandle_m63E6B2AAA798DCB40E68C1B92CE4CFF860D8A02C,
+	XPAnchor_set__nativeHandle_m7BAB2127A782A76B09A2509A105FB88E44E2462F,
+	XPAnchor_Factory_m9F5CFAC2BFFA67DFCD258893BC070D230AC91CD8,
+	XPAnchor_Update_mF4BA6863F7A303E5D3F18E5A646A5480AFED2E23,
+	XPAnchor_OnDestroy_m206D969801B236D291781034FCA7796ECC334988,
+	XPAnchor_IsSessionDestroyed_m5F1DD679024FFC92AAE58E9080951DD24BD22D9D,
+	XPAnchor__ctor_mE14F7AF4B28676CCF74E1BFAB6D92CAF6A7FF486,
+	XPAnchor__cctor_mC505CAB67BEF842A81F56E56C101FC0D6EDFE668,
+	XPSession_CreateCloudAnchor_m2CF4201F5B9D7A379ADE54C7C01DB23759C38493,
+	XPSession_ResolveCloudAnchor_m9B350C29B9DC83CD6A0B5933CF5DA5B1E3385F14,
+	XPSession_CancelCloudAnchorAsyncTask_m08B5B3699155017FA4E7E539018D25F3AE34F7D6,
+	XPSession_CreateCloudAnchor_m0BF3975026E315C0B4FC0D7CEDE6B5C7EC4B9FF0,
+	XPSession_EstimateFeatureMapQualityForHosting_m473E49C76CEC0A8F1C1AE7EBA8D8827FD1533FE7,
+	ARViewManager_GetCameraPose_mCFC592427CCB2BE7A5CAE79A5D51C49CF245E0FA,
+	ARViewManager_OnInputFieldValueChanged_m78FB2D9E21E520B9420EE090B0F1D37083B97199,
+	ARViewManager_OnSaveButtonClicked_mC239C60200B9DD2CB6D8541D40C8E7B1E0E2E385,
+	ARViewManager_OnShareButtonClicked_m41B11DCEE1250698DF8E536B1B8E652536ED0FB5,
+	ARViewManager_OnCopyCompleted_m9A1D56BD1C018C46FDF49BD23484C2B4FFB78952,
+	ARViewManager_Awake_m908C35C5D1A3DBF78243862C5EC66EABF0CCF4BA,
+	ARViewManager_OnEnable_mB7AF8EFD9D444EE806E29076A42E00F2228E9803,
+	ARViewManager_OnDisable_m5AE6090EB94D159C11A10CBCB23B04E06193E06C,
+	ARViewManager_Update_m0B2953381F9973D572602212527790713EC3B136,
+	ARViewManager_PerformHitTest_m2BAC46A2028B1B6C25C6AB5F96005C4563170C8D,
+	ARViewManager_HostingCloudAnchor_m452A360387B1930D01780BAD9F39B6D5046DFDB1,
+	ARViewManager_ResolvingCloudAnchors_mD0FF2AFAF09A699A02F6DE10735D3CCC90C1F28B,
+	ARViewManager_OnAnchorHostedFinished_m56FA19A0380C81A8D4573900F9EAC199EC020F08,
+	ARViewManager_OnAnchorResolvedFinished_mFA760805F679B023D53FD43259872CB30B7DB339,
+	ARViewManager_UpdateInitialInstruction_m73A8614D3A53CB1DC683D926661F720084537E0E,
+	ARViewManager_ARCoreLifecycleUpdate_mC36FEEB7CEEF15AAB46A8B2575E5133F8DB598A8,
+	ARViewManager_ReturnToHomePage_mA511E03C21F36E0E328D5DABCE4B3EFD1888AABF,
+	ARViewManager_DoReturnToHomePage_m2D485D498CC428EE5F9F25FB9C9ABDF5C285F7C1,
+	ARViewManager_DoHideInstructionBar_mC7F2E92AC5EA82B74BBF133FF9D2290B0B86C79F,
+	ARViewManager_SetSaveButtonActive_m128CBE1427FC434244F57764CDC78E0617F7B6A9,
+	ARViewManager__ctor_m9D6E2DDC6F51F5B28AB323FF01265A2445F266B3,
+	ARViewManager_U3CHostingCloudAnchorU3Eb__33_0_mE1202971C1B45F0E782FC7CB34833825A8AE7BA0,
+	U3CU3Ec__DisplayClass34_0__ctor_m7F4C1147C61728E3334AF89E5B050DE5CCEB251B,
+	U3CU3Ec__DisplayClass34_0_U3CResolvingCloudAnchorsU3Eb__0_mD2E7431E6B32BD92C9E814B059ED5F90AC555578,
+	CircleRenderer_SetAlpha_mECEB57F2B05C8F33056706CD6E8CF22B79EB6D6B,
+	CircleRenderer_DrawArc_mEF149784C1C7E25ABE8FE137C5B0F2613C4F6EEC,
+	CircleRenderer_Update_m2EE936F063C356347E6A4FC90DEE10C83B04AF37,
+	CircleRenderer__ctor_mE5EEF8CA66CF6F6E8D8048729B72780417B94914,
+	CloudAnchorHistory__ctor_m4EB733CAC6891BBF6C9A903B428B3EC20B3EF82A_AdjustorThunk,
+	CloudAnchorHistory__ctor_m833E3CFBF3BCA81E6566C2AD1C096298D02A6451_AdjustorThunk,
+	CloudAnchorHistory_get_CreatedTime_mD074BD455B818D6B09ECCD800BD5CDE3E86CAFE5_AdjustorThunk,
+	CloudAnchorHistory_ToString_m244EA2CA6FD0DF150DE35904C198609AF388E7C2_AdjustorThunk,
+	CloudAnchorHistoryCollection__ctor_m9A159FAC48824DACE11C70124B538056C176F22B,
+	DoubleLabelsItem_SetLabels_m946FC839FCFC47DB8D8193831310060F9A0D52C4,
+	DoubleLabelsItem__ctor_mF321EBD9535F69E699344F78FC596ED43AE15669,
+	MapQualityBar_get_IsVisited_m9152F7C2FABBE6A1C98941A8C40F5A1055775C39,
+	MapQualityBar_set_IsVisited_m39D84AB650CB59105AF873F66303D07632B78C3D,
+	MapQualityBar_get_QualityState_m66167B4D27A260614945DC7E72898621D0C1C586,
+	MapQualityBar_set_QualityState_mFC4E0AAC2FC778C7078E5F33690FF17547E32697,
+	MapQualityBar_get_Weight_mF1758879F4AEF88A45F0BEF2ED801325B8F4BE16,
+	MapQualityBar_SetAlpha_mD9FB750B6E61E8DBD3BEDE2A8503C02DD02B895A,
+	MapQualityBar_Update_m627E1F7C632E27E59E7BAEDF464AD0D47FE84172,
+	MapQualityBar__ctor_m40FE48CE9DA4E2339A376A905F129EF3399403E8,
+	MapQualityBar__cctor_mE0E10A309282BD7D606B2036C4E704FD986B8912,
+	MapQualityIndicator_get_ReachQualityThreshold_mDC4F0621A068223FF06856CE36836380018DABF9,
+	MapQualityIndicator_get_ReachTopviewAngle_m6D6D657A5CE136F47671EA3237BC6914C1EA6C70,
+	MapQualityIndicator_DrawIndicator_m45F002FFC47F1A26CDDE86539C863F00079716C9,
+	MapQualityIndicator_Awake_m9C6CCB5906692E65BD5122B4B00C4A49DAD8AFD0,
+	MapQualityIndicator_Update_m1497F8E4813C17F3C17F1153CB2CF47A8A708F82,
+	MapQualityIndicator_DrawRing_mCB3E69F894A1AD8E0F387BDE5D582E6BE390CE83,
+	MapQualityIndicator_DrawBars_mEF414F38B735862D39FE0F8FA0A51D77BE7E3B48,
+	MapQualityIndicator_IsLookingAtBar_mFAB07505526500FE68FEDB2FEC050BCD4060A356,
+	MapQualityIndicator_PlayDisappearAnimation_mB156B27669852CEA54FA7984154FAFD14A94C9F4,
+	MapQualityIndicator__ctor_mE30314007EBCC921BF6AD31FCD7C9078BCDD7F55,
+	MultiselectionDropdown_get_Options_m93037504689BD4421CC64A70127212DD6E2B8A6D,
+	MultiselectionDropdown_set_Options_m00F13CDB654315B4DEF728DCAEB025BC423A0736,
+	MultiselectionDropdown_get_SelectedValues_m2BD2120261BB64E3CCE904BCA829BCF55DEA77B5,
+	MultiselectionDropdown_Deselect_mA7471A74820C2CECE2FDA7683C9934DD272CBFAC,
+	MultiselectionDropdown_UnityEngine_EventSystems_IPointerClickHandler_OnPointerClick_m5937FE6B81A97E26A92BD0D5B668306118C23144,
+	MultiselectionDropdown_UnityEngine_EventSystems_ISubmitHandler_OnSubmit_m91461A175EBA9D2A6D2B94856F89F126D265C318,
+	MultiselectionDropdown_UnityEngine_EventSystems_ICancelHandler_OnCancel_m0E5628D0B03DD330875297EE799BB962CCB6106A,
+	MultiselectionDropdown_Awake_mEA2378FE06FE6F3920240FEE6F586955094F51DE,
+	MultiselectionDropdown_OnSelectionChanged_mE8D0485996E8E7CE70B27FCF6E315239E9CC33D5,
+	MultiselectionDropdown_UpdateOptionRect_m9180DE8D8B6F9800C08ED77E0C4EEDC49B4B149E,
+	MultiselectionDropdown__ctor_m933B72BE42323D077D5339870A9E157A2F3381E5,
+	OptionData__ctor_mBF7662CB9EED1EC7756E49EF3D2B422DF69EDC14,
+	PersistentCloudAnchorsController_get_MainCamera_m6E0AF46FC02D57146365B98055784C28CA5C769E,
+	PersistentCloudAnchorsController_get_PlaneGenerator_mD3C17C6EAFB4ABA8C33B83B6721B80DD64AF9A8E,
+	PersistentCloudAnchorsController_OnHostButtonClicked_m8FB1E0C4C8A569D92FCC13ACFE00D4171E3EE9BF,
+	PersistentCloudAnchorsController_OnResolveButtonClicked_mC8B8E415FCE1ECC600950C7D8A61F7A57C7CCA7E,
+	PersistentCloudAnchorsController_OnLearnMoreButtonClicked_mB1176718E8A03721FA55ABE48BCD61CC54C11CDE,
+	PersistentCloudAnchorsController_SwitchToHomePage_m176BA9FF99F81279F2AF4849D25E4270941FA781,
+	PersistentCloudAnchorsController_SwitchToResolveMenu_mEAFE913153357AA07A3B69632E2BA1414BA51A62,
+	PersistentCloudAnchorsController_SwitchToPrivacyPrompt_m58AA383611DA2A7C05BFEAA95EC8DC6FE81DE990,
+	PersistentCloudAnchorsController_SwitchToARView_mDC74EACB8ABBC691491E1B3255A5EDE88158102F,
+	PersistentCloudAnchorsController_LoadCloudAnchorHistory_mC1F53936F9319877F634697FD21106A2F5E013A5,
+	PersistentCloudAnchorsController_SaveCloudAnchorHistory_mE654DDCD166991A2F2342524BA530D378C0EB1F3,
+	PersistentCloudAnchorsController_Awake_mAA2E7AB583976B992D87CB5F6B3FFF998D61D3D5,
+	PersistentCloudAnchorsController_Update_mB4E675A63CECBA4F6E0680609BDD5D1B50C26C2B,
+	PersistentCloudAnchorsController_ResetAllViews_m580DC9B9E3F75297E3EE9BD5715670497B99519E,
+	PersistentCloudAnchorsController_SetPlatformActive_m96DA7A95CC63EDA6758B12E507BFD4B683B9A01F,
+	PersistentCloudAnchorsController__ctor_m4389C325D464B90629F67AD67F99B66E7470273B,
+	U3CU3Ec__DisplayClass27_0__ctor_m434B49A7EE2FB95A456B77D989E00470DB7AC0D1,
+	U3CU3Ec__DisplayClass27_0_U3CLoadCloudAnchorHistoryU3Eb__0_m5BD47AFF96692F142B74DE617EBFCAA976C781A0,
+	U3CU3Ec__cctor_m692E7B9971C51501E6D4BE49F4D4C6D21DE859BA,
+	U3CU3Ec__ctor_m02C9B7BFE219F8F7577C99418366BACADE95E71E,
+	U3CU3Ec_U3CSaveCloudAnchorHistoryU3Eb__28_0_mF869ED869714E8496AFBEDE86F3355745E4109C9,
+	ResolveMenuManager_OnInputFieldValueChanged_mBD5E92E41F514A9C9DE820E4F9E724A85ECB8ABC,
+	ResolveMenuManager_OnInputFieldEndEdit_m745E4FEFEAE79EBE6B21AFD009D79D8F8DD37C7E,
+	ResolveMenuManager_OnResolvingSelectionChanged_mFC545995F6C40C8B767159A9CC204B279F7285B6,
+	ResolveMenuManager_Awake_mB5F14884BCDAA5E7B3485E57A35651B5A8F2950B,
+	ResolveMenuManager_OnEnable_m9E92DF749CDF3CFC7E0E239BB5EFB967271CF23B,
+	ResolveMenuManager_OnDisable_m6D4319ABEC551DAAB137E3CB81A214F730D735EA,
+	ResolveMenuManager_FormatDateTime_m204A0618FEF71107325FC9FA290613C23DBE4088,
+	ResolveMenuManager_SetButtonActive_m9DAC6A686DC4B0763DB6573DDFBFBC8A055C3ABD,
+	ResolveMenuManager__ctor_m0A5069EF2B23D925F7F1015026AC8659E42FE1D7,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	GestureTouchesUtility__ctor_m489F9C9AF5ABFDEB9552E61C1CE59136B55D81DB,
+	GestureTouchesUtility_TryFindTouch_m55ADDE760E08FD7C063C305B0862EEDE6348CDD8,
+	GestureTouchesUtility_PixelsToInches_mCB45B125F694F12F933366C0211D9D2DD2B1DFD6,
+	GestureTouchesUtility_InchesToPixels_m5DE571151CC82993BA03A7539C452585A3F5F65D,
+	GestureTouchesUtility_IsTouchOffScreenEdge_mD12C5CEEAFE9EAF41AC830CC41DE3C9613505E9F,
+	GestureTouchesUtility_RaycastFromCamera_mCC6A0E33F53EA778DC6E19BA5E6D085D3663948B,
+	GestureTouchesUtility_LockFingerId_mFA848B03D45C51EF6D9B5E21BBE9491BCB42B03F,
+	GestureTouchesUtility_ReleaseFingerId_m3322C11D18157D390C1F2AE256BADB3CEA8DB1CE,
+	GestureTouchesUtility_IsFingerIdRetained_m1317D55860BF450242CDDD9962DD5D9BD486FAD2,
+	GestureTouchesUtility_GetInstance_m076662ACA5783F233E8BE0F7C6632AB306ACD645,
+	TransformationUtility_GetBestPlacementPosition_m2B565A4F916679BA98EDC233205BA39BE10D4E08,
+	TransformationUtility_LimitTranslation_m375B29B0F9B160D77C75836ABE4AE3AC2E466061,
+	TransformationUtility_IsPlaneTypeAllowed_mD481846F5C250769A785E83C6BEF2E8C2F2C69DA,
+	DragGesture__ctor_mE9E0DC848FB6A6EA3A5EE81AC4F405581703D5F7,
+	DragGesture_get_FingerId_m1C354D990849F7FF19F42CA138C0A287D6CDEA01,
+	DragGesture_set_FingerId_mEC0E39222EB65C1C2F65B01FBFE4BBAD73BED391,
+	DragGesture_get_StartPosition_mDF53DD8C9CF6B1559F2D81F98AA8E0611E39AB9E,
+	DragGesture_set_StartPosition_m5D2E900EEB0C53A1DADDA5590FB4B49BD6966683,
+	DragGesture_get_Position_mE21053D871BADD445C6BDF8431B31C9BCFA04757,
+	DragGesture_set_Position_mDAD3616E994C530F7B190DB1DCD46BAF92DC5D68,
+	DragGesture_get_Delta_mFF3112EDF21745F2A65CE016E734244C25AA838A,
+	DragGesture_set_Delta_m1FB52C92B4ED75298D0D75E9E2F32FB743D27146,
+	DragGesture_CanStart_m7AFBB3C9FD3A790D7E314DDDDC49712918DC289C,
+	DragGesture_OnStart_m65A1099F6D8FA26D9CAB235079DFCA22AEFD3613,
+	DragGesture_UpdateGesture_m8CF9E628D49E8B36B531447E2307C073CA400DE9,
+	DragGesture_OnCancel_mF22860FA6A47875BB628B8E82D32BE25ABCD8556,
+	DragGesture_OnFinish_mF91A6360663FF6E3CADE3B01F24AD4386D57BFDD,
+	DragGestureRecognizer_CreateGesture_mDC38F59A390723234A5AF46BB9B5A962DFA1828A,
+	DragGestureRecognizer_TryCreateGestures_mD5D53EF485DC7D2F6B60FA6DC8AD96542CE308B5,
+	DragGestureRecognizer__ctor_mF25B65D4CCD2908BFB24AA981BDBCBF10D05AD13,
+	PinchGesture__ctor_mFF7E8270E96F673FD030DD6374D419BCF34C5985,
+	PinchGesture_get_FingerId1_m40CE931FF1049F1589587FC39F3272CFB54C4646,
+	PinchGesture_set_FingerId1_m743A13092AA70101A295563E1BA600647962CD69,
+	PinchGesture_get_FingerId2_m848F0ED2E024D63DD35ED556B2BB0F61F99C210A,
+	PinchGesture_set_FingerId2_m886C874723954DD97C3E63EC853CB505E1D2776B,
+	PinchGesture_get_StartPosition1_m9AF235FB95F33761AA4502751D3BB110640F61BE,
+	PinchGesture_set_StartPosition1_mB43D3456F3B68B44031DC7DB327F3EDD09720A13,
+	PinchGesture_get_StartPosition2_m89DA37D24C951AF32AF36DCAAAF198E721397626,
+	PinchGesture_set_StartPosition2_m472B2177C731FF71EDC9800C36BE9953F3B27A18,
+	PinchGesture_get_Gap_m53369B9713B34D9AFB7BED9E74A11E1A3DA1CA1C,
+	PinchGesture_set_Gap_mF043B6FE5C240C979450FD05046BA7A4530C7A06,
+	PinchGesture_get_GapDelta_m541A0E0C1A3FC180C4BB4B5FEF10F4364E797396,
+	PinchGesture_set_GapDelta_mAB484B3CEDF618FDE9514EF9FCE848C5AA34675D,
+	PinchGesture_CanStart_m25180FB4EBEB271BA0ABCB98F6B2D16082BB0F12,
+	PinchGesture_OnStart_mADD27654542809060009DBAA72F6163D0CB3F545,
+	PinchGesture_UpdateGesture_m3661140F1006850065822CAB7BDBBD5BEF405F23,
+	PinchGesture_OnCancel_m7AC2DE804DCA39A67CF5BA892AAFF48F9779EF0B,
+	PinchGesture_OnFinish_m478AB3B05381C73213A8D8C74E69110C029932BB,
+	PinchGestureRecognizer_CreateGesture_mA2C5AC875FEC050BD51E4F0480A4E465E4D51037,
+	PinchGestureRecognizer_TryCreateGestures_mEEE760BF679BBA3950F335315EE70E380EE886B5,
+	PinchGestureRecognizer__ctor_m8350979E1ED3F2B04AD083D9B66EAF543E1F09D3,
+	TapGesture__ctor_m84FC8DC5DA06C0B62C9C5CFBE2BD5BF3524B4062,
+	TapGesture_get_FingerId_mC3B516F3B252E909682DE574C383C3F7AFBB8090,
+	TapGesture_set_FingerId_mFF67C8E1725A418C4C8A03283808E01A0A674166,
+	TapGesture_get_StartPosition_mDE15A8377525CD7FFAABD856056CA5F3E5B8B2AC,
+	TapGesture_set_StartPosition_mD88392FF940F3185537FBCEB69EEA6FD973DF132,
+	TapGesture_CanStart_m1702B70344D3545081259CB6EA4D862B48187F57,
+	TapGesture_OnStart_mA5D68A59C51EC3029FD51C049270292F3FAFB899,
+	TapGesture_UpdateGesture_mF6741175A28A1D42A5A36F8DEF9A0830B83A03A2,
+	TapGesture_OnCancel_m12BF6D6A2F857DE19A0D77AE6673895D2893EB11,
+	TapGesture_OnFinish_mD352BF892F0EC576ED5102BC9CBAB941EC4A9358,
+	TapGestureRecognizer_CreateGesture_m8ACCDA7AFA0F41B8E3755BE6BA0CCF9FE9CCB33B,
+	TapGestureRecognizer_TryCreateGestures_m136E2D51DC50B072173A6E3CAAB8F67CBBD3EE2A,
+	TapGestureRecognizer__ctor_mEEC13C927A3DEAFE13487C8C1362A995119B2606,
+	TwistGesture__ctor_mACCAC0C8A5199B93EB72F8B912D549ADC059B933,
+	TwistGesture_get_FingerId1_mD960FF79A556BBE282515BC5F7C88120A7961130,
+	TwistGesture_set_FingerId1_mCDE0CF744B5573CC1F40FCBEDFA720E2EBDEA801,
+	TwistGesture_get_FingerId2_m9D6D87BBBD37934F9C7C538D4C5DF08430000B7A,
+	TwistGesture_set_FingerId2_m17810F37DD3318F2CC082363A1289B4419875F66,
+	TwistGesture_get_StartPosition1_m21CF28434F217756AF2F3F400CCCAAEF114EB26C,
+	TwistGesture_set_StartPosition1_m74C5585FCFB8822A3472C2A335EFFED322FC77D2,
+	TwistGesture_get_StartPosition2_mA5D7B306AF97FE0A430C3BADE46668CCACD43C11,
+	TwistGesture_set_StartPosition2_mF58D301CC126DBC1A9CA563BD600CCAAC27C6AA2,
+	TwistGesture_get_DeltaRotation_m74BD83DB36EB50AA2505B6B23C9BF37736AD73B4,
+	TwistGesture_set_DeltaRotation_m4185D204F99B05A84A5DEA556F9CC6B77AA56D5B,
+	TwistGesture_CanStart_m43E73609602FC926DDD1036AB4AD635124DF6AD5,
+	TwistGesture_OnStart_m9E9614F0D96911F0AAB12E4BB8C103FD0929DDA9,
+	TwistGesture_UpdateGesture_mD35D91B678AFE7D5375149D09572BD5A6272ABE9,
+	TwistGesture_OnCancel_mF8D119025B02A0EEA4666FFFC776C7EFCD845FB9,
+	TwistGesture_OnFinish_mF6A95D9F301D8D79E46D4011A3C4D4AF6D349864,
+	TwistGesture_CalculateDeltaRotation_mD454DB46D2A106DAAD22840DE3236970AE04F9B1,
+	TwistGestureRecognizer_CreateGesture_m880AFFCAA7C7E511D3842B2D6952F9CBAEB42523,
+	TwistGestureRecognizer_TryCreateGestures_m40B0D4706EF3CAA15D03572C5B38F4BF0198B05A,
+	TwistGestureRecognizer__ctor_mE0A1B74525591FEC46B4064BD60F126527A01261,
+	TwoFingerDragGesture__ctor_m8F208797315C5D55D04467DB4F16AB1B91210455,
+	TwoFingerDragGesture_get_FingerId1_m4BA66064F8C91C180A67A101747E6B6BC405E7A2,
+	TwoFingerDragGesture_set_FingerId1_m93BB6EFA5699441A7C8FF2C5E9AC66EC109145B6,
+	TwoFingerDragGesture_get_FingerId2_m9B0590B5D3595FFBD1A7D03BFEE1BF6ED80691F1,
+	TwoFingerDragGesture_set_FingerId2_mB71666356AD3184045E20E3EBDE562A28F8E48EA,
+	TwoFingerDragGesture_get_StartPosition1_m4D1B09F37808713D90579224C49E838D2BA9316D,
+	TwoFingerDragGesture_set_StartPosition1_mAA3E1F7C155DE228DDB7FA448259A0DAA686FEDC,
+	TwoFingerDragGesture_get_StartPosition2_m88A010D2F2D318B4C9554E93D88C2F04D6882AC1,
+	TwoFingerDragGesture_set_StartPosition2_m80C70C21E07F998DA7B9F87E95DE201E320BA618,
+	TwoFingerDragGesture_get_Position_m2CEB641220776E657ABFB1BDE38EE9626BADF7CF,
+	TwoFingerDragGesture_set_Position_mFECEAF87A66B114848B2C5D0D4DDEF545813E158,
+	TwoFingerDragGesture_get_Delta_mE4537EFC12CA5DAFD15DF9B4F5B87DBDA45E5E08,
+	TwoFingerDragGesture_set_Delta_mB4BE678CADBEF1D68C76F89AF17F6734681ACF8B,
+	TwoFingerDragGesture_CanStart_mFD596861CC48F4698EA742E2E58D481BAA7F89D1,
+	TwoFingerDragGesture_OnStart_m18E41888FB751E7B2EE7C803EDA55FE84CDAE3EB,
+	TwoFingerDragGesture_UpdateGesture_m2E67366B6108A80B033C685862DC42631885B3CD,
+	TwoFingerDragGesture_OnCancel_m380BE121240FFD5B0249080DACCCD67809D5FE5C,
+	TwoFingerDragGesture_OnFinish_mD0E7D2E46605C8B1A644E94FF0A502015A4EE277,
+	TwoFingerDragGestureRecognizer_CreateGesture_m5547764D2E65075F4586791334ED758CAA15C0D4,
+	TwoFingerDragGestureRecognizer_TryCreateGestures_m980F8E9CFD068A2BD5DB7CEC070B0EA4795F4ED2,
+	TwoFingerDragGestureRecognizer__ctor_mA2BF1DC3094A5598463BCE764A0DBB9C76186C44,
+	ManipulationSystem_get_Instance_m162A0A9614E9510AD628A94F80F5867DB8F40CC5,
+	ManipulationSystem_get_DragGestureRecognizer_mE4B07C65E23BC35D1F512910F9FC9B587A1602E7,
+	ManipulationSystem_get_PinchGestureRecognizer_m51480E14A6733749FA53E922059FCEB6BA07F193,
+	ManipulationSystem_get_TwoFingerDragGestureRecognizer_m0C2F5DA4EE104025898F76AF1FE46CD5FC6C5613,
+	ManipulationSystem_get_TapGestureRecognizer_mB764FBFCDEE6BCBDC1AA06BB3B4781BC489A1EFC,
+	ManipulationSystem_get_TwistGestureRecognizer_m4C474E1AA52570ADE803043A4D9327AD29E67130,
+	ManipulationSystem_get_SelectedObject_m911D8C059206D102AD70DBFD14EE890E6E75FF5B,
+	ManipulationSystem_set_SelectedObject_m2BDF50A6700E258AB54FDDC9F9B0E013BBBDF404,
+	ManipulationSystem_Awake_mCC934CDD3D5003084B25C71486964355006F510C,
+	ManipulationSystem_Update_m96677985720B1ABF792B9BF8285336A1F5F0C5BD,
+	ManipulationSystem_Deselect_mA16CD593390A56B7576D923F918F450F19DF99A0,
+	ManipulationSystem_Select_m76ECABA46E1C067FD1342446BFE6C63A13496736,
+	ManipulationSystem__ctor_m694B4E8E8C00BD60D3D496EEC8A9E08715912AB1,
+	ManipulationSystem__cctor_mC703D3BAC53587393427B0FB073D727E81F0A723,
+	ElevationManipulator_CanStartManipulationForGesture_mF7909493296B118CCB4D6DF8BD804BED7C458571,
+	ElevationManipulator_OnStartManipulation_mD7F8E91521C3D63556549DF3E272B418AA118263,
+	ElevationManipulator_OnContinueManipulation_mF8B0989F86065CDAFA94E9B06515637C93724E01,
+	ElevationManipulator_OnEndManipulation_m831B908792453870F85A63F8F11A004C5CD2BE20,
+	ElevationManipulator_OnStartElevationVisualization_m38EC17901E25B0DDF56BBC033F455F78C2FF7348,
+	ElevationManipulator_OnContinueElevationVisualization_m344FA40789BE53087730B35D7F128CB73641D5C4,
+	ElevationManipulator_OnEndElevationVisualization_m11B39600BE131F689C152DE97B15DDED0CA3BC3F,
+	ElevationManipulator__ctor_m2579EC57ED8592339169AA7BDE9E387F4891DB5A,
+	Manipulator_Select_m2ABE5DA403A7B9D402315A2C37CE6008CB08963D,
+	Manipulator_Deselect_mC07812FB179325FF688E2EA31F2A6064FCCFEA7A,
+	Manipulator_IsSelected_mC4BD95EF61E04D1868B4DCB0DABB7D5E1F774D85,
+	Manipulator_CanStartManipulationForGesture_mFB28DEE2D716D446FDFD458C1CADC028629875BE,
+	Manipulator_CanStartManipulationForGesture_mBCA6E10F22F7855861AE4F23FE27F579CD7B2A8E,
+	Manipulator_CanStartManipulationForGesture_m2912C6321555ED26D02934C732F03A7E1B11374B,
+	Manipulator_CanStartManipulationForGesture_mB1A6B51CA7F207F14B924981AEDE87B920AE1B79,
+	Manipulator_CanStartManipulationForGesture_m85CC7BE9DC2C47B333893AB53489930FE021EF7B,
+	Manipulator_OnStartManipulation_m888B482ECC394855454865762BD691823D4A596D,
+	Manipulator_OnStartManipulation_mA6E3114C188EF85515108BC0D26359B7CAE6782C,
+	Manipulator_OnStartManipulation_m46758CF6F9418AA4A7B4B24360B8F180A23E76DB,
+	Manipulator_OnStartManipulation_mD6ECFA05A2611FB4DC8A64A7A0AAA6C2BFACF453,
+	Manipulator_OnStartManipulation_m0D90C09FEC23D548E1AD7B6D44F0F6AB1291519C,
+	Manipulator_OnContinueManipulation_m9B1F8B43289538673F21D70A4536D03C89B2AEB3,
+	Manipulator_OnContinueManipulation_mFC38B46CD42FF8D1621C65212C6AE7E864C60A49,
+	Manipulator_OnContinueManipulation_m98A48C518EBD0B9303AD4F76DD1704A2996E8F4B,
+	Manipulator_OnContinueManipulation_m13394A0D37C9F8815FB315591C37D63ECE411D8B,
+	Manipulator_OnContinueManipulation_mBF91C7264368B6A58AF8042DFA873C7600121401,
+	Manipulator_OnEndManipulation_m4FBE567E87444B17AB42136B858B5F5D0B78585C,
+	Manipulator_OnEndManipulation_m45FCF6033B52F1BAE0ED720F089A18485C34F312,
+	Manipulator_OnEndManipulation_m3E927DEF19015CD0F3035734AF373E6D8669C48B,
+	Manipulator_OnEndManipulation_m9241A0EEF4308E4E16412440DDBF3FCD7998D914,
+	Manipulator_OnEndManipulation_m4028C7D307F901415725EB15B5AA2DA16A199BD5,
+	Manipulator_OnSelected_mBBA77E651A08F10926B56A26A2892A093ED7FBC6,
+	Manipulator_OnDeselected_mAA1E95140314B5B83BC95E2A6F56801D2DA64FA7,
+	Manipulator_OnEnable_m8EE4AE24156C480127BC1DB16EAB1FE337BBFBB0,
+	Manipulator_OnDisable_m4EF028EC7DEB976E0CEB26BF4425437E412FA34A,
+	Manipulator_Update_mE4219967A9C0C623C00AF593C217F8B4505F4024,
+	Manipulator_ConnectToRecognizers_m36D5FB98767168B9770AAD011484EE6FFD48A259,
+	Manipulator_DisconnectFromRecognizers_m70412D11525FA9F79560283126393FC948CFDFA5,
+	Manipulator_OnGestureStarted_mC295E9F728223DE8C4D5F4C98E64511E6D742253,
+	Manipulator_OnGestureStarted_m27A20C8FDFFBB19369A6792B31DD0E6A7CA041A6,
+	Manipulator_OnGestureStarted_m3B21D223D2680414FBB8FEF272051318B7BBF11D,
+	Manipulator_OnGestureStarted_m0FD2A51241D9045F9A2E7A1461BF4C020CD5AC70,
+	Manipulator_OnGestureStarted_m200913F629DBDA034E44DBCAB170E88761B6C59C,
+	Manipulator_OnUpdated_mB34496E33DEAC0DB0ADD7650F58CB49A32B121AC,
+	Manipulator_OnUpdated_m0DAB2023F6E405D8BFF1EF6A5D10A1739FB9EC16,
+	Manipulator_OnUpdated_mC3C10DD07B1E12299702507C2A0B01CEB81BB853,
+	Manipulator_OnUpdated_mDA49B2656168DFD2EEC0F72F3A21BD927BEE08C4,
+	Manipulator_OnUpdated_m947C9D5742A0B1CB40A9CD8F7005403C5379ABAC,
+	Manipulator_OnFinished_m6820395B5DB503EFF6E6B641D3E97FB2A462C4E7,
+	Manipulator_OnFinished_m6F6970F30A0D8816CB98D1C4E8AA7BC48453018F,
+	Manipulator_OnFinished_m6231E840F901BE4795BB4915A0E5AF05214D6246,
+	Manipulator_OnFinished_m5D00E20386616E90BB2E627FB7D866D56403E130,
+	Manipulator_OnFinished_m209B5A4A0133082E076D9094A748BEFDAB673FEE,
+	Manipulator__ctor_mB1773CA8DDC7BFD9D16034931DDA90E55B9A8B3E,
+	RotationManipulator_CanStartManipulationForGesture_m4479AA58F2B3D410E8F3D463875418C805DBD2DF,
+	RotationManipulator_CanStartManipulationForGesture_m0074074E186ABA95911B9B259884B363D71A312E,
+	RotationManipulator_OnContinueManipulation_m348A26D10E55F499FF1E76886B99139EBF34889E,
+	RotationManipulator_OnContinueManipulation_m6D9C2117D3A4A747B78E43ABFCD57F95260E465C,
+	RotationManipulator__ctor_m6E8EDC8ED0898B2D73D8278058FF3ABE6FC95610,
+	ScaleManipulator_get__scaleDelta_m48EE59AFF98D9AEEB49A73DFDD15E3DB424AACDD,
+	ScaleManipulator_get__clampedScaleRatio_mF7C14FDFAA51859923CCE2FD094EAAE4938AF0B4,
+	ScaleManipulator_get__currentScale_mE753F7C473BEC552B78EE433C6577E30F427D7AA,
+	ScaleManipulator_OnEnable_m39D30EB9F2DF76ECEB2D6CF59FFD22F71C69D977,
+	ScaleManipulator_CanStartManipulationForGesture_m97EAF7081EF4229F0D5B0AC6ED7A846B5F899F0B,
+	ScaleManipulator_OnStartManipulation_m13532D20907B64DC181C169F82D11DCC5BF632A5,
+	ScaleManipulator_OnContinueManipulation_m58FCDDE8729653DC9F1DE34788F564139C64AA59,
+	ScaleManipulator_OnEndManipulation_mDF7D05A7CDE76796CB57C1C0D0EEFF1FA82DD460,
+	ScaleManipulator_ElasticDelta_m4728B7F3F76AFEDEAEE517B5697850E37D6C9F59,
+	ScaleManipulator_LateUpdate_mD803398563C4063565FF7C7D8DD4F6AE0F832D82,
+	ScaleManipulator__ctor_mE6962209F15BB92787D36F56575CC13EC2A15790,
+	SelectionManipulator_OnElevationChanged_mFE66E3E316469FE31A8BA0929945A17084FB66EB,
+	SelectionManipulator_OnElevationChangedScaled_m8F6D3C547AAC35929CF62B1C48B0194CB975C4B6,
+	SelectionManipulator_Update_mC8EDA8CE9FF1A61E6B4806D49528C1F19D684A8E,
+	SelectionManipulator_CanStartManipulationForGesture_m498ECFB8ABB416DA5F081B2115A4B18644F82D86,
+	SelectionManipulator_OnEndManipulation_mF503331CDEB325E5387AB117B76CCA61620F674A,
+	SelectionManipulator_OnSelected_m19D7AD566D91C2C1B1A6E72F712103D68FBF41AE,
+	SelectionManipulator_OnDeselected_mC83891AB5EEB2A1FC7A30E7B35E46B7A973E2CA3,
+	SelectionManipulator__ctor_m5E794853ED192BC36A723BD2B2DFFDB69D0D6322,
+	TranslationManipulator_Start_mE3B57A3FE831E862883FD41ACE6AD79AD060E982,
+	TranslationManipulator_Update_m48F7B8739A628BD20564BC72AD8CC499D9984A1C,
+	TranslationManipulator_CanStartManipulationForGesture_m239EEF8290444AA81F6BDF3B1D3B8ED0C3F133C2,
+	TranslationManipulator_OnStartManipulation_mEC59C39A5B0CDC992F2D9F11F608F679F7EAFAD1,
+	TranslationManipulator_OnContinueManipulation_mF62795F560B8ED380406F43E0E0B8180E51A648D,
+	TranslationManipulator_OnEndManipulation_mDC8E51994C4CAA14803AC65E66EC9E2E00CFBF8B,
+	TranslationManipulator_UpdatePosition_m7720F46F0E1090C4F9601BA9E1E4BFB5375E48A1,
+	TranslationManipulator__ctor_m4BDFE679D975E450632A5E3C29EADC96F544BC3E,
+	ObjectManipulationController_Update_m6710A897FC30EB5C28E03A8A452249DF5621A0AF,
+	ObjectManipulationController_Awake_m818C65EE4E684F9BB9372114A1CF1C2A165D414E,
+	ObjectManipulationController_UpdateApplicationLifecycle_mBEB53A1FCF16BD366F30D27C414341D35014272F,
+	ObjectManipulationController_DoQuit_m73D6A0DA629B1877EA5C2407937692F4D5B0F057,
+	ObjectManipulationController_ShowAndroidToastMessage_mB5A546B6B26BD4AF34F2C9346661C75CE939A7C1,
+	ObjectManipulationController__ctor_mE4F0E6C62DD9F8A7EACFA1A94F29E92D92351EA4,
+	U3CU3Ec__DisplayClass5_0__ctor_m53F19FC5F716D3153DDBB443FBCA3C79F0340309,
+	U3CU3Ec__DisplayClass5_1__ctor_m91B82D61ACEE09A6813828727647D7F4FD4389F2,
+	U3CU3Ec__DisplayClass5_1_U3CShowAndroidToastMessageU3Eb__0_m35A40D470A477C4D6964E53F0C832A85A4B4CDA5,
+	PawnManipulator_CanStartManipulationForGesture_m8F605131F13B45F8AA8F5CC23EE9C31956C457F1,
+	PawnManipulator_OnEndManipulation_m0D4EAADDABF9A7B17A46A42E264D5C0A9AE80E5D,
+	PawnManipulator__ctor_mFDF1ECE772DEDCB7C39811A473F2F95E5C2BEDEF,
+	HelloARController_Awake_m6C813914DD6ACE139F18CEF8F039584E3EF96C58,
+	HelloARController_Update_mC1ECADC133DCB09543B223713CC57C850FA8686C,
+	HelloARController_UpdateApplicationLifecycle_m7CFB3E11B58E86A71E071DC63B5928EF12B6565D,
+	HelloARController_DoQuit_mFE1A934E15412C78D24599BFDC3395582D2D8FF5,
+	HelloARController_ShowAndroidToastMessage_m62B3C2AD891278E78E12628824C7744275D3C5F8,
+	HelloARController__ctor_mEDDF25F39B2D067ECE41FCFA9BFD32C860C759F4,
+	U3CU3Ec__DisplayClass13_0__ctor_mFB9CD007B51C63D7068B37295FEBEEFDC9A3CBBC,
+	U3CU3Ec__DisplayClass13_1__ctor_mC17CD8A6B35DE038BFCF076FC96FDE46AB6755A7,
+	U3CU3Ec__DisplayClass13_1_U3CShowAndroidToastMessageU3Eb__0_m756BE566A1A7532AC94B2FAD34E409B1DE3CE22F,
+	SettingsMenu_Start_mC53BB2D17BCBC913698F9BA80E163DD3F3DB4BED,
+	SettingsMenu_OnDestroy_mCEEB8BB8FB4C54BFE210DCE3C6DDFCEFBACDDF2D,
+	SettingsMenu_OnMenuClosed_mC6D1FF8836EDBC5D93CF155A6C095384FB6F9C0E,
+	SettingsMenu_OnMenuButtonClick_mF9DA90FB07B9CCE4A811A59ABD0B300F47033EA5,
+	SettingsMenu_OnClickDepthMenu_mCD01605F01558983B5D5D8EF396B4146916596FF,
+	SettingsMenu_OnClickInstantPlacementMenu_m9EAD2EC1D140CA4D3AEB6B52932A61F70BAA640F,
+	SettingsMenu__ctor_mD9AADCEBB3EF16F4DA716D6DBCDEFE832D29913D,
+	ComputerVisionController_Awake_mA6E061A0EBE0ACF342272DAA7A59D11B9EF766F9,
+	ComputerVisionController_Start_m31F444EF0CFA67EF0A1D2E1D680AD80CEAC2CC5B,
+	ComputerVisionController_Update_m3CB9CDF11DCEB04F7F69980BBC74AD1F9F4E5DAE,
+	ComputerVisionController_OnLowResolutionCheckboxValueChanged_mD03F0370C9F2BEDEC7DD9D79A3857442FA3BA0FF,
+	ComputerVisionController_OnHighResolutionCheckboxValueChanged_mAFDEC9C62211C5741795F6C783670DCF10FFB8D6,
+	ComputerVisionController_OnAutoFocusCheckboxValueChanged_m371A27830273B3EB72F5908C958AF900E5D21B48,
+	ComputerVisionController_OnBackgroundClicked_m9BCE21DE7F922D090B086F3D72DCACF3BBCE0EA4,
+	ComputerVisionController_UpdateFrameRate_m5CBCA42921803DFD68D0A7625B81C9B60528E938,
+	ComputerVisionController_OnImageAvailable_m2171E71EA57D36960AB30419E03F0E9E3E551FD3,
+	ComputerVisionController_QuitOnConnectionErrors_m103624848B08E94F1A4EBE778EEFC712EB333E82,
+	ComputerVisionController_ShowAndroidToastMessage_m34CC7F6FA626C191DB9C856EF48B7E5A20818DAF,
+	ComputerVisionController_DoQuit_m82FD32B797F67BF97AF456953703FAD5CAD3D9D6,
+	ComputerVisionController_CameraIntrinsicsToString_m225C5D0C72BC01D9CFD72F6850F784115E4022F0,
+	ComputerVisionController_ChooseCameraConfiguration_mDB97E56864493ECF406241062113C017484A6373,
+	ComputerVisionController__ctor_m495D916CA238EA1993FBD9ADA082DDFBC7211E00,
+	ComputerVisionController__cctor_mF1B3761E9645687B389C3D85F37C43F213ADA61E,
+	U3CU3Ec__DisplayClass35_0__ctor_mF4169D7B092262380143E8999D6ED662E83EA1E7,
+	U3CU3Ec__DisplayClass35_1__ctor_m94F99BF72740311AE6F5FACFE008FE10C746CA3A,
+	U3CU3Ec__DisplayClass35_1_U3CShowAndroidToastMessageU3Eb__0_m2EA4FA63E0E2489CF87ABC47B09AEB5961D56B68,
+	EdgeDetector_Detect_m094BE6C9AC8ADD2569259F30C3BE48E233E4D1D6,
+	EdgeDetector_Sobel_m76B47DA391F886687228B385B5666572234DED3A,
+	EdgeDetector__ctor_m0653712B5671CB95BF6770B318190CA8459815F6,
+	EdgeDetector__cctor_mE4DCF42B8A19D095BA1BA0A133D6735BBFDFB724,
+	PointClickHandler_add_OnPointClickDetected_mE7917451F54AB44A913B306FB1E9C5D1D77AE936,
+	PointClickHandler_remove_OnPointClickDetected_m1EF04C2C5E6A08AFBC7EEC00CD166C987FCFD20E,
+	PointClickHandler_OnPointerClick_m85EF23A0D95C192D364A3E9A09D22FA89F5505C5,
+	PointClickHandler__ctor_m194CE3CA6358CDA740184A3B2136BE231EE497FA,
+	TextureReader_add_OnImageAvailableCallback_m9688306257E3C5588783AB7F78984A6879BFB3A3,
+	TextureReader_remove_OnImageAvailableCallback_m6108E20F9C07DE7260800210FE7FD434CB038BED,
+	TextureReader_Start_m0A1EEC8DF20B9B5459F01C61F9A8C5CA395097F9,
+	TextureReader_Apply_m5A10272A8C05DC7A6B603CD2527ABBE43D4C8DD7,
+	TextureReader_Update_mF99B75EDD5CD9C104CA3C6D372CB763C64633D3E,
+	TextureReader_OnDestroy_m142DC8F2ABB127F2BD7662E95B184C615909F134,
+	TextureReader_OnDisable_m94D19D468A965EAFE2086F12E3608BE2C7DD9C66,
+	TextureReader__ctor_mB0DA53C9F8680D31F05C85409355BC318ED9A8EB,
+	OnImageAvailableCallbackFunc__ctor_m0DB999A8336A56F38E6B47AAB81D3341FEC9FE56,
+	OnImageAvailableCallbackFunc_Invoke_m895D9751EB522F6D7C4F9B01B2648CD37F0EBD4C,
+	OnImageAvailableCallbackFunc_BeginInvoke_mF61C060F00B5F3B0D2E0608FBF6D3323BA559950,
+	OnImageAvailableCallbackFunc_EndInvoke_m653F5454E25A890341B8A71B153917F2AA0F1227,
+	TextureReaderApi_Create_mE20AD7FAEE3C4456865346919D35BBBCBADF858A,
+	TextureReaderApi_Destroy_m81806BFEA51571DA4C197B30BB4A3E732B0F0A2F,
+	TextureReaderApi_SubmitFrame_mE881C6698D9574AD12161E2EB5FD1C13F61E7DF1,
+	TextureReaderApi_AcquireFrame_m1F65A50610DD44BBBCEDBF69E0DB83D62805C8DF,
+	TextureReaderApi_ReleaseFrame_mB3A3293C4A113B2A8E94E3FAF3A27D13F1AD1F82,
+	TextureReaderApi__ctor_m8D963F784AFA9C231E430011A4148328405ECB61,
+	ExternApi_TextureReader_create_m3E5ABB75DAD7F09CF7024D03560D4D10F0EF3987,
+	ExternApi_TextureReader_destroy_mDDBD2F730D871686A38D32D963FB47135E4123FD,
+	ExternApi_TextureReader_submitFrame_mED6CAFE2A908549F88C8388098D7D13A1EB05950,
+	ExternApi_TextureReader_acquireFrame_m704CE59C38139633F941776A94B7C787B4C59883,
+	ExternApi_TextureReader_releaseFrame_m8F85C0954FDFFA368D2CAC75E4F7588A7F1B9B8E,
+	DepthEffect_Awake_mE2181DE5C972ACDE91FF640187215EC9553E799D,
+	DepthEffect_Update_m643317A6DDEB51D160321393BC35C41E245290B3,
+	DepthEffect_OnEnable_mAC83591B6721C5FA8FF2C21510289B5561F6FDEF,
+	DepthEffect_OnDisable_m4048C4562728D7465371EF958EEA4224E9CB975F,
+	DepthEffect_OnRenderImage_m0AACBEF04CDD5AA75B0D22DC7782B69933BC014C,
+	DepthEffect_UpdateScreenOrientationOnMaterial_m0E632853284A74D5E1918C756DCC63B74CA68DF3,
+	DepthEffect__ctor_mD71EDA8654AF4BF702D1ADA3001C2793F68B18EB,
+	DepthEffect__cctor_m8C0547D4659843FF14F5022DB034F3CC9994FB0B,
+	DepthMenu_Start_m76AFDB494E6EFBE46E3E5FE5749A63A70BB2AED9,
+	DepthMenu_OnDestroy_m3AC57C9093A55FD4A985B8C3412D7B49327124EC,
+	DepthMenu_ConfigureDepthBeforePlacingFirstAsset_mFDA25F6A16BA96520C2360B7F8514338CEFA610F,
+	DepthMenu_IsDepthEnabled_m4BD59523988749536321B78086894F93CAC90D1B,
+	DepthMenu_OnMenuButtonClicked_mAB780268858ED4539374E12C9A1AB64F2B4ED521,
+	DepthMenu_OnApplyButtonClicked_mDA7BB290D9121771EADD6F9997243A17D0FFAD41,
+	DepthMenu_OnCancelButtonClicked_m199D1FFEDA36B34085B6CB42B781A29A78AF2278,
+	DepthMenu_OnEnableDepthButtonClicked_mE31CDA420B50CFF8C4821759722986C69F1E5D3B,
+	DepthMenu_OnDisableDepthButtonClicked_m51E564D73CE6EBAD1FFB3CE6A2CE7383814D2FA9,
+	DepthMenu_OnEnableDepthToggleValueChanged_mF509881FCC56E9EC270F3FEA1EDF8E6F729451EA,
+	DepthMenu_ConfigureDepth_m4DA1F20EB0FDC395D8C6F17B8D5E840A3F849E11,
+	DepthMenu_ApplyDepthState_m7440B047F2C3B044F1E23B948A97FDC994E3D32E,
+	DepthMenu__ctor_m41CD309A502A231B6390153B08CBC831AE874327,
+	DepthTexture_Start_mD6205995640DD13CA2DA3D96C8A564EED8C23222,
+	DepthTexture_Update_mCFDE8D92153D02E9B2C43B455AB9C4EF076DE7B8,
+	DepthTexture_UpdateScreenOrientationOnMaterial_m337EE0CAB8670934065468DD7E85D1230DF248DF,
+	DepthTexture__ctor_mBF00DB952FA044724E7C04EA0F5C233F69714E58,
+	DepthTexture__cctor_m427ADADAB533555E61A66F211DC143518B4478D9,
+	DetectedPlaneGenerator_Update_mC4FE2F5D813D9EDF67D25FE8ECFE3C12CA52D968,
+	DetectedPlaneGenerator__ctor_mE3432FDBBE20C23C3BE3DF16159067CF6F6F03E6,
+	DetectedPlaneVisualizer_Awake_mBDEEEE3BD2C3E007D01FAD6A5713D513AB7116E9,
+	DetectedPlaneVisualizer_Update_m12A95695E7B27CFC448E129CC6E8F04675D86DDD,
+	DetectedPlaneVisualizer_Initialize_m435FFF2A7EE15A8536313B12B3FC7ADCEEE960E6,
+	DetectedPlaneVisualizer_UpdateMeshIfNeeded_m4BAA7FBFFE4B0DC8DA25B5CC3024BE2255E5E028,
+	DetectedPlaneVisualizer_AreVerticesListsEqual_m42275C700C6BB821B5FA36FC70E9BDDFADA36016,
+	DetectedPlaneVisualizer__ctor_m446A569D3E5DEAD5A26F9DC5EB69C31FE0E7DF57,
+	InstantPlacementEffect_InitializeWithTrackable_m9E6B0A9EC496B57254E8B90091D4E800A4506B93,
+	InstantPlacementEffect_Update_mF1214165CBE15355958D5D8B2772FC992187D67A,
+	InstantPlacementEffect__ctor_mB8CC67D2537F8FA51526AC19214A5062B2776AE9,
+	InstantPlacementMenu_Start_m3BD17FAA759A9DC43198C7740B7FF696EF78D8E0,
+	InstantPlacementMenu_OnDestroy_mDC5E70ECF64B54B7FE809E6D3AE8A4DEBAA04272,
+	InstantPlacementMenu_IsInstantPlacementEnabled_m6132F117ADB67BA4ADD3851DF5A54CC3A8889107,
+	InstantPlacementMenu_ApplySettings_mDD832BC780DC59988D1F59E9C9AE60821B665F65,
+	InstantPlacementMenu_ResetSettings_mA5A7032B08211017A21851E7FF9FABA017521A06,
+	InstantPlacementMenu__ctor_mC2481895F8C245C1A43B71058EB10C7460DACBC9,
+	PlaneDiscoveryGuide_Start_m8A49B3AFEECD31A6268E0D2D60F3100D9BFDC57F,
+	PlaneDiscoveryGuide_OnDestroy_m025A7BA9905D358C71C0B9153201C32F4599C817,
+	PlaneDiscoveryGuide_Update_m284FBA42F8FCFBB2C3B896EDF5D3C0B4E01C6CA6,
+	PlaneDiscoveryGuide_EnablePlaneDiscoveryGuide_m8A25A09254C513072D83815CCF9449FB3833A78C,
+	PlaneDiscoveryGuide_OnOpenButtonClicked_m35A44E1140F1364AB8B2ECC53991950A5B417309,
+	PlaneDiscoveryGuide_OnGotItButtonClicked_m9B742F3B4200E87D9DA38EB8BC1B27593796CEC6,
+	PlaneDiscoveryGuide_UpdateDetectedPlaneTrackingState_m74FCCF3ED34A8D04A3135F41F9FA8AC1CEB0C3BB,
+	PlaneDiscoveryGuide_UpdateUI_mBC6CF2F3ED49C834B11FD11EF0CAFE6669F7BCDB,
+	PlaneDiscoveryGuide_CheckFieldsAreNotNull_mCE85FF6ED5CCD488A4C6430BB316BA33E3915B0B,
+	PlaneDiscoveryGuide__ctor_m5D380CC611CF2C17C78D63A1061B4F64388DE3D7,
+	PointcloudVisualizer_Start_m19F9C8415A3CCE38E8A4CCE7B553AE47977935A9,
+	PointcloudVisualizer_OnDisable_m44DCF3E775344349FFD50EC9A7BB81702C9F7685,
+	PointcloudVisualizer_Update_mCE417D4DD9A976A60931E5776CE2582C710E3C64,
+	PointcloudVisualizer_ClearCachedPoints_mFA5EB7E9C5A4CB0D169AEF2DF75A81CD8ADD1A11,
+	PointcloudVisualizer_UpdateResolution_m36140B5B58E98F7EC6CBAD9EF431B963534C475A,
+	PointcloudVisualizer_UpdateColor_mBD44C49C396BDC45FE942CB4C59E46AACB960F49,
+	PointcloudVisualizer_AddPointsIncrementallyToCache_m24B7189B8ADC8BE08ABC0F3AA9109A5141A4E4B1,
+	PointcloudVisualizer_AddAllPointsToCache_mD9254EE8EE6DA7A52356E15DF7478760B600A1BD,
+	PointcloudVisualizer_AddPointToCache_m5D8B71E3617D76BE87F02A06FE15BC65FC21FCCA,
+	PointcloudVisualizer_UpdatePointSize_m54469681C00D11C3A7587092C6F408E6AE58CCD9,
+	PointcloudVisualizer_UpdateMesh_mFF7DF036F5D4A111155E89122171C243833B2391,
+	PointcloudVisualizer__ctor_m7EC1FBEB017419AEFDD65F3D1B0BAB0BEC4C6193,
+	PointInfo__ctor_mEDEE569B61898D05A1466118A3D7D619B2C09C2D_AdjustorThunk,
+	U3CU3Ec__cctor_m2012DA64764E1899C7824BF6360FF742EEEEA4DA,
+	U3CU3Ec__ctor_mD809B985F23BB19AC9014D7D0F516F2F03BF6B55,
+	U3CU3Ec_U3CUpdateMeshU3Eb__26_0_m6F9549B4CD16BF4F723DCAAAB8171B6ABF95EAA0,
+	U3CU3Ec_U3CUpdateMeshU3Eb__26_1_m8FF71BA6A712EDD8D7EF80796BDD5D8645EFFAB0,
+	RawImageVideoPlayer_Start_m6CC27957D165366EBAABB1D816C7D053BD2BBE05,
+	RawImageVideoPlayer_Update_mCF3C7519054BF95E311101C011EF63166D395655,
+	RawImageVideoPlayer_PrepareCompleted_mB28E497AEF10A6F54ABE27CF459E1DC7343BC083,
+	RawImageVideoPlayer__ctor_mC7A3031488C7477ADABB808F2C98A3E6BBF2C5B2,
+	SafeAreaScaler_Update_m1B0B28CBCC6722DCC26B1D8871D2EF997969C1C8,
+	SafeAreaScaler_MatchRectTransformToSafeArea_mE15061F77AB95F125737BF61259403074C29B3D3,
+	SafeAreaScaler__ctor_m14A9DA9567F16E955F8B45FEEF90DA6919397253,
+	ShadowQuadHelper_Start_m0C486232EB5DCF8BB1D39E9D1269E7BFF3692700,
+	ShadowQuadHelper_Update_m4CCF46D311CF0F3369BEF5CE08884527CE338285,
+	ShadowQuadHelper__ctor_m4D32D02315F26B9E21DEAB8A9598CEE5C29B827C,
+	ARCoreWorldOriginHelper_Update_mD0108003E155ADBB337FA88EDEEC1C06C281D32D,
+	ARCoreWorldOriginHelper_SetWorldOrigin_m981593CB50D11835C21E5FC6A19600709B53F08C,
+	ARCoreWorldOriginHelper_Raycast_m3B5A058434BF94A73BB82EB7F9141EC31DFF5E99,
+	ARCoreWorldOriginHelper_WorldToAnchorPose_mB068D54247CB8B21F09D8DD8A6805199CA299549,
+	ARCoreWorldOriginHelper__ctor_m56ADD2DBB5C6C8BE78A12B3384D15D01AFFBE461,
+	ARKitHelper_RaycastPlane_m34816F8198B12522934EC312FD6521B9160A1CD7,
+	ARKitHelper_CreateAnchor_m2118DF404837352B4BAB3AEF497E5046CC7D1D64,
+	ARKitHelper_SetWorldOrigin_m7AAECE7B8B4FE3A449CF4BA714F12ED1BE0B8BEE,
+	ARKitHelper__ctor_mAE9D23562A3CF02C674DF980FE51394E49AE8BC4,
+	AnchorController_Awake_mF35E847D344F4476966090B7B8D68B396E0D2C0C,
+	AnchorController_OnStartClient_mD985E2825248EA46C404364F452CBE84A5440D6B,
+	AnchorController_Update_mD0413CD64A1900BA8557A485621A32669F0D607E,
+	AnchorController_CmdSetCloudAnchorId_mF5C44FE6A02B7CB0BCA2A500E16B502A867349A7,
+	AnchorController_GetCloudAnchorId_mFDEE946F4EA292FD8CC3A05814FE36424A43EBD3,
+	AnchorController_HostLastPlacedAnchor_m40941217A4A3A9D3EA49AE82E7351226D303CD89,
+	AnchorController_ResolveAnchorFromId_m2E74031FF391B20D6EBB224597DA0D101A1797F4,
+	AnchorController_OnResolved_m86C29E8184CE1AB2187EF5F9ACCD29F5C1E62F09,
+	AnchorController_OnChangeId_m356906DDED7F9F1D5F8CE78690ADAC00CBD0DE54,
+	AnchorController__ctor_m5F78AEFE851C100FAF941326F6895404D35DC8B1,
+	AnchorController_U3CHostLastPlacedAnchorU3Eb__13_0_m7EEB0C2FAFA579640569846A53F21047144FAB02,
+	AnchorController_UNetVersion_mE4C7D34225D1F133F06A558688C5EB9E1F95D273,
+	AnchorController_get_Network_cloudAnchorId_m802E8435F04F6970C16597FB5AACD1D4DAD6E5FF,
+	AnchorController_set_Network_cloudAnchorId_mFA8DD77EACD868ADC0EDA6066903203D14FFEBF3,
+	AnchorController_InvokeCmdCmdSetCloudAnchorId_mA2979FB2DB49717EEFD0EC52FF2B57F2034AE29C,
+	AnchorController_CallCmdSetCloudAnchorId_m12B1158257F927F8CED18ED5F69A3071107F75AC,
+	AnchorController__cctor_m87D114901ABFEE1F7212E53B9ABE1381B94A91AB,
+	AnchorController_OnSerialize_m03C6328F68111C51AAA9EA24D2F286B0EC4AF8F3,
+	AnchorController_OnDeserialize_m96EDC195C96FB4AB3AEAB1501265BDE19CDAA32B,
+	AnchorController_PreStartClient_mDB63A70BBF323C9BF0DD57958D4BC009D194AB10,
+	U3CU3Ec__DisplayClass14_0__ctor_mA4E81CDC7B23CAFEB2941B16A3324AAC3370463C,
+	U3CU3Ec__DisplayClass14_0_U3CResolveAnchorFromIdU3Eb__0_m974A691963A74C9CE15E15C74DDF098645FFF90E,
+	CloudAnchorsExampleController_get_IsOriginPlaced_mC81494B87A3AC6FD2553D55C74BB6A65151CBA7F,
+	CloudAnchorsExampleController_set_IsOriginPlaced_mB1A97FEDE10745FC88E9F2D058E623FDAD998B5B,
+	CloudAnchorsExampleController_OnStartNowButtonClicked_m7AD79E1B5B05A52522384C10F4562387726FAF4C,
+	CloudAnchorsExampleController_OnLearnMoreButtonClicked_m2B125BE1F178EA8021815A43F1B88DE04A4D3A1A,
+	CloudAnchorsExampleController_Awake_m9C1707A118F5663C3A1E5C9E28E4AF251F8B3830,
+	CloudAnchorsExampleController_Start_mA309D713928F8D142EFC9E6CAA4EAEB39854979E,
+	CloudAnchorsExampleController_Update_mB8D7919BD0195C89C8536392FA078EC20E0BB2F5,
+	CloudAnchorsExampleController_IsResolvingPrepareTimePassed_m4752DA913652FB4FB83EED6B15AD34C170F33317,
+	CloudAnchorsExampleController_SetWorldOrigin_m65B88BF9EAE3E4F313CD5C78569E7A13C433ED34,
+	CloudAnchorsExampleController_OnLobbyVisibilityChanged_mBF38502CF8A5E3774D34B74D0E2854F8991F9D16,
+	CloudAnchorsExampleController_OnResolvingTimeoutPassed_mC683441185E4394C2BCBDD7A601789EA1295963D,
+	CloudAnchorsExampleController_OnEnterHostingModeClick_m573497FA24DF7B1669018027C6F9450104D52CFE,
+	CloudAnchorsExampleController_OnEnterResolvingModeClick_mD1B2DF7F7CD4E54BFC31F543DFB8A939B15C31AA,
+	CloudAnchorsExampleController_OnAnchorInstantiated_m4DA704265D3AD794786D2AB515990488FADD35B0,
+	CloudAnchorsExampleController_OnAnchorHosted_m5D6C281BE03DD91159A626EB4DA50EFAEF957B3E,
+	CloudAnchorsExampleController_OnAnchorResolved_mEE40087FB68A99DC85290D42F3E4A48FF7207810,
+	CloudAnchorsExampleController_OnConnectedToServer_m87114D387A2E013EBD11882D94BC8D437C11C5DD,
+	CloudAnchorsExampleController_OnDisconnectedFromServer_m3FA59BDE1131CF1DE50C083C52379024AED804B8,
+	CloudAnchorsExampleController_InstantiateAnchor_mAA1D9FE7FB8260B276E352009BD1CE68F21591FB,
+	CloudAnchorsExampleController_InstantiateStar_m9170593B5E2A6C28DE6A250A7A28F570025A2287,
+	CloudAnchorsExampleController_SetPlatformActive_m2C0B679D9D1706A9761A81F7A61CD90D3C1485B1,
+	CloudAnchorsExampleController_CanPlaceStars_mC52E67B885EADFE9075107A07D74EC222A158350,
+	CloudAnchorsExampleController_ResetStatus_mEFBD0BEC6F514576D4D396DDDB83B4AC6A7755EA,
+	CloudAnchorsExampleController_SwitchActiveScreen_mF15C9F2CF77BD17F1B367C51BA28C64C921710F2,
+	CloudAnchorsExampleController_UpdateApplicationLifecycle_mECB0E1737490CCCEB84D5683295B67D277D1AED6,
+	CloudAnchorsExampleController_QuitWithReason_m51EF610246B0CF2563ADC22CA49223ADE418218F,
+	CloudAnchorsExampleController_ReturnToLobbyWithReason_mBD6B595B812DC2A6E9FEB535096C372498268C76,
+	CloudAnchorsExampleController_DoQuit_m34E8F2626DEFE54C92FB6E67257AF1E35A8A8F95,
+	CloudAnchorsExampleController_DoReturnToLobby_m768BCD67A890DC905F90E2E3FAC2D0B5E76784F2,
+	CloudAnchorsExampleController__ctor_mB013D5684E0AE2746FD02DABD9A6914306D901B1,
+	CloudAnchorsNetworkManager_add_OnClientConnected_m68D75F31504443358E566769E7351229B23D4DEF,
+	CloudAnchorsNetworkManager_remove_OnClientConnected_m0A70BA9458E72807F8379D2B9A5100C24A2C6B9C,
+	CloudAnchorsNetworkManager_add_OnClientDisconnected_m8483BBAB25FEADBA1636121C3A7F831F6CD08E49,
+	CloudAnchorsNetworkManager_remove_OnClientDisconnected_m3E43167FFF485C18B1CFBBCB57E70653828CE411,
+	CloudAnchorsNetworkManager_OnClientConnect_m6F1F3166E87A40F39A09C388C0D9B4D14F6DA3E2,
+	CloudAnchorsNetworkManager_OnClientDisconnect_mE414E03C728DC6A728CA5BD85BDA5FAC0D627BB3,
+	CloudAnchorsNetworkManager__ctor_m8332FAEDBA49DDD7C37829430AC58E8A21FA9280,
+	LocalPlayerController_OnStartLocalPlayer_m77B0CB0F0431F4061AF48B2B8D05A379C375684E,
+	LocalPlayerController_SpawnAnchor_m54BB5EA6CB0C7B14E58CD152372C79FE11EC5084,
+	LocalPlayerController_CmdSpawnStar_m13DA261D02FC3FCC09D5A940BFA80954A6B14FDB,
+	LocalPlayerController__ctor_mA20E7ABE3E20BD2AC2771AB7BF389C53AE841955,
+	LocalPlayerController_UNetVersion_mE42AAA99CF3EC5C16522892B7365F8ED31EA33D0,
+	LocalPlayerController_InvokeCmdCmdSpawnStar_mBEB149A6376BDE6F71EDEA428900CE71BE7E719D,
+	LocalPlayerController_CallCmdSpawnStar_mAB9E9C8DA0EF534C8DB2B17CFEBE0A5F6103FBD4,
+	LocalPlayerController__cctor_m422729F323194E4FF8DC92AF9F3797FD2EC8682A,
+	LocalPlayerController_OnSerialize_m5CCA91A7EBDBCAE5BD1EA521B41E1DE0C699DBA3,
+	LocalPlayerController_OnDeserialize_m713F82043DC5FB24F04948E156FE045C6F9AE623,
+	LocalPlayerController_PreStartClient_m4B6C4FF8DB1E36FCF07D64D9B421D222F421A522,
+	NetworkManagerUIController_Awake_m28AF03A2C1F8DC0A55A7FAEB723B1B5256C06666,
+	NetworkManagerUIController_OnCreateRoomClicked_m9B0D18F3EE5A94D04BCF0C8DF750DB01C5D7F5E0,
+	NetworkManagerUIController_OnReturnToLobbyClick_m10A59A82B52F66BC6DB9D41981EE69AF4A845EB7,
+	NetworkManagerUIController_OnRefhreshRoomListClicked_m8CA380C27CAFBB81D53C0DBE053DD8113DAB0D78,
+	NetworkManagerUIController_OnAnchorInstantiated_m2023EA868876DC51B3144FB709DB79BBA627967E,
+	NetworkManagerUIController_OnAnchorHosted_mB07918811192A3AA3F7AAF3DD98452C5BF95FF69,
+	NetworkManagerUIController_OnAnchorResolved_m170FDAA104D8B9F0071BD216CCE51362781E91EF,
+	NetworkManagerUIController_ShowDebugMessage_m682D6132F7E5DBFE44BCB971E10F5C0141FC12B5,
+	NetworkManagerUIController_OnJoinRoomClicked_m83CA53F8D664C4449534C115CFC31E276DBC2492,
+	NetworkManagerUIController_OnMatchList_m76D515D11FB354E6913AFCDF2705414E5A39B13C,
+	NetworkManagerUIController_OnMatchCreate_mBDD3D8100142E575DC40B2544BAC9D89651ABAA8,
+	NetworkManagerUIController_OnMatchJoined_mA7591B9BC519705235D74251FB430D051F7BB988,
+	NetworkManagerUIController_OnMatchDropped_mE2F0E43C2377A5556857FB6F4D8792DF69706063,
+	NetworkManagerUIController_ChangeLobbyUIVisibility_mE3D2F04A35EED0062C5E5ADACD1186E97C2C37A5,
+	NetworkManagerUIController_GetRoomNumberFromNetworkId_m268EF036C4DBF0F0CEC485BE4DDD4534F6AAC350,
+	NetworkManagerUIController__ctor_mB6FF8D9AEF44E2EDBFF3D26D67A07DF54E851C16,
+	U3CU3Ec__DisplayClass20_0__ctor_m2A98A4468ABF81256CA227488A699D99F989FFB0,
+	U3CU3Ec__DisplayClass20_0_U3COnMatchListU3Eb__0_mD52D0681777C6947C8864D3AE048BD5CEB4CDDF5,
+	StarController_Awake_m52C7F8893FC21BCE5A10D05732AF56E98B5C0461,
+	StarController_Update_m2BFCC212A47B47DCD609524521247A64A9FB0E60,
+	StarController__ctor_m47061974B837357EA24277A70AA119953196244E,
+	AugmentedImageExampleController_Awake_m277AE9319FD5CC2CF402929F3FBA25519D144C27,
+	AugmentedImageExampleController_Update_mD16913D0E58C9EC9BA3D40BC43F4FCB253C8B5E2,
+	AugmentedImageExampleController__ctor_m9D672C076E36C0BE0845CC95E07B4C63A9A9765A,
+	AugmentedImageVisualizer_Update_m44C8007DF69EF12FBACBC39CFFE475BB0A0B17F7,
+	AugmentedImageVisualizer__ctor_m3926BBD6A6935E9528EC5BC542FEE6CF202B9E65,
+	ARCoreAugmentedFaceMeshFilter_get_AumgnetedFace_m0096D07952071E74AC9810E999D2BE01779F6119,
+	ARCoreAugmentedFaceMeshFilter_set_AumgnetedFace_m5D70396D2466C8AE0885F6B92070A037CDF84434,
+	ARCoreAugmentedFaceMeshFilter_Awake_m27543F17F06F9349ED4847879144467C7D471B92,
+	ARCoreAugmentedFaceMeshFilter_Update_m89B75AC2DE1853AEADAF1623DA41652195D4C9D5,
+	ARCoreAugmentedFaceMeshFilter_UpdateMesh_m8D99827A7F27DBC977FF0ACF53157E85702D2D70,
+	ARCoreAugmentedFaceMeshFilter__ctor_m0C9A365E30B9811257E56DF3913899BC7DC964CF,
+	ARCoreAugmentedFaceRig_get_AumgnetedFace_m36668C085EB591F601F7C721ED100359DFF3F84A,
+	ARCoreAugmentedFaceRig_set_AumgnetedFace_mB6B94E6BD38EF21E62C6BDA709F91AC7D01F6D8F,
+	ARCoreAugmentedFaceRig_Awake_mD6DAC5F6992FF1BA2258BDDB7C0752C2E5F2609A,
+	ARCoreAugmentedFaceRig_Update_mF79D69FA876CB39BF5DF4C2FF17D4D248787DF4C,
+	ARCoreAugmentedFaceRig_InitializeFaceRegions_m426594D9A80005F74D6F1B8D0AEBF9238C36F77C,
+	ARCoreAugmentedFaceRig_FindChildTransformRecursive_mFDD3F01FFF77AF9A9E9F65B988E7B32BE8216B9F,
+	ARCoreAugmentedFaceRig_UpdateRegions_m14B57B3C2F04CAB81F6F2C876870956E249DAD2B,
+	ARCoreAugmentedFaceRig__ctor_mB3924A6F9B3B5FCA701D4F0068B28306ACB995CF,
+	ARCoreAugmentedFaceRig__cctor_m4E17EF787D6CB6BF6D1368FDA316EC9015DDE8D3,
+	AugmentedFacesExampleController_Awake_mB343AF36EF1863A460F2792D485597C23B444275,
+	AugmentedFacesExampleController_Update_m594BEE7E460EB962E567EA74475A89CC8CF8ABE1,
+	AugmentedFacesExampleController_UpdateApplicationLifecycle_mA5A4EC75CD7A85803244AC7D1134E44C65806E6D,
+	AugmentedFacesExampleController_DoQuit_m4273F3D8982764A2C10B951C5E9C22DAD2528D03,
+	AugmentedFacesExampleController_ShowAndroidToastMessage_mF484F432EB30B0AEFA39A77187566DDD8D7C47C1,
+	AugmentedFacesExampleController__ctor_mD639B87D7457B8B173F9B2F23B541016D39E631A,
+	U3CU3Ec__DisplayClass7_0__ctor_m093B79E0C9191DE7DE44DF0EC772144AC51FD1E0,
+	U3CU3Ec__DisplayClass7_1__ctor_m5456F9622B2781D03F47A06D79EBDC3BABE98480,
+	U3CU3Ec__DisplayClass7_1_U3CShowAndroidToastMessageU3Eb__0_m3CCF15EF4361E13195E9397ADE1405DC9B1F43A9,
+};
+static const int32_t s_InvokerIndices[1673] = 
+{
+	49,
+	94,
+	0,
+	562,
+	4,
+	338,
+	0,
+	3,
+	1,
+	49,
+	49,
+	189,
+	21,
+	1158,
+	3,
+	435,
+	3,
+	712,
+	25,
+	347,
+	3,
+	49,
+	49,
+	49,
+	122,
+	23,
+	32,
+	23,
+	114,
+	14,
+	23,
+	14,
+	32,
+	23,
+	114,
+	14,
+	23,
+	14,
+	23,
+	26,
+	23,
+	32,
+	23,
+	114,
+	14,
+	23,
+	14,
+	1823,
+	114,
+	31,
+	15,
+	7,
+	15,
+	7,
+	15,
+	114,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	14,
+	26,
+	921,
+	-1,
+	7,
+	23,
+	1824,
+	1645,
+	1644,
+	14,
+	21,
+	21,
+	21,
+	21,
+	21,
+	21,
+	21,
+	21,
+	21,
+	21,
+	21,
+	21,
+	21,
+	21,
+	21,
+	21,
+	1825,
+	21,
+	21,
+	21,
+	21,
+	21,
+	26,
+	25,
+	1826,
+	1827,
+	1827,
+	921,
+	7,
+	15,
+	1827,
+	429,
+	7,
+	1618,
+	1828,
+	1828,
+	1828,
+	25,
+	1829,
+	25,
+	670,
+	25,
+	1828,
+	1830,
+	26,
+	1826,
+	1831,
+	1832,
+	1832,
+	1832,
+	1832,
+	1618,
+	1833,
+	1833,
+	1833,
+	1833,
+	1834,
+	26,
+	1827,
+	1826,
+	1835,
+	1835,
+	921,
+	1827,
+	1828,
+	1618,
+	1828,
+	1828,
+	1828,
+	1828,
+	25,
+	26,
+	25,
+	108,
+	1836,
+	1837,
+	670,
+	25,
+	1838,
+	1839,
+	1840,
+	26,
+	1827,
+	1827,
+	1826,
+	1841,
+	1842,
+	1842,
+	7,
+	1842,
+	1828,
+	1828,
+	1618,
+	1843,
+	1618,
+	1618,
+	25,
+	670,
+	1833,
+	1833,
+	1833,
+	25,
+	26,
+	15,
+	7,
+	1844,
+	1844,
+	1827,
+	1844,
+	1827,
+	1827,
+	670,
+	25,
+	1833,
+	1833,
+	1828,
+	1833,
+	1828,
+	1828,
+	26,
+	108,
+	7,
+	116,
+	116,
+	116,
+	670,
+	25,
+	1621,
+	1621,
+	1621,
+	26,
+	15,
+	7,
+	1827,
+	1845,
+	670,
+	25,
+	1828,
+	1834,
+	26,
+	7,
+	1846,
+	1847,
+	25,
+	1833,
+	1848,
+	26,
+	7,
+	142,
+	15,
+	1849,
+	787,
+	787,
+	1850,
+	14,
+	6,
+	439,
+	26,
+	10,
+	1382,
+	1851,
+	25,
+	1828,
+	1828,
+	1852,
+	1852,
+	1853,
+	1854,
+	1834,
+	1618,
+	1852,
+	1828,
+	1852,
+	1830,
+	26,
+	1855,
+	1856,
+	1857,
+	1858,
+	1859,
+	1860,
+	1861,
+	1862,
+	670,
+	25,
+	1828,
+	1834,
+	670,
+	25,
+	1828,
+	1618,
+	1828,
+	26,
+	1863,
+	1864,
+	1827,
+	1827,
+	7,
+	670,
+	25,
+	20,
+	20,
+	1865,
+	1866,
+	1866,
+	1828,
+	1828,
+	1853,
+	26,
+	15,
+	7,
+	1827,
+	1835,
+	1867,
+	1868,
+	909,
+	908,
+	1869,
+	3,
+	670,
+	25,
+	1828,
+	1828,
+	1828,
+	1611,
+	1611,
+	1611,
+	1828,
+	1828,
+	1159,
+	796,
+	1829,
+	342,
+	526,
+	712,
+	26,
+	23,
+	1826,
+	1835,
+	1835,
+	1832,
+	921,
+	1827,
+	1870,
+	1871,
+	1870,
+	1871,
+	1618,
+	1828,
+	1828,
+	1828,
+	1828,
+	1828,
+	1618,
+	1872,
+	1872,
+	26,
+	1826,
+	1826,
+	1827,
+	1827,
+	1618,
+	1828,
+	1618,
+	1828,
+	26,
+	1873,
+	1827,
+	1874,
+	7,
+	1875,
+	1828,
+	1828,
+	1828,
+	1828,
+	25,
+	26,
+	15,
+	1876,
+	7,
+	1826,
+	1156,
+	25,
+	1828,
+	26,
+	108,
+	7,
+	670,
+	25,
+	1611,
+	1621,
+	26,
+	23,
+	1877,
+	1827,
+	1878,
+	26,
+	38,
+	1879,
+	1880,
+	438,
+	30,
+	1881,
+	26,
+	1882,
+	10,
+	116,
+	10,
+	116,
+	10,
+	1883,
+	1614,
+	1618,
+	1614,
+	1829,
+	1637,
+	1884,
+	1852,
+	1122,
+	1885,
+	1852,
+	1886,
+	1848,
+	1064,
+	1852,
+	670,
+	1614,
+	123,
+	670,
+	1602,
+	26,
+	1611,
+	15,
+	7,
+	670,
+	25,
+	1621,
+	1621,
+	1621,
+	1621,
+	1618,
+	1621,
+	1621,
+	1621,
+	1621,
+	26,
+	1827,
+	1827,
+	1887,
+	7,
+	1832,
+	1828,
+	1828,
+	1888,
+	25,
+	1618,
+	26,
+	15,
+	7,
+	1827,
+	429,
+	670,
+	25,
+	1828,
+	1830,
+	-1,
+	-1,
+	10,
+	23,
+	23,
+	114,
+	1823,
+	30,
+	37,
+	1889,
+	23,
+	23,
+	4,
+	114,
+	31,
+	114,
+	23,
+	30,
+	37,
+	1889,
+	23,
+	23,
+	1823,
+	34,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	4,
+	10,
+	32,
+	10,
+	32,
+	14,
+	26,
+	14,
+	114,
+	31,
+	14,
+	26,
+	14,
+	321,
+	26,
+	23,
+	23,
+	23,
+	3,
+	7,
+	23,
+	23,
+	114,
+	23,
+	23,
+	23,
+	31,
+	30,
+	1823,
+	26,
+	23,
+	921,
+	31,
+	23,
+	23,
+	3,
+	1890,
+	131,
+	824,
+	17,
+	133,
+	526,
+	3,
+	796,
+	17,
+	17,
+	3,
+	3,
+	3,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	4,
+	14,
+	321,
+	114,
+	3,
+	122,
+	1345,
+	1345,
+	918,
+	3,
+	1829,
+	25,
+	23,
+	32,
+	32,
+	102,
+	23,
+	102,
+	23,
+	113,
+	26,
+	102,
+	1823,
+	1891,
+	26,
+	102,
+	7,
+	782,
+	26,
+	102,
+	102,
+	1892,
+	26,
+	102,
+	1893,
+	1894,
+	26,
+	102,
+	1895,
+	1896,
+	26,
+	102,
+	1895,
+	1896,
+	26,
+	102,
+	1897,
+	1898,
+	26,
+	342,
+	94,
+	1899,
+	918,
+	1900,
+	23,
+	1890,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	10,
+	10,
+	14,
+	14,
+	114,
+	14,
+	321,
+	26,
+	23,
+	23,
+	23,
+	4,
+	3,
+	23,
+	26,
+	15,
+	7,
+	114,
+	23,
+	26,
+	921,
+	-1,
+	-1,
+	23,
+	4,
+	23,
+	23,
+	114,
+	14,
+	14,
+	114,
+	14,
+	14,
+	23,
+	3,
+	26,
+	26,
+	26,
+	26,
+	122,
+	134,
+	23,
+	131,
+	23,
+	1901,
+	1902,
+	345,
+	23,
+	3,
+	4,
+	23,
+	9,
+	28,
+	115,
+	26,
+	136,
+	1871,
+	1827,
+	23,
+	-1,
+	-1,
+	23,
+	131,
+	526,
+	135,
+	44,
+	4,
+	4,
+	23,
+	27,
+	27,
+	23,
+	114,
+	31,
+	14,
+	26,
+	291,
+	27,
+	114,
+	4,
+	28,
+	1879,
+	28,
+	26,
+	58,
+	1903,
+	26,
+	1882,
+	788,
+	1904,
+	102,
+	1905,
+	26,
+	3,
+	23,
+	400,
+	23,
+	670,
+	25,
+	23,
+	3,
+	23,
+	9,
+	9,
+	4,
+	4,
+	131,
+	1242,
+	49,
+	1511,
+	46,
+	46,
+	46,
+	46,
+	3,
+	3,
+	342,
+	3,
+	23,
+	1906,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	31,
+	1907,
+	1308,
+	23,
+	23,
+	23,
+	3,
+	712,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	26,
+	14,
+	23,
+	102,
+	116,
+	177,
+	116,
+	114,
+	31,
+	114,
+	31,
+	114,
+	31,
+	9,
+	10,
+	26,
+	23,
+	23,
+	10,
+	14,
+	26,
+	15,
+	7,
+	1908,
+	23,
+	23,
+	114,
+	23,
+	3,
+	23,
+	94,
+	0,
+	28,
+	26,
+	26,
+	23,
+	4,
+	4,
+	4,
+	400,
+	3,
+	27,
+	14,
+	26,
+	14,
+	26,
+	114,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	49,
+	796,
+	122,
+	3,
+	3,
+	3,
+	23,
+	3,
+	1832,
+	1644,
+	1909,
+	26,
+	26,
+	26,
+	26,
+	1832,
+	10,
+	14,
+	1644,
+	678,
+	678,
+	10,
+	23,
+	10,
+	114,
+	31,
+	15,
+	7,
+	1910,
+	1911,
+	1911,
+	860,
+	26,
+	10,
+	32,
+	14,
+	26,
+	10,
+	32,
+	10,
+	32,
+	1912,
+	1147,
+	1303,
+	1147,
+	1303,
+	10,
+	32,
+	10,
+	32,
+	10,
+	32,
+	10,
+	32,
+	7,
+	114,
+	31,
+	10,
+	32,
+	10,
+	32,
+	15,
+	7,
+	15,
+	7,
+	15,
+	7,
+	10,
+	32,
+	10,
+	32,
+	10,
+	32,
+	23,
+	23,
+	1913,
+	31,
+	32,
+	172,
+	291,
+	292,
+	1914,
+	14,
+	114,
+	10,
+	678,
+	142,
+	404,
+	1915,
+	32,
+	1832,
+	14,
+	1832,
+	10,
+	1832,
+	14,
+	1644,
+	678,
+	678,
+	10,
+	26,
+	21,
+	1824,
+	1916,
+	3,
+	23,
+	23,
+	1832,
+	1644,
+	10,
+	1301,
+	1917,
+	1918,
+	1919,
+	1398,
+	1920,
+	1921,
+	23,
+	3,
+	1922,
+	94,
+	49,
+	131,
+	1923,
+	1924,
+	122,
+	4,
+	1925,
+	1925,
+	1925,
+	1926,
+	1926,
+	1927,
+	1928,
+	1929,
+	443,
+	28,
+	1832,
+	1644,
+	10,
+	1930,
+	1931,
+	10,
+	32,
+	10,
+	32,
+	678,
+	291,
+	1179,
+	1180,
+	1304,
+	1305,
+	1179,
+	1180,
+	1932,
+	1933,
+	14,
+	142,
+	172,
+	23,
+	1934,
+	10,
+	32,
+	1139,
+	1140,
+	678,
+	291,
+	1935,
+	131,
+	131,
+	131,
+	131,
+	1936,
+	-1,
+	1937,
+	4,
+	760,
+	46,
+	95,
+	131,
+	95,
+	46,
+	46,
+	46,
+	23,
+	1832,
+	23,
+	10,
+	1879,
+	26,
+	114,
+	1938,
+	1644,
+	1645,
+	678,
+	291,
+	10,
+	32,
+	14,
+	26,
+	3,
+	14,
+	26,
+	10,
+	14,
+	26,
+	15,
+	7,
+	1908,
+	23,
+	23,
+	114,
+	23,
+	3,
+	0,
+	0,
+	122,
+	164,
+	1939,
+	1301,
+	26,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	1303,
+	23,
+	23,
+	1012,
+	1012,
+	23,
+	23,
+	26,
+	23,
+	23,
+	31,
+	23,
+	1940,
+	23,
+	1940,
+	291,
+	1941,
+	23,
+	23,
+	1942,
+	27,
+	279,
+	14,
+	23,
+	27,
+	23,
+	114,
+	31,
+	10,
+	32,
+	678,
+	291,
+	23,
+	23,
+	3,
+	114,
+	114,
+	62,
+	23,
+	23,
+	23,
+	23,
+	9,
+	23,
+	23,
+	14,
+	26,
+	14,
+	23,
+	26,
+	26,
+	26,
+	23,
+	31,
+	23,
+	23,
+	27,
+	14,
+	14,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	14,
+	1943,
+	23,
+	23,
+	23,
+	31,
+	23,
+	23,
+	1944,
+	3,
+	23,
+	1945,
+	26,
+	26,
+	23,
+	23,
+	23,
+	23,
+	497,
+	400,
+	23,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	23,
+	1642,
+	385,
+	385,
+	1946,
+	1947,
+	133,
+	133,
+	46,
+	4,
+	1948,
+	1236,
+	53,
+	1949,
+	10,
+	32,
+	1147,
+	1303,
+	1147,
+	1303,
+	1147,
+	1303,
+	114,
+	23,
+	114,
+	23,
+	23,
+	1950,
+	23,
+	23,
+	1951,
+	10,
+	32,
+	10,
+	32,
+	1147,
+	1303,
+	1147,
+	1303,
+	678,
+	291,
+	678,
+	291,
+	114,
+	23,
+	114,
+	23,
+	23,
+	1952,
+	23,
+	23,
+	1949,
+	10,
+	32,
+	1147,
+	1303,
+	114,
+	23,
+	114,
+	23,
+	23,
+	1950,
+	23,
+	23,
+	1951,
+	10,
+	32,
+	10,
+	32,
+	1147,
+	1303,
+	1147,
+	1303,
+	678,
+	291,
+	114,
+	23,
+	114,
+	23,
+	23,
+	1953,
+	1952,
+	23,
+	23,
+	1951,
+	10,
+	32,
+	10,
+	32,
+	1147,
+	1303,
+	1147,
+	1303,
+	1147,
+	1303,
+	1147,
+	1303,
+	114,
+	23,
+	114,
+	23,
+	23,
+	1952,
+	23,
+	23,
+	4,
+	14,
+	14,
+	14,
+	14,
+	14,
+	14,
+	26,
+	23,
+	23,
+	23,
+	26,
+	23,
+	3,
+	9,
+	26,
+	26,
+	26,
+	1137,
+	1140,
+	23,
+	23,
+	23,
+	23,
+	114,
+	9,
+	9,
+	9,
+	9,
+	9,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	23,
+	9,
+	9,
+	26,
+	26,
+	23,
+	678,
+	678,
+	678,
+	23,
+	9,
+	26,
+	26,
+	26,
+	678,
+	23,
+	23,
+	291,
+	291,
+	23,
+	9,
+	26,
+	23,
+	23,
+	23,
+	23,
+	23,
+	9,
+	26,
+	26,
+	26,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	26,
+	23,
+	23,
+	23,
+	23,
+	9,
+	26,
+	23,
+	23,
+	23,
+	23,
+	23,
+	26,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	31,
+	31,
+	31,
+	23,
+	23,
+	1954,
+	23,
+	26,
+	23,
+	1955,
+	116,
+	23,
+	3,
+	23,
+	23,
+	23,
+	1956,
+	1957,
+	23,
+	3,
+	26,
+	26,
+	26,
+	23,
+	26,
+	26,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	102,
+	1954,
+	1958,
+	26,
+	39,
+	23,
+	57,
+	1959,
+	32,
+	23,
+	1960,
+	3,
+	170,
+	1961,
+	133,
+	23,
+	23,
+	23,
+	23,
+	27,
+	23,
+	23,
+	3,
+	23,
+	23,
+	23,
+	114,
+	23,
+	23,
+	23,
+	23,
+	23,
+	31,
+	31,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	3,
+	23,
+	23,
+	23,
+	23,
+	26,
+	23,
+	115,
+	23,
+	26,
+	23,
+	23,
+	23,
+	23,
+	114,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	31,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	1140,
+	23,
+	23,
+	23,
+	1962,
+	3,
+	23,
+	1963,
+	1964,
+	23,
+	23,
+	26,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	26,
+	1965,
+	1300,
+	23,
+	1966,
+	1879,
+	26,
+	23,
+	23,
+	23,
+	23,
+	26,
+	14,
+	26,
+	26,
+	26,
+	26,
+	23,
+	1940,
+	23,
+	14,
+	26,
+	134,
+	26,
+	3,
+	422,
+	400,
+	23,
+	23,
+	1940,
+	114,
+	31,
+	23,
+	23,
+	23,
+	23,
+	23,
+	114,
+	26,
+	31,
+	23,
+	23,
+	23,
+	31,
+	1012,
+	1012,
+	23,
+	23,
+	23,
+	23,
+	23,
+	114,
+	23,
+	32,
+	23,
+	26,
+	26,
+	23,
+	23,
+	23,
+	26,
+	26,
+	26,
+	26,
+	26,
+	26,
+	23,
+	23,
+	1967,
+	1299,
+	23,
+	23,
+	134,
+	1299,
+	3,
+	422,
+	400,
+	23,
+	23,
+	23,
+	23,
+	23,
+	31,
+	1012,
+	1012,
+	26,
+	26,
+	1787,
+	1787,
+	1787,
+	1012,
+	31,
+	144,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	14,
+	26,
+	23,
+	23,
+	23,
+	23,
+	14,
+	26,
+	23,
+	23,
+	23,
+	113,
+	23,
+	23,
+	3,
+	23,
+	23,
+	23,
+	23,
+	26,
+	23,
+	23,
+	23,
+	23,
+};
+static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[6] = 
+{
+	{ 0x06000239, 2,  (void**)&ARPrestoCallbackManager_OnCheckApkAvailabilityResultTrampoline_m83F30B2A4B9D0606CFCE8566CB055D05490E6F3A_RuntimeMethod_var, 0 },
+	{ 0x0600023A, 3,  (void**)&ARPrestoCallbackManager_OnApkInstallationResultTrampoline_m60F2B49D1EDF2FBC9F94C25404FC074C02576434_RuntimeMethod_var, 0 },
+	{ 0x0600023B, 4,  (void**)&ARPrestoCallbackManager_RequestCameraPermissionTrampoline_mC5160BF403DF1658635DA198268C4D86085DC019_RuntimeMethod_var, 0 },
+	{ 0x0600023C, 5,  (void**)&ARPrestoCallbackManager_EarlyUpdateTrampoline_m4CF0C470F81A88C3F0834263DB08EA64321F989F_RuntimeMethod_var, 0 },
+	{ 0x0600023D, 6,  (void**)&ARPrestoCallbackManager_BeforeSetConfigurationTrampoline_m1B377529B31646E3BD31EDA6AE3532893C2C583F_RuntimeMethod_var, 0 },
+	{ 0x0600023E, 7,  (void**)&ARPrestoCallbackManager_BeforeResumeSessionTrampoline_mE933F1A1817DFFB7894A9A4531FA8A6EFB565100_RuntimeMethod_var, 0 },
+};
+static const Il2CppTokenRangePair s_rgctxIndices[11] = 
+{
+	{ 0x02000055, { 1, 1 } },
+	{ 0x0200009D, { 11, 16 } },
+	{ 0x0200009E, { 27, 3 } },
+	{ 0x020000F0, { 32, 13 } },
+	{ 0x020000F1, { 45, 20 } },
+	{ 0x06000066, { 0, 1 } },
+	{ 0x0600028A, { 2, 2 } },
+	{ 0x0600028B, { 4, 2 } },
+	{ 0x060002B0, { 6, 4 } },
+	{ 0x060002B1, { 10, 1 } },
+	{ 0x060003F0, { 30, 2 } },
+};
+static const Il2CppRGCTXDefinition s_rgctxValues[65] = 
+{
+	{ (Il2CppRGCTXDataType)3, 16465 },
+	{ (Il2CppRGCTXDataType)3, 16466 },
+	{ (Il2CppRGCTXDataType)3, 16467 },
+	{ (Il2CppRGCTXDataType)3, 16468 },
+	{ (Il2CppRGCTXDataType)2, 17590 },
+	{ (Il2CppRGCTXDataType)3, 16469 },
+	{ (Il2CppRGCTXDataType)3, 16470 },
+	{ (Il2CppRGCTXDataType)1, 17637 },
+	{ (Il2CppRGCTXDataType)2, 17637 },
+	{ (Il2CppRGCTXDataType)3, 16471 },
+	{ (Il2CppRGCTXDataType)1, 18394 },
+	{ (Il2CppRGCTXDataType)3, 16472 },
+	{ (Il2CppRGCTXDataType)3, 16473 },
+	{ (Il2CppRGCTXDataType)2, 17734 },
+	{ (Il2CppRGCTXDataType)3, 16474 },
+	{ (Il2CppRGCTXDataType)3, 16475 },
+	{ (Il2CppRGCTXDataType)2, 18395 },
+	{ (Il2CppRGCTXDataType)3, 16476 },
+	{ (Il2CppRGCTXDataType)3, 16477 },
+	{ (Il2CppRGCTXDataType)3, 16478 },
+	{ (Il2CppRGCTXDataType)3, 16479 },
+	{ (Il2CppRGCTXDataType)2, 18396 },
+	{ (Il2CppRGCTXDataType)3, 16480 },
+	{ (Il2CppRGCTXDataType)3, 16481 },
+	{ (Il2CppRGCTXDataType)2, 18397 },
+	{ (Il2CppRGCTXDataType)3, 16482 },
+	{ (Il2CppRGCTXDataType)3, 16483 },
+	{ (Il2CppRGCTXDataType)3, 16484 },
+	{ (Il2CppRGCTXDataType)3, 16485 },
+	{ (Il2CppRGCTXDataType)3, 16486 },
+	{ (Il2CppRGCTXDataType)3, 16487 },
+	{ (Il2CppRGCTXDataType)3, 16488 },
+	{ (Il2CppRGCTXDataType)3, 16489 },
+	{ (Il2CppRGCTXDataType)2, 17936 },
+	{ (Il2CppRGCTXDataType)3, 16490 },
+	{ (Il2CppRGCTXDataType)3, 16491 },
+	{ (Il2CppRGCTXDataType)3, 16492 },
+	{ (Il2CppRGCTXDataType)3, 16493 },
+	{ (Il2CppRGCTXDataType)2, 17935 },
+	{ (Il2CppRGCTXDataType)3, 16494 },
+	{ (Il2CppRGCTXDataType)3, 16495 },
+	{ (Il2CppRGCTXDataType)3, 16496 },
+	{ (Il2CppRGCTXDataType)3, 16497 },
+	{ (Il2CppRGCTXDataType)3, 16498 },
+	{ (Il2CppRGCTXDataType)3, 16499 },
+	{ (Il2CppRGCTXDataType)2, 17942 },
+	{ (Il2CppRGCTXDataType)3, 16500 },
+	{ (Il2CppRGCTXDataType)3, 16501 },
+	{ (Il2CppRGCTXDataType)3, 16502 },
+	{ (Il2CppRGCTXDataType)2, 17943 },
+	{ (Il2CppRGCTXDataType)3, 16503 },
+	{ (Il2CppRGCTXDataType)3, 16504 },
+	{ (Il2CppRGCTXDataType)3, 16505 },
+	{ (Il2CppRGCTXDataType)3, 16506 },
+	{ (Il2CppRGCTXDataType)3, 16507 },
+	{ (Il2CppRGCTXDataType)3, 16508 },
+	{ (Il2CppRGCTXDataType)3, 16509 },
+	{ (Il2CppRGCTXDataType)3, 16510 },
+	{ (Il2CppRGCTXDataType)3, 16511 },
+	{ (Il2CppRGCTXDataType)3, 16512 },
+	{ (Il2CppRGCTXDataType)3, 16513 },
+	{ (Il2CppRGCTXDataType)3, 16514 },
+	{ (Il2CppRGCTXDataType)3, 16515 },
+	{ (Il2CppRGCTXDataType)2, 18399 },
+	{ (Il2CppRGCTXDataType)3, 16516 },
+};
+extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	1673,
+	s_methodPointers,
+	s_InvokerIndices,
+	6,
+	s_reversePInvokeIndices,
+	11,
+	s_rgctxIndices,
+	65,
+	s_rgctxValues,
+	NULL,
+};
